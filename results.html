@@ -20,7 +20,7 @@
     rel="stylesheet"
   >
 
-  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="styles.css?v=14">
   <link rel="stylesheet" href="results.css?v=3">
 </head>
 
@@ -65,11 +65,14 @@
 
 </nav>
 
-<button class="mobile-menu-button">
+<button class="mobile-menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false">
     ☰
 </button>
 
-</nav>
+
 
     </div>
   </header>
@@ -451,13 +454,20 @@
 
   <script src="results.js?v=2"></script>
 
-  <script>
+  `<script>
     const button = document.querySelector(".mobile-menu-button");
     const nav = document.querySelector(".header-nav");
 
-    button.addEventListener("click", () => {
-        nav.classList.toggle("mobile-open");
-    });
+    if (button && nav) {
+        button.addEventListener("click", () => {
+            const isOpen = nav.classList.toggle("mobile-open");
+
+            button.setAttribute(
+                "aria-expanded",
+                isOpen
+            );
+        });
+    }
 </script>
 </body>
 

@@ -92,7 +92,6 @@
     ☰
 </button>
 
-        </nav>
 
     </div>
 
@@ -295,9 +294,16 @@
     const button = document.querySelector(".mobile-menu-button");
     const nav = document.querySelector(".header-nav");
 
-    button.addEventListener("click", () => {
-        nav.classList.toggle("mobile-open");
-    });
+    if (button && nav) {
+        button.addEventListener("click", () => {
+            const isOpen = nav.classList.toggle("mobile-open");
+
+            button.setAttribute(
+                "aria-expanded",
+                isOpen
+            );
+        });
+    }
 </script>
 
 </body>
