@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Pocket Signal — Teams</title>
+
+    <meta
+        name="description"
+        content="NFL team rankings, standings and performance metrics from Pocket Signal."
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css?v=14"
+    >
+
+    <link
+        rel="stylesheet"
+        href="teams.css?v=1"
+    >
+
+</head>
+
+
+<body>
+
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <a
+            class="brand-button"
+            href="index.html"
+            aria-label="Pocket Signal home"
+        >
+
+            <img
+                src="assets/pocket_signal_logo_transparent.png?v=1"
+                alt="Pocket Signal"
+                class="brand-logo"
+            >
+
+        </a>
+
+
+        <nav class="header-nav">
+
+            <a
+                class="nav-item results-nav-link"
+                href="index.html"
+            >
+                Games
+            </a>
+
+            <a
+                class="nav-item results-nav-link"
+                href="results.html"
+            >
+                Track Record
+            </a>
+
+            <a
+                class="nav-item results-nav-link active"
+                href="teams.html"
+            >
+                Teams
+            </a>
+
+            <a
+                class="nav-item results-nav-link"
+                href="how-it-works.html"
+            >
+                How It Works
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<section class="teams-hero">
+
+    <div class="teams-hero-inner">
+
+        <div class="section-kicker">
+            LEAGUE VIEW
+        </div>
+
+        <h1>
+            Teams
+        </h1>
+
+        <p>
+            Compare all 32 teams using Pocket Signal's forward-looking strength ratings and season performance.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<main class="page-shell teams-shell">
+
+
+    <section class="rankings-section">
+
+        <div class="rankings-heading">
+
+            <div>
+
+                <div class="section-kicker">
+                    ALL 32 TEAMS
+                </div>
+
+                <h2>
+                    Team rankings
+                </h2>
+
+                <p>
+                    Rankings update from completed games throughout the season.
+                </p>
+
+                <p class="rankings-explainer">
+    Pocket Signal Power Rank measures forward-looking team strength, not current standings.
+</p>
+
+            </div>
+
+
+            <div class="team-controls">
+
+                <div class="conference-buttons">
+
+                    <button
+                        class="conference-button active"
+                        data-conference="ALL"
+                    >
+                        NFL
+                    </button>
+
+                    <button
+                        class="conference-button"
+                        data-conference="AFC"
+                    >
+                        AFC
+                    </button>
+
+                    <button
+                        class="conference-button"
+                        data-conference="NFC"
+                    >
+                        NFC
+                    </button>
+
+                </div>
+
+                <select id="teamSort">
+
+    <option value="power">
+        Pocket Signal Power Rank
+    </option>
+
+    <option value="record">
+        Record
+    </option>
+
+    <option value="pointDiff">
+        Point Differential
+    </option>
+
+    <option value="pointsFor">
+        Points Scored
+    </option>
+
+    <option value="pointsAgainst">
+        Points Allowed
+    </option>
+
+    <option value="recent">
+        Recent Form
+    </option>
+
+</select>
+
+
+                
+
+                
+
+            </div>
+
+        </div>
+
+
+        <div class="ranking-table-card">
+
+            <div class="ranking-table-header">
+
+    <div>RANK</div>
+    <div>TEAM</div>
+    <div>POWER</div>
+    <div>RECORD</div>
+    <div>DIV</div>
+    <div>PF</div>
+    <div>PA</div>
+    <div>DIFF</div>
+    <div>LAST 5</div>
+
+</div>
+            
+
+
+            <div id="rankingsList"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="divisions-section">
+
+        <div class="section-kicker">
+            CONFERENCE STANDINGS
+        </div>
+
+        <h2>
+            Divisions
+        </h2>
+
+        <p class="division-description">
+            Traditional NFL standings grouped by conference and division.
+        </p>
+
+
+        <div class="conference-section">
+
+            <div class="conference-title">
+                AFC
+            </div>
+
+            <div
+                id="afcDivisions"
+                class="division-grid"
+            ></div>
+
+        </div>
+
+
+        <div class="conference-section">
+
+            <div class="conference-title">
+                NFC
+            </div>
+
+            <div
+                id="nfcDivisions"
+                class="division-grid"
+            ></div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<script src="teams.js?v=1"></script>
+
+</body>
+
+</html>

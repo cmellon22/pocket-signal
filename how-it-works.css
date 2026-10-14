@@ -1,0 +1,870 @@
+/* ============================================================
+   HERO
+   ============================================================ */
+
+.how-hero {
+    padding: 52px 24px 44px;
+
+    border-bottom:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(39, 111, 191, 0.16),
+            transparent 38%
+        ),
+        #07111f;
+}
+
+
+.how-hero-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+.how-hero h1 {
+    margin: 8px 0 14px;
+
+    max-width: 720px;
+
+    font-size:
+        clamp(
+            2.4rem,
+            4.4vw,
+            3.7rem
+        );
+
+    line-height: 1.02;
+
+    letter-spacing: -0.045em;
+}
+
+
+.how-hero p {
+    max-width: 680px;
+
+    margin: 0;
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.66
+        );
+}
+
+
+/* ============================================================
+   PAGE SHELL
+   ============================================================ */
+
+.how-shell {
+    padding-top: 54px;
+    padding-bottom: 90px;
+}
+
+
+/* ============================================================
+   INTRO
+   ============================================================ */
+
+.how-intro {
+    margin-bottom: 68px;
+}
+
+
+.how-intro-copy {
+    max-width: 680px;
+
+    margin-bottom: 30px;
+}
+
+
+.how-intro-copy h2,
+.how-section-heading h2,
+.how-feature h2,
+.how-final h2 {
+    margin: 7px 0 10px;
+
+    font-size:
+        clamp(
+            1.75rem,
+            3vw,
+            2.45rem
+        );
+
+    line-height: 1.1;
+
+    letter-spacing: -0.03em;
+}
+
+
+.how-intro-copy p,
+.how-section-heading p,
+.how-feature p,
+.how-final p {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.64
+        );
+
+    line-height: 1.6;
+}
+
+
+/* ============================================================
+   FLOW
+   ============================================================ */
+
+.how-flow {
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        auto
+        1fr
+        auto
+        1fr;
+
+    gap: 14px;
+
+    align-items: stretch;
+}
+
+
+.flow-step {
+    padding: 22px;
+
+    border:
+        1px solid
+        rgba(57, 151, 255, 0.14);
+
+    border-radius: 14px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.022
+        );
+}
+
+
+.flow-step span {
+    display: block;
+
+    margin-bottom: 14px;
+
+    color: #6fb4ff;
+
+    font-size: 0.72rem;
+    font-weight: 800;
+
+    letter-spacing: 0.12em;
+}
+
+
+.flow-step strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 1rem;
+}
+
+
+.flow-step p {
+    margin: 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.56
+        );
+
+    font-size: 0.92rem;
+
+    line-height: 1.5;
+}
+
+
+.flow-arrow {
+    display: flex;
+
+    align-items: center;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.25
+        );
+
+    font-size: 1.2rem;
+}
+
+
+/* ============================================================
+   STANDARD SECTIONS
+   ============================================================ */
+
+.how-section {
+    margin: 68px 0;
+}
+
+
+.how-section-heading {
+    max-width: 680px;
+
+    margin-bottom: 26px;
+}
+
+
+/* ============================================================
+   GRIDS
+   ============================================================ */
+
+.model-grid,
+.strength-grid,
+.market-explain-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            1fr
+        );
+
+    gap: 16px;
+}
+
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+
+.model-card,
+.strength-card,
+.explain-card {
+    padding: 22px;
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    border-radius: 14px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.022
+        );
+
+    transition:
+        background 0.18s ease,
+        border-color 0.18s ease;
+}
+
+
+.model-card:hover,
+.strength-card:hover,
+.explain-card:hover {
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.03
+        );
+
+    border-color:
+        rgba(
+            57,
+            151,
+            255,
+            0.18
+        );
+}
+
+
+/* ============================================================
+   MODEL CARDS
+   ============================================================ */
+
+.model-number {
+    margin-bottom: 18px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.22
+        );
+
+    font-weight: 800;
+
+    font-size: 1.25rem;
+}
+
+
+.model-label,
+.explain-card > span {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #6fb4ff;
+
+    font-size: 0.7rem;
+    font-weight: 800;
+
+    letter-spacing: 0.11em;
+}
+
+
+.model-card h3,
+.explain-card h3 {
+    margin: 0 0 10px;
+
+    font-size: 1.1rem;
+}
+
+
+.model-card p,
+.explain-card p {
+    margin-bottom: 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.56
+        );
+
+    font-size: 0.92rem;
+
+    line-height: 1.55;
+}
+
+
+.model-example {
+    margin-top: 20px;
+
+    padding-top: 14px;
+
+    border-top:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.07
+        );
+}
+
+
+.model-example span {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.38
+        );
+
+    font-size: 0.68rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.09em;
+}
+
+
+.model-example strong {
+    font-size: 0.92rem;
+}
+
+
+/* ============================================================
+   FEATURE BLOCKS
+   ============================================================ */
+
+.how-feature {
+    display: grid;
+
+    grid-template-columns:
+        1.1fr
+        0.9fr;
+
+    gap: 38px;
+
+    align-items: center;
+
+    margin: 68px 0;
+
+    padding: 32px;
+
+    border:
+        1px solid
+        rgba(
+            57,
+            151,
+            255,
+            0.14
+        );
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(57, 130, 212, 0.07),
+            rgba(255, 255, 255, 0.012)
+        );
+}
+
+
+/* ============================================================
+   SCORE / DISAGREEMENT DEMOS
+   ============================================================ */
+
+.score-demo,
+.disagreement-demo {
+    padding: 22px;
+
+    border-radius: 14px;
+
+    background: #0b1726;
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.08
+        );
+}
+
+
+.score-demo-label,
+.disagreement-demo-title {
+    margin-bottom: 18px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.38
+        );
+
+    font-size: 0.68rem;
+    font-weight: 800;
+
+    letter-spacing: 0.1em;
+}
+
+
+.score-demo-matchup {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.score-demo-matchup div:not(.score-demo-divider) {
+    text-align: center;
+}
+
+
+.score-demo-matchup span {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.56
+        );
+
+    font-weight: 700;
+}
+
+
+.score-demo-matchup strong {
+    font-size: 2rem;
+}
+
+
+.score-demo-divider {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.28
+        );
+}
+
+
+.score-demo-bottom {
+    margin-top: 18px;
+
+    padding-top: 14px;
+
+    border-top:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.07
+        );
+
+    text-align: center;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.58
+        );
+
+    font-size: 0.9rem;
+}
+
+
+/* ============================================================
+   SIGNAL STRENGTH
+   ============================================================ */
+
+.strength-card strong {
+    display: block;
+
+    margin: 12px 0 8px;
+
+    font-size: 1.5rem;
+}
+
+
+.strength-card p {
+    margin: 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.56
+        );
+
+    font-size: 0.92rem;
+
+    line-height: 1.55;
+}
+
+
+.strength-name {
+    display: inline-flex;
+
+    padding: 5px 10px;
+
+    border-radius: 999px;
+
+    font-size: 0.72rem;
+
+    font-weight: 800;
+}
+
+
+.strong-card .strength-name {
+    background:
+        rgba(
+            52,
+            211,
+            153,
+            0.12
+        );
+
+    color: #6ee7b7;
+}
+
+
+.medium-card .strength-name {
+    background:
+        rgba(
+            245,
+            158,
+            11,
+            0.12
+        );
+
+    color: #fbbf24;
+}
+
+
+.weak-card .strength-name {
+    background:
+        rgba(
+            148,
+            163,
+            184,
+            0.12
+        );
+
+    color: #cbd5e1;
+}
+
+
+/* ============================================================
+   DISAGREEMENT
+   ============================================================ */
+
+.disagreement-demo-title {
+    color: #8fc8ff;
+}
+
+
+.disagreement-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 11px 0;
+
+    border-bottom:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.06
+        );
+}
+
+
+.disagreement-row span {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.46
+        );
+}
+
+
+.disagreement-demo p {
+    margin: 16px 0 0;
+
+    font-size: 0.84rem;
+
+    line-height: 1.5;
+}
+
+
+/* ============================================================
+   MARKET
+   ============================================================ */
+
+.market-explain-grid {
+    grid-template-columns:
+        repeat(
+            2,
+            1fr
+        );
+}
+
+
+/* ============================================================
+   TRACK RECORD DEMO
+   ============================================================ */
+
+.record-demo {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+}
+
+
+.record-demo div {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 18px;
+
+    border-radius: 11px;
+
+    background: #0b1726;
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.07
+        );
+}
+
+
+.record-demo span {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.44
+        );
+
+    font-size: 0.7rem;
+
+    font-weight: 800;
+
+    letter-spacing: 0.08em;
+}
+
+
+.record-demo strong {
+    font-size: 1.1rem;
+}
+
+
+/* ============================================================
+   LINKS / BUTTONS
+   ============================================================ */
+
+.how-cta,
+.how-primary-button {
+    display: inline-flex;
+
+    margin-top: 10px;
+
+    text-decoration: none;
+
+    font-weight: 700;
+}
+
+
+.how-cta {
+    color: #8fc8ff;
+}
+
+
+.how-primary-button {
+    padding: 11px 17px;
+
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    color: #07111f;
+}
+
+
+/* ============================================================
+   FINAL SECTION
+   ============================================================ */
+
+.how-final {
+    max-width: 780px;
+
+    margin: 78px auto 10px;
+
+    padding: 42px 26px;
+
+    text-align: center;
+}
+
+
+.how-final p {
+    max-width: 620px;
+
+    margin: 0 auto 22px;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 850px) {
+
+    .how-hero {
+        padding:
+            44px
+            22px
+            38px;
+    }
+
+
+    .how-flow {
+        grid-template-columns: 1fr;
+    }
+
+
+    .flow-arrow {
+        justify-content: center;
+
+        transform: rotate(90deg);
+    }
+
+
+    .model-grid,
+    .strength-grid,
+    .market-explain-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .how-feature {
+        grid-template-columns: 1fr;
+
+        gap: 24px;
+
+        padding: 24px;
+    }
+
+
+    .how-section {
+        margin: 54px 0;
+    }
+
+}

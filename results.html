@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pocket Signal — Track Record</title>
+
+  <meta
+    name="description"
+    content="Pocket Signal historical model results and performance."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="results.css?v=3">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a
+        class="brand-button"
+        href="index.html"
+        aria-label="Pocket Signal home"
+      >
+        <img
+          src="assets/pocket_signal_logo_transparent.png?v=1"
+          alt="Pocket Signal"
+          class="brand-logo"
+        >
+      </a>
+
+      <nav class="header-nav">
+
+    <a
+        class="nav-item results-nav-link"
+        href="index.html"
+    >
+        Games
+    </a>
+
+    <a
+        class="nav-item results-nav-link active"
+        href="results.html"
+    >
+        Track Record
+    </a>
+
+    <a
+        class="nav-item results-nav-link"
+        href="teams.html"
+    >
+        Teams
+    </a>
+
+    <a
+        class="nav-item results-nav-link"
+        href="how-it-works.html"
+    >
+        How It Works
+    </a>
+
+</nav>
+
+    </div>
+  </header>
+
+
+  <!-- =====================================================
+       TRACK RECORD HERO
+  ====================================================== -->
+
+  <section class="results-hero">
+
+    <div class="results-hero-inner">
+
+      <div>
+
+        <div class="section-kicker">
+          POCKET SIGNAL
+        </div>
+
+        <h1>
+          Track Record
+        </h1>
+
+        <p>
+          Every forecast, graded against what actually happened.
+          Explore where the model has been strongest, where it missed,
+          and how its projections compare with the sportsbook market snapshot.
+        </p>
+
+      </div>
+
+
+      <div class="results-lock-note">
+
+        <span>
+          FORECAST HISTORY
+        </span>
+
+        <strong>
+          Original predictions preserved
+        </strong>
+
+        <small>
+          Results are graded after games finish.
+        </small>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       RESULTS
+  ====================================================== -->
+
+  <main class="page-shell results-shell">
+
+
+    <!-- =================================================
+         SUMMARY
+    ================================================== -->
+
+    <section
+      id="summaryCards"
+      class="summary-grid"
+    ></section>
+
+
+    <!-- =================================================
+         SIGNAL PERFORMANCE
+    ================================================== -->
+
+    <section class="results-section signal-strength-section">
+
+      <div class="results-section-heading">
+
+        <div>
+
+          <div class="section-kicker">
+            CONFIDENCE CHECK
+          </div>
+
+          <h2>
+            Performance by signal strength
+          </h2>
+
+          <p class="signal-strength-explanation">
+            Signal strength reflects Pocket Signal's confidence in its winner forecast.
+            Strong signals represent higher-confidence predictions, while Weak signals
+            indicate closer or more uncertain matchups.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div
+        id="signalPerformance"
+        class="signal-performance-grid"
+      ></div>
+
+    </section>
+
+
+    <!-- =================================================
+         RESULTS EXPLORER
+    ================================================== -->
+
+    <section class="results-toolbar">
+
+      <div>
+
+        <div class="section-kicker">
+          RESULTS EXPLORER
+        </div>
+
+        <h2>
+          Model performance
+        </h2>
+
+        <p class="results-muted">
+          Filter the archived forecasts without changing the underlying record.
+        </p>
+
+      </div>
+
+
+      <div class="results-filters">
+
+        <label>
+          SEASON
+          <select id="seasonFilter"></select>
+        </label>
+
+        <label>
+          WEEK
+          <select id="weekFilter"></select>
+        </label>
+
+        <label>
+          SIGNAL
+
+          <select id="signalFilter">
+            <option value="all">
+              All Signals
+            </option>
+
+            <option value="Strong">
+              Strong
+            </option>
+
+            <option value="Medium">
+              Medium
+            </option>
+
+            <option value="Weak">
+              Weak
+            </option>
+          </select>
+        </label>
+
+        <label>
+          RESULT
+
+          <select id="resultFilter">
+            <option value="all">
+              All Results
+            </option>
+
+            <option value="correct">
+              Correct
+            </option>
+
+            <option value="missed">
+              Missed
+            </option>
+
+            <option value="tie">
+              Ties
+            </option>
+          </select>
+        </label>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         MODEL DISAGREEMENT EXPLANATION
+    ================================================== -->
+
+    <section class="model-disagreement-box">
+
+      <div class="model-disagreement-icon">
+        i
+      </div>
+
+      <div class="model-disagreement-copy">
+
+        <div class="model-disagreement-title">
+          MODEL DISAGREEMENTS
+        </div>
+
+        <p>
+          Pocket Signal's winner probability and projected margin are generated
+          by separate models. In close games, they can occasionally point to
+          different teams.
+        </p>
+
+        <div class="model-disagreement-grid">
+
+          <div>
+            <span>
+              WINNER PICK
+            </span>
+
+            <strong>
+              Which team is more likely to win
+            </strong>
+          </div>
+
+          <div>
+            <span>
+              PROJECTED MARGIN
+            </span>
+
+            <strong>
+              Expected point difference
+            </strong>
+          </div>
+
+        </div>
+
+        <p class="model-disagreement-note">
+          When the two disagree, Pocket Signal keeps both forecasts visible
+          instead of forcing them to match.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =================================================
+         NOTABLE CALLS
+    ================================================== -->
+
+    <section class="results-section">
+
+      <div class="results-section-heading">
+
+        <div>
+
+          <div class="section-kicker">
+            NOTABLE CALLS
+          </div>
+
+          <h2>
+            What stood out
+          </h2>
+
+        </div>
+
+      </div>
+
+      <div
+        id="notableCalls"
+        class="notable-grid"
+      ></div>
+
+    </section>
+
+
+    <!-- =================================================
+         WEEKLY PERFORMANCE
+    ================================================== -->
+
+    <section class="results-section">
+
+      <div class="results-section-heading">
+
+        <div>
+
+          <div class="section-kicker">
+            WEEKLY VIEW
+          </div>
+
+          <h2>
+            Accuracy by week
+          </h2>
+
+        </div>
+
+      </div>
+
+      <div
+        id="weeklyPerformance"
+        class="weekly-chart-card"
+      ></div>
+
+    </section>
+
+
+    <!-- =================================================
+         GAME RESULTS
+    ================================================== -->
+
+    <section class="results-section">
+
+      <div class="results-section-heading">
+
+        <div>
+
+          <div class="section-kicker">
+            ALL FORECASTS
+          </div>
+
+          <h2>
+            Game results
+          </h2>
+
+        </div>
+
+        <div
+          id="visibleRecord"
+          class="visible-record"
+        ></div>
+
+      </div>
+
+      <div
+        id="resultsList"
+        class="results-list"
+      ></div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =====================================================
+       ORIGINAL SIGNAL MODAL
+  ====================================================== -->
+
+  <div
+    id="signalModal"
+    class="signal-modal hidden"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="signalModalTitle"
+  >
+
+    <div
+      class="signal-modal-backdrop"
+      data-close-modal
+    ></div>
+
+    <div class="signal-modal-card">
+
+      <button
+        class="modal-close"
+        type="button"
+        data-close-modal
+        aria-label="Close"
+      >
+        ×
+      </button>
+
+      <div id="signalModalContent"></div>
+
+    </div>
+
+  </div>
+
+
+  <script src="results.js?v=2"></script>
+
+</body>
+
+</html>

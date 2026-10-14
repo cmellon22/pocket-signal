@@ -1,0 +1,970 @@
+/* ============================================================
+   TEAMS HERO
+   ============================================================ */
+
+.teams-hero {
+    padding: 72px 24px 58px;
+
+    border-bottom:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    background:
+        radial-gradient(
+            circle at 18% 10%,
+            rgba(39, 111, 191, 0.18),
+            transparent 38%
+        ),
+        #07111f;
+}
+
+
+.teams-hero-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+.teams-hero h1 {
+    margin: 8px 0 14px;
+
+    font-size:
+        clamp(
+            2.8rem,
+            5.5vw,
+            4.7rem
+        );
+
+    letter-spacing: -0.05em;
+}
+
+
+.teams-hero p {
+    max-width: 700px;
+
+    margin: 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.64
+        );
+
+    line-height: 1.65;
+}
+
+
+/* ============================================================
+   PAGE SHELL
+   ============================================================ */
+
+.teams-shell {
+    padding-top: 54px;
+    padding-bottom: 100px;
+}
+
+
+.rankings-section {
+    margin-bottom: 90px;
+}
+
+
+/* ============================================================
+   RANKINGS HEADER
+   ============================================================ */
+
+.rankings-heading {
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 30px;
+
+    margin-bottom: 24px;
+}
+
+
+.rankings-heading h2,
+.divisions-section h2 {
+    margin: 7px 0 7px;
+
+    font-size:
+        clamp(
+            1.9rem,
+            4vw,
+            2.7rem
+        );
+
+    letter-spacing: -0.035em;
+}
+
+
+.rankings-heading p,
+.division-description {
+    margin: 0;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.56
+        );
+}
+
+
+.rankings-explainer {
+    margin-top: 5px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.42
+        );
+
+    font-size: 0.84rem;
+    line-height: 1.45;
+}
+
+
+/* ============================================================
+   CONTROLS
+   ============================================================ */
+
+.team-controls {
+    display: flex;
+
+    gap: 12px;
+
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+
+.conference-buttons {
+    display: flex;
+
+    padding: 4px;
+
+    border-radius: 10px;
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.025
+        );
+}
+
+
+.conference-button {
+    border: none;
+
+    padding: 9px 14px;
+
+    border-radius: 7px;
+
+    background: transparent;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.50
+        );
+
+    font-family: inherit;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.18s ease,
+        color 0.18s ease;
+}
+
+
+.conference-button:hover {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.78
+        );
+}
+
+
+.conference-button.active {
+    background:
+        rgba(
+            57,
+            151,
+            255,
+            0.14
+        );
+
+    color: #8fc8ff;
+}
+
+
+#teamSort {
+    padding: 10px 13px;
+
+    min-height: 42px;
+
+    border-radius: 9px;
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.11);
+
+    background: #0b1726;
+
+    color: white;
+
+    font-family: inherit;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+/* ============================================================
+   RANKINGS TABLE
+   ============================================================ */
+
+.ranking-table-card {
+    overflow: hidden;
+
+    border-radius: 16px;
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.024),
+            rgba(255, 255, 255, 0.012)
+        );
+}
+
+
+.ranking-table-header,
+.ranking-row {
+    display: grid;
+
+    grid-template-columns:
+        52px
+        1.85fr
+        0.78fr
+        0.72fr
+        0.62fr
+        0.52fr
+        0.52fr
+        0.58fr
+        1fr;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.ranking-table-header {
+    padding: 15px 20px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.04
+        );
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.39
+        );
+
+    font-size: 0.67rem;
+    font-weight: 800;
+
+    letter-spacing: 0.085em;
+}
+
+
+.ranking-row {
+    padding: 15px 20px;
+
+    border-top:
+        1px solid
+        rgba(255, 255, 255, 0.055);
+
+    font-size: 0.9rem;
+
+    transition:
+        background 0.18s ease;
+}
+
+
+.ranking-row:hover {
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.032
+        );
+}
+
+
+/* ============================================================
+   RANK / TEAM
+   ============================================================ */
+
+.ranking-number {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.40
+        );
+
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+
+.ranking-team {
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+}
+
+
+.ranking-team img {
+    width: 36px;
+    height: 36px;
+
+    object-fit: contain;
+}
+
+
+.ranking-team strong {
+    display: block;
+
+    font-size: 0.94rem;
+}
+
+
+.ranking-team span {
+    display: block;
+
+    margin-top: 3px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.40
+        );
+
+    font-size: 0.71rem;
+}
+
+
+.ranking-record {
+    font-weight: 750;
+}
+
+
+/* ============================================================
+   POWER SCORE
+   ============================================================ */
+
+.power-score {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: fit-content;
+
+    min-width: 54px;
+
+    padding: 7px 10px;
+
+    border-radius: 8px;
+
+    border:
+        1px solid
+        rgba(
+            80,
+            164,
+            255,
+            0.10
+        );
+
+    background:
+        rgba(
+            57,
+            151,
+            255,
+            0.16
+        );
+
+    color: #91cbff;
+
+    font-size: 0.93rem;
+    font-weight: 800;
+}
+
+
+/* ============================================================
+   DIFFERENTIAL
+   ============================================================ */
+
+.positive-diff {
+    color:
+        rgba(
+            110,
+            231,
+            183,
+            0.84
+        );
+}
+
+
+.negative-diff {
+    color:
+        rgba(
+            252,
+            165,
+            165,
+            0.84
+        );
+}
+
+
+/* ============================================================
+   RECENT FORM
+   ============================================================ */
+
+.form-list {
+    display: flex;
+
+    gap: 5px;
+}
+
+
+.form-dot {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+
+    font-size: 0.64rem;
+    font-weight: 800;
+}
+
+
+.form-win {
+    color: #6ee7b7;
+
+    background:
+        rgba(
+            52,
+            211,
+            153,
+            0.12
+        );
+}
+
+
+.form-loss {
+    color: #fca5a5;
+
+    background:
+        rgba(
+            239,
+            68,
+            68,
+            0.11
+        );
+}
+
+
+.form-tie {
+    color: #cbd5e1;
+
+    background:
+        rgba(
+            148,
+            163,
+            184,
+            0.12
+        );
+}
+
+
+/* ============================================================
+   DIVISIONS SECTION
+   ============================================================ */
+
+.divisions-section {
+    margin-top: 80px;
+}
+
+
+.conference-section {
+    margin-top: 42px;
+}
+
+
+.conference-title {
+    margin-bottom: 18px;
+
+    color: #8fc8ff;
+
+    font-size: 0.78rem;
+    font-weight: 800;
+
+    letter-spacing: 0.12em;
+}
+
+
+.division-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(
+                0,
+                1fr
+            )
+        );
+
+    gap: 18px;
+}
+
+
+.division-card {
+    padding: 22px;
+
+    border-radius: 15px;
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.02
+        );
+
+    transition:
+        background 0.18s ease,
+        border-color 0.18s ease;
+}
+
+
+.division-card:hover {
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.028
+        );
+
+    border-color:
+        rgba(
+            255,
+            255,
+            255,
+            0.11
+        );
+}
+
+
+.division-card-title {
+    margin-bottom: 18px;
+
+    font-size: 1.08rem;
+    font-weight: 800;
+}
+
+
+.division-card-header,
+.division-team-row {
+    display: grid;
+
+    grid-template-columns:
+        1.6fr
+        0.7fr
+        0.7fr;
+
+    align-items: center;
+}
+
+
+.division-card-header {
+    padding-bottom: 9px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.34
+        );
+
+    font-size: 0.64rem;
+    font-weight: 800;
+
+    letter-spacing: 0.08em;
+}
+
+
+.division-team-row {
+    padding: 12px 0;
+
+    border-top:
+        1px solid
+        rgba(255, 255, 255, 0.055);
+}
+
+
+.division-team-name {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.division-team-name img {
+    width: 28px;
+    height: 28px;
+
+    object-fit: contain;
+}
+
+
+/* ============================================================
+   ERROR STATE
+   ============================================================ */
+
+.team-load-error {
+    padding: 30px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.5
+        );
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 950px) {
+
+    .teams-hero {
+        padding-top: 60px;
+        padding-bottom: 52px;
+    }
+
+
+    .rankings-heading {
+        align-items: stretch;
+
+        flex-direction: column;
+    }
+
+
+    .team-controls {
+        justify-content: space-between;
+    }
+
+
+    .ranking-table-card {
+        overflow-x: auto;
+    }
+
+
+    .ranking-table-header,
+    .ranking-row {
+        min-width: 950px;
+    }
+
+
+    .division-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .teams-hero {
+        padding:
+            48px
+            20px
+            44px;
+    }
+
+
+    .teams-shell {
+        padding-top: 44px;
+    }
+
+
+    .team-controls {
+        align-items: stretch;
+
+        flex-direction: column;
+    }
+
+
+    .conference-buttons {
+        width: fit-content;
+    }
+
+
+    #teamSort {
+        width: 100%;
+    }
+
+}
+
+/* =========================
+   FINAL TEAMS PAGE POLISH
+   ========================= */
+
+/* Pull controls slightly higher */
+.team-controls {
+    transform: translateY(-4px);
+}
+
+
+/* Give Pocket Signal's metric more identity */
+.ranking-table-header > div:nth-child(3) {
+    color: rgba(143, 200, 255, 0.72);
+}
+
+
+/* Give rows a little more breathing room */
+.ranking-row {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.teams-hero {
+    padding: 48px 24px 42px;
+}
+
+.teams-hero h1 {
+    font-size:
+        clamp(
+            2.4rem,
+            4.5vw,
+            3.8rem
+        );
+}
+
+.ranking-table-card {
+    border:
+        1px solid
+        rgba(57, 151, 255, 0.16);
+
+    box-shadow:
+        0 0 0 1px rgba(57, 151, 255, 0.03),
+        0 18px 50px rgba(0, 0, 0, 0.22),
+        0 0 32px rgba(57, 151, 255, 0.04);
+}
+
+.ranking-row:nth-child(2) {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(57, 151, 255, 0.045),
+            transparent 45%
+        );
+}
+
+.ranking-row:nth-child(3) {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(57, 151, 255, 0.03),
+            transparent 45%
+        );
+}
+
+.ranking-row:nth-child(4) {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(57, 151, 255, 0.02),
+            transparent 45%
+        );
+}
+
+.power-score {
+    box-shadow:
+        0 0 16px rgba(57, 151, 255, 0.08);
+}
+
+/* ============================================================
+   TEAMS PAGE - STRONGER VISUAL POLISH
+   ============================================================ */
+
+/* Make top hero more compact */
+.teams-hero {
+    padding: 38px 24px 34px !important;
+}
+
+.teams-hero h1 {
+    font-size: clamp(2.2rem, 4vw, 3.4rem) !important;
+}
+
+
+/* Give ranking card a visible Pocket Signal outline */
+.ranking-table-card {
+    border: 1px solid rgba(42, 179, 255, 0.32) !important;
+
+    box-shadow:
+        0 0 0 1px rgba(42, 179, 255, 0.04),
+        0 0 30px rgba(42, 179, 255, 0.08),
+        0 22px 50px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+/* Slight blue wash across table header */
+.ranking-table-header {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(42, 179, 255, 0.09),
+            rgba(255, 255, 255, 0.025)
+        ) !important;
+}
+
+
+/* Make Power Score feel like proprietary Pocket Signal data */
+.power-score {
+    border: 1px solid rgba(74, 174, 255, 0.28) !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(30, 112, 194, 0.34),
+            rgba(44, 141, 230, 0.18)
+        ) !important;
+
+    box-shadow:
+        0 0 14px rgba(42, 179, 255, 0.14) !important;
+}
+
+
+/* More noticeable interactive rows */
+.ranking-row {
+    position: relative;
+
+    transition:
+        background 0.18s ease,
+        box-shadow 0.18s ease !important;
+}
+
+.ranking-row:hover {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(42, 179, 255, 0.075),
+            rgba(42, 179, 255, 0.015)
+        ) !important;
+
+    box-shadow:
+        inset 3px 0 0 rgba(42, 179, 255, 0.65);
+}
+
+
+/* Give the conference selector a little extra identity */
+.conference-buttons {
+    border-color: rgba(42, 179, 255, 0.18) !important;
+}
+
+.conference-button.active {
+    background: rgba(42, 179, 255, 0.18) !important;
+
+    box-shadow:
+        0 0 12px rgba(42, 179, 255, 0.08);
+}
+
+
+/* Slightly brighter proprietary POWER header */
+.ranking-table-header > div:nth-child(3) {
+    color: #72c9ff !important;
+}
+
+.teams-hero {
+    padding: 30px 24px 28px !important;
+}
+
+.teams-hero h1 {
+    font-size: clamp(2rem, 3.5vw, 3rem) !important;
+}
+
+.teams-hero {
+    padding: 30px 24px 28px !important;
+}
+
+.teams-hero h1 {
+    font-size: clamp(2rem, 3.5vw, 3rem) !important;
+}
+
+.teams-hero {
+    padding: 30px 24px 28px !important;
+}
+
+.teams-hero h1 {
+    font-size: clamp(2rem, 3.5vw, 3rem) !important;
+}

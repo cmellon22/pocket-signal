@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+
+
+
+
+
+
+
+    <meta charset="UTF-8">
+
+
+
+
+
+
+
+    <meta
+
+
+
+        name="viewport"
+
+
+
+        content="width=device-width, initial-scale=1.0"
+
+
+
+    >
+
+
+
+
+
+
+
+    <title>Pocket Signal</title>
+
+
+
+
+
+
+
+    <meta
+
+
+
+        name="description"
+
+
+
+        content="Pocket Signal — Read the coverage. Make the play."
+
+
+
+    >
+
+
+
+
+
+
+
+    <link
+
+
+
+        rel="preconnect"
+
+
+
+        href="https://fonts.googleapis.com"
+
+
+
+    >
+
+
+
+
+
+
+
+    <link
+
+
+
+        rel="preconnect"
+
+
+
+        href="https://fonts.gstatic.com"
+
+
+
+        crossorigin
+
+
+
+    >
+
+
+
+
+
+
+
+    <link
+
+
+
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+
+
+
+        rel="stylesheet"
+
+
+
+    >
+
+
+
+
+
+
+
+    <link
+
+
+
+        rel="stylesheet"
+
+
+
+        href="styles.css?v=13"
+
+
+
+    >
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+
+
+
+         HEADER
+
+
+
+    ====================================================== -->
+
+
+
+
+
+
+
+    <header class="site-header">
+
+
+
+
+
+
+
+        <div class="header-inner">
+
+
+
+
+
+
+
+
+
+
+
+            <button
+
+
+
+                id="homeButton"
+
+
+
+                class="brand-button"
+
+
+
+                type="button"
+
+
+
+                aria-label="Pocket Signal home"
+
+
+
+            >
+
+
+
+
+
+
+
+                <img
+
+
+
+                    src="assets/pocket_signal_logo_transparent.png?v=1"
+
+
+
+                    alt="Pocket Signal"
+
+
+
+                    class="brand-logo"
+
+
+
+                >
+
+
+
+
+
+
+
+            </button>
+
+
+
+
+
+
+
+
+
+
+
+            <nav class="header-nav">
+
+                <a
+                    class="nav-item results-nav-link active"
+                    href="index.html"
+                >
+                    Games
+                </a>
+
+                <a
+                    class="nav-item results-nav-link"
+                    href="results.html"
+                >
+                    Track Record
+                </a>
+
+                <a
+                    class="nav-item results-nav-link"
+                    href="teams.html"
+                >
+                    Teams
+            </a>
+
+                <a
+                    class="nav-item results-nav-link"
+                    href="how-it-works.html"
+                >
+                    How It Works
+            </a>
+
+            </nav>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+
+
+
+         CINEMATIC HERO
+
+
+
+    ====================================================== -->
+
+
+
+
+
+
+
+    <section class="hero">
+
+
+
+
+
+
+
+
+
+
+
+        <video
+
+
+
+            class="hero-video-background"
+
+
+
+            autoplay
+
+
+
+            muted
+
+
+
+            loop
+
+
+
+            playsinline
+
+
+
+            preload="auto"
+
+
+
+        >
+
+
+
+
+
+
+
+            <source
+
+
+
+                src="assets/pocket_signal_hero.mp4"
+
+
+
+                type="video/mp4"
+
+
+
+            >
+
+
+
+
+
+
+
+        </video>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="hero-overlay"></div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="hero-inner">
+
+
+
+
+
+
+
+            <div class="hero-copy">
+
+
+
+
+
+
+
+                <div class="hero-kicker">
+
+
+
+                    POCKET SIGNAL
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <h1>
+
+
+
+
+
+
+
+                    Read the coverage.
+
+
+
+
+
+
+
+                    <span>
+
+
+
+                        Make the play.
+
+
+
+                    </span>
+
+
+
+
+
+
+
+                </h1>
+
+
+
+
+
+
+
+
+
+
+
+                <p>
+
+
+
+                    NFL matchup intelligence powered by predictive analytics.
+
+
+
+                </p>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+
+
+
+         HOME
+
+
+
+    ====================================================== -->
+
+
+
+
+
+
+
+    <main
+
+
+
+        id="homeView"
+
+
+
+        class="page-shell"
+
+
+
+    >
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =================================================
+
+
+
+             WEEK / SORT TOOLBAR
+
+
+
+        ================================================== -->
+
+
+
+
+
+
+
+        <section class="games-toolbar">
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+
+
+
+
+
+
+
+                <div class="section-kicker">
+
+
+
+                    NFL GAMES
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <h2 id="weekTitle">
+
+
+
+                    Week —
+
+
+
+                </h2>
+
+
+
+
+
+
+
+                <p
+
+
+
+                    id="sortDescription"
+
+
+
+                    class="toolbar-description"
+
+
+
+                >
+
+
+
+                    Strongest Pocket Signal forecasts first.
+
+
+
+                </p>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="toolbar-right">
+
+
+
+
+
+
+
+
+
+
+
+                <div class="sort-control">
+
+
+
+
+
+
+
+                    <label>
+
+
+
+                        SORT BY
+
+
+
+                    </label>
+
+
+
+
+
+
+
+
+
+
+
+                    <div
+
+
+
+                        id="customSort"
+
+
+
+                        class="custom-sort"
+
+
+
+                    >
+
+
+
+
+
+
+
+
+
+
+
+                        <button
+
+
+
+                            id="customSortButton"
+
+
+
+                            class="custom-sort-button"
+
+
+
+                            type="button"
+
+
+
+                        >
+
+
+
+
+
+
+
+                            <span id="customSortText">
+
+
+
+                                Signal Strength
+
+
+
+                            </span>
+
+
+
+
+
+
+
+                            <span class="sort-chevron">
+
+
+
+                                ▾
+
+
+
+                            </span>
+
+
+
+
+
+
+
+                        </button>
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="custom-sort-menu">
+
+
+
+
+
+
+
+
+
+
+
+                            <button
+
+
+
+                                class="custom-sort-option active"
+
+
+
+                                data-value="signal"
+
+
+
+                                type="button"
+
+
+
+                            >
+
+
+
+                                Signal Strength
+
+
+
+                            </button>
+
+
+
+
+
+
+
+
+
+
+
+                            <button
+
+
+
+                                class="custom-sort-option"
+
+
+
+                                data-value="marketWinner"
+
+
+
+                                type="button"
+
+
+
+                            >
+
+
+
+                                Market Difference — Winner
+
+
+
+                            </button>
+
+
+
+
+
+
+
+
+
+
+
+                            <button
+
+
+
+                                class="custom-sort-option"
+
+
+
+                                data-value="marketMargin"
+
+
+
+                                type="button"
+
+
+
+                            >
+
+
+
+                                Market Difference — Margin
+
+
+
+                            </button>
+
+
+
+
+
+
+
+
+
+
+
+                            <button
+
+
+
+                                class="custom-sort-option"
+
+
+
+                                data-value="time"
+
+
+
+                                type="button"
+
+
+
+                            >
+
+
+
+                                Game Time
+
+
+
+                            </button>
+
+
+
+
+
+
+
+
+
+
+
+                            <button
+
+
+
+                                class="custom-sort-option"
+
+
+
+                                data-value="alphabetical"
+
+
+
+                                type="button"
+
+
+
+                            >
+
+
+
+                                Alphabetical
+
+
+
+                            </button>
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="season-display">
+
+
+
+
+
+
+
+                    <span>
+
+
+
+                        Season
+
+
+
+                    </span>
+
+
+
+
+
+
+
+                    <strong id="seasonValue">
+
+
+
+                        —
+
+
+
+                    </strong>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =================================================
+
+
+
+             GAME CARDS
+
+
+
+        ================================================== -->
+
+
+
+
+
+
+
+        <section
+
+
+
+            id="gamesGrid"
+
+
+
+            class="games-grid"
+
+
+
+        >
+
+
+
+
+
+
+
+            <div class="loading-card">
+
+
+
+
+
+
+
+                <div class="loader"></div>
+
+
+
+
+
+
+
+                <span>
+
+
+
+                    Loading Pocket Signal...
+
+
+
+                </span>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+
+
+
+         GAME DETAIL VIEW
+
+
+
+    ====================================================== -->
+
+
+
+
+
+
+
+    <main
+
+
+
+        id="gameView"
+
+
+
+        class="page-shell hidden"
+
+
+
+    >
+
+
+
+
+
+
+
+
+
+
+
+        <button
+
+
+
+            id="backButton"
+
+
+
+            class="back-button"
+
+
+
+            type="button"
+
+
+
+        >
+
+
+
+            ← Back to Games
+
+
+
+        </button>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =================================================
+
+
+
+             MATCHUP PREVIEW
+
+
+
+        ================================================== -->
+
+
+
+
+
+
+
+        <section
+
+
+
+            id="matchupPreview"
+
+
+
+            class="matchup-preview"
+
+
+
+        >
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =================================================
+
+
+
+             GENERATE SIGNAL
+
+
+
+        ================================================== -->
+
+
+
+
+
+
+
+        <section
+
+
+
+            id="generateGate"
+
+
+
+            class="generate-gate"
+
+
+
+        >
+
+
+
+
+
+
+
+
+
+
+
+            <div class="generate-copy">
+
+
+
+
+
+
+
+
+
+
+
+                <div class="generate-icon">
+
+
+
+                    ◉
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div>
+
+
+
+
+
+
+
+                    <div class="section-kicker">
+
+
+
+                        POCKET SIGNAL ANALYSIS
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <h3>
+
+
+
+                        Generate matchup intelligence
+
+
+
+                    </h3>
+
+
+
+
+
+
+
+                    <p>
+
+
+
+                        Reveal win probability, projected score,
+
+
+
+                        market comparison and matchup signals.
+
+
+
+                    </p>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <button
+
+
+
+                id="generateButton"
+
+
+
+                class="generate-button"
+
+
+
+                type="button"
+
+
+
+            >
+
+
+
+
+
+
+
+                Generate Signal
+
+
+
+
+
+
+
+                <span>
+
+
+
+                    →
+
+
+
+                </span>
+
+
+
+
+
+
+
+            </button>
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =================================================
+
+
+
+             GENERATION LOADING
+
+
+
+        ================================================== -->
+
+
+
+
+
+
+
+        <section
+
+
+
+            id="signalLoading"
+
+
+
+            class="signal-loading hidden"
+
+
+
+        >
+
+
+
+
+
+
+
+
+
+
+
+            <div class="signal-spinner"></div>
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+
+
+
+
+
+
+
+                <strong>
+
+
+
+                    Generating Pocket Signal
+
+
+
+                </strong>
+
+
+
+
+
+
+
+                <span id="loadingMessage">
+
+
+
+                    Evaluating matchup...
+
+
+
+                </span>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =================================================
+
+
+
+             ANALYSIS DASHBOARD
+
+
+
+        ================================================== -->
+
+
+
+
+
+
+
+        <section
+
+
+
+            id="analysisDashboard"
+
+
+
+            class="analysis-dashboard hidden"
+
+
+
+        >
+
+
+
+
+
+
+
+
+
+
+
+            <section
+
+
+
+                id="forecastPanel"
+
+
+
+                class="forecast-panel"
+
+
+
+            >
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="analysis-middle-grid">
+
+
+
+
+
+
+
+
+
+
+
+                <section class="analysis-card">
+
+
+
+
+
+
+
+                    <div class="analysis-heading">
+
+
+
+                        MODEL VS MARKET
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div id="marketPanel"></div>
+
+
+
+
+
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+                <section class="analysis-card">
+
+
+
+
+
+
+
+                    <div class="analysis-heading">
+
+
+
+                        KEY SIGNALS
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div id="signalsPanel"></div>
+
+
+
+
+
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="analysis-bottom-grid">
+
+
+
+
+
+
+
+
+
+
+
+                <section class="analysis-card">
+
+
+
+
+
+
+
+                    <div class="analysis-heading">
+
+
+
+                        QB MATCHUP
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div id="qbPanel"></div>
+
+
+
+
+
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+                <section class="analysis-card">
+
+
+
+
+
+
+
+                    <div class="analysis-heading">
+
+
+
+                        RECENT FORM
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div id="recentPanel"></div>
+
+
+
+
+
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+                <section class="analysis-card">
+
+
+
+
+
+
+
+                    <div class="analysis-heading">
+
+
+
+                        WEATHER & GAME CONDITIONS
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div id="weatherPanel"></div>
+
+
+
+
+
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+
+
+
+         FOOTER
+
+
+
+    ====================================================== -->
+
+
+
+
+
+
+
+    <footer class="site-footer">
+
+
+
+
+
+
+
+        <span>
+
+
+
+            Pocket Signal
+
+
+
+        </span>
+
+
+
+
+
+
+
+        <span>
+
+
+
+            Read the coverage. Make the play.
+
+
+
+        </span>
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- KEEP CURRENT APP.JS -->
+
+
+
+
+
+
+
+    <script src="app.js?v=8"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

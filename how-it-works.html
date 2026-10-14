@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Pocket Signal — How It Works</title>
+
+    <meta
+        name="description"
+        content="Learn how Pocket Signal turns NFL data into matchup forecasts."
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css?v=14"
+    >
+
+    <link
+        rel="stylesheet"
+        href="how-it-works.css?v=1"
+    >
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a
+                class="brand-button"
+                href="index.html"
+                aria-label="Pocket Signal home"
+            >
+                <img
+                    src="assets/pocket_signal_logo_transparent.png?v=1"
+                    alt="Pocket Signal"
+                    class="brand-logo"
+                >
+            </a>
+
+
+            <nav class="header-nav">
+
+                <a
+                    class="nav-item results-nav-link"
+                    href="index.html"
+                >
+                    Games
+                </a>
+
+                <a
+                    class="nav-item results-nav-link"
+                    href="results.html"
+                >
+                    Track Record
+                </a>
+
+                <a
+                    class="nav-item results-nav-link"
+                    href="teams.html"
+                >
+                    Teams
+            </a>
+
+                <a
+                    class="nav-item results-nav-link active"
+                    href="how-it-works.html"
+                >
+                    How It Works
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="how-hero">
+
+        <div class="how-hero-inner">
+
+            <div class="section-kicker">
+                BEHIND THE SIGNAL
+            </div>
+
+            <h1>
+                How Pocket Signal works
+            </h1>
+
+            <p>
+                Pocket Signal combines multiple predictive models to turn
+                NFL matchup data into an easy-to-read forecast.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <main class="page-shell how-shell">
+
+
+        <!-- =================================================
+             OVERVIEW
+        ================================================== -->
+
+        <section class="how-intro">
+
+            <div class="how-intro-copy">
+
+                <div class="section-kicker">
+                    THE IDEA
+                </div>
+
+                <h2>
+                    One matchup. Multiple perspectives.
+                </h2>
+
+                <p>
+                    Instead of asking one model to predict everything,
+                    Pocket Signal uses separate models for different parts
+                    of the game.
+                </p>
+
+                <p>
+                    The result is a forecast that shows who is more likely
+                    to win, the expected scoring margin, and the expected
+                    total points.
+                </p>
+
+            </div>
+
+            <div class="how-flow">
+
+                <div class="flow-step">
+                    <span>01</span>
+                    <strong>Game Data</strong>
+                    <p>
+                        Team performance, recent form, quarterback play,
+                        matchup statistics and other pregame information.
+                    </p>
+                </div>
+
+                <div class="flow-arrow">→</div>
+
+                <div class="flow-step">
+                    <span>02</span>
+                    <strong>Predictive Models</strong>
+                    <p>
+                        Separate models evaluate the winner, scoring margin
+                        and projected total.
+                    </p>
+                </div>
+
+                <div class="flow-arrow">→</div>
+
+                <div class="flow-step">
+                    <span>03</span>
+                    <strong>Pocket Signal</strong>
+                    <p>
+                        The outputs are combined into one matchup forecast
+                        that users can explore.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             THREE MODELS
+        ================================================== -->
+
+        <section class="how-section">
+
+            <div class="how-section-heading">
+
+                <div class="section-kicker">
+                    FORECAST ENGINE
+                </div>
+
+                <h2>
+                    Three core predictions
+                </h2>
+
+                <p>
+                    Each model answers a different question about the game.
+                </p>
+
+            </div>
+
+
+            <div class="model-grid">
+
+                <article class="model-card">
+
+                    <div class="model-number">
+                        01
+                    </div>
+
+                    <div class="model-label">
+                        WINNER MODEL
+                    </div>
+
+                    <h3>
+                        Who is more likely to win?
+                    </h3>
+
+                    <p>
+                        The winner model estimates each team's probability
+                        of winning the game.
+                    </p>
+
+                    <div class="model-example">
+                        <span>Example</span>
+                        <strong>
+                            BAL — 79.0% win probability
+                        </strong>
+                    </div>
+
+                </article>
+
+
+                <article class="model-card">
+
+                    <div class="model-number">
+                        02
+                    </div>
+
+                    <div class="model-label">
+                        MARGIN MODEL
+                    </div>
+
+                    <h3>
+                        By how much?
+                    </h3>
+
+                    <p>
+                        The margin model estimates the expected point
+                        difference between the two teams.
+                    </p>
+
+                    <div class="model-example">
+                        <span>Example</span>
+                        <strong>
+                            BAL by 8.2
+                        </strong>
+                    </div>
+
+                </article>
+
+
+                <article class="model-card">
+
+                    <div class="model-number">
+                        03
+                    </div>
+
+                    <div class="model-label">
+                        TOTAL MODEL
+                    </div>
+
+                    <h3>
+                        How many points?
+                    </h3>
+
+                    <p>
+                        The total model estimates the combined scoring
+                        output expected from both teams.
+                    </p>
+
+                    <div class="model-example">
+                        <span>Example</span>
+                        <strong>
+                            Projected total — 51.2
+                        </strong>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCORE
+        ================================================== -->
+
+        <section class="how-feature">
+
+            <div>
+
+                <div class="section-kicker">
+                    PROJECTED SCORE
+                </div>
+
+                <h2>
+                    Turning the forecast into a score
+                </h2>
+
+                <p>
+                    Pocket Signal uses the projected margin and projected
+                    total together to produce a coherent final-score
+                    projection.
+                </p>
+
+                <p>
+                    This keeps the displayed score consistent with both
+                    the margin and total forecasts.
+                </p>
+
+            </div>
+
+            <div class="score-demo">
+
+                <div class="score-demo-label">
+                    PROJECTED FINAL
+                </div>
+
+                <div class="score-demo-matchup">
+                    <div>
+                        <span>BAL</span>
+                        <strong>29.7</strong>
+                    </div>
+
+                    <div class="score-demo-divider">
+                        —
+                    </div>
+
+                    <div>
+                        <span>CLE</span>
+                        <strong>21.5</strong>
+                    </div>
+                </div>
+
+                <div class="score-demo-bottom">
+                    BAL by 8.2 • Total 51.2
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SIGNAL STRENGTH
+        ================================================== -->
+
+        <section class="how-section">
+
+            <div class="how-section-heading">
+
+                <div class="section-kicker">
+                    CONFIDENCE
+                </div>
+
+                <h2>
+                    Signal strength
+                </h2>
+
+                <p>
+                    Signal strength represents confidence in the winner
+                    forecast — not a guarantee of the result.
+                </p>
+
+            </div>
+
+
+            <div class="strength-grid">
+
+                <article class="strength-card strong-card">
+
+                    <span class="strength-name">
+                        Strong
+                    </span>
+
+                    <strong>
+                        70%+
+                    </strong>
+
+                    <p>
+                        The winner model sees a larger separation between
+                        the two teams.
+                    </p>
+
+                </article>
+
+
+                <article class="strength-card medium-card">
+
+                    <span class="strength-name">
+                        Medium
+                    </span>
+
+                    <strong>
+                        60–69.9%
+                    </strong>
+
+                    <p>
+                        Pocket Signal has a clear preference, but there is
+                        still meaningful uncertainty.
+                    </p>
+
+                </article>
+
+
+                <article class="strength-card weak-card">
+
+                    <span class="strength-name">
+                        Weak
+                    </span>
+
+                    <strong>
+                        Below 60%
+                    </strong>
+
+                    <p>
+                        The matchup is closer and the winner forecast is
+                        more uncertain.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             DISAGREEMENT
+        ================================================== -->
+
+        <section class="how-feature disagreement-feature">
+
+            <div>
+
+                <div class="section-kicker">
+                    MODEL DISAGREEMENT
+                </div>
+
+                <h2>
+                    What happens when the models disagree?
+                </h2>
+
+                <p>
+                    The winner and margin forecasts are produced by separate
+                    models, so close games can occasionally produce different
+                    answers.
+                </p>
+
+                <p>
+                    Pocket Signal does not force the models to agree. The
+                    disagreement stays visible so users can see the additional
+                    uncertainty in the matchup.
+                </p>
+
+            </div>
+
+
+            <div class="disagreement-demo">
+
+                <div class="disagreement-demo-title">
+                    MODEL DISAGREEMENT
+                </div>
+
+                <div class="disagreement-row">
+                    <span>Winner model</span>
+                    <strong>NYG 60.5%</strong>
+                </div>
+
+                <div class="disagreement-row">
+                    <span>Margin model</span>
+                    <strong>NO by 1.3</strong>
+                </div>
+
+                <p>
+                    Historically, the winner model has been slightly more
+                    accurate at selecting the outright winner, but the
+                    difference is small.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MARKET
+        ================================================== -->
+
+        <section class="how-section">
+
+            <div class="how-section-heading">
+
+                <div class="section-kicker">
+                    MARKET CONTEXT
+                </div>
+
+                <h2>
+                    Comparing the model with the market
+                </h2>
+
+                <p>
+                    Market information provides another reference point for
+                    understanding a matchup.
+                </p>
+
+            </div>
+
+
+            <div class="market-explain-grid">
+
+                <div class="explain-card">
+
+                    <span>
+                        WIN PROBABILITY
+                    </span>
+
+                    <h3>
+                        Model vs. market expectation
+                    </h3>
+
+                    <p>
+                        Pocket Signal can compare its estimated win probability
+                        with the probability implied by the market.
+                    </p>
+
+                </div>
+
+
+                <div class="explain-card">
+
+                    <span>
+                        PROJECTED MARGIN
+                    </span>
+
+                    <h3>
+                        Model vs. market spread
+                    </h3>
+
+                    <p>
+                        The model's expected scoring margin can also be compared
+                        with the market's view of the matchup.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             TRACK RECORD
+        ================================================== -->
+
+        <section class="how-feature">
+
+            <div>
+
+                <div class="section-kicker">
+                    ACCOUNTABILITY
+                </div>
+
+                <h2>
+                    Every forecast stays on the record
+                </h2>
+
+                <p>
+                    Pocket Signal preserves its original pregame forecasts
+                    before the result is known.
+                </p>
+
+                <p>
+                    After the game, those forecasts are graded for winner
+                    accuracy, margin error and total error on the Track
+                    Record page.
+                </p>
+
+                <a
+                    href="results.html"
+                    class="how-cta"
+                >
+                    View Track Record →
+                </a>
+
+            </div>
+
+
+            <div class="record-demo">
+
+                <div>
+                    <span>WINNER ACCURACY</span>
+                    <strong>64.3%</strong>
+                </div>
+
+                <div>
+                    <span>MARGIN MAE</span>
+                    <strong>9.7</strong>
+                </div>
+
+                <div>
+                    <span>TOTAL MAE</span>
+                    <strong>10.7</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FINAL
+        ================================================== -->
+
+        <section class="how-final">
+
+            <div class="section-kicker">
+                THE BOTTOM LINE
+            </div>
+
+            <h2>
+                Prediction without pretending certainty.
+            </h2>
+
+            <p>
+                Pocket Signal is designed to show what the models think,
+                how confident they are, where they disagree, and how those
+                forecasts perform over time.
+            </p>
+
+            <a
+                href="index.html"
+                class="how-primary-button"
+            >
+                Explore This Week's Games
+            </a>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
