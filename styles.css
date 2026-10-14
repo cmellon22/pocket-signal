@@ -2879,3 +2879,39 @@ span:last-child {
 .model-disagreement-text strong {
     color: #ffffff;
 }
+
+/* ============================================================
+   MOBILE NAVIGATION
+   ============================================================ */
+.mobile-menu-button {
+    display: none;
+}
+
+@media (max-width: 760px) {
+
+    .header-nav {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+        color: white;
+        background: transparent;
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-size: 20px;
+    }
+
+    .header-nav.mobile-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: #08131f;
+        padding: 12px;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+}

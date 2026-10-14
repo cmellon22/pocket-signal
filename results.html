@@ -47,33 +47,27 @@
 
       <nav class="header-nav">
 
-    <a
-        class="nav-item results-nav-link"
-        href="index.html"
-    >
+    <a class="nav-item" href="index.html">
         Games
     </a>
 
-    <a
-        class="nav-item results-nav-link active"
-        href="results.html"
-    >
+    <a class="nav-item active" href="results.html">
         Track Record
     </a>
 
-    <a
-        class="nav-item results-nav-link"
-        href="teams.html"
-    >
+    <a class="nav-item" href="teams.html">
         Teams
     </a>
 
-    <a
-        class="nav-item results-nav-link"
-        href="how-it-works.html"
-    >
+    <a class="nav-item" href="how-it-works.html">
         How It Works
     </a>
+
+</nav>
+
+<button class="mobile-menu-button">
+    ☰
+</button>
 
 </nav>
 
@@ -457,6 +451,14 @@
 
   <script src="results.js?v=2"></script>
 
+  <script>
+    const button = document.querySelector(".mobile-menu-button");
+    const nav = document.querySelector(".header-nav");
+
+    button.addEventListener("click", () => {
+        nav.classList.toggle("mobile-open");
+    });
+</script>
 </body>
 
 </html>

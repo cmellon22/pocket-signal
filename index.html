@@ -284,40 +284,27 @@
 
             <nav class="header-nav">
 
-                <a
-                    class="nav-item results-nav-link active"
-                    href="index.html"
-                >
-                    Games
-                </a>
+    <a class="nav-item active" href="index.html">
+        Games
+    </a>
 
-                <a
-                    class="nav-item results-nav-link"
-                    href="results.html"
-                >
-                    Track Record
-                </a>
+    <a class="nav-item" href="results.html">
+        Track Record
+    </a>
 
-                <a
-                    class="nav-item results-nav-link"
-                    href="teams.html"
-                >
-                    Teams
-            </a>
+    <a class="nav-item" href="teams.html">
+        Teams
+    </a>
 
-                <a
-                    class="nav-item results-nav-link"
-                    href="how-it-works.html"
-                >
-                    How It Works
-            </a>
+    <a class="nav-item" href="how-it-works.html">
+        How It Works
+    </a>
 
-            </nav>
+</nav>
 
-
-
-
-
+<button class="mobile-menu-button">
+    ☰
+</button>
 
 
 
@@ -2161,7 +2148,37 @@
     <script src="app.js?v=8"></script>
 
 
+<script>
+    const mobileMenuButton =
+        document.querySelector(".mobile-menu-button");
 
+    const headerNav =
+        document.querySelector(".header-nav");
+
+    if (
+        mobileMenuButton &&
+        headerNav
+    ) {
+
+        mobileMenuButton.addEventListener(
+            "click",
+            () => {
+
+                const isOpen =
+                    headerNav.classList.toggle(
+                        "mobile-open"
+                    );
+
+                mobileMenuButton.setAttribute(
+                    "aria-expanded",
+                    isOpen
+                );
+
+            }
+        );
+
+    }
+</script>
 
 
 
