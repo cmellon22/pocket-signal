@@ -1699,3 +1699,25 @@
     .players-hero-meta .hero-stat-label { font-size: 10px; line-height: 1.4; }
     .filter-row { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
+
+/* Market-gap controls use the existing dropdown and team-card styles. */
+.market-gap-intro { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 18px; margin-top: 18px; border: 1px solid rgba(39,214,255,.2); border-radius: 14px; background: rgba(39,214,255,.035); }
+.market-gap-intro h2 { margin: 0; font-size: 17px; line-height: 1.45; color: #e1ebf3; }
+.market-gap-intro p { margin: 5px 0 0; font-size: 13px; line-height: 1.65; color: #a4b8c8; }
+.market-gap-shortcut { flex: 0 0 auto; padding: 11px 15px; border: 1px solid rgba(39,214,255,.55); border-radius: 10px; background: rgba(39,214,255,.08); color: #70e6ff; font: inherit; font-size: 13px; cursor: pointer; }
+.market-gap-shortcut:hover { background: rgba(39,214,255,.15); }
+.market-gap-shortcut:focus-visible { outline: 2px solid #27d6ff; outline-offset: 3px; }
+@media(max-width: 620px) { .market-gap-intro { align-items: stretch; flex-direction: column; gap: 12px; padding: 14px; } .market-gap-intro h2 { font-size: 16px; } }
+.player-controls { grid-template-columns: minmax(220px,.8fr) minmax(0,1.8fr); }
+.filter-row { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
+.filter-row.is-gap-sort { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.filter-row .player-filter { min-width: 0; }
+.filter-row .player-filter[hidden], .market-sort-note[hidden] { display: none; }
+.market-sort-note { grid-column: 1 / -1; margin: -6px 0 0; color: #a4b8c8; font-size: 12px; line-height: 1.6; }
+.player-list-projection .list-market-gap.gap-positive { color: #44e2a8; }
+.player-list-projection .list-market-gap.gap-negative { color: #ff6b75; }
+.player-list-projection .list-market-gap.gap-neutral { color: #d8e5ef; }
+@media(max-width: 1100px) { .player-controls { grid-template-columns: minmax(0,1fr); } }
+@media(max-width: 620px) {
+    .filter-row, .filter-row.is-gap-sort { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}

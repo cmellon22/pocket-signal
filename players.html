@@ -40,7 +40,7 @@
 
     <link
         rel="stylesheet"
-        href="players.css?v=10-header"
+        href="players.css?v=12-gap-intro"
     >
 
 </head>
@@ -182,6 +182,14 @@
 
         </section>
 
+        <section class="market-gap-intro" aria-labelledby="marketGapIntroTitle">
+            <div>
+                <h2 id="marketGapIntroTitle">Where Pocket Signal differs from the market</h2>
+                <p>Sort by market gap to see where our projections differ most from sportsbook lines.</p>
+            </div>
+            <button id="exploreMarketGaps" class="market-gap-shortcut" type="button">Explore market gaps</button>
+        </section>
+
         <!-- =================================================
              SEARCH + FILTERS
         ================================================== -->
@@ -226,6 +234,10 @@
 
                 </select>
 
+                <select id="gameFilter" aria-label="Filter by game" class="player-filter">
+                    <option value="ALL">All Games</option>
+                </select>
+
                 <select
                     id="sortFilter"
                     aria-label="Sort players"
@@ -246,13 +258,28 @@
 
                     <option value="rb_receiving_yards" hidden disabled>Projected Receiving Yards</option>
 
+                    <option value="gap_desc">Largest gap first</option>
+                    <option value="gap_asc">Smallest gap first</option>
+
                     <option value="name" selected>
                         Player Name
                     </option>
 
                 </select>
 
+                <select id="gapMetricFilter" aria-label="Metric for market gap ranking" class="player-filter" hidden>
+                    <option value="primary">Primary yards</option>
+                    <option value="passing_yards">Passing yards</option>
+                    <option value="rushing_yards">Rushing yards</option>
+                    <option value="receiving_yards">Receiving yards</option>
+                    <option value="receptions">Receptions</option>
+                    <option value="completions">Completions</option>
+                    <option value="attempts">Pass attempts</option>
+                </select>
+
             </div>
+
+            <p id="marketSortNote" class="market-sort-note" role="status" aria-live="polite" hidden></p>
 
         </section>
 
@@ -804,7 +831,7 @@
          JAVASCRIPT
     ====================================================== -->
 
-    <script src="players.js?v=10-header"></script>
+    <script src="players.js?v=12-gap-intro"></script>
 
 </body>
 

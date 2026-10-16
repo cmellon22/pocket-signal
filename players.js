@@ -23,6 +23,9 @@ const visiblePlayerCount = document.getElementById("visiblePlayerCount");
 const playerSearch = document.getElementById("playerSearch");
 const positionFilter = document.getElementById("positionFilter");
 const sortFilter = document.getElementById("sortFilter");
+const gameFilter = document.getElementById("gameFilter");
+const gapMetricFilter = document.getElementById("gapMetricFilter");
+const marketSortNote = document.getElementById("marketSortNote");
 const detailPanel = document.getElementById("playerDetailPanel");
 const detailTemplate = document.getElementById("playerDetailTemplate");
 const mobileMenuButton = document.getElementById("mobileMenuButton");
@@ -161,6 +164,7 @@ async function loadPlayers() {
     projectionWeek = SLATE_WEEK;
     document.querySelectorAll(".slate-week").forEach(el => { el.textContent = `Week ${projectionWeek}`; });
     playerCount.textContent = allPlayers.length;
+    populateGameFilter();
     applyFilters();
     if (results.every(result => result.status === "rejected")) {
         playerList.innerHTML = '<div class="loading-state">Could not load player projections.</div>';
@@ -171,10 +175,59 @@ async function loadPlayers() {
    FILTER + SORT
 ========================================================= */
 
+function playerGameKey(player) {
+    const teams = [player.team, player.opponent].map(team => ({LAR:"LA",WSH:"WAS",JAC:"JAX"}[String(team || "").trim().toUpperCase()] || String(team || "").trim().toUpperCase()));
+    return teams.every(Boolean) && teams[0] !== teams[1] ? teams.sort().join("|") : null;
+}
+
+function populateGameFilter() {
+    const previous = gameFilter.value;
+    gameFilter.replaceChildren(new Option("All Games", "ALL"));
+    const games = [...new Set(allPlayers.map(playerGameKey).filter(Boolean))].sort();
+    for (const game of games) gameFilter.add(new Option(game.split("|").join(" vs "), game));
+    gameFilter.value = games.includes(previous) ? previous : "ALL";
+}
+
+function isGapSort() { return sortFilter.value === "gap_desc" || sortFilter.value === "gap_asc"; }
+
+function gapMetric(player) { return gapMetricFilter.value === "primary" ? primaryMetric(player) : gapMetricFilter.value; }
+
+function playerMarketGap(player) {
+    const metric = gapMetric(player);
+    const projection = numberOrNull(player.projection?.[metric]?.value);
+    const line = numberOrNull(player.market?.[metric]?.line);
+    return projection === null || line === null ? null : projection - line;
+}
+
+function compareMarketGaps(a, b) {
+    const left = playerMarketGap(a), right = playerMarketGap(b);
+    if (left === null && right !== null) return 1;
+    if (right === null && left !== null) return -1;
+    if (left !== null && right !== null) {
+        const difference = Math.abs(left) - Math.abs(right);
+        if (Math.abs(difference) > 1e-9) return sortFilter.value === "gap_desc" ? -difference : difference;
+    }
+    return String(a.name || "").localeCompare(String(b.name || "")) || String(a.player_id).localeCompare(String(b.player_id));
+}
+
+function listProjectionRead(player) {
+    if (!isGapSort()) {
+        return `<strong>${format1(player.projection?.[primaryMetric(player)]?.value)}</strong><span>${isQuarterback(player) ? "pass yds" : isRunningBack(player) ? "rush yds" : "rec yds"}</span>`;
+    }
+    const metric = gapMetric(player), gap = playerMarketGap(player);
+    const shortLabels = {passing_yards:"pass yds",rushing_yards:"rush yds",receiving_yards:"rec yds",receptions:"rec",completions:"cmp",attempts:"att"};
+    const direction = gap === null || Math.abs(gap) < 1e-9 ? "neutral" : gap < 0 ? "negative" : "positive";
+    const explanation = gap === null ? "No matching market line or projection for this metric" : `Projection minus market: ${signed(gap)}; gap size ${format1(Math.abs(gap))}`;
+    return `<strong class="list-market-gap gap-${direction}" title="${escapeHtml(explanation)}">${gap === null ? "—" : signed(gap)}</strong><span>gap · ${shortLabels[metric] || ""}</span>`;
+}
+
 function applyFilters() {
     const query = playerSearch.value.trim().toLowerCase();
     const position = positionFilter.value;
     let sort = sortFilter.value;
+    gapMetricFilter.hidden = !isGapSort();
+    marketSortNote.hidden = !isGapSort();
+    document.querySelector(".filter-row").classList.toggle("is-gap-sort", isGapSort());
     sortFilter.querySelector('[value="targets"]').textContent = position === "QB" ? "Projected Attempts" : position === "ALL" ? "Targets / Attempts" : "Projected Targets";
     const rbSort = sortFilter.querySelector('[value="rb_receiving_yards"]');
     rbSort.hidden = position !== "RB"; rbSort.disabled = position !== "RB";
@@ -200,10 +253,15 @@ function applyFilters() {
         const matchesSearch = haystack.includes(query);
         const matchesPosition =
             position === "ALL" || player.position === position;
-        return matchesSearch && matchesPosition;
+        const matchesGame = gameFilter.value === "ALL" || playerGameKey(player) === gameFilter.value;
+        return matchesSearch && matchesPosition && matchesGame;
     });
 
-    if (sort === "yards") {
+    if (isGapSort()) {
+        filteredPlayers.sort(compareMarketGaps);
+        const matched = filteredPlayers.filter(player => playerMarketGap(player) !== null).length;
+        marketSortNote.textContent = `Ranked by gap size, regardless of sign. ${matched} of ${filteredPlayers.length} have a matching line and projection; others appear last.${gapMetricFilter.value === "primary" ? " Primary yards: QB passing, RB rushing, WR/TE receiving." : ""}`;
+    } else if (sort === "yards") {
         filteredPlayers.sort(
             (a, b) =>
                 numberValue(b.projection?.[primaryMetric(b)]?.value) -
@@ -244,6 +302,9 @@ function applyFilters() {
         } else {
             renderEmptyDetail();
         }
+    } else if (isGapSort()) {
+        // Keep the detail metric aligned when the ranking metric changes.
+        selectPlayer(selectedPlayer.player_id);
     }
 }
 
@@ -295,12 +356,7 @@ function renderPlayerList() {
                     </div>
 
                     <div class="player-list-projection">
-                        <strong>
-                            ${format1(
-                                player.projection?.[primaryMetric(player)]?.value
-                            )}
-                        </strong>
-                        <span>${isQuarterback(player) ? "pass yds" : isRunningBack(player) ? "rush yds" : "rec yds"}</span>
+                        ${listProjectionRead(player)}
                     </div>
                 </button>
             `;
@@ -332,6 +388,10 @@ function selectPlayer(playerId) {
 
     selectedPlayer = player;
     selectedMetric = primaryMetric(player);
+    if (isGapSort()) {
+        const metrics = isQuarterback(player) ? ["passing_yards","attempts","completions"] : isRunningBack(player) ? ["rushing_yards","receiving_yards","receptions"] : ["receiving_yards","receptions","targets"];
+        if (metrics.includes(gapMetric(player))) selectedMetric = gapMetric(player);
+    }
 
     renderPlayerList();
     renderPlayerDetail(player);
@@ -344,6 +404,11 @@ function selectPlayer(playerId) {
 function renderPlayerDetail(player) {
     renderPlayerDetailBase(player);
     finishPlayerPresentation(player);
+    detailPanel.querySelectorAll(".metric-tab[data-metric]").forEach(button => {
+        const active = button.dataset.metric === selectedMetric;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+    });
 }
 
 function renderPlayerDetailBase(player) {
@@ -1437,6 +1502,13 @@ sortFilter.addEventListener(
     "change",
     applyFilters
 );
+gameFilter.addEventListener("change", applyFilters);
+gapMetricFilter.addEventListener("change", applyFilters);
+document.getElementById("exploreMarketGaps").addEventListener("click", () => {
+    sortFilter.value = "gap_desc";
+    applyFilters();
+    sortFilter.focus();
+});
 
 /* =========================================================
    START

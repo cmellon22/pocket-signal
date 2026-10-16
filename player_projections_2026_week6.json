@@ -94,7 +94,22 @@
           "yards_per_reception": 13.8,
           "target_share": 0.278
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 79.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201844).png"
+        }
+      }
     },
     {
       "player_id": "00-0039064",
@@ -189,7 +204,22 @@
           "yards_per_reception": 6.6,
           "target_share": 0.29
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 58.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201832).png"
+        }
+      }
     },
     {
       "player_id": "00-0036358",
@@ -295,7 +325,22 @@
           "yards_per_reception": 4.5,
           "target_share": 0.119
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 80.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0037239",
@@ -401,7 +446,22 @@
           "yards_per_reception": 11.5,
           "target_share": 0.25
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 79.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0038543",
@@ -615,7 +675,22 @@
           "yards_per_reception": 13.7,
           "target_share": 0.41
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 64.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201751).png"
+        }
+      }
     },
     {
       "player_id": "00-0037740",
@@ -721,7 +796,22 @@
           "yards_per_reception": 14.9,
           "target_share": 0.379
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 72.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201722).png"
+        }
+      }
     },
     {
       "player_id": "00-0036912",
@@ -889,7 +979,22 @@
           "yards_per_reception": 8.1,
           "target_share": 0.444
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 92.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201908).png"
+        }
+      }
     },
     {
       "player_id": "00-0038559",
@@ -995,7 +1100,22 @@
           "yards_per_reception": 7.5,
           "target_share": 0.152
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 58.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201908).png"
+        }
+      }
     },
     {
       "player_id": "00-0037838",
@@ -1101,7 +1221,22 @@
           "yards_per_reception": 8.5,
           "target_share": 0.25
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 51.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0031381",
@@ -1207,7 +1342,22 @@
           "yards_per_reception": 10.2,
           "target_share": 0.13
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 57.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201908).png"
+        }
+      }
     },
     {
       "player_id": "00-0037744",
@@ -1313,7 +1463,22 @@
           "yards_per_reception": 7.3,
           "target_share": 0.217
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 64.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201908).png"
+        }
+      }
     },
     {
       "player_id": "00-0036554",
@@ -1503,7 +1668,22 @@
           "yards_per_reception": 23.8,
           "target_share": 0.258
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 74.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0039337",
@@ -1609,7 +1789,22 @@
           "yards_per_reception": 11.0,
           "target_share": 0.385
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 71.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0031408",
@@ -1715,7 +1910,22 @@
           "yards_per_reception": 16.1,
           "target_share": 0.37
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 72.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201838).png"
+        }
+      }
     },
     {
       "player_id": "00-0037247",
@@ -1821,7 +2031,22 @@
           "yards_per_reception": 14.4,
           "target_share": 0.31
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 67.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0040667",
@@ -1927,7 +2152,22 @@
           "yards_per_reception": 20.5,
           "target_share": 0.226
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 65.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0039890",
@@ -2084,7 +2324,22 @@
           "yards_per_reception": 9.0,
           "target_share": 0.095
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 55.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201751).png"
+        }
+      }
     },
     {
       "player_id": "00-0038606",
@@ -2296,7 +2551,22 @@
           "yards_per_reception": 16.9,
           "target_share": 0.324
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 89.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0040129",
@@ -2402,7 +2672,22 @@
           "yards_per_reception": 6.3,
           "target_share": 0.36
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 36.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0041438",
@@ -2508,7 +2793,26 @@
           "yards_per_reception": 6.0,
           "target_share": 0.143
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 53.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201801).png",
+          "source_images": [
+            "image(20261016-201801).png",
+            "image(20261016-201851).png"
+          ]
+        }
+      }
     },
     {
       "player_id": "00-0031588",
@@ -2804,7 +3108,22 @@
           "yards_per_reception": 11.8,
           "target_share": 0.15
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0039424",
@@ -2910,7 +3229,22 @@
           "yards_per_reception": 6.5,
           "target_share": 0.25
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 41.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0039067",
@@ -3100,7 +3434,22 @@
           "yards_per_reception": 8.3,
           "target_share": 0.16
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 29.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0041037",
@@ -3206,7 +3555,22 @@
           "yards_per_reception": 15.3,
           "target_share": 0.219
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 51.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201832).png"
+        }
+      }
     },
     {
       "player_id": "00-0038997",
@@ -3312,7 +3676,26 @@
           "yards_per_reception": 15.7,
           "target_share": 0.14
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 48.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201801).png",
+          "source_images": [
+            "image(20261016-201801).png",
+            "image(20261016-201851).png"
+          ]
+        }
+      }
     },
     {
       "player_id": "00-0035640",
@@ -3418,7 +3801,22 @@
           "yards_per_reception": 4.0,
           "target_share": 0.133
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 50.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0039919",
@@ -3524,7 +3922,22 @@
           "yards_per_reception": 13.3,
           "target_share": 0.225
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 41.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0038393",
@@ -3736,7 +4149,22 @@
           "yards_per_reception": 10.2,
           "target_share": 0.139
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 38.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201844).png"
+        }
+      }
     },
     {
       "player_id": "00-0037816",
@@ -3937,7 +4365,26 @@
           "yards_per_reception": 9.0,
           "target_share": 0.209
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 43.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201801).png",
+          "source_images": [
+            "image(20261016-201801).png",
+            "image(20261016-201851).png"
+          ]
+        }
+      }
     },
     {
       "player_id": "00-0040128",
@@ -4043,7 +4490,26 @@
           "yards_per_reception": 11.9,
           "target_share": 0.209
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 50.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201801).png",
+          "source_images": [
+            "image(20261016-201801).png",
+            "image(20261016-201851).png"
+          ]
+        }
+      }
     },
     {
       "player_id": "00-0038618",
@@ -4255,7 +4721,22 @@
           "yards_per_reception": 4.8,
           "target_share": 0.222
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 63.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201838).png"
+        }
+      }
     },
     {
       "player_id": "00-0033555",
@@ -4445,7 +4926,22 @@
           "yards_per_reception": 7.5,
           "target_share": 0.148
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 53.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201859).png"
+        }
+      }
     },
     {
       "player_id": "00-0033110",
@@ -4540,7 +5036,22 @@
           "yards_per_reception": 16.6,
           "target_share": 0.111
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 32.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201908).png"
+        }
+      }
     },
     {
       "player_id": "00-0038117",
@@ -4646,7 +5157,26 @@
           "yards_per_reception": 8.8,
           "target_share": 0.2
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 36.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201801).png",
+          "source_images": [
+            "image(20261016-201801).png",
+            "image(20261016-201851).png"
+          ]
+        }
+      }
     },
     {
       "player_id": "00-0040727",
@@ -4964,7 +5494,22 @@
           "yards_per_reception": 4.0,
           "target_share": 0.208
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 39.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0034383",
@@ -5176,7 +5721,22 @@
           "yards_per_reception": 7.0,
           "target_share": 0.194
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 27.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201832).png"
+        }
+      }
     },
     {
       "player_id": "00-0039894",
@@ -5271,7 +5831,22 @@
           "yards_per_reception": 17.5,
           "target_share": 0.259
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 48.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201859).png"
+        }
+      }
     },
     {
       "player_id": "00-0038935",
@@ -5602,7 +6177,22 @@
           "yards_per_reception": 2.0,
           "target_share": 0.1
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 25.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0034351",
@@ -5792,7 +6382,22 @@
           "yards_per_reception": 12.8,
           "target_share": 0.161
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0036894",
@@ -5898,7 +6503,22 @@
           "yards_per_reception": 8.8,
           "target_share": 0.233
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 35.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0040663",
@@ -6004,7 +6624,22 @@
           "yards_per_reception": 4.0,
           "target_share": 0.125
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 33.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201832).png"
+        }
+      }
     },
     {
       "player_id": "00-0033307",
@@ -6099,7 +6734,22 @@
           "yards_per_reception": 14.0,
           "target_share": 0.174
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 35.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201908).png"
+        }
+      }
     },
     {
       "player_id": "00-0039066",
@@ -6205,7 +6855,22 @@
           "yards_per_reception": 2.0,
           "target_share": 0.028
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 27.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201844).png"
+        }
+      }
     },
     {
       "player_id": "00-0034827",
@@ -6300,7 +6965,22 @@
           "yards_per_reception": 11.0,
           "target_share": 0.067
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201844).png"
+        }
+      }
     },
     {
       "player_id": "00-0039915",
@@ -6395,7 +7075,22 @@
           "yards_per_reception": null,
           "target_share": 0.065
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 41.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201859).png"
+        }
+      }
     },
     {
       "player_id": "00-0036550",
@@ -6501,7 +7196,22 @@
           "yards_per_reception": 12.4,
           "target_share": 0.194
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 16.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201832).png"
+        }
+      }
     },
     {
       "player_id": "00-0038104",
@@ -6808,7 +7518,22 @@
           "yards_per_reception": 5.0,
           "target_share": 0.031
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 39.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201832).png"
+        }
+      }
     },
     {
       "player_id": "00-0038933",
@@ -6914,7 +7639,22 @@
           "yards_per_reception": 7.0,
           "target_share": 0.111
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201844).png"
+        }
+      }
     },
     {
       "player_id": "00-0041489",
@@ -7009,7 +7749,22 @@
           "yards_per_reception": 13.3,
           "target_share": 0.3
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 42.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0031610",
@@ -7104,7 +7859,22 @@
           "yards_per_reception": 12.0,
           "target_share": 0.154
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 29.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201751).png"
+        }
+      }
     },
     {
       "player_id": "00-0039739",
@@ -7316,7 +8086,22 @@
           "yards_per_reception": 12.3,
           "target_share": 0.12
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 26.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0037664",
@@ -7495,7 +8280,22 @@
           "yards_per_reception": 9.5,
           "target_share": 0.125
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 36.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0038621",
@@ -8111,7 +8911,22 @@
           "yards_per_reception": 30.0,
           "target_share": 0.095
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 31.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0038544",
@@ -8206,7 +9021,22 @@
           "yards_per_reception": 44.0,
           "target_share": 0.065
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 36.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201859).png"
+        }
+      }
     },
     {
       "player_id": "00-0037741",
@@ -8312,7 +9142,22 @@
           "yards_per_reception": 27.0,
           "target_share": 0.118
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 23.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0032775",
@@ -8575,7 +9420,26 @@
           "yards_per_reception": 17.0,
           "target_share": 0.186
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 27.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201801).png",
+          "source_images": [
+            "image(20261016-201801).png",
+            "image(20261016-201851).png"
+          ]
+        }
+      }
     },
     {
       "player_id": "00-0039901",
@@ -8787,7 +9651,22 @@
           "yards_per_reception": 1.5,
           "target_share": 0.103
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 24.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201722).png"
+        }
+      }
     },
     {
       "player_id": "00-0033090",
@@ -8893,7 +9772,22 @@
           "yards_per_reception": 14.7,
           "target_share": 0.129
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 31.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201722).png"
+        }
+      }
     },
     {
       "player_id": "00-0041048",
@@ -8988,7 +9882,22 @@
           "yards_per_reception": 12.5,
           "target_share": 0.115
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 11.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0039793",
@@ -9438,7 +10347,22 @@
           "yards_per_reception": null,
           "target_share": 0.048
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 13.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201859).png"
+        }
+      }
     },
     {
       "player_id": "00-0040737",
@@ -9747,7 +10671,22 @@
           "yards_per_reception": 10.0,
           "target_share": 0.038
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 22.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0038041",
@@ -9853,7 +10792,22 @@
           "yards_per_reception": 6.3,
           "target_share": 0.143
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 24.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:20:26-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201916).png"
+        }
+      }
     },
     {
       "player_id": "00-0035719",
@@ -10456,7 +11410,22 @@
           "yards_per_reception": 8.4,
           "target_share": 0.176
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 28.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201740).png"
+        }
+      }
     },
     {
       "player_id": "00-0036407",
@@ -10849,7 +11818,22 @@
           "yards_per_reception": 6.0,
           "target_share": 0.1
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 22.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201809).png"
+        }
+      }
     },
     {
       "player_id": "00-0037291",
@@ -11123,7 +12107,22 @@
           "yards_per_reception": 7.0,
           "target_share": 0.042
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 10.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0040563",
@@ -11934,7 +12933,22 @@
           "yards_per_reception": 7.0,
           "target_share": 0.135
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 19.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     },
     {
       "player_id": "00-0038840",
@@ -12990,7 +14004,24 @@
           "yards_per_reception": null,
           "target_share": 0.125
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 13.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:18:20-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-201735).png"
+        }
+      }
     }
-  ]
+  ],
+  "market_lines_updated_at": "2026-10-16T20:33:49.660896+00:00",
+  "market_lines_source": "FanDuel screenshot import; original capture times not supplied"
 }
