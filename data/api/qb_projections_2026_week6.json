@@ -126,7 +126,21 @@
           "completions": 24.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 228.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -260,7 +274,21 @@
           "completions": 26.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 256.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -394,7 +422,21 @@
           "completions": 19.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 236.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -528,7 +570,21 @@
           "completions": 15.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 225.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -662,7 +718,21 @@
           "completions": 15.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 206.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -796,7 +866,21 @@
           "completions": 24.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 161.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -930,7 +1014,21 @@
           "completions": 24.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 234.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1064,7 +1162,21 @@
           "completions": 23.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 200.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1198,7 +1310,21 @@
           "completions": 26.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 236.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1332,7 +1458,21 @@
           "completions": 17.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 216.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1466,7 +1606,21 @@
           "completions": 33.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 218.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1600,7 +1754,21 @@
           "completions": 16.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 232.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1707,7 +1875,21 @@
           "completions": 21.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 195.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1841,7 +2023,21 @@
           "completions": 29.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 234.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -1939,7 +2135,21 @@
           "completions": 19.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 176.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2073,7 +2283,21 @@
           "completions": 22.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 229.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200519).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2207,7 +2431,21 @@
           "completions": 40.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 279.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2341,7 +2579,21 @@
           "completions": 29.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 237.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2475,7 +2727,21 @@
           "completions": 15.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 226.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2609,7 +2875,21 @@
           "completions": 14.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 192.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2743,7 +3023,21 @@
           "completions": 19.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 249.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -2877,7 +3171,21 @@
           "completions": 12.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 236.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -3011,7 +3319,21 @@
           "completions": 25.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 274.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -3145,7 +3467,21 @@
           "completions": 24.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 278.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -3279,7 +3615,21 @@
           "completions": 19.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 246.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -3413,7 +3763,21 @@
           "completions": 17.0
         }
       ],
-      "market": {},
+      "market": {
+        "passing_yards": {
+          "line": 205.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 6,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-16T16:05:33-04:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "image(20261016-200456).png"
+        }
+      },
       "matchup": {
         "label": "Not rated",
         "index": null
@@ -3687,5 +4051,7 @@
     }
   ],
   "retained_pregame_forecasts": 2,
-  "excluded_candidates": []
+  "excluded_candidates": [],
+  "market_lines_updated_at": "2026-10-16T20:12:39.346533+00:00",
+  "market_lines_source": "FanDuel screenshot import; original capture times not supplied"
 }
