@@ -1,0 +1,3691 @@
+{
+  "season": 2026,
+  "week": 6,
+  "generated_at": "2026-10-16T18:21:31.987434+00:00",
+  "model_version": "live-qb-passing-v1.1-availability",
+  "statistics_cutoff": "Before 2026 week 6",
+  "availability_note": "Current-week reports only. Unavailable reports mean unknown; projections are conditional on the selected QB playing the expected role.",
+  "players": [
+    {
+      "player_id": "00-0036971",
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAX",
+      "opponent": "HOU",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_HOU_JAX",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k9uzdernqkx7oquy7dkg",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 239.52,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 31.45,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.56,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.632
+      },
+      "season_context": {
+        "passing_yards_avg": 234.8,
+        "last3_passing_yards_avg": 246.67,
+        "attempts_avg": 28.6,
+        "last3_attempts_avg": 30.33,
+        "completions_avg": 19.2,
+        "last3_completions_avg": 20.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_JAX_IND",
+          "opponent": "IND",
+          "passing_yards": 263.0,
+          "attempts": 37.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_TEN_JAX",
+          "opponent": "TEN",
+          "passing_yards": 255.0,
+          "attempts": 30.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_CLE_JAX",
+          "opponent": "CLE",
+          "passing_yards": 245.0,
+          "attempts": 23.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_JAX_DEN",
+          "opponent": "DEN",
+          "passing_yards": 189.0,
+          "attempts": 29.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_NE_JAX",
+          "opponent": "NE",
+          "passing_yards": 182.0,
+          "attempts": 29.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_JAX_CIN",
+          "opponent": "CIN",
+          "passing_yards": 227.0,
+          "attempts": 23.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_PHI_JAX",
+          "opponent": "PHI",
+          "passing_yards": 331.0,
+          "attempts": 39.0,
+          "completions": 24.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039163",
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "opponent": "JAX",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_HOU_JAX",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 239.08,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 31.9,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.92,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.503
+      },
+      "season_context": {
+        "passing_yards_avg": 280.4,
+        "last3_passing_yards_avg": 258.33,
+        "attempts_avg": 37.0,
+        "last3_attempts_avg": 30.67,
+        "completions_avg": 23.8,
+        "last3_completions_avg": 21.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_HOU_LAC",
+          "opponent": "LAC",
+          "passing_yards": 244.0,
+          "attempts": 28.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_IND_HOU",
+          "opponent": "IND",
+          "passing_yards": 169.0,
+          "attempts": 23.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_BUF_HOU",
+          "opponent": "BUF",
+          "passing_yards": 274.0,
+          "attempts": 38.0,
+          "completions": 26.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_CIN_HOU",
+          "opponent": "CIN",
+          "passing_yards": 353.0,
+          "attempts": 55.0,
+          "completions": 30.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_HOU_IND",
+          "opponent": "IND",
+          "passing_yards": 167.0,
+          "attempts": 27.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_DAL_HOU",
+          "opponent": "DAL",
+          "passing_yards": 347.0,
+          "attempts": 31.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_HOU_TEN",
+          "opponent": "TEN",
+          "passing_yards": 261.0,
+          "attempts": 34.0,
+          "completions": 26.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039917",
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "team": "ATL",
+      "opponent": "CHI",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_CHI_ATL",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mip4kogkqxwkkya6mvmh",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Rib",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 228.86,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 28.44,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 18.26,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.716
+      },
+      "season_context": {
+        "passing_yards_avg": 239.67,
+        "last3_passing_yards_avg": 239.67,
+        "attempts_avg": 25.67,
+        "last3_attempts_avg": 25.67,
+        "completions_avg": 17.33,
+        "last3_completions_avg": 17.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 7,
+          "game_id": "2025_07_ATL_SF",
+          "opponent": "SF",
+          "passing_yards": 241.0,
+          "attempts": 38.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "game_id": "2025_09_ATL_NE",
+          "opponent": "NE",
+          "passing_yards": 221.0,
+          "attempts": 37.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "game_id": "2025_10_ATL_IND",
+          "opponent": "IND",
+          "passing_yards": 177.0,
+          "attempts": 28.0,
+          "completions": 12.0
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "game_id": "2025_11_CAR_ATL",
+          "opponent": "CAR",
+          "passing_yards": 175.0,
+          "attempts": 16.0,
+          "completions": 13.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_ATL_GB",
+          "opponent": "GB",
+          "passing_yards": 256.0,
+          "attempts": 25.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_ATL_NO",
+          "opponent": "NO",
+          "passing_yards": 223.0,
+          "attempts": 20.0,
+          "completions": 15.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_BAL_ATL",
+          "opponent": "BAL",
+          "passing_yards": 240.0,
+          "attempts": 32.0,
+          "completions": 19.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039918",
+      "name": "Caleb Williams",
+      "position": "QB",
+      "team": "CHI",
+      "opponent": "ATL",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_CHI_ATL",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h4qs11kutwiw7whekmyt",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Hamstring",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 221.01,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 32.16,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.01,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.449
+      },
+      "season_context": {
+        "passing_yards_avg": 203.5,
+        "last3_passing_yards_avg": 206.33,
+        "attempts_avg": 27.5,
+        "last3_attempts_avg": 29.33,
+        "completions_avg": 18.0,
+        "last3_completions_avg": 18.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 14,
+          "game_id": "2025_14_CHI_GB",
+          "opponent": "GB",
+          "passing_yards": 186.0,
+          "attempts": 35.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "game_id": "2025_15_CLE_CHI",
+          "opponent": "CLE",
+          "passing_yards": 242.0,
+          "attempts": 28.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_GB_CHI",
+          "opponent": "GB",
+          "passing_yards": 250.0,
+          "attempts": 34.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_CHI_SF",
+          "opponent": "SF",
+          "passing_yards": 330.0,
+          "attempts": 42.0,
+          "completions": 25.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_DET_CHI",
+          "opponent": "DET",
+          "passing_yards": 212.0,
+          "attempts": 33.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_CHI_CAR",
+          "opponent": "CAR",
+          "passing_yards": 269.0,
+          "attempts": 29.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_MIN_CHI",
+          "opponent": "MIN",
+          "passing_yards": 138.0,
+          "attempts": 26.0,
+          "completions": 15.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0033537",
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "opponent": "BAL",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_BAL_CLE",
+      "headshot_url": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/otfs2docj6eahaebo5xn",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 218.28,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 30.98,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.21,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.028
+      },
+      "season_context": {
+        "passing_yards_avg": 202.0,
+        "last3_passing_yards_avg": 189.0,
+        "attempts_avg": 29.6,
+        "last3_attempts_avg": 32.0,
+        "completions_avg": 19.0,
+        "last3_completions_avg": 18.33
+      },
+      "recent_games": [
+        {
+          "season": 2024,
+          "week": 6,
+          "game_id": "2024_06_CLE_PHI",
+          "opponent": "PHI",
+          "passing_yards": 168.0,
+          "attempts": 23.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "game_id": "2024_07_CIN_CLE",
+          "opponent": "CIN",
+          "passing_yards": 128.0,
+          "attempts": 17.0,
+          "completions": 15.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_CLE_JAX",
+          "opponent": "JAX",
+          "passing_yards": 205.0,
+          "attempts": 22.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_CLE_TB",
+          "opponent": "TB",
+          "passing_yards": 238.0,
+          "attempts": 30.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_CAR_CLE",
+          "opponent": "CAR",
+          "passing_yards": 144.0,
+          "attempts": 30.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_PIT_CLE",
+          "opponent": "PIT",
+          "passing_yards": 268.0,
+          "attempts": 33.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_CLE_NYJ",
+          "opponent": "NYJ",
+          "passing_yards": 155.0,
+          "attempts": 33.0,
+          "completions": 15.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0035993",
+      "name": "Tyler Huntley",
+      "position": "QB",
+      "team": "BAL",
+      "opponent": "CLE",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_BAL_CLE",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxyjf9d5qkwqjdd8ypvv",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "manual_override",
+        "selection_reason": "User confirmed Lamar Jackson unavailable for Week 6; listed QB2 Tyler Huntley selected as expected starter. Forecast remains conditional on the replacement playing. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 203.92,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 27.9,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 17.96,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.147
+      },
+      "season_context": {
+        "passing_yards_avg": 132.0,
+        "last3_passing_yards_avg": 123.67,
+        "attempts_avg": 20.5,
+        "last3_attempts_avg": 20.33,
+        "completions_avg": 16.0,
+        "last3_completions_avg": 16.0
+      },
+      "recent_games": [
+        {
+          "season": 2024,
+          "week": 18,
+          "game_id": "2024_18_MIA_NYJ",
+          "opponent": "NYJ",
+          "passing_yards": 227.0,
+          "attempts": 41.0,
+          "completions": 25.0
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "game_id": "2025_06_LA_BAL",
+          "opponent": "LA",
+          "passing_yards": 68.0,
+          "attempts": 15.0,
+          "completions": 10.0
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "game_id": "2025_08_CHI_BAL",
+          "opponent": "CHI",
+          "passing_yards": 186.0,
+          "attempts": 22.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_NE_BAL",
+          "opponent": "NE",
+          "passing_yards": 65.0,
+          "attempts": 10.0,
+          "completions": 9.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_BAL_GB",
+          "opponent": "GB",
+          "passing_yards": 107.0,
+          "attempts": 20.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_TEN_BAL",
+          "opponent": "TEN",
+          "passing_yards": 63.0,
+          "attempts": 9.0,
+          "completions": 8.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_BAL_ATL",
+          "opponent": "ATL",
+          "passing_yards": 201.0,
+          "attempts": 32.0,
+          "completions": 24.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0035710",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "opponent": "TEN",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_TEN_IND",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yslz8jcyiekbmm7iguxm",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Ankle",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 219.48,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 30.62,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.34,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.064
+      },
+      "season_context": {
+        "passing_yards_avg": 204.2,
+        "last3_passing_yards_avg": 215.0,
+        "attempts_avg": 35.2,
+        "last3_attempts_avg": 38.0,
+        "completions_avg": 21.6,
+        "last3_completions_avg": 22.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 13,
+          "game_id": "2025_13_HOU_IND",
+          "opponent": "HOU",
+          "passing_yards": 201.0,
+          "attempts": 27.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "game_id": "2025_14_IND_JAX",
+          "opponent": "JAX",
+          "passing_yards": 60.0,
+          "attempts": 7.0,
+          "completions": 5.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_BAL_IND",
+          "opponent": "BAL",
+          "passing_yards": 166.0,
+          "attempts": 31.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_IND_KC",
+          "opponent": "KC",
+          "passing_yards": 210.0,
+          "attempts": 31.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_HOU_IND",
+          "opponent": "HOU",
+          "passing_yards": 235.0,
+          "attempts": 36.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_IND_WAS",
+          "opponent": "WAS",
+          "passing_yards": 143.0,
+          "attempts": 34.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_IND_PIT",
+          "opponent": "PIT",
+          "passing_yards": 267.0,
+          "attempts": 44.0,
+          "completions": 24.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0040676",
+      "name": "Cam Ward",
+      "position": "QB",
+      "team": "TEN",
+      "opponent": "IND",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_TEN_IND",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7iuimdeqgmmhdzdhl67",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 220.87,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 30.86,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.3,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.663
+      },
+      "season_context": {
+        "passing_yards_avg": 179.2,
+        "last3_passing_yards_avg": 191.0,
+        "attempts_avg": 31.0,
+        "last3_attempts_avg": 34.33,
+        "completions_avg": 19.6,
+        "last3_completions_avg": 22.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_NO_TEN",
+          "opponent": "NO",
+          "passing_yards": 251.0,
+          "attempts": 40.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_TEN_JAX",
+          "opponent": "JAX",
+          "passing_yards": 52.0,
+          "attempts": 3.0,
+          "completions": 3.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_NYJ_TEN",
+          "opponent": "NYJ",
+          "passing_yards": 140.0,
+          "attempts": 32.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_PHI_TEN",
+          "opponent": "PHI",
+          "passing_yards": 183.0,
+          "attempts": 20.0,
+          "completions": 13.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_TEN_NYG",
+          "opponent": "NYG",
+          "passing_yards": 181.0,
+          "attempts": 36.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_TEN_BAL",
+          "opponent": "BAL",
+          "passing_yards": 222.0,
+          "attempts": 31.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_HOU_TEN",
+          "opponent": "HOU",
+          "passing_yards": 170.0,
+          "attempts": 36.0,
+          "completions": 23.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039851",
+      "name": "Drake Maye",
+      "position": "QB",
+      "team": "NE",
+      "opponent": "NYJ",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_NYJ_NE",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Shoulder",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 230.96,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 29.83,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.49,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.061
+      },
+      "season_context": {
+        "passing_yards_avg": 245.6,
+        "last3_passing_yards_avg": 280.67,
+        "attempts_avg": 30.2,
+        "last3_attempts_avg": 32.0,
+        "completions_avg": 19.8,
+        "last3_completions_avg": 20.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_NE_NYJ",
+          "opponent": "NYJ",
+          "passing_yards": 256.0,
+          "attempts": 21.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_MIA_NE",
+          "opponent": "MIA",
+          "passing_yards": 191.0,
+          "attempts": 18.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_NE_SEA",
+          "opponent": "SEA",
+          "passing_yards": 178.0,
+          "attempts": 33.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_PIT_NE",
+          "opponent": "PIT",
+          "passing_yards": 208.0,
+          "attempts": 22.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_NE_JAX",
+          "opponent": "JAX",
+          "passing_yards": 199.0,
+          "attempts": 25.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_NE_BUF",
+          "opponent": "BUF",
+          "passing_yards": 269.0,
+          "attempts": 37.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_LV_NE",
+          "opponent": "LV",
+          "passing_yards": 374.0,
+          "attempts": 34.0,
+          "completions": 26.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0030565",
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "opponent": "NE",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_NYJ_NE",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/q8wfqvmy7cwxdi35dtby",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 216.11,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 30.57,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.7,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.102
+      },
+      "season_context": {
+        "passing_yards_avg": 216.8,
+        "last3_passing_yards_avg": 207.33,
+        "attempts_avg": 29.4,
+        "last3_attempts_avg": 27.33,
+        "completions_avg": 20.4,
+        "last3_completions_avg": 18.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_LV_HOU",
+          "opponent": "HOU",
+          "passing_yards": 201.0,
+          "attempts": 23.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_NYG_LV",
+          "opponent": "NYG",
+          "passing_yards": 176.0,
+          "attempts": 28.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_NYJ_TEN",
+          "opponent": "TEN",
+          "passing_yards": 215.0,
+          "attempts": 24.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_GB_NYJ",
+          "opponent": "GB",
+          "passing_yards": 247.0,
+          "attempts": 41.0,
+          "completions": 27.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_NYJ_DET",
+          "opponent": "DET",
+          "passing_yards": 321.0,
+          "attempts": 37.0,
+          "completions": 31.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_NYJ_CHI",
+          "opponent": "CHI",
+          "passing_yards": 119.0,
+          "attempts": 15.0,
+          "completions": 8.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_CLE_NYJ",
+          "opponent": "CLE",
+          "passing_yards": 182.0,
+          "attempts": 30.0,
+          "completions": 17.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0031503",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "opponent": "NO",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_NO_NYG",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e5qyxnibbyawi0pvfpjl",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 223.74,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 31.42,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.12,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.956
+      },
+      "season_context": {
+        "passing_yards_avg": 201.25,
+        "last3_passing_yards_avg": 231.33,
+        "attempts_avg": 33.0,
+        "last3_attempts_avg": 35.0,
+        "completions_avg": 19.0,
+        "last3_completions_avg": 21.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 11,
+          "game_id": "2025_11_GB_NYG",
+          "opponent": "GB",
+          "passing_yards": 201.0,
+          "attempts": 29.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "game_id": "2025_12_NYG_DET",
+          "opponent": "DET",
+          "passing_yards": 366.0,
+          "attempts": 36.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "game_id": "2025_15_WAS_NYG",
+          "opponent": "WAS",
+          "passing_yards": 0.0,
+          "attempts": 1.0,
+          "completions": 0.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_NYG_LA",
+          "opponent": "LA",
+          "passing_yards": 111.0,
+          "attempts": 27.0,
+          "completions": 11.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_TEN_NYG",
+          "opponent": "TEN",
+          "passing_yards": 118.0,
+          "attempts": 22.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_ARI_NYG",
+          "opponent": "ARI",
+          "passing_yards": 250.0,
+          "attempts": 29.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_NYG_WAS",
+          "opponent": "WAS",
+          "passing_yards": 326.0,
+          "attempts": 54.0,
+          "completions": 33.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0040743",
+      "name": "Tyler Shough",
+      "position": "QB",
+      "team": "NO",
+      "opponent": "NYG",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_NO_NYG",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vu51ogqu4i3abbwpj2fl",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Hand",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 225.63,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 32.52,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 21.58,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.681
+      },
+      "season_context": {
+        "passing_yards_avg": 259.8,
+        "last3_passing_yards_avg": 212.33,
+        "attempts_avg": 41.0,
+        "last3_attempts_avg": 38.33,
+        "completions_avg": 27.4,
+        "last3_completions_avg": 25.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_NO_TEN",
+          "opponent": "TEN",
+          "passing_yards": 333.0,
+          "attempts": 27.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_NO_ATL",
+          "opponent": "ATL",
+          "passing_yards": 259.0,
+          "attempts": 35.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_NO_DET",
+          "opponent": "DET",
+          "passing_yards": 410.0,
+          "attempts": 56.0,
+          "completions": 35.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_NO_BAL",
+          "opponent": "BAL",
+          "passing_yards": 252.0,
+          "attempts": 34.0,
+          "completions": 27.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_LV_NO",
+          "opponent": "LV",
+          "passing_yards": 255.0,
+          "attempts": 42.0,
+          "completions": 29.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_ATL_NO",
+          "opponent": "ATL",
+          "passing_yards": 286.0,
+          "attempts": 48.0,
+          "completions": 30.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_MIN_NO",
+          "opponent": "MIN",
+          "passing_yards": 96.0,
+          "attempts": 25.0,
+          "completions": 16.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0038400",
+      "name": "Tanner McKee",
+      "position": "QB",
+      "team": "PHI",
+      "opponent": "CAR",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_CAR_PHI",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oveivzhzv13jrfvkp8zg",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "manual_override",
+        "selection_reason": "User confirmed Jalen Hurts unavailable for Week 6; listed QB2 Tanner McKee selected as expected starter. Forecast remains conditional on the replacement playing. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 204.05,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 31.57,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.98,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.768
+      },
+      "season_context": {
+        "passing_yards_avg": null,
+        "last3_passing_yards_avg": 181.0,
+        "attempts_avg": null,
+        "last3_attempts_avg": 28.0,
+        "completions_avg": null,
+        "last3_completions_avg": 17.0
+      },
+      "recent_games": [
+        {
+          "season": 2024,
+          "week": 17,
+          "game_id": "2024_17_DAL_PHI",
+          "opponent": "DAL",
+          "passing_yards": 54.0,
+          "attempts": 4.0,
+          "completions": 3.0
+        },
+        {
+          "season": 2024,
+          "week": 18,
+          "game_id": "2024_18_NYG_PHI",
+          "opponent": "NYG",
+          "passing_yards": 269.0,
+          "attempts": 41.0,
+          "completions": 27.0
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "game_id": "2025_15_LV_PHI",
+          "opponent": "LV",
+          "passing_yards": 33.0,
+          "attempts": 3.0,
+          "completions": 3.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_WAS_PHI",
+          "opponent": "WAS",
+          "passing_yards": 241.0,
+          "attempts": 40.0,
+          "completions": 21.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039150",
+      "name": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "opponent": "PHI",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_CAR_PHI",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vcvhmxvxw2a3armle0af",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Knee",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 221.33,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 34.74,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 21.89,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.654
+      },
+      "season_context": {
+        "passing_yards_avg": 317.0,
+        "last3_passing_yards_avg": 302.33,
+        "attempts_avg": 40.5,
+        "last3_attempts_avg": 41.67,
+        "completions_avg": 25.25,
+        "last3_completions_avg": 26.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_TB_CAR",
+          "opponent": "TB",
+          "passing_yards": 191.0,
+          "attempts": 32.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_SEA_CAR",
+          "opponent": "SEA",
+          "passing_yards": 54.0,
+          "attempts": 24.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_CAR_TB",
+          "opponent": "TB",
+          "passing_yards": 266.0,
+          "attempts": 35.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_CHI_CAR",
+          "opponent": "CHI",
+          "passing_yards": 361.0,
+          "attempts": 37.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_CAR_ATL",
+          "opponent": "ATL",
+          "passing_yards": 287.0,
+          "attempts": 36.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_CAR_CLE",
+          "opponent": "CLE",
+          "passing_yards": 291.0,
+          "attempts": 48.0,
+          "completions": 26.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_DET_CAR",
+          "opponent": "DET",
+          "passing_yards": 329.0,
+          "attempts": 41.0,
+          "completions": 29.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0041251",
+      "name": "Jalon Daniels",
+      "position": "QB",
+      "team": "TB",
+      "opponent": "PIT",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_PIT_TB",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hwhfl6i5drktwjvslfpn",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "manual_override",
+        "selection_reason": "User confirmed Baker Mayfield unavailable for Week 6; listed QB2 Jalon Daniels selected as expected starter. Forecast remains conditional on the replacement playing. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 218.36,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 29.97,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.44,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.785
+      },
+      "season_context": {
+        "passing_yards_avg": 112.33,
+        "last3_passing_yards_avg": 112.33,
+        "attempts_avg": 18.33,
+        "last3_attempts_avg": 18.33,
+        "completions_avg": 12.67,
+        "last3_completions_avg": 12.67
+      },
+      "recent_games": [
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_MIN_TB",
+          "opponent": "MIN",
+          "passing_yards": 0.0,
+          "attempts": 3.0,
+          "completions": 0.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_GB_TB",
+          "opponent": "GB",
+          "passing_yards": 148.0,
+          "attempts": 27.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_TB_DAL",
+          "opponent": "DAL",
+          "passing_yards": 189.0,
+          "attempts": 25.0,
+          "completions": 19.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0023459",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "opponent": "TB",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_PIT_TB",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dypvakakxhccxs67tb0y",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 238.68,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 33.18,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 21.91,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.844
+      },
+      "season_context": {
+        "passing_yards_avg": 246.8,
+        "last3_passing_yards_avg": 275.33,
+        "attempts_avg": 36.8,
+        "last3_attempts_avg": 35.0,
+        "completions_avg": 22.0,
+        "last3_completions_avg": 21.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_PIT_CLE",
+          "opponent": "CLE",
+          "passing_yards": 168.0,
+          "attempts": 39.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_BAL_PIT",
+          "opponent": "BAL",
+          "passing_yards": 294.0,
+          "attempts": 47.0,
+          "completions": 31.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_ATL_PIT",
+          "opponent": "ATL",
+          "passing_yards": 221.0,
+          "attempts": 40.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_PIT_NE",
+          "opponent": "NE",
+          "passing_yards": 187.0,
+          "attempts": 39.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_CIN_PIT",
+          "opponent": "CIN",
+          "passing_yards": 292.0,
+          "attempts": 34.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_PIT_CLE",
+          "opponent": "CLE",
+          "passing_yards": 299.0,
+          "attempts": 40.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_IND_PIT",
+          "opponent": "IND",
+          "passing_yards": 235.0,
+          "attempts": 31.0,
+          "completions": 22.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0026498",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "LA",
+      "opponent": "ARI",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_ARI_LA",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 256.2,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 34.37,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 23.41,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.515
+      },
+      "season_context": {
+        "passing_yards_avg": 314.4,
+        "last3_passing_yards_avg": 363.33,
+        "attempts_avg": 43.2,
+        "last3_attempts_avg": 53.33,
+        "completions_avg": 27.8,
+        "last3_completions_avg": 34.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_LA_ATL",
+          "opponent": "ATL",
+          "passing_yards": 269.0,
+          "attempts": 38.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_ARI_LA",
+          "opponent": "ARI",
+          "passing_yards": 259.0,
+          "attempts": 40.0,
+          "completions": 25.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_SF_LA",
+          "opponent": "SF",
+          "passing_yards": 155.0,
+          "attempts": 25.0,
+          "completions": 15.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_NYG_LA",
+          "opponent": "NYG",
+          "passing_yards": 327.0,
+          "attempts": 31.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_LA_DEN",
+          "opponent": "DEN",
+          "passing_yards": 390.0,
+          "attempts": 55.0,
+          "completions": 30.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_LA_PHI",
+          "opponent": "PHI",
+          "passing_yards": 317.0,
+          "attempts": 51.0,
+          "completions": 32.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_BUF_LA",
+          "opponent": "BUF",
+          "passing_yards": 383.0,
+          "attempts": 54.0,
+          "completions": 40.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0033119",
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "team": "ARI",
+      "opponent": "LA",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_ARI_LA",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 210.07,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 29.3,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 18.42,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.454
+      },
+      "season_context": {
+        "passing_yards_avg": 222.0,
+        "last3_passing_yards_avg": 246.0,
+        "attempts_avg": 39.8,
+        "last3_attempts_avg": 44.67,
+        "completions_avg": 26.4,
+        "last3_completions_avg": 29.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_ARI_CIN",
+          "opponent": "CIN",
+          "passing_yards": 212.0,
+          "attempts": 37.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_ARI_LA",
+          "opponent": "LA",
+          "passing_yards": 243.0,
+          "attempts": 31.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_ARI_LAC",
+          "opponent": "LAC",
+          "passing_yards": 277.0,
+          "attempts": 37.0,
+          "completions": 27.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_SEA_ARI",
+          "opponent": "SEA",
+          "passing_yards": 95.0,
+          "attempts": 28.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_ARI_SF",
+          "opponent": "SF",
+          "passing_yards": 280.0,
+          "attempts": 52.0,
+          "completions": 38.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_ARI_NYG",
+          "opponent": "NYG",
+          "passing_yards": 166.0,
+          "attempts": 35.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_DET_ARI",
+          "opponent": "DET",
+          "passing_yards": 292.0,
+          "attempts": 47.0,
+          "completions": 29.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0033873",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "opponent": "LAC",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_LAC_KC",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wdckwtob1lybvkmxnf7p",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Knee",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 249.37,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 35.46,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 23.45,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.294
+      },
+      "season_context": {
+        "passing_yards_avg": 259.25,
+        "last3_passing_yards_avg": 284.33,
+        "attempts_avg": 32.0,
+        "last3_attempts_avg": 33.67,
+        "completions_avg": 20.5,
+        "last3_completions_avg": 22.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 13,
+          "game_id": "2025_13_KC_DAL",
+          "opponent": "DAL",
+          "passing_yards": 261.0,
+          "attempts": 34.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "game_id": "2025_14_HOU_KC",
+          "opponent": "HOU",
+          "passing_yards": 160.0,
+          "attempts": 33.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "game_id": "2025_15_LAC_KC",
+          "opponent": "LAC",
+          "passing_yards": 189.0,
+          "attempts": 28.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_DEN_KC",
+          "opponent": "DEN",
+          "passing_yards": 184.0,
+          "attempts": 27.0,
+          "completions": 15.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_IND_KC",
+          "opponent": "IND",
+          "passing_yards": 382.0,
+          "attempts": 47.0,
+          "completions": 32.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_KC_MIA",
+          "opponent": "MIA",
+          "passing_yards": 246.0,
+          "attempts": 24.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_KC_LV",
+          "opponent": "LV",
+          "passing_yards": 225.0,
+          "attempts": 30.0,
+          "completions": 15.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0036355",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "opponent": "KC",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_LAC_KC",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 221.17,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 31.03,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.13,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.823
+      },
+      "season_context": {
+        "passing_yards_avg": 187.4,
+        "last3_passing_yards_avg": 178.67,
+        "attempts_avg": 28.6,
+        "last3_attempts_avg": 29.67,
+        "completions_avg": 17.0,
+        "last3_completions_avg": 17.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_LAC_DAL",
+          "opponent": "DAL",
+          "passing_yards": 300.0,
+          "attempts": 29.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_HOU_LAC",
+          "opponent": "HOU",
+          "passing_yards": 236.0,
+          "attempts": 32.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_ARI_LAC",
+          "opponent": "ARI",
+          "passing_yards": 209.0,
+          "attempts": 27.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_LV_LAC",
+          "opponent": "LV",
+          "passing_yards": 192.0,
+          "attempts": 27.0,
+          "completions": 15.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_LAC_BUF",
+          "opponent": "BUF",
+          "passing_yards": 226.0,
+          "attempts": 34.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_LAC_SEA",
+          "opponent": "SEA",
+          "passing_yards": 189.0,
+          "attempts": 31.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_DEN_LAC",
+          "opponent": "DEN",
+          "passing_yards": 121.0,
+          "attempts": 24.0,
+          "completions": 14.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0029604",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "opponent": "BUF",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_BUF_LV",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 246.26,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 33.85,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 22.57,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.411
+      },
+      "season_context": {
+        "passing_yards_avg": 253.8,
+        "last3_passing_yards_avg": 285.33,
+        "attempts_avg": 34.4,
+        "last3_attempts_avg": 37.67,
+        "completions_avg": 22.4,
+        "last3_completions_avg": 24.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_LA_ATL",
+          "opponent": "LA",
+          "passing_yards": 126.0,
+          "attempts": 20.0,
+          "completions": 13.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_NO_ATL",
+          "opponent": "NO",
+          "passing_yards": 180.0,
+          "attempts": 32.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_MIA_LV",
+          "opponent": "MIA",
+          "passing_yards": 160.0,
+          "attempts": 30.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_LV_LAC",
+          "opponent": "LAC",
+          "passing_yards": 253.0,
+          "attempts": 29.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_LV_NO",
+          "opponent": "NO",
+          "passing_yards": 248.0,
+          "attempts": 33.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_KC_LV",
+          "opponent": "KC",
+          "passing_yards": 365.0,
+          "attempts": 52.0,
+          "completions": 31.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_LV_NE",
+          "opponent": "NE",
+          "passing_yards": 243.0,
+          "attempts": 28.0,
+          "completions": 19.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0034857",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "opponent": "LV",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_BUF_LV",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 232.71,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 29.84,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.76,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.954
+      },
+      "season_context": {
+        "passing_yards_avg": 249.8,
+        "last3_passing_yards_avg": 222.33,
+        "attempts_avg": 27.6,
+        "last3_attempts_avg": 26.0,
+        "completions_avg": 18.2,
+        "last3_completions_avg": 17.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_BUF_CLE",
+          "opponent": "CLE",
+          "passing_yards": 130.0,
+          "attempts": 19.0,
+          "completions": 12.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_PHI_BUF",
+          "opponent": "PHI",
+          "passing_yards": 262.0,
+          "attempts": 35.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_BUF_HOU",
+          "opponent": "HOU",
+          "passing_yards": 334.0,
+          "attempts": 29.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_DET_BUF",
+          "opponent": "DET",
+          "passing_yards": 248.0,
+          "attempts": 31.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_LAC_BUF",
+          "opponent": "LAC",
+          "passing_yards": 204.0,
+          "attempts": 26.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_NE_BUF",
+          "opponent": "NE",
+          "passing_yards": 253.0,
+          "attempts": 33.0,
+          "completions": 23.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_BUF_LA",
+          "opponent": "LA",
+          "passing_yards": 210.0,
+          "attempts": 19.0,
+          "completions": 12.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0036264",
+      "name": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "opponent": "DAL",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_DAL_GB",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thz8stjkbjwddxqnozi5",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 233.49,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 29.86,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.89,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.603
+      },
+      "season_context": {
+        "passing_yards_avg": 281.6,
+        "last3_passing_yards_avg": 292.0,
+        "attempts_avg": 37.0,
+        "last3_attempts_avg": 38.0,
+        "completions_avg": 22.4,
+        "last3_completions_avg": 25.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 15,
+          "game_id": "2025_15_GB_DEN",
+          "opponent": "DEN",
+          "passing_yards": 276.0,
+          "attempts": 40.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_GB_CHI",
+          "opponent": "CHI",
+          "passing_yards": 77.0,
+          "attempts": 13.0,
+          "completions": 8.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_GB_MIN",
+          "opponent": "MIN",
+          "passing_yards": 387.0,
+          "attempts": 42.0,
+          "completions": 21.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_GB_NYJ",
+          "opponent": "NYJ",
+          "passing_yards": 145.0,
+          "attempts": 29.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_ATL_GB",
+          "opponent": "ATL",
+          "passing_yards": 312.0,
+          "attempts": 53.0,
+          "completions": 28.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_GB_TB",
+          "opponent": "TB",
+          "passing_yards": 197.0,
+          "attempts": 30.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_CHI_GB",
+          "opponent": "CHI",
+          "passing_yards": 367.0,
+          "attempts": 31.0,
+          "completions": 25.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0033077",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "opponent": "GB",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_DAL_GB",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 258.98,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 34.67,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 22.8,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.155
+      },
+      "season_context": {
+        "passing_yards_avg": 276.2,
+        "last3_passing_yards_avg": 309.0,
+        "attempts_avg": 38.4,
+        "last3_attempts_avg": 42.33,
+        "completions_avg": 25.8,
+        "last3_completions_avg": 27.0
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_DAL_WAS",
+          "opponent": "WAS",
+          "passing_yards": 307.0,
+          "attempts": 37.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_DAL_NYG",
+          "opponent": "NYG",
+          "passing_yards": 70.0,
+          "attempts": 11.0,
+          "completions": 7.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_DAL_NYG",
+          "opponent": "NYG",
+          "passing_yards": 175.0,
+          "attempts": 34.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_WAS_DAL",
+          "opponent": "WAS",
+          "passing_yards": 279.0,
+          "attempts": 31.0,
+          "completions": 26.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_BAL_DAL",
+          "opponent": "BAL",
+          "passing_yards": 276.0,
+          "attempts": 40.0,
+          "completions": 25.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_DAL_HOU",
+          "opponent": "HOU",
+          "passing_yards": 335.0,
+          "attempts": 45.0,
+          "completions": 32.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_TB_DAL",
+          "opponent": "TB",
+          "passing_yards": 316.0,
+          "attempts": 42.0,
+          "completions": 24.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0037834",
+      "name": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
+      "opponent": "WAS",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_WAS_SF",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xs2fyj1sqdgwvt9ihbri",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "not_listed_in_available_team_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true,
+        "practice_status": null,
+        "practice_injury": null,
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 246.62,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 30.01,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 20.11,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 8.076
+      },
+      "season_context": {
+        "passing_yards_avg": 239.2,
+        "last3_passing_yards_avg": 234.67,
+        "attempts_avg": 28.4,
+        "last3_attempts_avg": 28.67,
+        "completions_avg": 19.6,
+        "last3_completions_avg": 17.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_CHI_SF",
+          "opponent": "CHI",
+          "passing_yards": 303.0,
+          "attempts": 33.0,
+          "completions": 24.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_SEA_SF",
+          "opponent": "SEA",
+          "passing_yards": 127.0,
+          "attempts": 27.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_SF_LA",
+          "opponent": "LA",
+          "passing_yards": 205.0,
+          "attempts": 34.0,
+          "completions": 25.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_MIA_SF",
+          "opponent": "MIA",
+          "passing_yards": 287.0,
+          "attempts": 22.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_ARI_SF",
+          "opponent": "ARI",
+          "passing_yards": 297.0,
+          "attempts": 27.0,
+          "completions": 15.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_DEN_SF",
+          "opponent": "DEN",
+          "passing_yards": 218.0,
+          "attempts": 30.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_SF_SEA",
+          "opponent": "SEA",
+          "passing_yards": 189.0,
+          "attempts": 29.0,
+          "completions": 19.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039910",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "team": "WAS",
+      "opponent": "SF",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_WAS_SF",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gfz8k5onuqjrche9ogqc",
+      "generated_at": "2026-10-16T18:21:31.987434+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "No game designation",
+        "basis": "untimed_current_week_report",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Report update time is unavailable.",
+        "conditional_on_expected_role": true,
+        "practice_status": "Full Participation in Practice",
+        "practice_injury": "Elbow",
+        "practice_review_required": false,
+        "report_time_verified": false,
+        "injury_feed_file_saved_at": "2026-10-16T13:27:31.187597+00:00"
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 176.96,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 27.14,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 16.76,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.391
+      },
+      "season_context": {
+        "passing_yards_avg": 153.0,
+        "last3_passing_yards_avg": 153.0,
+        "attempts_avg": 25.33,
+        "last3_attempts_avg": 25.33,
+        "completions_avg": 15.33,
+        "last3_completions_avg": 15.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 6,
+          "game_id": "2025_06_CHI_WAS",
+          "opponent": "CHI",
+          "passing_yards": 211.0,
+          "attempts": 26.0,
+          "completions": 19.0
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "game_id": "2025_07_WAS_DAL",
+          "opponent": "DAL",
+          "passing_yards": 156.0,
+          "attempts": 22.0,
+          "completions": 12.0
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "game_id": "2025_09_SEA_WAS",
+          "opponent": "SEA",
+          "passing_yards": 153.0,
+          "attempts": 22.0,
+          "completions": 16.0
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "game_id": "2025_14_WAS_MIN",
+          "opponent": "MIN",
+          "passing_yards": 78.0,
+          "attempts": 20.0,
+          "completions": 9.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_WAS_PHI",
+          "opponent": "PHI",
+          "passing_yards": 164.0,
+          "attempts": 34.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_WAS_DAL",
+          "opponent": "DAL",
+          "passing_yards": 96.0,
+          "attempts": 17.0,
+          "completions": 11.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_NYG_WAS",
+          "opponent": "NYG",
+          "passing_yards": 199.0,
+          "attempts": 25.0,
+          "completions": 17.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0039732",
+      "name": "Bo Nix",
+      "position": "QB",
+      "team": "DEN",
+      "opponent": "SEA",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_SEA_DEN",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvo9xatffmqn9lnukpgk",
+      "generated_at": "2026-10-15T23:53:32.761277+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "current_week_team_report_unavailable",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 210.52,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 31.06,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.7,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 6.576
+      },
+      "season_context": {
+        "passing_yards_avg": 188.4,
+        "last3_passing_yards_avg": 174.33,
+        "attempts_avg": 32.4,
+        "last3_attempts_avg": 34.33,
+        "completions_avg": 19.4,
+        "last3_completions_avg": 19.33
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_DEN_KC",
+          "opponent": "KC",
+          "passing_yards": 182.0,
+          "attempts": 38.0,
+          "completions": 26.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_LAC_DEN",
+          "opponent": "LAC",
+          "passing_yards": 141.0,
+          "attempts": 23.0,
+          "completions": 14.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_DEN_KC",
+          "opponent": "KC",
+          "passing_yards": 131.0,
+          "attempts": 28.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "game_id": "2026_02_JAX_DEN",
+          "opponent": "JAX",
+          "passing_yards": 288.0,
+          "attempts": 31.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_LA_DEN",
+          "opponent": "LA",
+          "passing_yards": 186.0,
+          "attempts": 34.0,
+          "completions": 17.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_DEN_SF",
+          "opponent": "SF",
+          "passing_yards": 214.0,
+          "attempts": 42.0,
+          "completions": 25.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_DEN_LAC",
+          "opponent": "LAC",
+          "passing_yards": 123.0,
+          "attempts": 27.0,
+          "completions": 16.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    },
+    {
+      "player_id": "00-0034869",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "SEA",
+      "opponent": "DEN",
+      "season": 2026,
+      "week": 6,
+      "game_id": "2026_06_SEA_DEN",
+      "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fyay8vruj0cqmhopufzk",
+      "generated_at": "2026-10-15T23:53:32.761277+00:00",
+      "role": {
+        "tier": "Expected QB",
+        "confidence": "Starter unconfirmed",
+        "usage_trend": null
+      },
+      "availability": {
+        "status": "Unknown",
+        "basis": "current_week_team_report_unavailable",
+        "report_timestamp": null,
+        "selection_source": "depth_qb1",
+        "selection_reason": "Listed QB1; starter unconfirmed. Availability is unverified.",
+        "conditional_on_expected_role": true
+      },
+      "projection": {
+        "passing_yards": {
+          "value": 223.93,
+          "low": null,
+          "high": null
+        },
+        "attempts": {
+          "value": 30.13,
+          "low": null,
+          "high": null
+        },
+        "completions": {
+          "value": 19.28,
+          "low": null,
+          "high": null
+        },
+        "yards_per_attempt": 7.296
+      },
+      "season_context": {
+        "passing_yards_avg": 188.75,
+        "last3_passing_yards_avg": 247.33,
+        "attempts_avg": 24.5,
+        "last3_attempts_avg": 32.0,
+        "completions_avg": 15.75,
+        "last3_completions_avg": 20.67
+      },
+      "recent_games": [
+        {
+          "season": 2025,
+          "week": 16,
+          "game_id": "2025_16_LA_SEA",
+          "opponent": "LA",
+          "passing_yards": 270.0,
+          "attempts": 34.0,
+          "completions": 22.0
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "game_id": "2025_17_SEA_CAR",
+          "opponent": "CAR",
+          "passing_yards": 147.0,
+          "attempts": 27.0,
+          "completions": 18.0
+        },
+        {
+          "season": 2025,
+          "week": 18,
+          "game_id": "2025_18_SEA_SF",
+          "opponent": "SF",
+          "passing_yards": 198.0,
+          "attempts": 26.0,
+          "completions": 20.0
+        },
+        {
+          "season": 2026,
+          "week": 1,
+          "game_id": "2026_01_NE_SEA",
+          "opponent": "NE",
+          "passing_yards": 13.0,
+          "attempts": 2.0,
+          "completions": 1.0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "game_id": "2026_03_SEA_WAS",
+          "opponent": "WAS",
+          "passing_yards": 379.0,
+          "attempts": 45.0,
+          "completions": 31.0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "game_id": "2026_04_LAC_SEA",
+          "opponent": "LAC",
+          "passing_yards": 168.0,
+          "attempts": 22.0,
+          "completions": 13.0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "game_id": "2026_05_SF_SEA",
+          "opponent": "SF",
+          "passing_yards": 195.0,
+          "attempts": 29.0,
+          "completions": 18.0
+        }
+      ],
+      "market": {},
+      "matchup": {
+        "label": "Not rated",
+        "index": null
+      },
+      "model": {
+        "direct_model": "RF",
+        "direct_weight": 1.0,
+        "trained_through_season": 2025,
+        "selection_validation_season": 2025,
+        "prediction_interval_available": false,
+        "note": "Passing yards use the validation-selected direct/component blend. Attempts and completions are companion forecasts."
+      }
+    }
+  ],
+  "retained_pregame_forecasts": 2,
+  "excluded_candidates": []
+}

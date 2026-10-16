@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Players | Pocket Signal</title>
+
+    <meta
+        name="description"
+        content="Pocket Signal NFL player projections, recent performance, usage, and matchup intelligence."
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css?v=14"
+    >
+
+    <link
+        rel="stylesheet"
+        href="players.css?v=10-header"
+    >
+
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <button
+                id="homeButton"
+                class="brand-button"
+                type="button"
+                aria-label="Pocket Signal home"
+                onclick="window.location.href='index.html'"
+            >
+
+                <img
+                    src="assets/pocket_signal_logo_transparent.png?v=1"
+                    alt="Pocket Signal"
+                    class="brand-logo"
+                >
+
+            </button>
+
+            <nav
+                class="header-nav"
+                id="mainNav"
+            >
+
+                <a
+                    class="nav-item"
+                    href="index.html"
+                >
+                    Games
+                </a>
+
+                <a
+                    class="nav-item active"
+                    href="players.html"
+                >
+                    Players
+                </a>
+
+                <a
+                    class="nav-item"
+                    href="results.html"
+                >
+                    Track Record
+                </a>
+
+                <a
+                    class="nav-item"
+                    href="teams.html"
+                >
+                    Teams
+                </a>
+
+                <a
+                    class="nav-item"
+                    href="how-it-works.html"
+                >
+                    How It Works
+                </a>
+
+            </nav>
+
+            <button
+                class="mobile-menu-button"
+                id="mobileMenuButton"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- =====================================================
+         MAIN PAGE
+    ====================================================== -->
+
+    <main class="players-page">
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="players-hero">
+
+            <div class="players-hero-copy">
+
+                <div class="section-kicker">
+                    PLAYER INTELLIGENCE
+                </div>
+
+                <h1>This week’s <span>player outlook.</span></h1>
+
+                <p class="players-intro">Compare player projections, recent performance, workload, and available market lines.</p>
+                <p class="players-projection-note">Projections are estimates, not exact outcomes. Use them alongside other forecasts, injury updates, and matchup information to form your own outlook.</p>
+
+            </div>
+
+            <div class="players-hero-meta">
+
+                <div class="hero-stat">
+
+                    <span
+                        class="hero-stat-value"
+                        id="playerCount"
+                    >
+                        —
+                    </span>
+
+                    <span class="hero-stat-label">
+                        Players covered
+                    </span>
+
+                </div>
+
+                <div class="hero-stat">
+                    <span class="hero-stat-value slate-week">Week 6</span>
+                    <span class="hero-stat-label">2026 season</span>
+                </div>
+                <div class="hero-stat">
+                    <time class="hero-stat-value hero-update-time" id="latestProjectionUpdate">—</time>
+                    <span class="hero-stat-label">Latest projection update</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =================================================
+             SEARCH + FILTERS
+        ================================================== -->
+
+        <section class="player-controls">
+
+            <div class="player-search-wrap">
+
+                <input
+                    type="text"
+                    id="playerSearch"
+                    aria-label="Search players or teams"
+                    class="player-search"
+                    placeholder="Search player or team..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+            <div class="filter-row">
+
+                <select
+                    id="positionFilter"
+                    aria-label="Filter by position"
+                    class="player-filter"
+                >
+
+                    <option value="ALL">
+                        All Positions
+                    </option>
+
+                    <option value="QB">Quarterbacks</option>
+                    <option value="RB">Running Backs</option>
+
+                    <option value="WR">
+                        Wide Receivers
+                    </option>
+
+                    <option value="TE">
+                        Tight Ends
+                    </option>
+
+                </select>
+
+                <select
+                    id="sortFilter"
+                    aria-label="Sort players"
+                    class="player-filter"
+                >
+
+                    <option value="yards">
+                        Projected Yards
+                    </option>
+
+                    <option value="targets">
+                        Projected Targets
+                    </option>
+
+                    <option value="receptions">
+                        Projected Receptions
+                    </option>
+
+                    <option value="rb_receiving_yards" hidden disabled>Projected Receiving Yards</option>
+
+                    <option value="name" selected>
+                        Player Name
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+        <!-- =================================================
+             PLAYER WORKSPACE
+        ================================================== -->
+
+        <p id="projectionDataStatus" class="projection-data-status" role="status" aria-live="polite"></p>
+
+        <section class="players-layout">
+
+            <!-- =============================================
+                 PLAYER BOARD
+            ============================================== -->
+
+            <aside class="player-list-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+
+                        <span class="panel-kicker slate-week">
+                            Week 6
+                        </span>
+
+                        <h2>
+                            Player Board
+                        </h2>
+
+                    </div>
+
+                    <span
+                        class="visible-player-count" aria-live="polite"
+                        id="visiblePlayerCount"
+                    >
+                        —
+                    </span>
+
+                </div>
+
+                <div
+                    class="player-list"
+                    id="playerList"
+                >
+
+                    <div class="loading-state">
+                        Loading player projections...
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <!-- =============================================
+                 PLAYER DETAIL
+            ============================================== -->
+
+            <section
+                class="player-detail-panel"
+                id="playerDetailPanel"
+            >
+
+                <div class="empty-player-state">
+
+                    <div class="empty-player-icon">
+                        PS
+                    </div>
+
+                    <h2>
+                        Select a player
+                    </h2>
+
+                    <p>
+                        Choose a player from the board to explore
+                        Pocket Signal's projection and the factors
+                        behind it.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- =====================================================
+         PLAYER DETAIL TEMPLATE
+    ====================================================== -->
+
+    <template id="playerDetailTemplate">
+
+        <div class="player-detail">
+
+            <!-- =============================================
+                 PLAYER IDENTITY
+            ============================================== -->
+
+            <div class="player-detail-header">
+
+                <div class="player-identity">
+
+                    <div class="player-headshot-wrap">
+
+                        <img
+                            class="player-headshot"
+                            alt=""
+                        >
+
+                        <div class="player-headshot-fallback">
+                            PS
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="player-team-line">
+
+                            <span class="detail-position">
+                            </span>
+
+                            <span class="detail-team">
+                            </span>
+
+                            <span class="detail-matchup">
+                            </span>
+
+                        </div>
+
+                        <h2 class="detail-name">
+                        </h2>
+
+                        <div class="detail-badges">
+
+                            <span class="detail-role badge">
+                            </span>
+
+                            <span class="detail-confidence badge">
+                            </span>
+
+                            <span class="detail-trend badge">
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="player-primary-projection">
+
+                    <span class="projection-eyebrow">
+                        POCKET SIGNAL
+                    </span>
+
+                    <strong class="detail-yards">
+                    </strong>
+
+                    <span class="projection-unit">
+                        Receiving Yards
+                    </span>
+
+                    <span class="projection-range detail-yard-range">
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- =============================================
+                 POCKET SIGNAL VS MARKET
+            ============================================== -->
+
+            <div class="player-insight-card">
+
+                <span class="panel-kicker">
+                    WEEKLY OUTLOOK
+                </span>
+
+                <h3>
+                    What stands out this week
+                </h3>
+
+                <ul class="detail-reasons">
+                </ul>
+
+                <div class="model-read-divider"></div>
+
+                <p class="detail-summary">
+                </p>
+
+                <div class="confidence-explainer">
+                    <strong class="confidence-explainer-title">
+                        About confidence
+                    </strong>
+
+                    <span class="confidence-explainer-text">
+                        Confidence describes how established the player's workload and recent history are.
+                        It is not the probability that the player will finish at the projected number.
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="comparison-grid">
+
+                <div class="comparison-card">
+
+                    <span class="comparison-label">
+                        Our projection
+                    </span>
+
+                    <strong class="comparison-ps-yards">
+                    </strong>
+
+                    <span class="comparison-sub">
+                        Receiving yards projection
+                    </span>
+
+                </div>
+
+                <div class="comparison-card market-card">
+
+                    <span class="comparison-label">
+                        Market line
+                    </span>
+
+                    <strong class="comparison-market-yards">
+                        —
+                    </strong>
+
+                    <span class="comparison-sub market-status">
+                        Market data not connected
+                    </span>
+
+                </div>
+
+                <div class="comparison-card">
+
+                    <span class="comparison-label">
+                        Difference vs. market
+                    </span>
+
+                    <strong class="comparison-gap">
+                        —
+                    </strong>
+
+                    <span class="comparison-sub">
+                        Our projection minus the line
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="benchmark-explainer">
+                <strong>How to read this comparison</strong>
+                <span>
+                    Pocket Signal is the model's central estimate. Market Benchmark is an external reference point when available.
+                    Projection Gap is the numerical difference between the two — not a recommendation.
+                </span>
+            </div>
+
+            <!-- =============================================
+                 METRIC SELECTOR
+            ============================================== -->
+
+            <div class="metric-tabs" role="group" aria-label="Chart metric">
+
+                <button
+                    class="metric-tab active"
+                    data-metric="receiving_yards" aria-pressed="true"
+                    type="button"
+                >
+                    Receiving Yards
+                </button>
+
+                <button
+                    class="metric-tab"
+                    data-metric="receptions" aria-pressed="false"
+                    type="button"
+                >
+                    Receptions
+                </button>
+
+                <button
+                    class="metric-tab"
+                    data-metric="targets" aria-pressed="false"
+                    type="button"
+                >
+                    Targets
+                </button>
+
+            </div>
+
+            <!-- =============================================
+                 RECENT PERFORMANCE CHART
+            ============================================== -->
+
+            <div class="player-chart-card">
+
+                <div class="chart-header">
+
+                    <div>
+
+                        <span class="panel-kicker">
+                            RECENT PERFORMANCE
+                        </span>
+
+                        <h3 class="chart-title">
+                            Receiving Yards
+                        </h3>
+
+                    </div>
+
+                    <div class="chart-legend" aria-label="Chart legend">
+                        <span class="legend-item"><span class="legend-dot actual-dot"></span>Actual Result</span>
+                        <span class="legend-item"><span class="legend-dot projection-dot"></span>Pocket Signal Projection</span>
+                        <span class="legend-item"><span class="legend-whisker"></span>Historical uncertainty</span>
+                    </div>
+                </div>
+
+                <div
+                    class="projection-chart"
+                    id="projectionChart"
+                >
+                </div>
+
+                <div class="chart-reference-key" aria-label="Chart reference values"></div>
+                <details class="chart-data-table"><summary>View chart values</summary><div class="chart-table-wrap"></div></details>
+                <div class="chart-interpretation">
+
+                    <div class="chart-readout">
+                        <span class="chart-readout-label">
+                            CURRENT MODEL READ
+                        </span>
+                        <strong class="chart-readout-main">
+                            —
+                        </strong>
+                    </div>
+
+                    <div class="chart-readout">
+                        <span class="chart-readout-label">
+                            HISTORICAL UNCERTAINTY
+                        </span>
+                        <strong class="chart-readout-range">
+                            —
+                        </strong>
+                    </div>
+
+                    <div class="chart-readout-note">
+                        <strong>How to read this chart</strong>
+                        <p class="chart-explanation"></p>
+                        <p class="chart-uncertainty-note">The whisker uses the middle roughly 80% of historical forecast errors for this position.
+                        It is a guide to past model uncertainty, not a guaranteed range for this player or game.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- =============================================
+                 PROJECTION BUILD
+            ============================================== -->
+
+            <div class="component-section">
+
+                <div class="section-heading-small">
+
+                    <span class="panel-kicker">
+                        PROJECTION BUILD
+                    </span>
+
+                    <h3>
+                        How Pocket Signal gets there
+                    </h3>
+
+                </div>
+
+                <div class="component-grid">
+
+                    <div class="component-card">
+
+                        <span>
+                            Projected Targets
+                        </span>
+
+                        <strong class="component-targets">
+                        </strong>
+
+                        <small class="component-target-range">
+                        </small>
+
+                    </div>
+
+                    <div class="component-arrow">
+                        →
+                    </div>
+
+                    <div class="component-card">
+
+                        <span>
+                            Projected Receptions
+                        </span>
+
+                        <strong class="component-receptions">
+                        </strong>
+
+                        <small class="component-reception-range">
+                        </small>
+
+                    </div>
+
+                    <div class="component-arrow">
+                        →
+                    </div>
+
+                    <div class="component-card">
+
+                        <span>
+                            Projected Yards / Catch
+                        </span>
+
+                        <strong class="component-ypr">
+                        </strong>
+
+                        <small>
+                            Efficiency estimate
+                        </small>
+
+                    </div>
+
+                    <div class="component-arrow">
+                        =
+                    </div>
+
+                    <div class="component-card component-final">
+
+                        <span>
+                            Receiving Yards
+                        </span>
+
+                        <strong class="component-yards">
+                        </strong>
+
+                        <small>
+                            Final projection
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- =============================================
+                 PLAYER CONTEXT
+            ============================================== -->
+
+            <div class="context-grid">
+
+                <div class="context-card">
+
+                    <span class="context-label">
+                        Season Avg
+                    </span>
+
+                    <strong class="context-season-yards">
+                    </strong>
+
+                    <small>
+                        Receiving yards
+                    </small>
+
+                </div>
+
+                <div class="context-card">
+
+                    <span class="context-label">
+                        Last 3 Avg
+                    </span>
+
+                    <strong class="context-last3-yards">
+                    </strong>
+
+                    <small>
+                        Receiving yards
+                    </small>
+
+                </div>
+
+                <div class="context-card">
+
+                    <span class="context-label">
+                        Target Share
+                    </span>
+
+                    <strong class="context-target-share">
+                    </strong>
+
+                    <small>
+                        Season average
+                    </small>
+
+                </div>
+
+                <div class="context-card">
+
+                    <span class="context-label">
+                        Matchup
+                    </span>
+
+                    <strong class="context-matchup">
+                    </strong>
+
+                    <small class="context-matchup-index">
+                    </small>
+
+                </div>
+
+            </div>
+
+            <!-- =============================================
+                 POCKET SIGNAL READ
+            ============================================== -->
+
+        </div>
+
+    </template>
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <span>
+            Pocket Signal
+        </span>
+
+        <span>
+            Read the coverage. Make the play.
+        </span>
+
+    </footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="players.js?v=10-header"></script>
+
+</body>
+
+</html>

@@ -2,11 +2,13 @@
   "metadata": {
     "season": 2026,
     "weeks_available": [
-      5
+      5,
+      6
     ],
     "prototype": true,
     "benchmark_label": "Benchmark Snapshot",
-    "benchmark_note": "Manual benchmark snapshot used for comparison."
+    "benchmark_note": "Manual benchmark snapshot used for comparison.",
+    "last_results_update": "2026-10-16T13:22:10.145450+00:00"
   },
   "games": [
     {
@@ -413,6 +415,147 @@
       "benchmark_margin_error_absolute": 6.0,
       "model_benchmark_gap": 6.0,
       "benchmark_winner_correct": false
+    },
+    {
+      "game_id": "2026_06_SEA_DEN",
+      "season": 2026,
+      "week": 6,
+      "away_team": "SEA",
+      "home_team": "DEN",
+      "away_score": 14,
+      "home_score": 17,
+      "result": "DEN",
+      "model_winner": "DEN",
+      "favorite_win_probability": 60.6,
+      "winner_correct": true,
+      "signal_strength": "Medium",
+      "margin_favorite": "DEN",
+      "projected_margin_absolute": 2.2,
+      "projected_away_score": 22.2,
+      "projected_home_score": 24.4,
+      "projected_total": 46.6,
+      "actual_total": 31,
+      "margin_error_absolute": 0.8,
+      "total_error_absolute": 15.6,
+      "benchmark_favorite": "SEA",
+      "benchmark_margin_absolute": 2.5,
+      "benchmark_margin_error_absolute": 5.5,
+      "model_benchmark_gap": 4.7,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL/OT",
+      "gameday": "2026-10-15",
+      "result_source": "https://www.reuters.com/sports/nfl/broncos-ot-interception-sets-up-winning-field-goal-sinks-seahawks--flm-2026-10-16/",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_SEA_DEN",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "SEA",
+          "home_team": "DEN",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-15",
+          "gametime": "20:15",
+          "location": "Home",
+          "signal_strength": "Medium"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 39.4,
+          "home_win_probability": 60.6,
+          "favorite": "DEN",
+          "favorite_win_probability": 60.6,
+          "margin_favorite": "DEN",
+          "projected_away_score": 22.2,
+          "projected_home_score": 24.4,
+          "projected_margin": 2.2,
+          "projected_margin_absolute": 2.2,
+          "projected_total": 46.6,
+          "signal_strength": "Medium",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -146.0,
+            "home": 124.0,
+            "away_implied_probability": 59.3,
+            "home_implied_probability": 44.6,
+            "away_vig_free_probability": 57.1,
+            "home_vig_free_probability": 42.9
+          },
+          "spread": {
+            "away": -2.5,
+            "home": 2.5,
+            "favorite": "SEA",
+            "line": 2.5
+          },
+          "total": {
+            "line": 40.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 17.7,
+          "margin_difference": 4.7,
+          "total_difference": 6.1
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "DEN",
+          "margin_favorite": "DEN",
+          "market_home_margin": -2.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      }
     }
   ]
 }
