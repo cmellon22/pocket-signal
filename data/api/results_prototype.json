@@ -8,7 +8,7 @@
     "prototype": true,
     "benchmark_label": "Benchmark Snapshot",
     "benchmark_note": "Manual benchmark snapshot used for comparison.",
-    "last_results_update": "2026-10-16T13:22:10.145450+00:00"
+    "last_results_update": "2026-10-19T11:50:46.639505+00:00"
   },
   "games": [
     {
@@ -556,6 +556,1734 @@
         "market_data_available": true,
         "market_game_count": 14
       }
+    },
+    {
+      "game_id": "2026_06_HOU_JAX",
+      "season": 2026,
+      "week": 6,
+      "away_team": "HOU",
+      "home_team": "JAX",
+      "away_score": 34,
+      "home_score": 31,
+      "result": "HOU",
+      "model_winner": "JAX",
+      "favorite_win_probability": 65.0,
+      "winner_correct": false,
+      "signal_strength": "Medium",
+      "margin_favorite": "JAX",
+      "projected_margin_absolute": 4.6,
+      "projected_margin": 4.6,
+      "projected_away_score": 21.5,
+      "projected_home_score": 26.1,
+      "projected_total": 47.6,
+      "actual_total": 65,
+      "margin_error_absolute": 7.6,
+      "total_error_absolute": 17.4,
+      "benchmark_favorite": "JAX",
+      "benchmark_margin_absolute": 2.5,
+      "benchmark_margin_error_absolute": 5.5,
+      "model_benchmark_gap": 2.1,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401872996",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_HOU_JAX",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "HOU",
+          "home_team": "JAX",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "09:30",
+          "location": "Neutral",
+          "signal_strength": "Medium"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 35.0,
+          "home_win_probability": 65.0,
+          "favorite": "JAX",
+          "favorite_win_probability": 65.0,
+          "margin_favorite": "JAX",
+          "projected_away_score": 21.5,
+          "projected_home_score": 26.1,
+          "projected_margin": 4.6,
+          "projected_margin_absolute": 4.6,
+          "projected_total": 47.6,
+          "signal_strength": "Medium",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 122.0,
+            "home": -144.0,
+            "away_implied_probability": 45.0,
+            "home_implied_probability": 59.0,
+            "away_vig_free_probability": 43.3,
+            "home_vig_free_probability": 56.7
+          },
+          "spread": {
+            "away": 2.5,
+            "home": -2.5,
+            "favorite": "JAX",
+            "line": 2.5
+          },
+          "total": {
+            "line": 42.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 8.3,
+          "margin_difference": 2.1,
+          "total_difference": 5.1
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "JAX",
+          "margin_favorite": "JAX",
+          "market_home_margin": 2.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_CHI_ATL",
+      "season": 2026,
+      "week": 6,
+      "away_team": "CHI",
+      "home_team": "ATL",
+      "away_score": 31,
+      "home_score": 23,
+      "result": "CHI",
+      "model_winner": "CHI",
+      "favorite_win_probability": 51.3,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "CHI",
+      "projected_margin_absolute": 0.6,
+      "projected_margin": -0.6,
+      "projected_away_score": 23.8,
+      "projected_home_score": 23.2,
+      "projected_total": 46.9,
+      "actual_total": 54,
+      "margin_error_absolute": 7.4,
+      "total_error_absolute": 7.1,
+      "benchmark_favorite": "ATL",
+      "benchmark_margin_absolute": 3.0,
+      "benchmark_margin_error_absolute": 11.0,
+      "model_benchmark_gap": 3.6,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401872999",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_CHI_ATL",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "CHI",
+          "home_team": "ATL",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 51.3,
+          "home_win_probability": 48.7,
+          "favorite": "CHI",
+          "favorite_win_probability": 51.3,
+          "margin_favorite": "CHI",
+          "projected_away_score": 23.8,
+          "projected_home_score": 23.2,
+          "projected_margin": -0.6,
+          "projected_margin_absolute": 0.6,
+          "projected_total": 46.9,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -166.0,
+            "home": 140.0,
+            "away_implied_probability": 62.4,
+            "home_implied_probability": 41.7,
+            "away_vig_free_probability": 60.0,
+            "home_vig_free_probability": 40.0
+          },
+          "spread": {
+            "away": 3.0,
+            "home": -3.0,
+            "favorite": "ATL",
+            "line": 3.0
+          },
+          "total": {
+            "line": 49.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 8.7,
+          "margin_difference": -3.6,
+          "total_difference": -2.6
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": null,
+            "surface": "fieldturf"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "CHI",
+          "margin_favorite": "CHI",
+          "market_home_margin": 3.0,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_BAL_CLE",
+      "season": 2026,
+      "week": 6,
+      "away_team": "BAL",
+      "home_team": "CLE",
+      "away_score": 10,
+      "home_score": 13,
+      "result": "CLE",
+      "model_winner": "BAL",
+      "favorite_win_probability": 79.0,
+      "winner_correct": false,
+      "signal_strength": "Strong",
+      "margin_favorite": "BAL",
+      "projected_margin_absolute": 8.2,
+      "projected_margin": -8.2,
+      "projected_away_score": 29.7,
+      "projected_home_score": 21.5,
+      "projected_total": 51.2,
+      "actual_total": 23,
+      "margin_error_absolute": 11.2,
+      "total_error_absolute": 28.2,
+      "benchmark_favorite": "BAL",
+      "benchmark_margin_absolute": 4.5,
+      "benchmark_margin_error_absolute": 7.5,
+      "model_benchmark_gap": 3.7,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401872997",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_BAL_CLE",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "BAL",
+          "home_team": "CLE",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 79.0,
+          "home_win_probability": 21.0,
+          "favorite": "BAL",
+          "favorite_win_probability": 79.0,
+          "margin_favorite": "BAL",
+          "projected_away_score": 29.7,
+          "projected_home_score": 21.5,
+          "projected_margin": -8.2,
+          "projected_margin_absolute": 8.2,
+          "projected_total": 51.2,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -225.0,
+            "home": 188.0,
+            "away_implied_probability": 69.2,
+            "home_implied_probability": 34.7,
+            "away_vig_free_probability": 66.6,
+            "home_vig_free_probability": 33.4
+          },
+          "spread": {
+            "away": -4.5,
+            "home": 4.5,
+            "favorite": "BAL",
+            "line": 4.5
+          },
+          "total": {
+            "line": 41.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": -12.4,
+          "margin_difference": -3.7,
+          "total_difference": 9.7
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "BAL",
+          "margin_favorite": "BAL",
+          "market_home_margin": -4.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_TEN_IND",
+      "season": 2026,
+      "week": 6,
+      "away_team": "TEN",
+      "home_team": "IND",
+      "away_score": 26,
+      "home_score": 20,
+      "result": "TEN",
+      "model_winner": "IND",
+      "favorite_win_probability": 64.3,
+      "winner_correct": false,
+      "signal_strength": "Medium",
+      "margin_favorite": "IND",
+      "projected_margin_absolute": 7.9,
+      "projected_margin": 7.9,
+      "projected_away_score": 17.9,
+      "projected_home_score": 25.9,
+      "projected_total": 43.8,
+      "actual_total": 46,
+      "margin_error_absolute": 13.9,
+      "total_error_absolute": 2.2,
+      "benchmark_favorite": "IND",
+      "benchmark_margin_absolute": 6.5,
+      "benchmark_margin_error_absolute": 12.5,
+      "model_benchmark_gap": 1.4,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873003",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_TEN_IND",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "TEN",
+          "home_team": "IND",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Medium"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 35.7,
+          "home_win_probability": 64.3,
+          "favorite": "IND",
+          "favorite_win_probability": 64.3,
+          "margin_favorite": "IND",
+          "projected_away_score": 17.9,
+          "projected_home_score": 25.9,
+          "projected_margin": 7.9,
+          "projected_margin_absolute": 7.9,
+          "projected_total": 43.8,
+          "signal_strength": "Medium",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 275.0,
+            "home": -340.0,
+            "away_implied_probability": 26.7,
+            "home_implied_probability": 77.3,
+            "away_vig_free_probability": 25.7,
+            "home_vig_free_probability": 74.3
+          },
+          "spread": {
+            "away": 6.5,
+            "home": -6.5,
+            "favorite": "IND",
+            "line": 6.5
+          },
+          "total": {
+            "line": 43.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": -10.0,
+          "margin_difference": 1.4,
+          "total_difference": 0.3
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": null,
+            "surface": "fieldturf"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "IND",
+          "margin_favorite": "IND",
+          "market_home_margin": 6.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_NYJ_NE",
+      "season": 2026,
+      "week": 6,
+      "away_team": "NYJ",
+      "home_team": "NE",
+      "away_score": 19,
+      "home_score": 26,
+      "result": "NE",
+      "model_winner": "NE",
+      "favorite_win_probability": 87.3,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "NE",
+      "projected_margin_absolute": 10.7,
+      "projected_margin": 10.7,
+      "projected_away_score": 17.9,
+      "projected_home_score": 28.6,
+      "projected_total": 46.6,
+      "actual_total": 45,
+      "margin_error_absolute": 3.7,
+      "total_error_absolute": 1.6,
+      "benchmark_favorite": "NE",
+      "benchmark_margin_absolute": 7.5,
+      "benchmark_margin_error_absolute": 0.5,
+      "model_benchmark_gap": 3.2,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873001",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_NYJ_NE",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "NYJ",
+          "home_team": "NE",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 12.7,
+          "home_win_probability": 87.3,
+          "favorite": "NE",
+          "favorite_win_probability": 87.3,
+          "margin_favorite": "NE",
+          "projected_away_score": 17.9,
+          "projected_home_score": 28.6,
+          "projected_margin": 10.7,
+          "projected_margin_absolute": 10.7,
+          "projected_total": 46.6,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 290.0,
+            "home": -360.0,
+            "away_implied_probability": 25.6,
+            "home_implied_probability": 78.3,
+            "away_vig_free_probability": 24.7,
+            "home_vig_free_probability": 75.3
+          },
+          "spread": {
+            "away": 7.5,
+            "home": -7.5,
+            "favorite": "NE",
+            "line": 7.5
+          },
+          "total": {
+            "line": 43.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 12.0,
+          "margin_difference": 3.2,
+          "total_difference": 3.1
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "fieldturf"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "NE",
+          "margin_favorite": "NE",
+          "market_home_margin": 7.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_NO_NYG",
+      "season": 2026,
+      "week": 6,
+      "away_team": "NO",
+      "home_team": "NYG",
+      "away_score": 34,
+      "home_score": 27,
+      "result": "NO",
+      "model_winner": "NYG",
+      "favorite_win_probability": 60.5,
+      "winner_correct": false,
+      "signal_strength": "Weak",
+      "margin_favorite": "NO",
+      "projected_margin_absolute": 1.3,
+      "projected_margin": -1.3,
+      "projected_away_score": 22.6,
+      "projected_home_score": 21.3,
+      "projected_total": 43.9,
+      "actual_total": 61,
+      "margin_error_absolute": 5.7,
+      "total_error_absolute": 17.1,
+      "benchmark_favorite": "NO",
+      "benchmark_margin_absolute": 1.5,
+      "benchmark_margin_error_absolute": 5.5,
+      "model_benchmark_gap": 0.2,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873000",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_NO_NYG",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "NO",
+          "home_team": "NYG",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 39.5,
+          "home_win_probability": 60.5,
+          "favorite": "NYG",
+          "favorite_win_probability": 60.5,
+          "margin_favorite": "NO",
+          "projected_away_score": 22.6,
+          "projected_home_score": 21.3,
+          "projected_margin": -1.3,
+          "projected_margin_absolute": 1.3,
+          "projected_total": 43.9,
+          "signal_strength": "Weak",
+          "models_agree": false,
+          "coherence_status": "CONFLICT"
+        },
+        "market": {
+          "moneyline": {
+            "away": -110.0,
+            "home": -106.0,
+            "away_implied_probability": 52.4,
+            "home_implied_probability": 51.5,
+            "away_vig_free_probability": 50.4,
+            "home_vig_free_probability": 49.6
+          },
+          "spread": {
+            "away": -1.5,
+            "home": 1.5,
+            "favorite": "NO",
+            "line": 1.5
+          },
+          "total": {
+            "line": 45.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 10.9,
+          "margin_difference": 0.2,
+          "total_difference": -1.6
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "fieldturf"
+          }
+        },
+        "internal": {
+          "model_disagreement": "YES",
+          "models_agree": false,
+          "coherence_status": "CONFLICT",
+          "probability_favorite": "NYG",
+          "margin_favorite": "NO",
+          "market_home_margin": -1.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_CAR_PHI",
+      "season": 2026,
+      "week": 6,
+      "away_team": "CAR",
+      "home_team": "PHI",
+      "away_score": 25,
+      "home_score": 14,
+      "result": "CAR",
+      "model_winner": "CAR",
+      "favorite_win_probability": 55.4,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "CAR",
+      "projected_margin_absolute": 2.3,
+      "projected_margin": -2.3,
+      "projected_away_score": 24.8,
+      "projected_home_score": 22.5,
+      "projected_total": 47.3,
+      "actual_total": 39,
+      "margin_error_absolute": 8.7,
+      "total_error_absolute": 8.3,
+      "benchmark_favorite": "PHI",
+      "benchmark_margin_absolute": 1.5,
+      "benchmark_margin_error_absolute": 12.5,
+      "model_benchmark_gap": 3.8,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401872998",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_CAR_PHI",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "CAR",
+          "home_team": "PHI",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 55.4,
+          "home_win_probability": 44.6,
+          "favorite": "CAR",
+          "favorite_win_probability": 55.4,
+          "margin_favorite": "CAR",
+          "projected_away_score": 24.8,
+          "projected_home_score": 22.5,
+          "projected_margin": -2.3,
+          "projected_margin_absolute": 2.3,
+          "projected_total": 47.3,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 100.0,
+            "home": -118.0,
+            "away_implied_probability": 50.0,
+            "home_implied_probability": 54.1,
+            "away_vig_free_probability": 48.0,
+            "home_vig_free_probability": 52.0
+          },
+          "spread": {
+            "away": 1.5,
+            "home": -1.5,
+            "favorite": "PHI",
+            "line": 1.5
+          },
+          "total": {
+            "line": 41.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": -7.4,
+          "margin_difference": -3.8,
+          "total_difference": 5.8
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "CAR",
+          "margin_favorite": "CAR",
+          "market_home_margin": 1.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_PIT_TB",
+      "season": 2026,
+      "week": 6,
+      "away_team": "PIT",
+      "home_team": "TB",
+      "away_score": 26,
+      "home_score": 19,
+      "result": "PIT",
+      "model_winner": "PIT",
+      "favorite_win_probability": 62.2,
+      "winner_correct": true,
+      "signal_strength": "Medium",
+      "margin_favorite": "PIT",
+      "projected_margin_absolute": 2.1,
+      "projected_margin": -2.1,
+      "projected_away_score": 23.0,
+      "projected_home_score": 20.9,
+      "projected_total": 43.8,
+      "actual_total": 45,
+      "margin_error_absolute": 4.9,
+      "total_error_absolute": 1.2,
+      "benchmark_favorite": "PIT",
+      "benchmark_margin_absolute": 2.5,
+      "benchmark_margin_error_absolute": 4.5,
+      "model_benchmark_gap": 0.4,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL/OT",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873002",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_PIT_TB",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "PIT",
+          "home_team": "TB",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Medium"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 62.2,
+          "home_win_probability": 37.8,
+          "favorite": "PIT",
+          "favorite_win_probability": 62.2,
+          "margin_favorite": "PIT",
+          "projected_away_score": 23.0,
+          "projected_home_score": 20.9,
+          "projected_margin": -2.1,
+          "projected_margin_absolute": 2.1,
+          "projected_total": 43.8,
+          "signal_strength": "Medium",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -144.0,
+            "home": 122.0,
+            "away_implied_probability": 59.0,
+            "home_implied_probability": 45.0,
+            "away_vig_free_probability": 56.7,
+            "home_vig_free_probability": 43.3
+          },
+          "spread": {
+            "away": -2.5,
+            "home": 2.5,
+            "favorite": "PIT",
+            "line": 2.5
+          },
+          "total": {
+            "line": 40.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": -5.5,
+          "margin_difference": 0.4,
+          "total_difference": 3.3
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "PIT",
+          "margin_favorite": "PIT",
+          "market_home_margin": -2.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_ARI_LA",
+      "season": 2026,
+      "week": 6,
+      "away_team": "ARI",
+      "home_team": "LA",
+      "away_score": 18,
+      "home_score": 16,
+      "result": "ARI",
+      "model_winner": "LA",
+      "favorite_win_probability": 77.9,
+      "winner_correct": false,
+      "signal_strength": "Strong",
+      "margin_favorite": "LA",
+      "projected_margin_absolute": 9.7,
+      "projected_margin": 9.7,
+      "projected_away_score": 20.5,
+      "projected_home_score": 30.2,
+      "projected_total": 50.7,
+      "actual_total": 34,
+      "margin_error_absolute": 11.7,
+      "total_error_absolute": 16.7,
+      "benchmark_favorite": "LA",
+      "benchmark_margin_absolute": 12.5,
+      "benchmark_margin_error_absolute": 14.5,
+      "model_benchmark_gap": 2.8,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873004",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_ARI_LA",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "ARI",
+          "home_team": "LA",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "16:05",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 22.1,
+          "home_win_probability": 77.9,
+          "favorite": "LA",
+          "favorite_win_probability": 77.9,
+          "margin_favorite": "LA",
+          "projected_away_score": 20.5,
+          "projected_home_score": 30.2,
+          "projected_margin": 9.7,
+          "projected_margin_absolute": 9.7,
+          "projected_total": 50.7,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 640.0,
+            "home": -950.0,
+            "away_implied_probability": 13.5,
+            "home_implied_probability": 90.5,
+            "away_vig_free_probability": 13.0,
+            "home_vig_free_probability": 87.0
+          },
+          "spread": {
+            "away": 12.5,
+            "home": -12.5,
+            "favorite": "LA",
+            "line": 12.5
+          },
+          "total": {
+            "line": 52.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": -9.1,
+          "margin_difference": -2.8,
+          "total_difference": -1.8
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "dome",
+            "surface": "matrixturf"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "LA",
+          "margin_favorite": "LA",
+          "market_home_margin": 12.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_LAC_KC",
+      "season": 2026,
+      "week": 6,
+      "away_team": "LAC",
+      "home_team": "KC",
+      "away_score": 6,
+      "home_score": 22,
+      "result": "KC",
+      "model_winner": "KC",
+      "favorite_win_probability": 82.4,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "KC",
+      "projected_margin_absolute": 7.4,
+      "projected_margin": 7.4,
+      "projected_away_score": 20.0,
+      "projected_home_score": 27.4,
+      "projected_total": 47.4,
+      "actual_total": 28,
+      "margin_error_absolute": 8.6,
+      "total_error_absolute": 19.4,
+      "benchmark_favorite": "KC",
+      "benchmark_margin_absolute": 8.5,
+      "benchmark_margin_error_absolute": 7.5,
+      "model_benchmark_gap": 1.1,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873006",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_LAC_KC",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "LAC",
+          "home_team": "KC",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "16:25",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 17.6,
+          "home_win_probability": 82.4,
+          "favorite": "KC",
+          "favorite_win_probability": 82.4,
+          "margin_favorite": "KC",
+          "projected_away_score": 20.0,
+          "projected_home_score": 27.4,
+          "projected_margin": 7.4,
+          "projected_margin_absolute": 7.4,
+          "projected_total": 47.4,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 360.0,
+            "home": -460.0,
+            "away_implied_probability": 21.7,
+            "home_implied_probability": 82.1,
+            "away_vig_free_probability": 20.9,
+            "home_vig_free_probability": 79.1
+          },
+          "spread": {
+            "away": 8.5,
+            "home": -8.5,
+            "favorite": "KC",
+            "line": 8.5
+          },
+          "total": {
+            "line": 42.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 3.3,
+          "margin_difference": -1.1,
+          "total_difference": 4.9
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "KC",
+          "margin_favorite": "KC",
+          "market_home_margin": 8.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_BUF_LV",
+      "season": 2026,
+      "week": 6,
+      "away_team": "BUF",
+      "home_team": "LV",
+      "away_score": 33,
+      "home_score": 30,
+      "result": "BUF",
+      "model_winner": "BUF",
+      "favorite_win_probability": 58.7,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "BUF",
+      "projected_margin_absolute": 6.9,
+      "projected_margin": -6.9,
+      "projected_away_score": 30.4,
+      "projected_home_score": 23.5,
+      "projected_total": 53.9,
+      "actual_total": 63,
+      "margin_error_absolute": 3.9,
+      "total_error_absolute": 9.1,
+      "benchmark_favorite": "BUF",
+      "benchmark_margin_absolute": 5.5,
+      "benchmark_margin_error_absolute": 2.5,
+      "model_benchmark_gap": 1.4,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873005",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_BUF_LV",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "BUF",
+          "home_team": "LV",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "16:25",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 58.7,
+          "home_win_probability": 41.3,
+          "favorite": "BUF",
+          "favorite_win_probability": 58.7,
+          "margin_favorite": "BUF",
+          "projected_away_score": 30.4,
+          "projected_home_score": 23.5,
+          "projected_margin": -6.9,
+          "projected_margin_absolute": 6.9,
+          "projected_total": 53.9,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -250.0,
+            "home": 205.0,
+            "away_implied_probability": 71.4,
+            "home_implied_probability": 32.8,
+            "away_vig_free_probability": 68.5,
+            "home_vig_free_probability": 31.5
+          },
+          "spread": {
+            "away": -5.5,
+            "home": 5.5,
+            "favorite": "BUF",
+            "line": 5.5
+          },
+          "total": {
+            "line": 53.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 9.8,
+          "margin_difference": -1.4,
+          "total_difference": 0.4
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "dome",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "BUF",
+          "margin_favorite": "BUF",
+          "market_home_margin": -5.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_DAL_GB",
+      "season": 2026,
+      "week": 6,
+      "away_team": "DAL",
+      "home_team": "GB",
+      "away_score": 13,
+      "home_score": 23,
+      "result": "GB",
+      "model_winner": "GB",
+      "favorite_win_probability": 51.4,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "GB",
+      "projected_margin_absolute": 0.5,
+      "projected_margin": 0.5,
+      "projected_away_score": 25.9,
+      "projected_home_score": 26.4,
+      "projected_total": 52.3,
+      "actual_total": 36,
+      "margin_error_absolute": 9.5,
+      "total_error_absolute": 16.3,
+      "benchmark_favorite": "GB",
+      "benchmark_margin_absolute": 1.5,
+      "benchmark_margin_error_absolute": 8.5,
+      "model_benchmark_gap": 1.0,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-10-18",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873007",
+      "result_verified_at": "2026-10-19",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_DAL_GB",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "DAL",
+          "home_team": "GB",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-18",
+          "gametime": "20:20",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 48.6,
+          "home_win_probability": 51.4,
+          "favorite": "GB",
+          "favorite_win_probability": 51.4,
+          "margin_favorite": "GB",
+          "projected_away_score": 25.9,
+          "projected_home_score": 26.4,
+          "projected_margin": 0.5,
+          "projected_margin_absolute": 0.5,
+          "projected_total": 52.3,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -106.0,
+            "home": -110.0,
+            "away_implied_probability": 51.5,
+            "home_implied_probability": 52.4,
+            "away_vig_free_probability": 49.6,
+            "home_vig_free_probability": 50.4
+          },
+          "spread": {
+            "away": 1.5,
+            "home": -1.5,
+            "favorite": "GB",
+            "line": 1.5
+          },
+          "total": {
+            "line": 52.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 1.0,
+          "margin_difference": -1.0,
+          "total_difference": -0.2
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "GB",
+          "margin_favorite": "GB",
+          "market_home_margin": 1.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
     }
   ]
 }
