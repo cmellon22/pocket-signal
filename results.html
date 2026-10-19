@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="results.css?v=3">
 </head>
 
-<body>
+<body class="results-overview-layout">
 
   <!-- =====================================================
        HEADER
@@ -86,48 +86,7 @@
        TRACK RECORD HERO
   ====================================================== -->
 
-  <section class="results-hero">
-
-    <div class="results-hero-inner">
-
-      <div>
-
-        <div class="section-kicker">
-          POCKET SIGNAL
-        </div>
-
-        <h1>
-          Track Record
-        </h1>
-
-        <p>
-          Every forecast, graded against what actually happened.
-          Explore where the model has been strongest, where it missed,
-          and how its projections compare with the sportsbook market snapshot.
-        </p>
-
-      </div>
-
-
-      <div class="results-lock-note">
-
-        <span>
-          FORECAST HISTORY
-        </span>
-
-        <strong>
-          Original predictions preserved
-        </strong>
-
-        <small>
-          Results are graded after games finish.
-        </small>
-
-      </div>
-
-    </div>
-
-  </section>
+  <section class="results-hero"><div class="results-hero-inner"><div class="section-kicker">POCKET SIGNAL</div><h1>Track Record</h1><p>See how our forecasts performed.</p><p class="rt-history-note">Original pregame forecasts preserved. Results are graded after games finish.</p></div></section>
 
 
   <!-- =====================================================
@@ -135,59 +94,144 @@
   ====================================================== -->
 
   <main class="page-shell results-shell">
+<!-- POCKET_SIGNAL_TRACK_OVERVIEW_START -->
+<section id="trackRecordOverview" aria-labelledby="trackOverviewTitle">
+  <div class="rt-overview-heading"><div><div class="section-kicker">PERFORMANCE AT A GLANCE</div><h2 id="trackOverviewTitle">Performance overview</h2></div><div id="overviewPlayerWeek"><label class="pg-week-label">PLAYER RESULTS WEEK<select id="playerGapWeek" aria-label="Player market gap results week" disabled><option>Loading…</option></select></label></div></div>
+  <div class="rt-overview-grid">
+    <article id="overallGameCard" class="summary-card rt-game-card" aria-labelledby="overallGameTitle"><div class="summary-label" id="overallGameTitle">Game winner picks</div><p class="rt-scope" id="overallGameScope">Overall · all tracked weeks</p><div class="rt-main-line"><strong id="overallGameRecord" class="rt-record">—</strong><span id="overallGameAccuracy" class="rt-rate">—</span></div><p class="rt-card-detail" id="overallGameSample">Loading the overall record…</p><p class="rt-card-note">Ties stay in the record and are excluded from accuracy.</p></article>
+    <article id="weeklyPlayerCard" class="summary-card rt-player-card" aria-labelledby="weeklyPlayerTitle"><div class="summary-label" id="weeklyPlayerTitle">Top 15 player market gaps</div><p class="rt-scope" id="overviewPlayerScope">Selected week</p><div class="rt-main-line"><strong id="overviewPlayerRecord" class="rt-record">—</strong><span id="overviewPlayerAccuracy" class="rt-rate">—</span></div><p class="rt-card-detail" id="overviewPlayerSample">Loading the weekly player record…</p><p class="rt-unit-line"><strong id="overviewPlayerUnits">—</strong><span>Hypothetical net · 1 unit risked per selection</span></p><p class="rt-card-note" id="overviewPlayerArchive">Pending games are excluded from accuracy and net profit.</p></article>
+  </div>
+  <nav class="rt-jump-links" aria-label="Explore performance results"><a href="#game-results">View game results <span aria-hidden="true">↓</span></a><a href="#player-market-gap-results">View player results <span aria-hidden="true">↓</span></a></nav>
+</section>
+<style id="trackOverviewStyles">
+.results-overview-layout .results-hero-inner{min-height:0;display:block;padding:27px 0 22px}.results-overview-layout .results-hero h1{font-size:clamp(36px,4.5vw,56px);margin:9px 0 0}.results-overview-layout .results-hero p{margin:10px 0 0;font-size:14px}.results-overview-layout .results-hero .rt-history-note{font-size:11px;color:#9eb3c6;margin-top:12px}.results-overview-layout .results-shell{margin-top:22px}.rt-overview-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;margin-bottom:16px}.rt-overview-heading h2{font-size:23px;letter-spacing:-.025em;margin:7px 0 0}.rt-overview-heading .pg-week-label{min-width:180px;font-size:10px;letter-spacing:.08em}.rt-overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.rt-overview-grid .summary-card{padding:24px;border-color:rgba(99,155,210,.35);min-width:0}.rt-overview-grid .rt-player-card{border-color:rgba(68,226,168,.28)}.rt-overview-grid .summary-label{font-size:12px;letter-spacing:.07em}.rt-scope{font-size:12px;color:#b2c6d8;margin:10px 0 0;line-height:1.5}.rt-main-line{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin-top:14px}.rt-record{font-size:clamp(36px,4vw,52px);line-height:1.1;font-weight:800;letter-spacing:-.045em;color:#f3f8ff;font-variant-numeric:tabular-nums}.rt-rate{font-size:22px;font-weight:750;color:#69dcff;font-variant-numeric:tabular-nums}.rt-player-card .rt-rate{color:#44e2a8}.rt-card-detail{font-size:13px;line-height:1.6;margin:12px 0 0;color:#d0e0ee}.rt-card-note{font-size:11px;line-height:1.6;color:#96afc4;margin:10px 0 0}.rt-unit-line{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin:12px 0 0}.rt-unit-line strong{font-size:21px;font-variant-numeric:tabular-nums}.rt-unit-line span{font-size:11px;color:#adc3d5;line-height:1.5}.rt-jump-links{display:flex;gap:12px;margin:17px 0 0;flex-wrap:wrap}.rt-jump-links a{border:1px solid rgba(105,220,255,.25);border-radius:9px;padding:10px 15px;background:rgba(10,31,46,.55);font-size:12px;font-weight:650;color:#b8ecff;text-decoration:none}.rt-jump-links a:hover{border-color:#69dcff;color:white}.rt-jump-links a:focus-visible,.rt-signal-details summary:focus-visible{outline:2px solid #69dcff;outline-offset:4px}.results-overview-layout .pg-summary{display:none}.results-overview-layout .pg-heading{margin-bottom:16px}.results-overview-layout .pg-heading h2{font-size:25px}.results-overview-layout #summaryCards{grid-template-columns:repeat(2,minmax(0,1fr));margin:16px 0 24px}.results-overview-layout #summaryCards .summary-card{padding:16px 19px}.results-overview-layout #summaryCards .summary-value{font-size:27px}.results-overview-layout #summaryCards .summary-card::before{background:#7fb5ea}.results-overview-layout #summaryCards .summary-label{color:#a7c5e0}.results-overview-layout #game-results{scroll-margin-top:105px}.rt-notable-period{font-size:11px;line-height:1.6;color:#9eb4c8;margin:8px 0 12px}.rt-signal-details{border:1px solid rgba(124,166,203,.22);border-radius:14px;background:rgba(12,29,44,.55);margin:32px 0;padding:17px 20px;color:#c5d8e8}.rt-signal-details>summary{font-size:14px;font-weight:650;cursor:pointer}.rt-signal-details .signal-strength-section{margin:22px 0 0}.rt-signal-details .results-section-heading h2{font-size:21px}.rt-signal-details p{font-size:12px}
+@media(max-width:650px){.results-overview-layout .results-hero-inner{padding:22px 0 18px}.results-overview-layout .results-hero p{font-size:13px}.rt-overview-heading{display:block;margin-bottom:13px}.rt-overview-heading h2{font-size:20px}.rt-overview-heading .pg-week-label{margin-top:15px}.rt-overview-grid{grid-template-columns:1fr;gap:12px}.rt-overview-grid .summary-card{padding:19px}.rt-main-line{gap:16px;margin-top:11px}.rt-record{font-size:39px}.rt-rate{font-size:22px}.rt-card-detail{margin-top:9px;font-size:12px}.rt-unit-line{margin-top:9px}.rt-jump-links{gap:9px}.rt-jump-links a{flex:1;text-align:center;padding:10px 8px;white-space:nowrap}.results-overview-layout #summaryCards{gap:9px}.results-overview-layout #summaryCards .summary-card{padding:13px 11px}.results-overview-layout #summaryCards .summary-label{font-size:9px;letter-spacing:.04em}.results-overview-layout #summaryCards .summary-sub{font-size:10px}.results-overview-layout #summaryCards .summary-value{font-size:23px}.rt-signal-details{padding:16px 14px}}
+</style>
+<!-- POCKET_SIGNAL_TRACK_OVERVIEW_END -->
 
 
     <!-- =================================================
          SUMMARY
     ================================================== -->
 
-    <section
-      id="summaryCards"
-      class="summary-grid"
-    ></section>
+    
+
+<!-- POCKET_SIGNAL_PLAYER_GAPS_START -->
+<section id="player-market-gap-results" class="pg-scorecard" aria-labelledby="playerGapTitle" data-results-path="data/api/results_prototype.json">
+  <div class="pg-heading">
+    <div><div class="section-kicker">PLAYER PROP RESULTS</div><h2 id="playerGapTitle">Top 15 Market Gap Results</h2><p>The biggest projection-to-market gaps, graded against the final yards.</p></div>
+  </div>
+  <div id="playerGapContent" aria-live="polite"><p class="pg-muted">Loading the weekly scorecard…</p></div>
+</section>
+<style id="playerGapStyles">
+.pg-scorecard{--pg-cyan:#65e5ff;--pg-green:#44e2a8;--pg-red:#ff6b75;margin:28px 0 42px;padding:26px;border:1px solid rgba(101,229,255,.27);border-radius:22px;background:linear-gradient(145deg,rgba(15,34,51,.94),rgba(6,18,29,.98));box-shadow:0 0 28px rgba(37,191,232,.06);scroll-margin-top:110px;color:#edf6ff;min-width:0}
+.pg-scorecard *{box-sizing:border-box}.pg-table caption{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.pg-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;margin-bottom:22px}.pg-heading h2{font-size:clamp(23px,3vw,30px);line-height:1.2;margin:8px 0 9px}.pg-heading p,.pg-muted{color:#aebdcc;line-height:1.6;font-size:14px;margin:0}.pg-week-label{display:grid;gap:7px;color:#aebdcc;font-size:11px;font-weight:800;letter-spacing:.1em;min-width:158px}.pg-week-label select{color:#f4f8ff;background:#102538;border:1px solid #456174;border-radius:10px;padding:11px 12px;font:600 14px Inter,system-ui,sans-serif;letter-spacing:0;min-height:43px;cursor:pointer;color-scheme:dark}.pg-week-label option{background:#102538;color:#f4f8ff}.pg-scorecard :is(a,select,summary,button):focus-visible{outline:2px solid var(--pg-cyan);outline-offset:4px}
+.pg-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-bottom:15px}.pg-stat{border:1px solid rgba(150,180,207,.15);background:rgba(3,15,26,.5);border-radius:14px;padding:18px 19px}.pg-stat-label{display:block;color:#aebdcc;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.pg-stat strong{display:block;font-size:32px;letter-spacing:-.04em;line-height:1.2;margin:8px 0 6px}.pg-stat small{display:block;color:#aebdcc;font-size:12px;line-height:1.5}.pg-positive{color:var(--pg-green)}.pg-negative{color:var(--pg-red)}.pg-neutral{color:#c6d3df}.pg-progress{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;color:#b8c7d5;font-size:12px;line-height:1.6;margin:0 0 15px}.pg-progress strong{color:#ecf6ff}.pg-book{color:#9edcee}
+.pg-table-wrap{border:1px solid rgba(150,180,207,.14);border-radius:14px;overflow:hidden}.pg-table{border-collapse:collapse;width:100%;table-layout:auto;font-size:13px}.pg-table th{color:#9fb4c7;background:rgba(2,13,22,.5);padding:12px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.07em;text-align:right;white-space:nowrap}.pg-table th:first-child{text-align:left;padding-left:16px}.pg-table td{padding:13px 10px;border-top:1px solid rgba(150,180,207,.1);text-align:right;font-variant-numeric:tabular-nums;vertical-align:middle}.pg-table td:first-child{text-align:left;padding-left:16px}.pg-player{display:flex;gap:12px;align-items:center;min-width:180px}.pg-rank{color:#829aaf;min-width:18px;font-size:12px;font-weight:700}.pg-player strong{display:block;color:#eff6ff;font-size:13px}.pg-player small{display:block;color:#a5b8c9;font-size:11px;margin-top:5px;line-height:1.4}.pg-side{display:block;font-weight:700;white-space:nowrap}.pg-price{display:block;margin-top:5px;color:#91a9bd;font-size:11px}.pg-grade{display:block;font-size:11px;font-weight:800;white-space:nowrap}.pg-profit{display:block;margin-top:5px;font-size:11px;white-space:nowrap}.pg-table a{color:inherit;text-decoration:underline;text-decoration-color:#4f697e;text-underline-offset:4px}.pg-table a:hover{text-decoration-color:var(--pg-cyan)}.pg-table .pg-actual{font-size:16px;font-weight:750}.pg-unit-note{font-size:12px;color:#9fb4c7;line-height:1.6;margin:14px 0 0}.pg-foot{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;flex-wrap:wrap;margin-top:18px}.pg-method{max-width:750px;color:#aebdcc;font-size:12px;line-height:1.7}.pg-method summary{color:#ccdeed;cursor:pointer;font-weight:650}.pg-method p{margin:10px 0 0}.pg-method .pg-provenance{color:#cbd9e5}.pg-board-link{font-size:12px;color:var(--pg-cyan);text-underline-offset:4px;white-space:nowrap}.pg-load-error{padding:18px;background:rgba(255,107,117,.07);border-radius:12px;font-size:14px;color:#cbd9e5;line-height:1.6}.pg-load-error button{font:inherit;border:1px solid #456174;border-radius:8px;padding:7px 13px;background:#102538;color:#f4f8ff;cursor:pointer;margin-top:10px}
+@media(max-width:1000px) and (min-width:701px){.pg-scorecard{padding:20px}.pg-table th,.pg-table td{padding-left:7px;padding-right:7px}.pg-player{min-width:150px;gap:7px}.pg-player strong{font-size:12px}}
+@media(max-width:700px){.pg-scorecard{padding:18px 14px;border-radius:17px;margin-top:20px}.pg-heading{display:block}.pg-week-label{display:flex;align-items:center;gap:12px;margin-top:16px}.pg-week-label select{flex:1;min-width:0}.pg-summary{gap:7px}.pg-stat{padding:12px 6px;border-radius:11px}.pg-stat strong{font-size:clamp(18px,5.7vw,24px);margin:8px 0}.pg-stat-label{font-size:9px;letter-spacing:.04em}.pg-stat small{font-size:10px}.pg-progress{display:block}.pg-progress span{display:block;margin-top:3px}.pg-table-wrap{border:0;overflow:visible}.pg-table,.pg-table tbody{display:block;width:100%}.pg-table thead{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0)}.pg-table tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 8px;background:rgba(3,15,26,.48);border:1px solid rgba(150,180,207,.17);border-radius:13px;padding:15px 12px;margin-top:10px}.pg-table td{display:block;text-align:left!important;padding:0!important;border:0;min-width:0}.pg-table td:first-child{grid-column:1/-1;padding-bottom:9px!important;border-bottom:1px solid rgba(150,180,207,.12)}.pg-table td[data-label]::before{content:attr(data-label);display:block;color:#91a9bd;font-size:9px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}.pg-player{min-width:0;gap:10px}.pg-player strong{font-size:14px}.pg-player small{font-size:11px}.pg-side{font-size:12px}.pg-price,.pg-profit{font-size:10px}.pg-grade{font-size:10px}.pg-table .pg-actual{font-size:16px}.pg-foot{gap:16px}.pg-unit-note{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.pg-scorecard{scroll-behavior:auto}}
+</style>
+<script id="playerGapScript">
+(() => {
+  "use strict";
+  const panel = document.getElementById("player-market-gap-results");
+  if (!panel) return;
+  const select = document.getElementById("playerGapWeek");
+  const content = document.getElementById("playerGapContent");
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
+  const finite = value => typeof value === "number" && Number.isFinite(value);
+  const f1 = value => finite(value) ? value.toFixed(1) : "—";
+  const signed = (value, digits = 1) => finite(value) ? `${value > 0 ? "+" : value < 0 ? "−" : ""}${Math.abs(value).toFixed(digits)}` : "—";
+  const color = value => !finite(value) || value === 0 ? "pg-neutral" : value > 0 ? "pg-positive" : "pg-negative";
+  const price = odds => finite(odds) && Number.isInteger(odds) && Math.abs(odds) >= 100 ? `${odds > 0 ? "+" : "−"}${Math.abs(odds)}` : "Odds unavailable";
+  const profit = (pick, result) => {
+    if (["push", "void"].includes(result.status)) return 0;
+    if (result.status === "lost") return -1;
+    if (result.status !== "won" || !finite(pick.odds) || !Number.isInteger(pick.odds) || Math.abs(pick.odds) < 100) return null;
+    return pick.odds > 0 ? pick.odds / 100 : 100 / -pick.odds;
+  };
+  const metricLabels = {passing_yards:"Passing yards", rushing_yards:"Rushing yards", receiving_yards:"Receiving yards"};
+  let weeks = [];
+  function render() {
+    const week = weeks[Number(select.value)];
+    if (!week || !Array.isArray(week.selections) || week.selections.length !== 15) throw new Error("Incomplete weekly snapshot");
+    const counts = {won:0, lost:0, push:0, void:0, pending:0, review:0};
+    let total = 0, missingOdds = 0;
+    const rows = week.selections.map(pick => {
+      const result = week.results?.[pick.player_id] || {status:"pending", actual_yards:null};
+      if (!Object.hasOwn(counts, result.status)) throw new Error("Unrecognized result");
+      counts[result.status]++;
+      const units = profit(pick, result);
+      if (["won", "lost"].includes(result.status) && (!finite(pick.odds) || !Number.isInteger(pick.odds) || Math.abs(pick.odds) < 100)) missingOdds++;
+      if (finite(units)) total += units;
+      const outcome = {won:"Correct",lost:"Incorrect",push:"Push",void:"Void",pending:"Pending",review:"Needs review"}[result.status];
+      const outcomeClass = result.status === "won" ? "pg-positive" : result.status === "lost" ? "pg-negative" : "pg-neutral";
+      const rawSource = String(result.result_source || "");
+      const source = /^https:\/\/www\.espn\.com\/nfl\/game\/_\/gameId\/\d+$/.test(rawSource) ? rawSource : "";
+      const actual = finite(result.actual_yards) && !["pending","review","void"].includes(result.status) ? esc(String(result.actual_yards)) : "—";
+      const actualHTML = source && actual !== "—" ? `<a href="${esc(source)}" target="_blank" rel="noopener noreferrer" aria-label="View ${esc(pick.name)} game stats">${actual}</a>` : actual;
+      const unitText = ["pending","review"].includes(result.status) ? (result.status === "review" ? "Not graded" : "Awaiting final") : finite(units) ? `${signed(units,2)}u` : "Odds unavailable";
+      return `<tr><td><div class="pg-player"><span class="pg-rank">${esc(pick.rank)}</span><div><strong>${esc(pick.name)}</strong><small>${esc(pick.position)} · ${esc(pick.team)} vs ${esc(pick.opponent)} · ${esc(metricLabels[pick.metric] || pick.metric)}</small></div></div></td><td data-label="Projection">${f1(pick.projection)}</td><td data-label="Market line">${f1(pick.line)}</td><td data-label="Projected side"><span class="pg-side">${pick.side === "over" ? "Over" : "Under"} ${f1(pick.line)}</span><span class="pg-price">${price(pick.odds)}</span></td><td data-label="Market gap" class="${color(pick.gap)}">${signed(pick.gap)}</td><td data-label="Actual yards" class="pg-actual">${actualHTML}</td><td data-label="Result"><span class="pg-grade ${outcomeClass}">${outcome}</span><span class="pg-profit ${finite(units) ? color(units) : "pg-neutral"}">${unitText}</span></td></tr>`;
+    }).join("");
+    const decided = counts.won + counts.lost;
+    const settled = decided + counts.push + counts.void;
+    const hitRate = decided ? `${(100*counts.won/decided).toFixed(1)}%` : "—";
+    const net = missingOdds ? null : total;
+    const books = [...new Set(week.selections.map(p => p.sportsbook || "Source not recorded"))].join(" · ");
+    const pendingText = [counts.pending ? `${counts.pending} pending` : "",counts.review ? `${counts.review} need review` : "",counts.push ? `${counts.push} push${counts.push === 1 ? "" : "es"}` : "",counts.void ? `${counts.void} void` : ""].filter(Boolean).join(" · ");
+    const reconstructed = week.archive_kind === "reconstructed";
+    const provenance = reconstructed ? "Week 6 reconstructed from the saved pregame feeds and FanDuel lines entered October 16. The top 15 was assembled after play; it was not a prospectively locked test." : "The fifteen selections, projections, market lines and prices were locked before every selected game began.";
+    const statusRead = `${settled} of 15 settled${pendingText ? ` · ${pendingText}` : ""}`;
+    const reportTime = new Date(week.results_updated_at || week.created_at);
+    const updated = Number.isNaN(reportTime.getTime()) ? "" : `Results checked ${new Intl.DateTimeFormat("en-US", {month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZone:"America/New_York",timeZoneName:"short"}).format(reportTime)}`;
+    content.innerHTML = `<div class="pg-summary"><article class="pg-stat"><span class="pg-stat-label">Correct / incorrect</span><strong>${counts.won}–${counts.lost}</strong><small>${esc(statusRead)}</small></article><article class="pg-stat"><span class="pg-stat-label">Hit rate</span><strong>${hitRate}</strong><small>${decided ? `${counts.won} of ${decided} decided selections` : "No decided selections yet"}</small></article><article class="pg-stat"><span class="pg-stat-label">Hypothetical net</span><strong class="${color(net)}">${finite(net) ? `${signed(net,2)}u` : "—"}</strong><small>${missingOdds ? "Recorded odds missing; total withheld" : "1 unit risked per selection"}</small></article></div><div class="pg-progress"><span><strong>${esc(week.season)} · Week ${esc(week.week)}</strong> · ${esc(statusRead)}</span><span class="pg-book">${esc(books)}${reconstructed ? " · Reconstructed archive" : " · Pregame snapshot"}</span></div><div class="pg-table-wrap"><table class="pg-table"><caption class="sr-only">Top fifteen players ranked by absolute primary-yards market gap, with projections, original lines and final results.</caption><thead><tr><th scope="col">Player / main stat</th><th scope="col">Projection</th><th scope="col">Market</th><th scope="col">Projected side</th><th scope="col">Gap</th><th scope="col">Actual</th><th scope="col">Result / net</th></tr></thead><tbody>${rows}</tbody></table></div><p class="pg-unit-note">Hypothetical flat stakes at the recorded odds. Net profit uses settled selections only; pending games are excluded. This is model tracking, not an actual betting account.</p><div class="pg-foot"><details class="pg-method"><summary>How this scorecard is calculated</summary><p>Ranked by the absolute difference between projection and market line across all available players. Main stat: QB passing yards, RB rushing yards, WR/TE receiving yards. Positive gap means over; negative gap means under. Equal projections and lines are excluded.</p><p>Correct means the final yards finished on the projected side of the saved line. Hit rate excludes pending games, pushes, voids and unverified stats. A win returns net profit at its recorded American odds; a loss costs 1 unit. Totals use unrounded payouts. Pushes and voids return the stake. Results use observed individual player stats, including overtime.</p><p class="pg-provenance">${esc(provenance)}</p><p>${esc(updated)}. Source: ESPN final box scores; click an actual yardage to view its game. Lines and prices are the original screenshot snapshots, not closing lines. A missing stat requires review and is never treated as zero.</p></details><a class="pg-board-link" href="players.html">View this week’s player board →</a></div>`;
+    const summary = {state:"ready", season:week.season, week:week.week, counts:{...counts}, net_units:net, archive_kind:week.archive_kind};
+    window.pocketSignalPlayerResultsSummary=summary;
+    window.dispatchEvent(new CustomEvent("pocket-signal:player-results",{detail:summary}));
+
+  }
+  async function load() {
+    select.disabled = true;
+    try {
+      const response = await fetch(panel.dataset.resultsPath, {cache:"no-store"});
+      if (!response.ok) throw new Error("Scorecard unavailable");
+      const payload = await response.json();
+      weeks = Array.isArray(payload.player_market_gap_weeks) ? [...payload.player_market_gap_weeks].filter(week => week.selections?.length === 15).sort((a,b) => b.season-a.season || b.week-a.week) : [];
+      if (!weeks.length) {
+        select.replaceChildren(new Option("No saved weeks", ""));
+        content.innerHTML = '<p class="pg-muted">Player scorecards will appear here after a weekly top 15 has been saved.</p>';
+        window.pocketSignalPlayerResultsSummary={state:"empty"};window.dispatchEvent(new CustomEvent("pocket-signal:player-results",{detail:window.pocketSignalPlayerResultsSummary}));
+        return;
+      }
+      select.replaceChildren(...weeks.map((week,index) => new Option(`${week.season} · Week ${week.week}`, String(index))));
+      render();
+      select.disabled = false;
+    } catch (error) {
+      content.innerHTML = '<div class="pg-load-error">The player scorecard could not be loaded. Your game results are shown separately.<br><button type="button" id="playerGapRetry">Try again</button></div>';
+      window.pocketSignalPlayerResultsSummary={state:"error"};window.dispatchEvent(new CustomEvent("pocket-signal:player-results",{detail:window.pocketSignalPlayerResultsSummary}));
+      document.getElementById("playerGapRetry").addEventListener("click", load);
+    }
+  }
+  select.addEventListener("change", () => {try {render();} catch {load();}});
+  load();
+})();
+</script>
+<!-- POCKET_SIGNAL_PLAYER_GAPS_END -->
 
 
     <!-- =================================================
          SIGNAL PERFORMANCE
     ================================================== -->
 
-    <section class="results-section signal-strength-section">
-
-      <div class="results-section-heading">
-
-        <div>
-
-          <div class="section-kicker">
-            CONFIDENCE CHECK
-          </div>
-
-          <h2>
-            Performance by signal strength
-          </h2>
-
-          <p class="signal-strength-explanation">
-            Signal strength reflects Pocket Signal's confidence in its winner forecast.
-            Strong signals represent higher-confidence predictions, while Weak signals
-            indicate closer or more uncertain matchups.
-          </p>
-
-        </div>
-
-      </div>
-
-      <div
-        id="signalPerformance"
-        class="signal-performance-grid"
-      ></div>
-
-    </section>
+    
 
 
     <!-- =================================================
          RESULTS EXPLORER
     ================================================== -->
 
-    <section class="results-toolbar">
+    <section class="results-toolbar" id="game-results">
 
       <div>
 
@@ -195,9 +239,7 @@
           RESULTS EXPLORER
         </div>
 
-        <h2>
-          Model performance
-        </h2>
+        <h2>Game results</h2>
 
         <p class="results-muted">
           Filter the archived forecasts without changing the underlying record.
@@ -265,6 +307,7 @@
       </div>
 
     </section>
+<section id="summaryCards" class="summary-grid" data-overview-errors="true" aria-label="Average errors for filtered game results"></section>
 
 
     <!-- =================================================
@@ -337,9 +380,7 @@
             NOTABLE CALLS
           </div>
 
-          <h2>
-            What stood out
-          </h2>
+          <h2>Overall highlights</h2><p class="rt-notable-period">Across all tracked games.</p>
 
         </div>
 
@@ -418,7 +459,41 @@
     </section>
 
 
-  </main>
+  <!-- POCKET_SIGNAL_SIGNAL_DETAILS_START -->
+<details class="rt-signal-details" id="signalBreakdown"><summary>Game accuracy by signal strength</summary>
+<section class="results-section signal-strength-section">
+
+      <div class="results-section-heading">
+
+        <div>
+
+          <div class="section-kicker">
+            CONFIDENCE CHECK
+          </div>
+
+          <h2>
+            Performance by signal strength
+          </h2>
+
+          <p class="signal-strength-explanation">
+            Signal strength reflects Pocket Signal's confidence in its winner forecast.
+            Strong signals represent higher-confidence predictions, while Weak signals
+            indicate closer or more uncertain matchups.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div
+        id="signalPerformance"
+        class="signal-performance-grid"
+      ></div>
+
+    </section>
+</details>
+<!-- POCKET_SIGNAL_SIGNAL_DETAILS_END -->
+</main>
 
 
   <!-- =====================================================
@@ -473,6 +548,107 @@
         });
     }
 </script>
+<!-- POCKET_SIGNAL_TRACK_OVERVIEW_SCRIPT_START -->
+<script id="trackRecordOverviewScript">
+(() => {
+  "use strict";
+  if (window.pocketSignalOverviewInstalled) return;
+  window.pocketSignalOverviewInstalled = true;
+  const text = (id, value) => {const node=document.getElementById(id);if(node)node.textContent=value;};
+  const finite = value => typeof value === "number" && Number.isFinite(value);
+  const formatPercent = value => finite(value) ? `${value.toFixed(1)}%` : "—";
+  function updateOverall() {
+    const games = typeof allGames !== "undefined" && Array.isArray(allGames) ? allGames.filter(g => g && typeof g.result==="string" && [g.away_team,g.home_team,"TIE"].includes(g.result)) : [];
+    if (!games.length) {text("overallGameRecord","—");text("overallGameAccuracy","—");text("overallGameSample","No graded game results available.");return;}
+    const decided=games.filter(g=>g.result!=="TIE"), wins=decided.filter(g=>g.winner_correct===true).length, ties=games.length-decided.length;
+    text("overallGameRecord",`${wins}–${decided.length-wins}${ties ? `–${ties}` : ""}`);
+    text("overallGameAccuracy",formatPercent(decided.length ? 100*wins/decided.length : null));
+    const seasons=[...new Set(games.map(g=>g.season))].sort((a,b)=>a-b);
+    text("overallGameScope",seasons.length===1 ? `${seasons[0]} · All tracked weeks` : "Overall · All tracked seasons");
+    text("overallGameSample",`${decided.length} decided games${ties ? ` · ${ties} tie${ties===1 ? "" : "s"}` : ""} · ${games.length} total tracked`);
+  }
+  function updatePlayers(value) {
+    if (!value || value.state!=="ready") {
+      text("overviewPlayerRecord","—");text("overviewPlayerAccuracy","—");text("overviewPlayerUnits","—");
+      text("overviewPlayerSample",value?.state==="empty" ? "No weekly player scorecards saved yet." : value?.state==="error" ? "Player results are temporarily unavailable." : "Loading the weekly player record…");
+      return;
+    }
+    const counts=value.counts, decided=counts.won+counts.lost;
+    text("overviewPlayerScope",`${value.season} · Week ${value.week}`);
+    text("overviewPlayerRecord",`${counts.won}–${counts.lost}`);
+    text("overviewPlayerAccuracy",formatPercent(decided ? 100*counts.won/decided : null));
+    const parts=[`${decided} decided selections`];
+    if(counts.pending)parts.push(`${counts.pending} pending`);
+    if(counts.review)parts.push(`${counts.review} need review`);
+    if(counts.push)parts.push(`${counts.push} push${counts.push===1 ? "" : "es"}`);
+    if(counts.void)parts.push(`${counts.void} void`);
+    text("overviewPlayerSample",parts.join(" · "));
+    const units=document.getElementById("overviewPlayerUnits"), net=value.net_units;
+    if(units){units.textContent=finite(net) ? `${net>0 ? "+" : net<0 ? "−" : ""}${Math.abs(net).toFixed(2)}u` : "—";units.style.color=!finite(net)||net===0 ? "#c5d8e8" : net>0 ? "#44e2a8" : "#ff6b75";}
+    text("overviewPlayerArchive",!finite(net) ? "Net return unavailable: recorded odds are missing." : value.archive_kind==="reconstructed" ? "Reconstructed weekly archive · settled selections only" : "Pregame snapshot · settled selections only");
+  }
+  function renderErrors(games) {
+    const node=document.getElementById("summaryCards");if(!node)return;
+    const avg=key=>{const values=games.map(g=>g[key]).filter(finite);return values.length ? values.reduce((a,b)=>a+b,0)/values.length : null;};
+    const cards=[{label:"Average margin error",value:avg("margin_error_absolute"),sub:"Distance from the final point difference"},{label:"Average total-score error",value:avg("total_error_absolute"),sub:"Distance from the final combined score"}];
+    node.innerHTML=cards.map(card=>`<article class="summary-card"><div class="summary-label">${card.label}</div><div class="summary-value">${finite(card.value) ? `${card.value.toFixed(1)} pts` : "—"}</div><div class="summary-sub">${card.sub}</div><div class="summary-hint">${games.length} filtered game${games.length===1 ? "" : "s"} · lower is better</div></article>`).join("");
+    updateOverall();
+  }
+  function renderOverallHighlights() {
+    const node=document.getElementById("notableCalls");if(!node)return;
+    const escape=value=>String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
+    const games=typeof allGames!=="undefined" && Array.isArray(allGames) ? allGames.filter(g=>g && typeof g.result==="string" && [g.away_team,g.home_team,"TIE"].includes(g.result)) : [];
+    if(!games.length){node.innerHTML='<div class="empty-results">No graded games available for overall highlights.</div>';return;}
+    const order=(a,b)=>(a.season-b.season)||(a.week-b.week)||String(a.game_id).localeCompare(String(b.game_id));
+    const margins=games.filter(g=>finite(g.margin_error_absolute));
+    const closest=[...margins].sort((a,b)=>a.margin_error_absolute-b.margin_error_absolute||order(a,b))[0];
+    // A correct winner can still have the largest point-margin error. Include it.
+    const biggest=[...margins].sort((a,b)=>b.margin_error_absolute-a.margin_error_absolute||order(a,b))[0];
+    const underdog=games.filter(g=>g.result!=="TIE" && g.winner_correct===true && g.model_winner!==g.benchmark_favorite)
+      .sort((a,b)=>(finite(b.model_benchmark_gap)?b.model_benchmark_gap:0)-(finite(a.model_benchmark_gap)?a.model_benchmark_gap:0)||order(a,b))[0];
+    const margin=g=>`${escape(g.margin_favorite)} by ${finite(g.projected_margin_absolute)?g.projected_margin_absolute.toFixed(1):"—"}`;
+    const actual=g=>g.result==="TIE" ? "Tie" : `${escape(g.result)} by ${Math.abs(g.home_score-g.away_score)}`;
+    const score=g=>`${escape(g.away_team)} ${escape(g.away_score)} – ${escape(g.home_team)} ${escape(g.home_score)}`;
+    const line=(label,value)=>`<div class="notable-line"><span>${label}</span><strong>${value}</strong></div>`;
+    const card=(role,g,label,body)=>`<article class="notable-card" data-notable-role="${role}" data-notable-game-id="${escape(g.game_id)}"><div class="notable-label">${label}</div><div class="notable-matchup">${escape(g.away_team)} @ ${escape(g.home_team)}</div><p class="rt-notable-period">${escape(g.season)} · Week ${escape(g.week)} · Overall history</p><div class="notable-detail">${body}</div></article>`;
+    const cards=[];
+    if(closest){
+      const exact=closest.margin_error_absolute===0;
+      const separate=closest.model_winner!==closest.margin_favorite;
+      cards.push(card("closest",closest,exact?"EXACT MARGIN PREDICTION":"CLOSEST MARGIN PREDICTION",
+        line("Pocket Signal margin",margin(closest))+line("Actual margin",actual(closest))+line("Final score",score(closest))+
+        `<div class="notable-summary">${exact?'<span class="exact-margin-badge">EXACT MARGIN</span>':`Margin error: ${closest.margin_error_absolute.toFixed(1)} points`}${separate?`<p class="rt-notable-period">Separate winner pick: ${escape(closest.model_winner)} · ${closest.winner_correct?"correct":"incorrect"}.</p>`:""}</div>`));
+    }
+    if(underdog){
+      const probability=finite(underdog.favorite_win_probability)?` ${underdog.favorite_win_probability.toFixed(1)}%`:"";
+      cards.push(card("underdog",underdog,"BEST UNDERDOG WIN PREDICTION",
+        line("Market favorite",`${escape(underdog.benchmark_favorite)} by ${finite(underdog.benchmark_margin_absolute)?underdog.benchmark_margin_absolute.toFixed(1):"—"}`)+
+        line("Pocket Signal winner",escape(underdog.model_winner)+probability)+line("Actual",actual(underdog))+
+        '<div class="notable-summary notable-success">Pocket Signal correctly picked the market underdog to win.</div>'));
+    }
+    if(biggest){
+      cards.push(card("miss",biggest,"LARGEST MARGIN MISS",
+        line("Pocket Signal margin",margin(biggest))+line("Actual margin",actual(biggest))+line("Final score",score(biggest))+
+        `<div class="notable-summary notable-miss">Margin error: ${biggest.margin_error_absolute.toFixed(1)} points.<br><br>Largest absolute margin error across all tracked games.</div>`));
+    }
+    node.innerHTML=cards.join("");
+  }
+  window.renderNotableCalls=renderOverallHighlights;
+
+  // Keep the existing explorer; scope overview cards and highlights to full history.
+  window.renderSummary=renderErrors;
+  if(typeof window.updateWeekOptions==="function") {
+    const previous=window.updateWeekOptions;
+    window.updateWeekOptions=function(){previous();const select=document.getElementById("weekFilter");const weeks=[...select.options].filter(o=>/^\d+$/.test(o.value)).map(o=>Number(o.value));if(weeks.length)select.value=String(Math.max(...weeks));};
+  }
+  window.addEventListener("pocket-signal:player-results",event=>updatePlayers(event.detail));
+  updatePlayers(window.pocketSignalPlayerResultsSummary);
+  updateOverall();
+  // Handle a fast cached response that rendered before this final script ran.
+  if(typeof allGames!=="undefined" && allGames.length && typeof window.render==="function"){window.updateWeekOptions();window.render();}
+})();
+</script>
+<!-- POCKET_SIGNAL_TRACK_OVERVIEW_SCRIPT_END -->
 </body>
 
 </html>
