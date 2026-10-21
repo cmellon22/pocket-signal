@@ -95,6 +95,8 @@ async function loadTeams() {
 
         allTeams =
             payload.teams || [];
+// PS_TEAM_METADATA_EVENT_V1
+document.dispatchEvent(new CustomEvent("ps-team-metadata", {detail: payload}));
 
         render();
 
@@ -605,3 +607,28 @@ teamSort.addEventListener(
 
 
 loadTeams();
+// PS_TEAMS_UI_V1
+(() => {
+ const table=document.querySelector('.ranking-table-card');
+ const heading=document.querySelector('.rankings-heading');
+ if(!table||!heading)return;
+ const frame=document.createElement('div');frame.className='ps-rank-frame';table.before(frame);frame.append(table);
+ const cue=document.createElement('div');cue.className='ps-rank-cue';cue.hidden=true;
+ cue.innerHTML='<span class="ps-swipe-text">Swipe to explore stats →</span><progress max="100" value="0" aria-label="Horizontal table scroll position"></progress>';
+ frame.before(cue);
+ table.tabIndex=0;table.setAttribute('role','region');table.setAttribute('aria-label','Team rankings. Scroll horizontally for more statistics.');
+ const progress=cue.querySelector('progress');
+ function scrollState(){const max=table.scrollWidth-table.clientWidth;const x=Math.max(0,table.scrollLeft);cue.hidden=max<2;progress.value=max>0?100*x/max:0;frame.classList.toggle('ps-more-right',max-x>3);frame.classList.toggle('ps-more-left',x>3);cue.querySelector('span').textContent=max-x>3?'Swipe to explore stats →':'← Swipe back to team rankings';}
+ table.addEventListener('scroll',scrollState,{passive:true});
+ window.addEventListener('resize',scrollState);
+ if(window.ResizeObserver)new ResizeObserver(scrollState).observe(table);
+ const meta=document.createElement('p');meta.className='ps-rank-update';meta.setAttribute('aria-live','polite');heading.before(meta);
+ function showMeta(data){let text=data.through_week?`Updated through Week ${data.through_week}`:'';if(Number.isFinite(data.completed_games))text+=(text?' · ':'')+`${data.completed_games} completed games`;meta.textContent=text;}
+ document.addEventListener('ps-team-metadata',event=>showMeta(event.detail));
+ const help=document.createElement('p');help.className='ps-rank-help';help.hidden=true;help.setAttribute('role','status');cue.after(help);
+ const meanings={POWER:'Power: Pocket Signal’s forward-looking team strength score. It is not the team’s win percentage.',PF:'PF: total points scored this season.',PA:'PA: total points allowed this season.',DIFF:'Diff: points scored minus points allowed. Positive means the team has outscored its opponents.'};
+ const headers=[...document.querySelector('.ranking-table-header').children];
+ for(const cell of headers){const key=cell.textContent.trim();if(!meanings[key])continue;const button=document.createElement('button');button.type='button';button.className='ps-stat-help';button.textContent=key+' ⓘ';button.setAttribute('aria-label',`Explain ${key}`);button.setAttribute('aria-expanded','false');cell.replaceChildren(button);button.addEventListener('click',()=>{const close=!help.hidden&&help.textContent===meanings[key];for(const b of table.querySelectorAll('.ps-stat-help'))b.setAttribute('aria-expanded','false');help.hidden=close;help.textContent=close?'':meanings[key];button.setAttribute('aria-expanded',String(!close));});}
+ function highlight(){const col={power:3,record:4,pointDiff:8,pointsFor:6,pointsAgainst:7,recent:9}[teamSort.value];for(const row of table.querySelectorAll('.ranking-table-header,.ranking-row'))[...row.children].forEach((cell,index)=>cell.classList.toggle('ps-sorted-column',index+1===col));scrollState();}
+ new MutationObserver(highlight).observe(rankingsList,{childList:true});teamSort.addEventListener('change',highlight);highlight();
+})();

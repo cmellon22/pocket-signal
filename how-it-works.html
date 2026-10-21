@@ -41,6 +41,25 @@
         rel="stylesheet"
         href="how-it-works.css?v=1"
     >
+
+<style id="psHowPlayersStyle">
+.ps-how-player-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.ps-how-players .explain-card{border:1px solid rgba(39,214,255,.25);background:linear-gradient(135deg,rgba(39,214,255,.045),rgba(12,29,45,.7));border-radius:14px;padding:24px;min-width:0}
+.ps-how-players .explain-card>span{color:#36d5f3;font-size:10px;font-weight:800;letter-spacing:.1em}
+.ps-how-players .explain-card h3{font-size:20px;line-height:1.35;margin:12px 0}
+.ps-how-players .explain-card p,.ps-how-gap p,.ps-how-player-record p{font-size:14px;line-height:1.8;color:#a9bdce}
+.ps-how-players .explain-card p+p{margin-top:12px}
+.ps-how-gap-demo{padding:25px;border:1px solid rgba(39,214,255,.38);border-radius:15px;background:linear-gradient(145deg,#112b40,#0a1928);box-shadow:0 0 20px rgba(39,214,255,.055);min-width:0}
+.ps-how-gap-head,.ps-how-gap-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:center}
+.ps-how-gap-head{margin:22px 0 10px;color:#a9bdce;font-size:11px}
+.ps-how-gap-row{padding:15px 0;border-top:1px solid rgba(150,190,220,.17);font-size:26px;font-variant-numeric:tabular-nums}
+.ps-how-gap-positive{color:#43e3b0}.ps-how-gap-negative{color:#ff7585}
+.ps-how-gap-demo p{font-size:12px;line-height:1.6;margin:2px 0 17px}
+.ps-how-gap-foot{font-size:11px;line-height:1.6;color:#91a9bc;border-top:1px solid rgba(150,190,220,.17);padding-top:14px}
+.ps-how-player-record{border-left:2px solid rgba(39,214,255,.55);padding-left:24px}
+@media(max-width:700px){.ps-how-player-grid{grid-template-columns:1fr;gap:13px}.ps-how-players .explain-card{padding:20px}.ps-how-gap-row{font-size:23px;gap:9px}.ps-how-gap-demo{padding:20px}.ps-how-player-record{padding-left:17px}}
+</style>
+
 </head>
 
 <body>
@@ -68,6 +87,8 @@
 <nav class="header-nav">
     <a class="nav-item" href="index.html">Games</a>
     <a class="nav-item" href="players.html">Players</a>
+<a class="nav-item" href="player-matchup.html">Player Matchup</a>
+<a class="nav-item" href="signal-board.html">Signal Board</a>
     <a class="nav-item" href="results.html">Track Record</a>
     <a class="nav-item" href="teams.html">Teams</a>
     <a class="nav-item active" href="how-it-works.html">How It Works</a>
@@ -102,7 +123,7 @@
 
             <p>
                 Pocket Signal combines multiple predictive models to turn
-                NFL matchup data into an easy-to-read forecast.
+                NFL data into easy-to-read game forecasts and player outlooks.
             </p>
 
         </div>
@@ -565,7 +586,73 @@
         </section>
 
 
-        <!-- =================================================
+        
+<!-- PS_HOW_PLAYERS_START -->
+<section class="how-section ps-how-players" id="player-outlooks" aria-labelledby="playerOutlooksTitle">
+    <div class="how-section-heading">
+        <div class="section-kicker">PLAYER INTELLIGENCE</div>
+        <h2 id="playerOutlooksTitle">A clearer view of each player.</h2>
+        <p>Explore weekly projections alongside recent performance, expected workload, opponent statistics and available sportsbook lines.</p>
+    </div>
+    <div class="ps-how-player-grid">
+        <article class="explain-card">
+            <span>THE FORECAST</span>
+            <h3>What could their week look like?</h3>
+            <p>Quarterbacks have passing-yard, attempt and completion projections. Receivers and tight ends have receiving-yard, reception and target projections. Running backs have rushing-yard, receiving-yard and reception projections.</p>
+            <p>These are estimates, not exact outcomes. Consider other forecasts, injury updates and matchup information when forming your own outlook.</p>
+        </article>
+        <article class="explain-card">
+            <span>RECENT PERFORMANCE</span>
+            <h3>Put the projection in context.</h3>
+            <p>Blue chart bars show recorded game results; cyan shows the selected week's projection. Season and recent averages help you compare the forecast with the player's usual production.</p>
+            <p>Where available, the gold line marks the market benchmark. A player's past results against that line describe their history, not their probability of going over this week.</p>
+        </article>
+        <article class="explain-card">
+            <span>MATCHUP OUTLOOK</span>
+            <h3>Look beyond the player.</h3>
+            <p>Compare what the opponent has allowed to the player's position across the season and its last three completed games. These figures combine production from all players at that position, not one individual.</p>
+            <p>The game environment adds projected team points, margin and total. These are supporting comparisons, not a breakdown of how the player model calculated its forecast.</p>
+        </article>
+        <article class="explain-card">
+            <span>MAKE IT YOUR BOARD</span>
+            <h3>Find the players that matter to you.</h3>
+            <p>Search by player or team, filter by position or game, and use the stars to build a watchlist in your browser. Sort by market gap to bring the largest projection-to-line differences to the top.</p>
+            <p>Availability and starting roles can change. Check current reports before relying on an outlook; a missing report does not confirm that a player is active.</p>
+        </article>
+    </div>
+</section>
+<section class="how-feature ps-how-gap" aria-labelledby="playerGapTitle">
+    <div>
+        <div class="section-kicker">PLAYER MARKET GAPS</div>
+        <h2 id="playerGapTitle">Where our forecast differs from the line.</h2>
+        <p>The gap is Pocket Signal's projection minus the saved sportsbook line. Green means the projection is above the line; red means it is below.</p>
+        <p>Sorting by gap size uses the absolute difference, so a large negative gap can appear beside a large positive one. Across all positions, the main yardage stat is QB passing, RB rushing, or WR/TE receiving.</p>
+        <p>A larger gap is a larger disagreement, not a win probability or a guarantee. Players without a matching line appear last and show “No market line available yet.” Lines are snapshots and may have moved.</p>
+        <a href="players.html" class="how-cta">Explore Player Outlooks →</a>
+    </div>
+    <div class="ps-how-gap-demo" aria-label="Illustrative market gap examples">
+        <div class="section-kicker">ILLUSTRATIVE EXAMPLES · YARDS</div>
+        <div class="ps-how-gap-head"><span>Projection</span><span>Market</span><span>Gap</span></div>
+        <div class="ps-how-gap-row"><strong>240.0</strong><strong>225.5</strong><strong class="ps-how-gap-positive">+14.5</strong></div>
+        <p>The projection is 14.5 yards above the line.</p>
+        <div class="ps-how-gap-row"><strong>60.0</strong><strong>75.5</strong><strong class="ps-how-gap-negative">−15.5</strong></div>
+        <p>The projection is 15.5 yards below the line.</p>
+        <div class="ps-how-gap-foot">Both gaps are measured in yards, not percentage confidence.</div>
+    </div>
+</section>
+<section class="how-section ps-how-player-record" aria-labelledby="playerRecordTitle">
+    <div class="how-section-heading">
+        <div class="section-kicker">PLAYER RESULTS</div>
+        <h2 id="playerRecordTitle">Did the player finish on our side of the line?</h2>
+        <p>The Track Record page shows results for the saved weekly Top 15 market-gap selections. If the projection was above the line, the player needs to finish above it; if it was below, the player needs to finish below it.</p>
+        <p>Hit rate excludes pending results, pushes and voids. Hypothetical units use the recorded odds and one unit risked per selection. Reconstructed archives are labeled separately from pregame snapshots.</p>
+        <a href="results.html#player-market-gap-results" class="how-cta">View Player Market Gap Results →</a>
+    </div>
+</section>
+<!-- PS_HOW_PLAYERS_END -->
+
+
+<!-- =================================================
              TRACK RECORD
         ================================================== -->
 
@@ -664,6 +751,19 @@
     });
 </script>
 
+
+<style id="psPolicyStyles">
+.ps-policy-footer{clear:both;margin-top:48px;padding:28px 0 32px;border-top:1px solid rgba(39,214,255,.2);background:#06111c;color:#9eb4c5;font:12px/1.8 Inter,Arial,sans-serif}
+.ps-policy-footer .ps-policy-inner{width:min(1380px,calc(100% - 42px));margin:auto}
+.ps-policy-top{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+.ps-policy-top nav{display:flex;gap:18px;flex-wrap:wrap}.ps-policy-footer a{color:#b8d8e8;text-decoration:underline;text-underline-offset:3px}.ps-policy-footer a:hover{color:#27d6ff}
+.ps-policy-footer p{max-width:1100px;margin:9px auto;color:#9eb4c5;text-align:center}.ps-policy-footer a:focus-visible{outline:2px solid #27d6ff;outline-offset:4px}
+.ps-legal{background:#071421;color:#d8e7f1;font:16px/1.8 Inter,Arial,sans-serif;margin:0}.ps-legal *{box-sizing:border-box}.ps-legal header{border-bottom:1px solid #244355;padding:20px max(21px,calc((100vw - 1000px)/2));background:#06101a}.ps-legal header a{color:#2bd6f5;text-decoration:none;font-weight:800}.ps-legal main{width:min(1000px,calc(100% - 42px));margin:40px auto 64px}.ps-legal h1{font-size:clamp(32px,5vw,48px);line-height:1.1;letter-spacing:-.04em;color:#e9faff}.ps-legal h2{font-size:21px;color:#bceffc;margin:32px 0 8px}.ps-legal p{margin:10px 0}.ps-legal main a{color:#59d9f2}.ps-legal .ps-date{font-size:13px;color:#96b3c8}.ps-legal .ps-notice{padding:18px 22px;border:1px solid #285368;border-radius:12px;background:#0b2233}.ps-legal .ps-jump{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+@media(max-width:650px){.ps-policy-footer .ps-policy-inner,.ps-legal main{width:calc(100% - 28px)}.ps-policy-top{align-items:flex-start;flex-direction:column}.ps-policy-top nav{gap:12px}.ps-policy-footer p{text-align:left}.ps-policy-footer{padding:24px 0}.ps-legal main{margin-top:28px}}
+</style>
+<!-- PS_POLICY_FOOTER_START -->
+<footer class="ps-policy-footer"><div class="ps-policy-inner"><div class="ps-policy-top"><span>&copy; 2026 Pocket Signal. All rights reserved in original content.</span><nav aria-label="Site policies"><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a><a href="responsible-gambling.html">Responsible Gambling</a></nav></div><p>Pocket Signal provides sports analysis and projections for informational and entertainment purposes. Forecasts are estimates; accuracy, winning picks and profits are not guaranteed. Market lines may change. Past performance does not guarantee future results. Pocket Signal does not accept or place wagers. If you choose to wager, follow applicable laws and gamble responsibly.</p><p>Need support? Visit the <a href="https://www.ncpgambling.org/help-treatment/" target="_blank" rel="noopener noreferrer">National Council on Problem Gambling</a>.</p></div></footer>
+<!-- PS_POLICY_FOOTER_END -->
 </body>
 
 </html>

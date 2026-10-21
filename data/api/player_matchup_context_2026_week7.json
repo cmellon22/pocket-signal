@@ -1,0 +1,3185 @@
+{
+  "season": 2026,
+  "week": 7,
+  "generated_at": "2026-10-21T02:21:27.279628+00:00",
+  "defenses": {
+    "ARI": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 247.3,
+          "rushing_yards": 120.8,
+          "receiving_yards": 247.3,
+          "yards_per_carry": 4.42,
+          "yards_per_reception": 13.13,
+          "completion_pct": 65.7,
+          "sack_rate": 7.53
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 247.7,
+          "rushing_yards": 114.0,
+          "receiving_yards": 247.7,
+          "yards_per_carry": 4.28,
+          "yards_per_reception": 11.98,
+          "completion_pct": 67.39,
+          "sack_rate": 9.8
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 107.0,
+          "receiving_yards": 25.2,
+          "yards_per_carry": 4.25,
+          "yards_per_reception": 8.39,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 113.7,
+          "receiving_yards": 33.3,
+          "yards_per_carry": 4.37,
+          "yards_per_reception": 8.33,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 3.0,
+          "receiving_yards": 152.8,
+          "yards_per_carry": 6.0,
+          "yards_per_reception": 16.38,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 138.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 15.33,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.2,
+          "receiving_yards": 69.3,
+          "yards_per_carry": 0.5,
+          "yards_per_reception": 10.67,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 76.3,
+          "yards_per_carry": 0.0,
+          "yards_per_reception": 9.96,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "ATL": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 268.7,
+          "rushing_yards": 83.2,
+          "receiving_yards": 268.7,
+          "yards_per_carry": 3.59,
+          "yards_per_reception": 10.14,
+          "completion_pct": 64.63,
+          "sack_rate": 5.75
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 264.0,
+          "rushing_yards": 118.7,
+          "receiving_yards": 264.0,
+          "yards_per_carry": 4.09,
+          "yards_per_reception": 9.43,
+          "completion_pct": 72.41,
+          "sack_rate": 7.94
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 77.3,
+          "receiving_yards": 32.2,
+          "yards_per_carry": 3.9,
+          "yards_per_reception": 6.03,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 106.7,
+          "receiving_yards": 44.3,
+          "yards_per_carry": 4.38,
+          "yards_per_reception": 7.39,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.3,
+          "receiving_yards": 180.3,
+          "yards_per_carry": 4.0,
+          "yards_per_reception": 12.16,
+          "completion_pct": null,
+          "sack_rate": 100.0
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 2.7,
+          "receiving_yards": 159.3,
+          "yards_per_carry": 4.0,
+          "yards_per_reception": 10.39,
+          "completion_pct": null,
+          "sack_rate": 100.0
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 56.2,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.87,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 60.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.05,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "BAL": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 225.7,
+          "rushing_yards": 100.5,
+          "receiving_yards": 225.7,
+          "yards_per_carry": 3.82,
+          "yards_per_reception": 10.58,
+          "completion_pct": 64.97,
+          "sack_rate": 7.08
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 220.0,
+          "rushing_yards": 96.0,
+          "receiving_yards": 220.0,
+          "yards_per_carry": 3.56,
+          "yards_per_reception": 11.58,
+          "completion_pct": 61.96,
+          "sack_rate": 8.91
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 80.2,
+          "receiving_yards": 13.8,
+          "yards_per_carry": 3.82,
+          "yards_per_reception": 3.32,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 73.7,
+          "receiving_yards": 15.7,
+          "yards_per_carry": 3.45,
+          "yards_per_reception": 4.27,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 2.0,
+          "receiving_yards": 175.7,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 13.18,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.0,
+          "receiving_yards": 178.0,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 14.83,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 36.2,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.43,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 26.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.9,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "BUF": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 298.7,
+          "rushing_yards": 101.0,
+          "receiving_yards": 298.7,
+          "yards_per_carry": 3.84,
+          "yards_per_reception": 11.41,
+          "completion_pct": 64.88,
+          "sack_rate": 4.35
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 321.7,
+          "rushing_yards": 95.0,
+          "receiving_yards": 321.7,
+          "yards_per_carry": 3.65,
+          "yards_per_reception": 11.35,
+          "completion_pct": 64.39,
+          "sack_rate": 1.49
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 82.8,
+          "receiving_yards": 47.3,
+          "yards_per_carry": 3.6,
+          "yards_per_reception": 7.89,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 74.0,
+          "receiving_yards": 49.7,
+          "yards_per_carry": 3.26,
+          "yards_per_reception": 8.28,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 2.7,
+          "receiving_yards": 173.8,
+          "yards_per_carry": 5.33,
+          "yards_per_reception": 12.72,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 3.0,
+          "receiving_yards": 155.7,
+          "yards_per_carry": 4.5,
+          "yards_per_reception": 11.12,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 77.5,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.92,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 116.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 13.96,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "CAR": {
+      "QB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 237.0,
+          "rushing_yards": 132.2,
+          "receiving_yards": 237.0,
+          "yards_per_carry": 5.12,
+          "yards_per_reception": 10.39,
+          "completion_pct": 60.32,
+          "sack_rate": 5.5
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 257.0,
+          "rushing_yards": 71.0,
+          "receiving_yards": 257.0,
+          "yards_per_carry": 3.67,
+          "yards_per_reception": 10.28,
+          "completion_pct": 58.59,
+          "sack_rate": 4.48
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 103.0,
+          "receiving_yards": 33.8,
+          "yards_per_carry": 5.1,
+          "yards_per_reception": 7.04,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 56.0,
+          "receiving_yards": 36.7,
+          "yards_per_carry": 3.65,
+          "yards_per_reception": 6.88,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 147.6,
+          "yards_per_carry": 0.0,
+          "yards_per_reception": 11.9,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 151.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 12.58,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 55.6,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.93,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 69.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.04,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "CHI": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 228.0,
+          "rushing_yards": 90.5,
+          "receiving_yards": 228.0,
+          "yards_per_carry": 4.49,
+          "yards_per_reception": 13.41,
+          "completion_pct": 62.58,
+          "sack_rate": 9.44
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 237.0,
+          "rushing_yards": 64.0,
+          "receiving_yards": 237.0,
+          "yards_per_carry": 3.69,
+          "yards_per_reception": 13.67,
+          "completion_pct": 65.82,
+          "sack_rate": 11.24
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 78.5,
+          "receiving_yards": 23.3,
+          "yards_per_carry": 4.44,
+          "yards_per_reception": 7.37,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 61.7,
+          "receiving_yards": 8.7,
+          "yards_per_carry": 3.94,
+          "yards_per_reception": 2.6,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 159.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 16.25,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 181.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 18.13,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 44.8,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 11.21,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.7,
+          "receiving_yards": 47.0,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 11.75,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "CIN": {
+      "QB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 245.0,
+          "rushing_yards": 123.0,
+          "receiving_yards": 245.0,
+          "yards_per_carry": 5.04,
+          "yards_per_reception": 11.67,
+          "completion_pct": 62.5,
+          "sack_rate": 9.19
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 218.7,
+          "rushing_yards": 155.3,
+          "receiving_yards": 218.7,
+          "yards_per_carry": 5.55,
+          "yards_per_reception": 12.62,
+          "completion_pct": 61.9,
+          "sack_rate": 9.68
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 82.4,
+          "receiving_yards": 31.8,
+          "yards_per_carry": 4.43,
+          "yards_per_reception": 7.95,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 111.3,
+          "receiving_yards": 22.3,
+          "yards_per_carry": 5.06,
+          "yards_per_reception": 13.4,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 11.8,
+          "receiving_yards": 123.0,
+          "yards_per_carry": 9.83,
+          "yards_per_reception": 12.55,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 15.7,
+          "receiving_yards": 112.7,
+          "yards_per_carry": 15.67,
+          "yards_per_reception": 12.07,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.2,
+          "receiving_yards": 90.2,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 12.53,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 83.7,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 13.21,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "CLE": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 227.3,
+          "rushing_yards": 112.3,
+          "receiving_yards": 227.3,
+          "yards_per_carry": 4.38,
+          "yards_per_reception": 11.09,
+          "completion_pct": 59.71,
+          "sack_rate": 8.44
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 215.3,
+          "rushing_yards": 104.3,
+          "receiving_yards": 215.3,
+          "yards_per_carry": 4.23,
+          "yards_per_reception": 11.14,
+          "completion_pct": 57.43,
+          "sack_rate": 10.62
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 98.7,
+          "receiving_yards": 17.8,
+          "yards_per_carry": 4.59,
+          "yards_per_reception": 4.65,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 91.3,
+          "receiving_yards": 17.7,
+          "yards_per_carry": 4.42,
+          "yards_per_reception": 5.89,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 2.5,
+          "receiving_yards": 155.3,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 14.56,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.3,
+          "receiving_yards": 158.0,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 14.36,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 52.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.06,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 39.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.44,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "DAL": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 239.2,
+          "rushing_yards": 149.8,
+          "receiving_yards": 239.2,
+          "yards_per_carry": 4.71,
+          "yards_per_reception": 11.57,
+          "completion_pct": 68.51,
+          "sack_rate": 4.23
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 270.7,
+          "rushing_yards": 120.0,
+          "receiving_yards": 270.7,
+          "yards_per_carry": 4.29,
+          "yards_per_reception": 12.89,
+          "completion_pct": 64.95,
+          "sack_rate": 5.83
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 104.3,
+          "receiving_yards": 24.2,
+          "yards_per_carry": 4.26,
+          "yards_per_reception": 6.59,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 94.3,
+          "receiving_yards": 26.0,
+          "yards_per_carry": 4.29,
+          "yards_per_reception": 7.8,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 8.3,
+          "receiving_yards": 168.7,
+          "yards_per_carry": 8.33,
+          "yards_per_reception": 14.25,
+          "completion_pct": 50.0,
+          "sack_rate": 0.0
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 10.0,
+          "receiving_yards": 208.0,
+          "yards_per_carry": 6.0,
+          "yards_per_reception": 16.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 46.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.97,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 36.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.86,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "DEN": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 230.0,
+          "rushing_yards": 139.8,
+          "receiving_yards": 230.0,
+          "yards_per_carry": 4.66,
+          "yards_per_reception": 11.31,
+          "completion_pct": 56.48,
+          "sack_rate": 7.69
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 205.7,
+          "rushing_yards": 136.0,
+          "receiving_yards": 205.7,
+          "yards_per_carry": 4.29,
+          "yards_per_reception": 10.28,
+          "completion_pct": 57.14,
+          "sack_rate": 8.7
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 107.8,
+          "receiving_yards": 33.2,
+          "yards_per_carry": 4.43,
+          "yards_per_reception": 7.37,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 86.0,
+          "receiving_yards": 22.7,
+          "yards_per_carry": 3.58,
+          "yards_per_reception": 6.18,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 8.0,
+          "receiving_yards": 142.0,
+          "yards_per_carry": 9.6,
+          "yards_per_reception": 13.11,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 16.0,
+          "receiving_yards": 139.7,
+          "yards_per_carry": 9.6,
+          "yards_per_reception": 11.03,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 54.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.97,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 43.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.82,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "DET": {
+      "QB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 321.4,
+          "rushing_yards": 107.0,
+          "receiving_yards": 321.4,
+          "yards_per_carry": 4.25,
+          "yards_per_reception": 11.08,
+          "completion_pct": 68.08,
+          "sack_rate": 8.58
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 316.3,
+          "rushing_yards": 80.3,
+          "receiving_yards": 316.3,
+          "yards_per_carry": 3.71,
+          "yards_per_reception": 10.54,
+          "completion_pct": 71.43,
+          "sack_rate": 9.35
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 84.4,
+          "receiving_yards": 16.2,
+          "yards_per_carry": 4.26,
+          "yards_per_reception": 4.26,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 69.0,
+          "receiving_yards": 15.7,
+          "yards_per_carry": 3.57,
+          "yards_per_reception": 4.7,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 5,
+          "passing_yards": 1.4,
+          "rushing_yards": 0.4,
+          "receiving_yards": 194.8,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 13.16,
+          "completion_pct": 100.0,
+          "sack_rate": 0.0
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 2.3,
+          "rushing_yards": 0.0,
+          "receiving_yards": 179.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 12.2,
+          "completion_pct": 100.0,
+          "sack_rate": 0.0
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 109.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.69,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 119.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.23,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "GB": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 209.2,
+          "rushing_yards": 114.3,
+          "receiving_yards": 209.2,
+          "yards_per_carry": 3.99,
+          "yards_per_reception": 9.23,
+          "completion_pct": 64.45,
+          "sack_rate": 6.64
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 200.3,
+          "rushing_yards": 90.0,
+          "receiving_yards": 200.3,
+          "yards_per_carry": 3.86,
+          "yards_per_reception": 7.91,
+          "completion_pct": 62.81,
+          "sack_rate": 6.2
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 90.8,
+          "receiving_yards": 34.0,
+          "yards_per_carry": 4.01,
+          "yards_per_reception": 7.85,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 55.3,
+          "receiving_yards": 37.7,
+          "yards_per_carry": 3.39,
+          "yards_per_reception": 6.65,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 5.8,
+          "receiving_yards": 140.5,
+          "yards_per_carry": 4.38,
+          "yards_per_reception": 10.04,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 7.0,
+          "receiving_yards": 125.3,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 8.17,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 34.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 37.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.62,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "HOU": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 264.5,
+          "rushing_yards": 83.0,
+          "receiving_yards": 264.5,
+          "yards_per_carry": 3.43,
+          "yards_per_reception": 11.1,
+          "completion_pct": 65.6,
+          "sack_rate": 7.63
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 270.3,
+          "rushing_yards": 79.3,
+          "receiving_yards": 270.3,
+          "yards_per_carry": 3.4,
+          "yards_per_reception": 10.27,
+          "completion_pct": 64.75,
+          "sack_rate": 5.43
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 75.8,
+          "receiving_yards": 22.2,
+          "yards_per_carry": 3.58,
+          "yards_per_reception": 4.75,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 74.7,
+          "receiving_yards": 33.0,
+          "yards_per_carry": 3.56,
+          "yards_per_reception": 5.21,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": -1.0,
+          "receiving_yards": 185.7,
+          "yards_per_carry": -6.0,
+          "yards_per_reception": 13.59,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": -2.0,
+          "receiving_yards": 195.0,
+          "yards_per_carry": -6.0,
+          "yards_per_reception": 13.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 46.8,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 9.69,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 22.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 6.18,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "IND": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 240.3,
+          "rushing_yards": 122.5,
+          "receiving_yards": 240.3,
+          "yards_per_carry": 4.77,
+          "yards_per_reception": 12.43,
+          "completion_pct": 61.38,
+          "sack_rate": 5.03
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 189.7,
+          "rushing_yards": 103.7,
+          "receiving_yards": 189.7,
+          "yards_per_carry": 4.64,
+          "yards_per_reception": 11.16,
+          "completion_pct": 56.67,
+          "sack_rate": 3.23
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 95.8,
+          "receiving_yards": 45.2,
+          "yards_per_carry": 4.56,
+          "yards_per_reception": 11.78,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 77.7,
+          "receiving_yards": 46.7,
+          "yards_per_carry": 4.31,
+          "yards_per_reception": 14.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 4.5,
+          "receiving_yards": 148.8,
+          "yards_per_carry": 5.4,
+          "yards_per_reception": 14.17,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 5.0,
+          "receiving_yards": 118.3,
+          "yards_per_carry": 7.5,
+          "yards_per_reception": 11.45,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.2,
+          "receiving_yards": 44.2,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 9.14,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 20.3,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 6.78,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "JAX": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 283.0,
+          "rushing_yards": 72.2,
+          "receiving_yards": 283.0,
+          "yards_per_carry": 3.23,
+          "yards_per_reception": 12.13,
+          "completion_pct": 66.04,
+          "sack_rate": 4.93
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 320.0,
+          "rushing_yards": 53.0,
+          "receiving_yards": 320.0,
+          "yards_per_carry": 2.74,
+          "yards_per_reception": 11.43,
+          "completion_pct": 65.62,
+          "sack_rate": 2.29
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 51.5,
+          "receiving_yards": 38.3,
+          "yards_per_carry": 2.97,
+          "yards_per_reception": 6.97,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 45.3,
+          "receiving_yards": 36.0,
+          "yards_per_carry": 2.78,
+          "yards_per_reception": 6.35,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 2.7,
+          "rushing_yards": 6.0,
+          "receiving_yards": 210.0,
+          "yards_per_carry": 7.2,
+          "yards_per_reception": 15.37,
+          "completion_pct": 100.0,
+          "sack_rate": 0.0
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.7,
+          "receiving_yards": 244.3,
+          "yards_per_carry": 5.0,
+          "yards_per_reception": 14.66,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.8,
+          "receiving_yards": 34.7,
+          "yards_per_carry": 3.67,
+          "yards_per_reception": 8.32,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.7,
+          "receiving_yards": 39.7,
+          "yards_per_carry": 2.5,
+          "yards_per_reception": 7.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "KC": {
+      "QB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 224.0,
+          "rushing_yards": 88.8,
+          "receiving_yards": 224.0,
+          "yards_per_carry": 3.52,
+          "yards_per_reception": 10.0,
+          "completion_pct": 60.87,
+          "sack_rate": 4.17
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 259.7,
+          "rushing_yards": 88.0,
+          "receiving_yards": 259.7,
+          "yards_per_carry": 3.34,
+          "yards_per_reception": 10.67,
+          "completion_pct": 58.4,
+          "sack_rate": 3.1
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 63.8,
+          "receiving_yards": 38.6,
+          "yards_per_carry": 3.22,
+          "yards_per_reception": 7.42,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 57.7,
+          "receiving_yards": 43.3,
+          "yards_per_carry": 2.79,
+          "yards_per_reception": 7.22,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 5.6,
+          "receiving_yards": 112.2,
+          "yards_per_carry": 4.67,
+          "yards_per_reception": 11.94,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 3.0,
+          "receiving_yards": 119.0,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 12.75,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.6,
+          "receiving_yards": 73.2,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 9.38,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 97.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.81,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "LA": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 173.8,
+          "rushing_yards": 127.0,
+          "receiving_yards": 173.8,
+          "yards_per_carry": 4.35,
+          "yards_per_reception": 10.03,
+          "completion_pct": 57.46,
+          "sack_rate": 4.23
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 173.7,
+          "rushing_yards": 152.7,
+          "receiving_yards": 173.7,
+          "yards_per_carry": 4.63,
+          "yards_per_reception": 10.85,
+          "completion_pct": 59.26,
+          "sack_rate": 5.81
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 93.0,
+          "receiving_yards": 40.2,
+          "yards_per_carry": 3.85,
+          "yards_per_reception": 8.61,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 105.7,
+          "receiving_yards": 46.7,
+          "yards_per_carry": 3.87,
+          "yards_per_reception": 14.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 4.3,
+          "receiving_yards": 103.5,
+          "yards_per_carry": 13.0,
+          "yards_per_reception": 12.18,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 91.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.42,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 29.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.46,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 35.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.64,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "LAC": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 216.2,
+          "rushing_yards": 123.8,
+          "receiving_yards": 216.2,
+          "yards_per_carry": 4.02,
+          "yards_per_reception": 11.38,
+          "completion_pct": 66.67,
+          "sack_rate": 6.04
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 187.7,
+          "rushing_yards": 131.3,
+          "receiving_yards": 187.7,
+          "yards_per_carry": 4.43,
+          "yards_per_reception": 10.83,
+          "completion_pct": 65.82,
+          "sack_rate": 4.82
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 104.8,
+          "receiving_yards": 25.7,
+          "yards_per_carry": 4.19,
+          "yards_per_reception": 6.7,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 105.7,
+          "receiving_yards": 23.7,
+          "yards_per_carry": 4.34,
+          "yards_per_reception": 6.45,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 7.5,
+          "receiving_yards": 132.8,
+          "yards_per_carry": 11.25,
+          "yards_per_reception": 12.85,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 15.0,
+          "receiving_yards": 106.3,
+          "yards_per_carry": 11.25,
+          "yards_per_reception": 11.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 57.5,
+          "yards_per_carry": 0.0,
+          "yards_per_reception": 12.32,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 57.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 14.42,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "LV": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 253.5,
+          "rushing_yards": 134.3,
+          "receiving_yards": 253.5,
+          "yards_per_carry": 4.91,
+          "yards_per_reception": 12.37,
+          "completion_pct": 63.73,
+          "sack_rate": 7.21
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 284.7,
+          "rushing_yards": 152.3,
+          "receiving_yards": 284.7,
+          "yards_per_carry": 5.31,
+          "yards_per_reception": 13.34,
+          "completion_pct": 65.98,
+          "sack_rate": 4.9
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 113.7,
+          "receiving_yards": 38.7,
+          "yards_per_carry": 5.01,
+          "yards_per_reception": 9.28,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 139.0,
+          "receiving_yards": 47.7,
+          "yards_per_carry": 6.04,
+          "yards_per_reception": 11.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.5,
+          "receiving_yards": 161.0,
+          "yards_per_carry": 4.5,
+          "yards_per_reception": 16.66,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.7,
+          "receiving_yards": 180.0,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 17.42,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 53.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.07,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 57.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.55,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "MIA": {
+      "QB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 226.0,
+          "rushing_yards": 110.6,
+          "receiving_yards": 226.0,
+          "yards_per_carry": 3.66,
+          "yards_per_reception": 10.18,
+          "completion_pct": 76.55,
+          "sack_rate": 2.68
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 227.7,
+          "rushing_yards": 109.3,
+          "receiving_yards": 227.7,
+          "yards_per_carry": 3.77,
+          "yards_per_reception": 9.76,
+          "completion_pct": 75.27,
+          "sack_rate": 4.12
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 101.4,
+          "receiving_yards": 39.4,
+          "yards_per_carry": 4.02,
+          "yards_per_reception": 7.88,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 100.0,
+          "receiving_yards": 27.3,
+          "yards_per_carry": 4.05,
+          "yards_per_reception": 6.31,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": -0.6,
+          "receiving_yards": 110.4,
+          "yards_per_carry": -0.75,
+          "yards_per_reception": 11.27,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 110.7,
+          "yards_per_carry": 0.5,
+          "yards_per_reception": 11.07,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 76.2,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.3,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 89.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.96,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "MIN": {
+      "QB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 195.4,
+          "rushing_yards": 86.6,
+          "receiving_yards": 195.4,
+          "yards_per_carry": 4.01,
+          "yards_per_reception": 11.77,
+          "completion_pct": 53.21,
+          "sack_rate": 9.83
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 132.7,
+          "rushing_yards": 77.7,
+          "receiving_yards": 132.7,
+          "yards_per_carry": 4.16,
+          "yards_per_reception": 9.48,
+          "completion_pct": 53.16,
+          "sack_rate": 10.23
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 72.4,
+          "receiving_yards": 18.4,
+          "yards_per_carry": 3.81,
+          "yards_per_reception": 5.75,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 68.0,
+          "receiving_yards": 9.0,
+          "yards_per_carry": 4.16,
+          "yards_per_reception": 3.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.6,
+          "receiving_yards": 132.8,
+          "yards_per_carry": 1.5,
+          "yards_per_reception": 13.02,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.0,
+          "receiving_yards": 92.3,
+          "yards_per_carry": 1.5,
+          "yards_per_reception": 11.54,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 5,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 44.2,
+          "yards_per_carry": null,
+          "yards_per_reception": 13.81,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 31.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.44,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "NE": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 227.5,
+          "rushing_yards": 91.8,
+          "receiving_yards": 227.5,
+          "yards_per_carry": 3.94,
+          "yards_per_reception": 10.75,
+          "completion_pct": 66.15,
+          "sack_rate": 6.8
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 265.3,
+          "rushing_yards": 75.3,
+          "receiving_yards": 265.3,
+          "yards_per_carry": 3.48,
+          "yards_per_reception": 11.71,
+          "completion_pct": 68.69,
+          "sack_rate": 6.6
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 82.2,
+          "receiving_yards": 39.3,
+          "yards_per_carry": 4.14,
+          "yards_per_reception": 8.74,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 72.0,
+          "receiving_yards": 42.7,
+          "yards_per_carry": 4.08,
+          "yards_per_reception": 8.53,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.7,
+          "receiving_yards": 141.7,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 11.97,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.3,
+          "receiving_yards": 157.7,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 13.91,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 46.5,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 9.62,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 65.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.26,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "NO": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 256.0,
+          "rushing_yards": 138.0,
+          "receiving_yards": 256.0,
+          "yards_per_carry": 4.79,
+          "yards_per_reception": 11.55,
+          "completion_pct": 66.5,
+          "sack_rate": 6.98
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 282.3,
+          "rushing_yards": 147.3,
+          "receiving_yards": 282.3,
+          "yards_per_carry": 4.86,
+          "yards_per_reception": 13.23,
+          "completion_pct": 65.98,
+          "sack_rate": 7.62
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 116.8,
+          "receiving_yards": 30.5,
+          "yards_per_carry": 4.83,
+          "yards_per_reception": 7.62,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 118.0,
+          "receiving_yards": 24.7,
+          "yards_per_carry": 4.92,
+          "yards_per_reception": 7.4,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.5,
+          "receiving_yards": 149.7,
+          "yards_per_carry": 4.5,
+          "yards_per_reception": 13.4,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 3.0,
+          "receiving_yards": 189.3,
+          "yards_per_carry": 4.5,
+          "yards_per_reception": 15.35,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 75.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.83,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 68.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 12.06,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "NYG": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 198.7,
+          "rushing_yards": 135.5,
+          "receiving_yards": 198.7,
+          "yards_per_carry": 5.05,
+          "yards_per_reception": 9.85,
+          "completion_pct": 63.35,
+          "sack_rate": 4.02
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 169.7,
+          "rushing_yards": 166.7,
+          "receiving_yards": 169.7,
+          "yards_per_carry": 5.32,
+          "yards_per_reception": 9.43,
+          "completion_pct": 60.0,
+          "sack_rate": 7.22
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 107.5,
+          "receiving_yards": 21.5,
+          "yards_per_carry": 4.78,
+          "yards_per_reception": 6.14,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 115.7,
+          "receiving_yards": 17.0,
+          "yards_per_carry": 4.57,
+          "yards_per_reception": 5.67,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 132.3,
+          "yards_per_carry": 0.0,
+          "yards_per_reception": 12.22,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 109.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.68,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 44.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.69,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 43.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.71,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "NYJ": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 202.0,
+          "rushing_yards": 123.0,
+          "receiving_yards": 202.0,
+          "yards_per_carry": 4.19,
+          "yards_per_reception": 10.27,
+          "completion_pct": 61.46,
+          "sack_rate": 8.13
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 219.3,
+          "rushing_yards": 158.7,
+          "receiving_yards": 219.3,
+          "yards_per_carry": 4.18,
+          "yards_per_reception": 11.34,
+          "completion_pct": 58.59,
+          "sack_rate": 8.33
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 105.8,
+          "receiving_yards": 25.2,
+          "yards_per_carry": 4.18,
+          "yards_per_reception": 6.57,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 133.3,
+          "receiving_yards": 14.3,
+          "yards_per_carry": 4.08,
+          "yards_per_reception": 4.78,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.8,
+          "receiving_yards": 136.5,
+          "yards_per_carry": 11.0,
+          "yards_per_reception": 12.04,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 3.7,
+          "receiving_yards": 158.0,
+          "yards_per_carry": 11.0,
+          "yards_per_reception": 13.94,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 40.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.96,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 47.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 9.4,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "PHI": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 253.8,
+          "rushing_yards": 119.3,
+          "receiving_yards": 253.8,
+          "yards_per_carry": 3.96,
+          "yards_per_reception": 11.63,
+          "completion_pct": 60.37,
+          "sack_rate": 3.56
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 309.7,
+          "rushing_yards": 111.3,
+          "receiving_yards": 309.7,
+          "yards_per_carry": 3.93,
+          "yards_per_reception": 12.22,
+          "completion_pct": 58.91,
+          "sack_rate": 3.73
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 103.5,
+          "receiving_yards": 22.8,
+          "yards_per_carry": 3.98,
+          "yards_per_reception": 5.96,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 96.7,
+          "receiving_yards": 35.0,
+          "yards_per_carry": 3.92,
+          "yards_per_reception": 7.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.5,
+          "receiving_yards": 181.2,
+          "yards_per_carry": 4.5,
+          "yards_per_reception": 13.94,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.7,
+          "receiving_yards": 204.7,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 14.62,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.2,
+          "receiving_yards": 48.3,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 10.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 67.0,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 11.17,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "PIT": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 222.0,
+          "rushing_yards": 103.2,
+          "receiving_yards": 222.0,
+          "yards_per_carry": 4.05,
+          "yards_per_reception": 10.74,
+          "completion_pct": 61.69,
+          "sack_rate": 7.37
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 233.0,
+          "rushing_yards": 93.3,
+          "receiving_yards": 233.0,
+          "yards_per_carry": 3.68,
+          "yards_per_reception": 9.99,
+          "completion_pct": 58.33,
+          "sack_rate": 6.25
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 86.2,
+          "receiving_yards": 35.0,
+          "yards_per_carry": 3.95,
+          "yards_per_reception": 7.5,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 71.3,
+          "receiving_yards": 33.3,
+          "yards_per_carry": 3.51,
+          "yards_per_reception": 6.67,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.0,
+          "receiving_yards": 142.0,
+          "yards_per_carry": 6.0,
+          "yards_per_reception": 12.17,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 149.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.51,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.2,
+          "receiving_yards": 45.5,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 10.92,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 51.0,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 10.2,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "SEA": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 156.8,
+          "rushing_yards": 96.0,
+          "receiving_yards": 156.8,
+          "yards_per_carry": 3.51,
+          "yards_per_reception": 8.25,
+          "completion_pct": 63.33,
+          "sack_rate": 8.16
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 161.7,
+          "rushing_yards": 105.0,
+          "receiving_yards": 161.7,
+          "yards_per_carry": 3.75,
+          "yards_per_reception": 8.82,
+          "completion_pct": 62.5,
+          "sack_rate": 9.28
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 76.8,
+          "receiving_yards": 30.8,
+          "yards_per_carry": 3.49,
+          "yards_per_reception": 5.78,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 88.3,
+          "receiving_yards": 31.3,
+          "yards_per_carry": 4.08,
+          "yards_per_reception": 5.22,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 100.5,
+          "yards_per_carry": 0.0,
+          "yards_per_reception": 10.77,
+          "completion_pct": 0.0,
+          "sack_rate": 0.0
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 106.0,
+          "yards_per_carry": 0.0,
+          "yards_per_reception": 12.72,
+          "completion_pct": 0.0,
+          "sack_rate": 0.0
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.3,
+          "receiving_yards": 25.5,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 5.88,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.7,
+          "receiving_yards": 24.3,
+          "yards_per_carry": 2.0,
+          "yards_per_reception": 6.08,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "SF": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 225.7,
+          "rushing_yards": 90.2,
+          "receiving_yards": 225.7,
+          "yards_per_carry": 3.61,
+          "yards_per_reception": 9.6,
+          "completion_pct": 65.89,
+          "sack_rate": 6.55
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 236.3,
+          "rushing_yards": 74.7,
+          "receiving_yards": 236.3,
+          "yards_per_carry": 3.45,
+          "yards_per_reception": 9.85,
+          "completion_pct": 64.86,
+          "sack_rate": 7.5
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 79.7,
+          "receiving_yards": 46.0,
+          "yards_per_carry": 3.65,
+          "yards_per_reception": 6.42,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 61.0,
+          "receiving_yards": 60.3,
+          "yards_per_carry": 3.21,
+          "yards_per_reception": 6.96,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 3.3,
+          "receiving_yards": 137.8,
+          "yards_per_carry": 10.0,
+          "yards_per_reception": 12.53,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 5.3,
+          "receiving_yards": 143.0,
+          "yards_per_carry": 16.0,
+          "yards_per_reception": 12.62,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 41.8,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.84,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 33.0,
+          "yards_per_carry": null,
+          "yards_per_reception": 8.25,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "TB": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 237.7,
+          "rushing_yards": 75.5,
+          "receiving_yards": 237.7,
+          "yards_per_carry": 3.41,
+          "yards_per_reception": 9.97,
+          "completion_pct": 66.51,
+          "sack_rate": 4.87
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 255.3,
+          "rushing_yards": 75.0,
+          "receiving_yards": 255.3,
+          "yards_per_carry": 3.75,
+          "yards_per_reception": 9.7,
+          "completion_pct": 65.29,
+          "sack_rate": 3.97
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 65.0,
+          "receiving_yards": 35.8,
+          "yards_per_carry": 3.55,
+          "yards_per_reception": 6.72,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 75.0,
+          "receiving_yards": 31.7,
+          "yards_per_carry": 4.25,
+          "yards_per_reception": 7.31,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.7,
+          "receiving_yards": 145.7,
+          "yards_per_carry": 3.33,
+          "yards_per_reception": 11.65,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 2.0,
+          "receiving_yards": 172.3,
+          "yards_per_carry": 6.0,
+          "yards_per_reception": 11.0,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.5,
+          "receiving_yards": 56.2,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 9.36,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 1.0,
+          "receiving_yards": 51.3,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 8.11,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "TEN": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 235.3,
+          "rushing_yards": 122.5,
+          "receiving_yards": 235.3,
+          "yards_per_carry": 3.85,
+          "yards_per_reception": 10.86,
+          "completion_pct": 69.15,
+          "sack_rate": 7.84
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 271.7,
+          "rushing_yards": 118.7,
+          "receiving_yards": 271.7,
+          "yards_per_carry": 4.09,
+          "yards_per_reception": 11.48,
+          "completion_pct": 67.62,
+          "sack_rate": 8.7
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 98.8,
+          "receiving_yards": 30.8,
+          "yards_per_carry": 3.83,
+          "yards_per_reception": 9.25,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 90.0,
+          "receiving_yards": 36.0,
+          "yards_per_carry": 3.91,
+          "yards_per_reception": 10.8,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 5.2,
+          "receiving_yards": 175.3,
+          "yards_per_carry": 4.43,
+          "yards_per_reception": 12.67,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 5.0,
+          "receiving_yards": 193.3,
+          "yards_per_carry": 5.0,
+          "yards_per_reception": 12.89,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.5,
+          "receiving_yards": 29.2,
+          "yards_per_carry": 3.0,
+          "yards_per_reception": 6.48,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 42.3,
+          "yards_per_carry": null,
+          "yards_per_reception": 7.94,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    },
+    "WAS": {
+      "QB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 268.0,
+          "rushing_yards": 100.5,
+          "receiving_yards": 268.0,
+          "yards_per_carry": 3.99,
+          "yards_per_reception": 11.09,
+          "completion_pct": 66.21,
+          "sack_rate": 4.78
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 244.3,
+          "rushing_yards": 119.0,
+          "receiving_yards": 244.3,
+          "yards_per_carry": 4.1,
+          "yards_per_reception": 10.04,
+          "completion_pct": 62.39,
+          "sack_rate": 4.88
+        },
+        "league_average": 235.36021505376345
+      },
+      "RB": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 77.7,
+          "receiving_yards": 36.2,
+          "yards_per_carry": 3.82,
+          "yards_per_reception": 7.23,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 99.3,
+          "receiving_yards": 39.0,
+          "yards_per_carry": 4.2,
+          "yards_per_reception": 6.5,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 89.83870967741936
+      },
+      "WR": {
+        "season": {
+          "games": 6,
+          "passing_yards": 2.3,
+          "rushing_yards": 0.2,
+          "receiving_yards": 158.3,
+          "yards_per_carry": 1.0,
+          "yards_per_reception": 12.18,
+          "completion_pct": 100.0,
+          "sack_rate": 0.0
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 125.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.78,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 150.83333333333334
+      },
+      "TE": {
+        "season": {
+          "games": 6,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 73.5,
+          "yards_per_carry": null,
+          "yards_per_reception": 11.92,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "last3": {
+          "games": 3,
+          "passing_yards": 0.0,
+          "rushing_yards": 0.0,
+          "receiving_yards": 79.7,
+          "yards_per_carry": null,
+          "yards_per_reception": 10.39,
+          "completion_pct": null,
+          "sack_rate": null
+        },
+        "league_average": 52.924731182795696
+      }
+    }
+  },
+  "games": [
+    {
+      "game_id": "2026_07_NE_CHI",
+      "teams": [
+        "CHI",
+        "NE"
+      ],
+      "home_team": "CHI",
+      "away_team": "NE",
+      "projected_home_score": 22.2,
+      "projected_away_score": 23.9,
+      "projected_total": 46.1
+    },
+    {
+      "game_id": "2026_07_PIT_NO",
+      "teams": [
+        "NO",
+        "PIT"
+      ],
+      "home_team": "NO",
+      "away_team": "PIT",
+      "projected_home_score": 21.7,
+      "projected_away_score": 22.1,
+      "projected_total": 43.8
+    },
+    {
+      "game_id": "2026_07_SF_ATL",
+      "teams": [
+        "ATL",
+        "SF"
+      ],
+      "home_team": "ATL",
+      "away_team": "SF",
+      "projected_home_score": 21.1,
+      "projected_away_score": 30.3,
+      "projected_total": 51.4
+    },
+    {
+      "game_id": "2026_07_CIN_BAL",
+      "teams": [
+        "BAL",
+        "CIN"
+      ],
+      "home_team": "BAL",
+      "away_team": "CIN",
+      "projected_home_score": 25.3,
+      "projected_away_score": 25.5,
+      "projected_total": 50.8
+    },
+    {
+      "game_id": "2026_07_TB_CAR",
+      "teams": [
+        "CAR",
+        "TB"
+      ],
+      "home_team": "CAR",
+      "away_team": "TB",
+      "projected_home_score": 27.6,
+      "projected_away_score": 19.7,
+      "projected_total": 47.3
+    },
+    {
+      "game_id": "2026_07_NYG_HOU",
+      "teams": [
+        "HOU",
+        "NYG"
+      ],
+      "home_team": "HOU",
+      "away_team": "NYG",
+      "projected_home_score": 26.9,
+      "projected_away_score": 20.7,
+      "projected_total": 47.7
+    },
+    {
+      "game_id": "2026_07_IND_MIN",
+      "teams": [
+        "MIN",
+        "IND"
+      ],
+      "home_team": "MIN",
+      "away_team": "IND",
+      "projected_home_score": 23.2,
+      "projected_away_score": 20.0,
+      "projected_total": 43.2
+    },
+    {
+      "game_id": "2026_07_MIA_NYJ",
+      "teams": [
+        "NYJ",
+        "MIA"
+      ],
+      "home_team": "NYJ",
+      "away_team": "MIA",
+      "projected_home_score": 22.0,
+      "projected_away_score": 19.9,
+      "projected_total": 41.9
+    },
+    {
+      "game_id": "2026_07_CLE_TEN",
+      "teams": [
+        "TEN",
+        "CLE"
+      ],
+      "home_team": "TEN",
+      "away_team": "CLE",
+      "projected_home_score": 21.1,
+      "projected_away_score": 21.6,
+      "projected_total": 42.6
+    },
+    {
+      "game_id": "2026_07_DEN_ARI",
+      "teams": [
+        "ARI",
+        "DEN"
+      ],
+      "home_team": "ARI",
+      "away_team": "DEN",
+      "projected_home_score": 20.2,
+      "projected_away_score": 22.1,
+      "projected_total": 42.4
+    },
+    {
+      "game_id": "2026_07_GB_DET",
+      "teams": [
+        "DET",
+        "GB"
+      ],
+      "home_team": "DET",
+      "away_team": "GB",
+      "projected_home_score": 26.7,
+      "projected_away_score": 21.8,
+      "projected_total": 48.5
+    },
+    {
+      "game_id": "2026_07_LA_LV",
+      "teams": [
+        "LV",
+        "LA"
+      ],
+      "home_team": "LV",
+      "away_team": "LA",
+      "projected_home_score": 22.7,
+      "projected_away_score": 26.1,
+      "projected_total": 48.7
+    },
+    {
+      "game_id": "2026_07_KC_SEA",
+      "teams": [
+        "SEA",
+        "KC"
+      ],
+      "home_team": "SEA",
+      "away_team": "KC",
+      "projected_home_score": 22.3,
+      "projected_away_score": 26.4,
+      "projected_total": 48.7
+    },
+    {
+      "game_id": "2026_07_DAL_PHI",
+      "teams": [
+        "PHI",
+        "DAL"
+      ],
+      "home_team": "PHI",
+      "away_team": "DAL",
+      "projected_home_score": 21.3,
+      "projected_away_score": 23.4,
+      "projected_total": 44.7
+    }
+  ]
+}

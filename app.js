@@ -3133,3 +3133,165 @@ function sleep(ms) {
 // ============================================================
 
 loadPocketSignal();
+
+// POCKET_SIGNAL_SUPPORTED_INSIGHTS_V1
+(() => {
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+    const fmt = (value, places = 3, suffix = '') =>
+        value === null || value === undefined || !Number.isFinite(Number(value))
+            ? '—' : Number(value).toFixed(places) + suffix;
+    const note = text => `<p class="ps-context-note">${esc(text)}</p>`;
+    const detail = (label, value) => `<div class="qb-detail"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`;
+    const style = document.createElement('style');
+    style.textContent = `
+        .ps-context-note { color: var(--text-muted, #9aafc0); font-size: 12px; line-height: 1.6; margin: 14px 0 0; }
+        .ps-context-table-wrap { overflow-x: auto; }
+        .ps-context-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .ps-context-table th, .ps-context-table td { padding: 12px 8px; text-align: right; border-bottom: 1px solid rgba(160,190,215,.12); }
+        .ps-context-table th:first-child, .ps-context-table td:first-child { text-align: left; }
+        .ps-context-table th { color: #9aafc0; font-size: 11px; }
+        .ps-injury-team + .ps-injury-team { margin-top: 18px; }
+        .ps-injury-team summary { cursor: pointer; padding: 8px 0; font-size: 13px; }
+        .ps-injury-player { border-top: 1px solid rgba(160,190,215,.12); padding: 9px 0; font-size: 12px; line-height: 1.6; }
+        .ps-injury-player small { display: block; color: #9aafc0; }
+    `;
+    document.head.append(style);
+
+    // Keep the existing layout, with explicit metric definitions and sample sizes.
+    renderQB = function(game) {
+        const q = game.insights?.quarterbacks || {};
+        qbPanel.innerHTML = `<div class="qb-matchup">${['away', 'home'].map(side => {
+            const team = game.preview?.[`${side}_team`] || '';
+            const qb = q[side] || {};
+            return `<div class="qb-team">
+                <div class="qb-team-header"><img src="${esc(getTeamLogo(team))}" alt="${esc(team)}"><strong>${esc(team)}</strong></div>
+                <div class="qb-name">${esc(qb.name || 'Starter needs review')}</div>
+                ${detail('Passing EPA/dropback', fmt(qb.epa_per_play))}
+                ${detail('Passing yards/game', fmt(qb.pass_ypg, 1))}
+                ${detail('Passing TD / INT', qb.td_int ?? '—')}
+                ${note(qb.games ? `${qb.games} passing appearances this season` : 'No usable season passing sample for this candidate.')}
+            </div>`;
+        }).join('')}</div>${note('Listed quarterbacks are subject to availability. Stats cover this season’s observed passing appearances before this week; they describe past performance, not this game’s projection.')}`;
+    };
+
+    const originalRender = renderFullAnalysis;
+    renderFullAnalysis = function(game) {
+        originalRender(game);
+        document.querySelectorAll('[data-ps-context]').forEach(node => node.remove());
+        const insights = game.insights || {};
+        if (insights.context_version !== 'supported-stats-v1') return;
+        const grid = qbPanel.closest('.analysis-card')?.parentElement;
+        if (!grid) return;
+        const heading = signalsPanel.closest('.analysis-card')?.querySelector('.analysis-heading');
+        if (heading) heading.textContent = 'MATCHUP COMPARISONS';
+        signalsPanel.insertAdjacentHTML('beforeend', note('Descriptive statistical comparisons; these are not a breakdown of the model’s feature contributions.'));
+        recentPanel.querySelectorAll('.recent-caption').forEach(node => node.textContent = 'Offensive EPA/play · last 5');
+        const c = insights.team_context || {};
+        const away = game.preview?.away_team || '';
+        const home = game.preview?.home_team || '';
+        const card = (title, contents) => {
+            const element = document.createElement('section');
+            element.className = 'analysis-card';
+            element.dataset.psContext = 'true';
+            element.innerHTML = `<div class="analysis-heading">${esc(title)}</div>${contents}`;
+            grid.append(element);
+        };
+        const rows = [
+            ['Offensive EPA/play', 'offensive_epa', 3, ''],
+            ['Passing EPA/dropback', 'passing_epa', 3, ''],
+            ['Rushing EPA/carry', 'rushing_epa', 3, ''],
+            ['Defensive EPA allowed/play', 'defensive_epa_allowed', 3, ''],
+            ['Completion rate', 'completion_pct', 1, '%'],
+        ];
+        card('TEAM EFFICIENCY', `<div class="ps-context-table-wrap"><table class="ps-context-table">
+            <thead><tr><th>Last 5 completed games</th><th scope="col">${esc(away)}</th><th scope="col">${esc(home)}</th></tr></thead>
+            <tbody>${rows.map(([label, key, places, suffix]) => `<tr><th scope="row">${esc(label)}</th><td>${fmt(c.away?.[key], places, suffix)}</td><td>${fmt(c.home?.[key], places, suffix)}</td></tr>`).join('')}</tbody>
+            </table></div>${note(`Sample: ${away} ${c.away?.games ?? 0} games; ${home} ${c.home?.games ?? 0} games. Higher offensive EPA is better; lower defensive EPA allowed is better.`)}
+            ${note('Offensive EPA uses passing plus rushing EPA over attempts, sacks and carries. Third-down conversion rates are not available in the current source.')}`);
+        const injury = insights.injuries || {};
+        const injuryBody = ['away', 'home'].map(side => {
+            const report = injury[side] || {};
+            const team = side === 'away' ? away : home;
+            if (!report.available) return `<div class="ps-injury-team"><strong>${esc(team)}</strong>${note(`Week ${game.week || 7} reports not available yet.`)}</div>`;
+            const list = [...(report.players || [])].sort((a, b) => {
+                const rank = {Out: 0, Doubtful: 1, Questionable: 2};
+                return (rank[a.status] ?? 3) - (rank[b.status] ?? 3) || a.name.localeCompare(b.name);
+            });
+            return `<details class="ps-injury-team"><summary>${esc(team)} · ${list.length} reported players</summary>${list.map(p =>
+                `<div class="ps-injury-player"><strong>${esc(p.name)}</strong> ${esc(p.position || '')} · ${esc(p.status)}<small>${esc([p.injury, p.practice].filter(Boolean).join(' · '))}</small></div>`
+            ).join('')}</details>`;
+        }).join('');
+        card('INJURY REPORTS', `${injuryBody}${note('Practice participation does not by itself mean a player is ruled out. Only reports for this game week appear here.')}`);
+    };
+})();
+
+// POCKET_SIGNAL_KICKOFF_WEATHER_V1
+(() => {
+    const escapeWeather = value => String(value ?? '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+    const row = (label, value) => `<div class="info-row"><span>${escapeWeather(label)}</span><strong>${escapeWeather(value)}</strong></div>`;
+    const value = (number, unit) => number === null || number === undefined || !Number.isFinite(Number(number))
+        ? 'Unavailable' : `${Number(number).toFixed(1)}${unit}`;
+    const date = iso => {
+        if (!iso || !Number.isFinite(Date.parse(iso))) return 'Unavailable';
+        return new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York',
+            month:'short', day:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'}).format(new Date(iso));
+    };
+    const originalWeather = renderWeather;
+    renderWeather = function(game) {
+        const w = game.insights?.weather || {};
+        if (w.version !== 'kickoff-weather-v1') {
+            originalWeather(game);
+            return;
+        }
+        const note = text => `<p style="color:#9aafc0;font-size:12px;line-height:1.6;margin:12px 0 0">${escapeWeather(text)}</p>`;
+        const indoor = w.roof_status === 'closed';
+        let html = row('Stadium', w.stadium || 'Unavailable') + row('Roof', w.roof || 'Unavailable');
+        if (indoor) {
+            html += row('Temperature', 'Indoor temperature not supplied') + row('Wind', 'Not applicable indoors');
+        } else {
+            const outdoor = w.roof_type === 'retractable' ? 'Outdoor ' : '';
+            html += row(`${outdoor}temperature`, value(w.temperature_f, '°F'));
+            html += row(`${outdoor}wind`, value(w.wind_mph, ' mph'));
+            if (w.wind_gusts_mph !== null && w.wind_gusts_mph !== undefined)
+                html += row('Outdoor gusts', value(w.wind_gusts_mph, ' mph'));
+            if (w.precipitation_probability !== null && w.precipitation_probability !== undefined)
+                html += row('Precipitation chance', value(w.precipitation_probability, '%'));
+        }
+        if (w.surface) html += row('Surface', w.surface);
+        if (w.roof_type === 'retractable' && w.roof_status === 'unknown')
+            html += note('Outdoor conditions near the stadium. Their effect on the game depends on whether the roof opens.');
+        if (w.status === 'stale') html += note(w.message);
+        else if (w.status === 'unavailable' || w.status === 'started') html += note(w.message || 'Forecast unavailable.');
+        else if (!indoor) html += note('Kickoff-hour forecast near the stadium; wind on the field may differ.');
+        if (w.forecast_hour_utc) html += row('Forecast hour begins', date(w.forecast_hour_utc));
+        if (w.updated_at) {
+            const saved = w.kickoff_utc && Date.parse(w.kickoff_utc) <= Date.now();
+            html += row(saved ? 'Pregame forecast fetched' : 'Forecast fetched', date(w.updated_at));
+            if (!saved && Date.now() - Date.parse(w.updated_at) > 6 * 3600000 && w.status !== 'stale')
+                html += note('This forecast is more than six hours old. Check for a newer update closer to kickoff.');
+        }
+        if (w.provider === 'Open-Meteo') html += `<p style="font-size:12px;margin-top:12px"><a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Weather data: Open-Meteo</a></p>`;
+        if (w.roof_status_source) html += note(`Roof status: ${w.roof_status_source}; ${w.roof_status_updated_at || 'update time unavailable'}`);
+        weatherPanel.innerHTML = html;
+    };
+})();
+
+
+// PS_GAME_DEEP_LINK_V1
+(() => {
+    const id = new URLSearchParams(location.search).get('game_id');
+    if (!id) return;
+    let tries=0;
+    const timer=setInterval(() => {
+        tries++;
+        if (payload && Array.isArray(payload.games)) {
+            clearInterval(timer);
+            const game=payload.games.find(g=>g.game_id===id);
+            if(game)openGame(game);
+        } else if(tries>=100)clearInterval(timer);
+    },100);
+})();

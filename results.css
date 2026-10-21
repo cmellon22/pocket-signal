@@ -1788,3 +1788,43 @@
     color: #35d7ff;
     text-decoration-color: #35d7ff;
 }
+
+/* PS_TRACK_VISUAL_POLISH_V1 */
+.results-overview-layout .results-hero {
+    background:radial-gradient(ellipse at 32% 35%,rgba(39,214,255,.105),transparent 66%),linear-gradient(180deg,#081623,#06101b);
+    border-bottom-color:rgba(39,214,255,.26);
+}
+.results-overview-layout .results-hero h1 {color:#eef9ff;text-shadow:0 0 24px rgba(39,214,255,.12)}
+.results-overview-layout .section-kicker {color:#39d8f4;text-shadow:0 0 12px rgba(39,214,255,.2)}
+.results-overview-layout .rt-overview-grid .summary-card {
+    background:linear-gradient(145deg,rgba(22,47,72,.92),rgba(9,24,39,.97));
+    box-shadow:0 0 20px rgba(39,214,255,.065),inset 0 1px 0 rgba(210,240,255,.04);
+    border-color:rgba(39,214,255,.38);
+}
+.results-overview-layout #weeklyPlayerCard {
+    display:flex;flex-direction:column;justify-content:space-between;
+    border-color:rgba(68,226,168,.42);
+    background:radial-gradient(ellipse at 90% 85%,rgba(68,226,168,.065),transparent 70%),linear-gradient(145deg,rgba(19,45,64,.95),rgba(9,24,39,.97));
+    box-shadow:0 0 20px rgba(68,226,168,.055);
+}
+.results-overview-layout #weeklyPlayerCard .rt-main-line {margin-top:18px;margin-bottom:12px;gap:20px}
+.results-overview-layout #weeklyPlayerCard .rt-record {font-size:clamp(44px,5.4vw,68px)}
+.results-overview-layout #weeklyPlayerCard .rt-rate {font-size:clamp(22px,2.4vw,30px)}
+.results-overview-layout #weeklyPlayerCard .rt-unit-line {padding-top:16px;margin-top:16px;border-top:1px solid rgba(68,226,168,.16)}
+.results-overview-layout #weeklyPlayerCard .rt-unit-line strong {font-size:27px}
+.results-overview-layout .rt-signal-mini-item {background:rgba(5,18,31,.4);border-color:rgba(122,190,224,.22)}
+.results-overview-layout .notable-card,.results-overview-layout .rt-signal-details {box-shadow:0 0 16px rgba(39,214,255,.045);border-color:rgba(39,214,255,.25)}
+.results-overview-layout .signal-performance-card {box-shadow:inset 0 1px 0 rgba(235,250,255,.035)}
+.results-overview-layout .rt-jump-links a {background:linear-gradient(135deg,rgba(39,214,255,.09),rgba(10,31,46,.55))}
+.results-overview-layout a:focus-visible,.results-overview-layout select:focus-visible,.results-overview-layout summary:focus-visible {outline:2px solid #39d8f4;outline-offset:3px}
+@media(max-width:650px){
+ .results-overview-layout #weeklyPlayerCard .rt-record {font-size:44px}
+ .results-overview-layout #weeklyPlayerCard .rt-main-line {margin:14px 0 4px}
+ .results-overview-layout #weeklyPlayerCard .rt-unit-line {padding-top:13px;margin-top:14px}
+}
+body.results-overview-layout #overallGameRecord,
+body.results-overview-layout #weeklyPlayerCard #overviewPlayerRecord {
+    letter-spacing: .025em !important;
+    font-variant-numeric: lining-nums tabular-nums;
+    white-space: nowrap;
+}

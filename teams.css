@@ -968,3 +968,38 @@
 .teams-hero h1 {
     font-size: clamp(2rem, 3.5vw, 3rem) !important;
 }
+/* PS_TEAMS_UI_V1 */
+.teams-hero{background:radial-gradient(ellipse at 32% 40%,rgba(39,214,255,.075),transparent 66%),linear-gradient(115deg,#07121e,#0a1b29,#07121e);background-size:100% 100%,180% 180%;animation:psTeamsAmbient 18s ease-in-out infinite alternate;border-bottom:1px solid rgba(39,214,255,.2)}
+.teams-hero h1{color:#a4ebfa;background:linear-gradient(100deg,#f2fbff,#a4ebfa 65%,#27d6ff);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;width:fit-content}
+@keyframes psTeamsAmbient{from{background-position:0 0,0% 45%}to{background-position:0 0,100% 55%}}
+.ps-rank-frame{position:relative;min-width:0}
+.ps-rank-frame .ranking-table-card{border-color:rgba(39,214,255,.55)!important;box-shadow:0 0 22px rgba(39,214,255,.1)!important;scrollbar-width:thin;scrollbar-color:#2499b8 #0b1d2b;overscroll-behavior-x:contain}
+.ps-rank-frame::after{content:'';position:absolute;pointer-events:none;right:1px;top:1px;bottom:1px;width:30px;background:linear-gradient(90deg,transparent,rgba(4,16,27,.85));border-right:2px solid rgba(39,214,255,.6);border-radius:0 15px 15px 0;opacity:0;transition:opacity .15s;z-index:6}
+.ps-rank-frame.ps-more-right::after{opacity:1}
+.ps-rank-cue{display:flex;gap:15px;align-items:center;justify-content:space-between;margin:12px 0;color:#8fe9fa;font-size:12px;line-height:1.5}
+.ps-rank-cue[hidden],.ps-rank-help[hidden]{display:none}
+.ps-rank-cue progress{width:90px;height:5px;border:0;accent-color:#27d6ff;border-radius:4px;overflow:hidden}
+.ps-rank-cue progress::-webkit-progress-bar{background:#183347}.ps-rank-cue progress::-webkit-progress-value{background:#27d6ff}
+.ps-rank-update{font-size:12px;color:#9ebacb;margin:0 0 12px}
+.ps-rank-update:empty{display:none}
+.ps-rank-help{padding:12px 15px;border:1px solid rgba(39,214,255,.25);border-radius:9px;color:#c4dce9;background:#0c2030;font-size:13px;line-height:1.65;margin-bottom:12px}
+.ps-stat-help{font:inherit;letter-spacing:inherit;color:inherit;white-space:nowrap;background:none;border:0;padding:8px 0;cursor:pointer;min-height:36px;text-align:left}
+.ps-stat-help:hover{color:#c9f6ff}
+.ranking-table-header>div.ps-sorted-column{color:#61dfff!important}
+.ranking-row>div.ps-sorted-column{background-color:rgba(39,214,255,.055);border-radius:6px}
+.ranking-row{border-top-color:rgba(150,192,218,.1)}
+.ranking-row:active{background:rgba(39,214,255,.07)}
+.ranking-table-card:focus-visible,.ps-stat-help:focus-visible{outline:2px solid #27d6ff;outline-offset:3px}
+@media(max-width:1100px){
+ .ps-rank-frame .ranking-table-card{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ .ps-rank-frame .ranking-table-header,.ps-rank-frame .ranking-row{min-width:962px;grid-template-columns:48px 154px 96px 94px 74px 74px 74px 80px 140px;gap:0;padding:0 14px;min-height:74px}
+ .ps-rank-frame .ranking-table-header{min-height:52px}
+ .ps-rank-frame .ranking-row>div,.ps-rank-frame .ranking-table-header>div{padding:12px 8px;box-sizing:border-box}
+ .ps-rank-frame .ranking-row>div:nth-child(1),.ps-rank-frame .ranking-table-header>div:nth-child(1){position:sticky;left:0;z-index:3;background:#0d2031;align-self:stretch;display:flex;align-items:center}
+ .ps-rank-frame .ranking-row>div:nth-child(2),.ps-rank-frame .ranking-table-header>div:nth-child(2){position:sticky;left:48px;z-index:3;background:#0d2031;align-self:stretch;box-shadow:6px 0 10px rgba(0,0,0,.17);border-right:1px solid rgba(39,214,255,.18)}
+ .ps-rank-frame .ranking-table-header>div:nth-child(-n+2){background:#132c40;z-index:4}
+ .ps-rank-frame .ranking-team{gap:9px}
+ .ps-rank-frame .ranking-team img{width:30px;height:30px;object-fit:contain;flex-shrink:0}
+ .ps-rank-frame .ranking-team span{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){.teams-hero{animation:none}.ps-rank-frame::after{transition:none}}

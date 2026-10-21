@@ -1,8 +1,8 @@
-const DATA_URL = "data/api/player_projections_2026_week6.json";
-const QB_DATA_URL = "data/api/qb_projections_2026_week6.json";
-const RB_DATA_URL = "data/api/rb_projections_2026_week6.json";
+const DATA_URL = "data/api/player_projections_2026_week7.json";
+const QB_DATA_URL = "data/api/qb_projections_2026_week7.json";
+const RB_DATA_URL = "data/api/rb_projections_2026_week7.json";
 const SLATE_SEASON = 2026;
-const SLATE_WEEK = 6;
+const SLATE_WEEK = 7;
 
 function isQuarterback(player) { return player.position === "QB"; }
 function isRunningBack(player) { return player.position === "RB"; }
@@ -15,7 +15,7 @@ let filteredPlayers = [];
 let selectedPlayer = null;
 let selectedMetric = "receiving_yards";
 let selectedHistoryWindow = "last5";
-let projectionWeek = 6;
+let projectionWeek = 7;
 
 const playerList = document.getElementById("playerList");
 const playerCount = document.getElementById("playerCount");
@@ -254,7 +254,7 @@ function applyFilters() {
         const matchesPosition =
             position === "ALL" || player.position === position;
         const matchesGame = gameFilter.value === "ALL" || playerGameKey(player) === gameFilter.value;
-        return matchesSearch && matchesPosition && matchesGame;
+        return matchesSearch && matchesPosition && matchesGame && psMatchesWatchlist(player);
     });
 
     if (isGapSort()) {
@@ -499,7 +499,7 @@ function renderPlayerDetailBase(player) {
         setText(".comparison-gap", "—");
         setText(
             ".market-status",
-            "No benchmark loaded"
+            "No market line available yet"
         );
     }
 
@@ -701,7 +701,7 @@ function marketSourceRead(market) {
 }
 
 function historicalLineRead(games, metric, line) {
-    if (line === null) return "No line added";
+    if (line === null) return "No market line available yet";
     const values = games.map(game => numberOrNull(game[metric])).filter(value => value !== null);
     if (!values.length) return "Past results unavailable";
     const above = values.filter(value => value > line).length;
@@ -719,7 +719,7 @@ function renderMetricSummary(player, metric, games) {
     setText(".comparison-card .comparison-sub", `${config.label} projection`);
     const market = player.market?.[metric], line = numberOrNull(market?.line);
     setText(".comparison-market-yards", line === null ? "—" : `${format1(line)} ${unit}`);
-    setText(".market-status", line === null ? "No line added" : marketSourceRead(market));
+    setText(".market-status", line === null ? "No market line available yet" : marketSourceRead(market));
     const gap = line !== null && value !== null ? value - line : null;
     const element = detailPanel.querySelector(".comparison-gap");
     element.classList.remove("gap-negative","gap-positive","gap-neutral"); element.removeAttribute("title");
@@ -885,7 +885,7 @@ function renderQuarterbackDetail(player) {
         gapElement.classList.add(`gap-${direction}`);
         gapElement.title = direction === "neutral" ? "Projection equals market benchmark" : `Projection is ${format1(Math.abs(gap))} yds ${gap < 0 ? "below" : "above"} market`;
     }
-    setText(".market-status", line === null ? "No passing benchmark loaded" : `${market.updated_at ? `Snapshot ${market.updated_at}` : "External reference"}${gap === null ? "" : ` · ${gapElement.title}`}`);
+    setText(".market-status", line === null ? "No market line available yet" : `${market.updated_at ? `Snapshot ${market.updated_at}` : "External reference"}${gap === null ? "" : ` · ${gapElement.title}`}`);
     setText(".component-section .section-heading-small h3", "Passing forecast and companion estimates");
     const cards = detailPanel.querySelectorAll(".component-card");
     const values = [
@@ -1058,7 +1058,7 @@ function renderRunningBackMetric(player,metric) {
         gapElement.title = direction === "neutral" ? "Projection equals market benchmark" : `Projection is ${format1(Math.abs(gap))} ${unit} ${gap < 0 ? "below" : "above"} market`;
     }
     const source = market?.source === "user_screenshot" ? "Screenshot benchmark" : market?.updated_at ? `Snapshot ${market.updated_at}` : "External reference";
-    setText(".market-status",line === null ? `No ${config.unit} benchmark loaded` : `${source}${gap === null ? "" : ` · ${gapElement.title}`}`);
+    setText(".market-status",line === null ? "No market line available yet" : `${source}${gap === null ? "" : ` · ${gapElement.title}`}`);
     setText(".context-season-yards",format1(config.seasonAverage));
     setText(".context-last3-yards",format1(config.last3Average));
     const contexts = detailPanel.querySelectorAll(".context-card");
@@ -1556,3 +1556,225 @@ function setMarketBenchmarkColor(player) {
         status.textContent = `${source} · ${description}`;
     }
 }
+
+// POCKET_SIGNAL_NO_MARKET_LINE_V1
+
+// POCKET_SIGNAL_PLAYER_BROWSING_V1
+const PS_WATCHLIST_KEY = 'pocket-signal:player-watchlist:v1';
+let psWatchlistOnly = false;
+let psWatchlistSessionOnly = false;
+let psWatchlistIds = new Set();
+
+function psReadWatchlist() {
+    try {
+        const stored = JSON.parse(localStorage.getItem(PS_WATCHLIST_KEY) || '[]');
+        return new Set(Array.isArray(stored) ? stored.filter(id => typeof id === 'string' && id.trim()).slice(0, 5000) : []);
+    } catch (_) {
+        return new Set();
+    }
+}
+
+function psMatchesWatchlist(player) {
+    return !psWatchlistOnly || psWatchlistIds.has(String(player.player_id));
+}
+
+function psSyncBrowsingControls() {
+    document.querySelectorAll('[data-ps-position]').forEach(button => {
+        const active = button.dataset.psPosition === positionFilter.value;
+        button.setAttribute('aria-pressed', String(active));
+        button.classList.toggle('is-active', active);
+    });
+    const button = document.getElementById('psWatchlistFilter');
+    if (button) {
+        const available = allPlayers.filter(player => psWatchlistIds.has(String(player.player_id))).length;
+        button.textContent = `★ My watchlist${available ? ` (${available})` : ''}`;
+        button.setAttribute('aria-pressed', String(psWatchlistOnly));
+        button.classList.toggle('is-active', psWatchlistOnly);
+    }
+    const note = document.getElementById('psWatchlistNote');
+    if (note) note.textContent = psWatchlistSessionOnly
+        ? 'Browser storage is unavailable. Your watchlist is kept for this session only.'
+        : psWatchlistOnly ? 'Saved on this browser. Search, game and position filters still apply.' : '';
+    if (note) note.hidden = !note.textContent;
+}
+
+function psToggleFavorite(player, focusedId) {
+    const id = String(player.player_id);
+    if (psWatchlistIds.has(id)) psWatchlistIds.delete(id);
+    else psWatchlistIds.add(id);
+    try {
+        localStorage.setItem(PS_WATCHLIST_KEY, JSON.stringify([...psWatchlistIds]));
+        psWatchlistSessionOnly = false;
+    } catch (_) {
+        psWatchlistSessionOnly = true;
+    }
+    const scroll = playerList.scrollTop;
+    applyFilters();
+    playerList.scrollTop = scroll;
+    // Keyboard focus follows a surviving star, or returns to the watchlist filter.
+    const stars = [...playerList.querySelectorAll('.ps-favorite-button')];
+    const next = stars.find(button => button.dataset.favoriteId === focusedId);
+    (next || document.getElementById('psWatchlistFilter'))?.focus({preventScroll:true});
+    const status = document.getElementById('psWatchlistAnnouncement');
+    if (status) status.textContent = `${player.name || 'Player'} ${psWatchlistIds.has(id) ? 'added to' : 'removed from'} your watchlist.`;
+}
+
+(() => {
+    psWatchlistIds = psReadWatchlist();
+    const controls = document.querySelector('.player-controls');
+    if (!controls || document.getElementById('psBrowsingShortcuts')) return;
+    const shortcuts = document.createElement('div');
+    shortcuts.id = 'psBrowsingShortcuts';
+    shortcuts.className = 'ps-browsing-shortcuts';
+    shortcuts.innerHTML = `<div class="ps-position-buttons" role="group" aria-label="Filter players by position">
+        ${['ALL','QB','RB','WR','TE'].map(position => `<button type="button" class="ps-browse-button" data-ps-position="${position}" aria-pressed="false">${position === 'ALL' ? 'All' : position}</button>`).join('')}
+        </div><button type="button" class="ps-browse-button ps-watchlist-filter" id="psWatchlistFilter" aria-pressed="false">★ My watchlist</button>
+        <p id="psWatchlistNote" class="ps-watchlist-note" hidden></p>
+        <span id="psWatchlistAnnouncement" class="ps-visually-hidden" role="status" aria-live="polite"></span>`;
+    controls.before(shortcuts);
+    positionFilter.classList.add('ps-position-dropdown-replaced');
+    positionFilter.hidden = true;
+    document.querySelector('.players-page')?.classList.add('ps-browsing-enhanced');
+    shortcuts.querySelectorAll('[data-ps-position]').forEach(button => {
+        button.addEventListener('click', () => {
+            positionFilter.value = button.dataset.psPosition;
+            // Reuse the existing position-change behavior and sorting rules.
+            positionFilter.dispatchEvent(new Event('change', {bubbles:true}));
+        });
+    });
+    document.getElementById('psWatchlistFilter').addEventListener('click', () => {
+        psWatchlistOnly = !psWatchlistOnly;
+        applyFilters();
+    });
+
+    const originalRenderList = renderPlayerList;
+    renderPlayerList = function() {
+        originalRenderList();
+        const playersById = new Map(filteredPlayers.map(player => [String(player.player_id), player]));
+        playerList.querySelectorAll('.player-list-item[data-player-id]').forEach(button => {
+            const player = playersById.get(button.dataset.playerId);
+            if (!player) return;
+            // Sibling controls: never nest an interactive star inside the player button.
+            const wrapper = document.createElement('div');
+            wrapper.className = 'ps-player-row';
+            button.before(wrapper);
+            wrapper.append(button);
+            const star = document.createElement('button');
+            star.type = 'button';
+            star.className = 'ps-favorite-button';
+            star.dataset.favoriteId = String(player.player_id);
+            const saved = psWatchlistIds.has(String(player.player_id));
+            star.classList.toggle('is-saved', saved);
+            star.textContent = saved ? '★' : '☆';
+            star.setAttribute('aria-pressed', String(saved));
+            const label = `${saved ? 'Remove' : 'Save'} ${player.name || 'player'} ${saved ? 'from' : 'to'} watchlist`;
+            star.setAttribute('aria-label', label);
+            star.title = label;
+            star.addEventListener('click', () => psToggleFavorite(player, String(player.player_id)));
+            wrapper.append(star);
+        });
+        if (psWatchlistOnly && filteredPlayers.length === 0) {
+            playerList.replaceChildren();
+            const empty = document.createElement('div');
+            empty.className = 'loading-state ps-watchlist-empty';
+            const text = document.createElement('p');
+            text.textContent = psWatchlistIds.size
+                ? 'No saved players match these filters.'
+                : 'Your watchlist is empty. Star a player to save them here.';
+            const browse = document.createElement('button');
+            browse.type = 'button';
+            browse.className = 'ps-browse-button';
+            browse.textContent = 'Browse players';
+            browse.addEventListener('click', () => { psWatchlistOnly = false; applyFilters(); });
+            empty.append(text, browse);
+            playerList.append(empty);
+        }
+        psSyncBrowsingControls();
+    };
+
+    // Tighten the existing market-gap copy; retain its results link and action.
+    const title = document.getElementById('marketGapIntroTitle');
+    if (title) title.textContent = 'Model vs. market';
+    const description = document.querySelector('.market-gap-intro > div > p');
+    if (description && !description.querySelector('a'))
+        description.textContent = 'Sort by market gap to find the biggest differences from sportsbook lines.';
+
+    // Keep the full ET timestamp in the tooltip, with a clean two-line display.
+    const timestamp = document.getElementById('latestProjectionUpdate');
+    if (timestamp) {
+        const compactTime = () => {
+            const iso = timestamp.getAttribute('datetime');
+            if (!iso || !Number.isFinite(Date.parse(iso)) || timestamp.dataset.psCompactTime === iso) return;
+            timestamp.dataset.psCompactTime = iso;
+            const date = new Date(iso);
+            const day = document.createElement('span');
+            day.textContent = new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York', month:'short', day:'numeric'}).format(date);
+            const time = document.createElement('span');
+            time.textContent = new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York', hour:'numeric', minute:'2-digit', timeZoneName:'short'}).format(date);
+            timestamp.replaceChildren(day, time);
+        };
+        new MutationObserver(compactTime).observe(timestamp, {childList:true, attributes:true, attributeFilter:['datetime']});
+        compactTime();
+    }
+    window.addEventListener('storage', event => {
+        if (event.key === PS_WATCHLIST_KEY || event.key === null) {
+            psWatchlistIds = psReadWatchlist();
+            applyFilters();
+        }
+    });
+    psSyncBrowsingControls();
+    if (allPlayers.length) applyFilters();
+})();
+
+
+// PS_PLAYER_MATCHUPS_V2
+(() => {
+    let context = null;
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const fmt = (v, digits=1) => v === null || v === undefined || !Number.isFinite(Number(v)) ? '—' : Number(v).toFixed(digits);
+    const card = (label,value,sub='') => `<div class="ps-matchup-stat"><small>${esc(label)}</small><strong>${esc(value)}</strong>${sub ? `<span>${esc(sub)}</span>` : ''}</div>`;
+    function render() {
+        if (!context || !selectedPlayer || detailPanel.querySelector('.ps-matchup-context')) return;
+        const player=selectedPlayer;
+        const game=context.games.find(g => g.teams.includes(player.team) && g.teams.includes(player.opponent));
+        if (!game) return;
+        const group = player.position === 'QB' ? 'QB' : ['RB','FB'].includes(player.position) ? 'RB' : player.position;
+        const defense=context.defenses[player.opponent]?.[group];
+        const node=document.createElement('section');node.className='ps-matchup-context';
+        let matchup='';
+        if (defense && defense.season.games) {
+            const s=defense.season, l=defense.last3;
+            const pass=group==='QB', rush=group==='RB';
+            const scope=pass?'Passing':rush?'All RBs · rushing':`All ${group}s · receiving`;
+            const label=`${scope} · Season`;
+            const yards=pass?'passing_yards':rush?'rushing_yards':'receiving_yards';
+            const rate=pass?'completion_pct':rush?'yards_per_carry':'yards_per_reception';
+            const rateLabel=pass?'Completion rate allowed':rush?'Yards / carry allowed':'Yards / reception allowed';
+            const league=defense.league_average;
+            const diff=league && s[yards]!==null ? (s[yards]/league-1)*100:null;
+            const read=diff===null?'':`${player.opponent} has allowed ${Math.abs(diff).toFixed(1)}% ${diff>=0?'more':'fewer'} ${pass?'passing':rush?'RB rushing':group+' receiving'} yards per game than the league average.`;
+            matchup=card(label,fmt(s[yards])+' yds',`Per game · ${s.games} completed games`)
+                +card(`${scope} · Last 3`,fmt(l[yards])+' yds',`Per game · ${l.games} completed games`)
+                +card(rateLabel,fmt(s[rate])+(pass?'%':''),'Season; totals-based rate');
+            if(pass)matchup+=card('Sack rate',fmt(s.sack_rate)+'%','Sacks / (attempts + sacks)');
+            if(rush)matchup+=card('RB receiving yards allowed / game',fmt(s.receiving_yards)+' yds',`${s.games} completed games`);
+            matchup=`<div class="ps-matchup-stats">${matchup}</div><p>${esc(read)}</p>`;
+        } else matchup='<p>Matchup stats are not available for this position yet.</p>';
+        const isHome=game.home_team===player.team;
+        const points=isHome?game.projected_home_score:game.projected_away_score;
+        const other=isHome?game.projected_away_score:game.projected_home_score;
+        const margin=points!==null && other!==null ? points-other:null;
+        const marginText=margin===null?'—':Math.abs(margin)<.05?'Even':`${margin>0?'Favored by':'Trailing by'} ${fmt(Math.abs(margin))}`;
+        const gameStats=card(`${player.team} projected points`,fmt(points))+card('Projected margin',marginText)+card('Projected game total',fmt(game.projected_total));
+        const interpretation=margin===null?'':Math.abs(margin)<=4?'Pocket Signal projects a close game. Passing and rushing workloads will still depend on how the game unfolds.':margin>0?'Pocket Signal projects this team ahead. A lead could support rushing volume, but game script can change.':'Pocket Signal projects this team behind. A deficit could increase passing demand, but player volume is not guaranteed.';
+        node.innerHTML=`<div class="ps-matchup-panel"><div class="section-kicker">MATCHUP OUTLOOK</div><h3>Against ${esc(player.opponent)}</h3>${matchup}<details><summary>About these numbers</summary><p>2026 regular-season games completed before Week 7. Position totals describe the defense, not an individual coverage assignment. Last-three averages use up to three completed games. These are supporting comparisons, not explanations of the model's calculation.</p></details></div><div class="ps-matchup-panel"><div class="section-kicker">GAME ENVIRONMENT</div><h3>The game around the player</h3><div class="ps-matchup-stats">${gameStats}</div><p>${esc(interpretation)}</p><a href="index.html?game_id=${encodeURIComponent(game.game_id)}">Explore game matchup →</a></div>`;
+        const details=detailPanel.querySelector('.projection-details');
+        if(details)details.before(node);else detailPanel.append(node);
+    }
+    const observer=new MutationObserver(render);
+    observer.observe(detailPanel,{childList:true,subtree:true});
+    fetch('data/api/player_matchup_context_2026_week7.json',{cache:'no-store'})
+        .then(r=>{if(!r.ok)throw new Error('Matchup feed unavailable');return r.json();})
+        .then(data=>{if(data.season!==2026 || data.week!==7 || SLATE_WEEK!==7)return;context=data;render();})
+        .catch(error=>console.warn('Player matchup context:',error.message));
+})();

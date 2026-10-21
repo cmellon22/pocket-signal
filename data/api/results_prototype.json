@@ -8,7 +8,7 @@
     "prototype": true,
     "benchmark_label": "Benchmark Snapshot",
     "benchmark_note": "Manual benchmark snapshot used for comparison.",
-    "last_results_update": "2026-10-19T11:50:46.639505+00:00"
+    "last_results_update": "2026-10-20T13:27:51.365030+00:00"
   },
   "games": [
     {
@@ -2284,6 +2284,150 @@
         "market_game_count": 14
       },
       "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
+    },
+    {
+      "game_id": "2026_06_WAS_SF",
+      "season": 2026,
+      "week": 6,
+      "away_team": "WAS",
+      "home_team": "SF",
+      "away_score": 17,
+      "home_score": 23,
+      "result": "SF",
+      "model_winner": "SF",
+      "favorite_win_probability": 82.1,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "SF",
+      "projected_margin_absolute": 9.8,
+      "projected_margin": 9.8,
+      "projected_away_score": 20.0,
+      "projected_home_score": 29.8,
+      "projected_total": 49.9,
+      "actual_total": 40,
+      "margin_error_absolute": 3.8,
+      "total_error_absolute": 9.9,
+      "benchmark_favorite": "SF",
+      "benchmark_margin_absolute": 7.5,
+      "benchmark_margin_error_absolute": 1.5,
+      "model_benchmark_gap": 2.3,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-10-19",
+      "result_source": "https://www.espn.com/nfl/game/_/gameId/401873008",
+      "result_verified_at": "2026-10-20",
+      "forecast_generated_at": "2026-10-13T20:48:13.625498+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_06_WAS_SF",
+        "season": 2026,
+        "week": 6,
+        "preview": {
+          "away_team": "WAS",
+          "home_team": "SF",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-10-19",
+          "gametime": "20:15",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 17.9,
+          "home_win_probability": 82.1,
+          "favorite": "SF",
+          "favorite_win_probability": 82.1,
+          "margin_favorite": "SF",
+          "projected_away_score": 20.0,
+          "projected_home_score": 29.8,
+          "projected_margin": 9.8,
+          "projected_margin_absolute": 9.8,
+          "projected_total": 49.9,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 350.0,
+            "home": -450.0,
+            "away_implied_probability": 22.2,
+            "home_implied_probability": 81.8,
+            "away_vig_free_probability": 21.4,
+            "home_vig_free_probability": 78.6
+          },
+          "spread": {
+            "away": 7.5,
+            "home": -7.5,
+            "favorite": "SF",
+            "line": 7.5
+          },
+          "total": {
+            "line": 50.5
+          },
+          "provider": "FANDUEL SB",
+          "updated_at": "2026-10-13 1630"
+        },
+        "comparison": {
+          "win_probability_difference": 3.5,
+          "margin_difference": 2.3,
+          "total_difference": -0.6
+        },
+        "insights": {
+          "key_signals": [],
+          "quarterbacks": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "recent_form": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": null,
+            "home": null,
+            "status": null
+          },
+          "weather": {
+            "temperature": null,
+            "wind": null,
+            "roof": "outdoors",
+            "surface": "grass"
+          }
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "SF",
+          "margin_favorite": "SF",
+          "market_home_margin": 7.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 6,
+        "game_count": 14,
+        "generated_at": "2026-10-13T20:48:13.625498+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 14
+      },
+      "forecast_source": "https://cmellon22.github.io/pocket-signal/data/api/sunday_signal_latest.json"
     }
   ],
   "player_market_gap_weeks": [
@@ -2719,11 +2863,13 @@
           "updated_at": "2026-10-19T12:16:03.583335+00:00"
         },
         "00-0039910": {
-          "status": "pending",
-          "actual_yards": null,
+          "status": "lost",
+          "actual_yards": 300,
+          "espn_athlete_id": "4426348",
+          "game_status": "Final",
           "result_source": "https://www.espn.com/nfl/game/_/gameId/401873008",
-          "game_status": "Mon, October 19th at 8:15 PM EDT",
-          "updated_at": "2026-10-19T12:16:03.583335+00:00"
+          "profit_units": -1.0,
+          "updated_at": "2026-10-20T13:28:00.944572+00:00"
         },
         "00-0033119": {
           "status": "won",
@@ -2799,21 +2945,21 @@
         }
       },
       "snapshot_sha256": "3d4465b2e3dd4fe991492155f2f4e19f57e34f8a3e86a5e6d8f1ec9997c86b63",
-      "results_updated_at": "2026-10-19T12:42:34.074234+00:00",
+      "results_updated_at": "2026-10-20T13:28:00.944572+00:00",
       "summary": {
         "won": 10,
-        "lost": 4,
+        "lost": 5,
         "push": 0,
         "void": 0,
-        "pending": 1,
+        "pending": 0,
         "review": 0,
         "selected": 15,
-        "decided": 14,
-        "hit_rate": 71.428571,
-        "net_units": 4.77192982,
+        "decided": 15,
+        "hit_rate": 66.666667,
+        "net_units": 3.77192982,
         "units_complete": true,
         "missing_settled_odds": 0,
-        "units_risked_settled": 14,
+        "units_risked_settled": 15,
         "stake_per_selection": 1,
         "units_basis": "One unit risked per selection; net profit at the recorded price for the projected side. Pending results excluded; pushes/voids return the stake."
       },

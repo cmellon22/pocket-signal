@@ -843,6 +843,14 @@ function renderNotableCalls(games) {
 ============================================================ */
 
 function renderSignalPerformance(games) {
+  // PS_REMOVED_BOTTOM_SIGNAL_V2
+  if (!signalPerformance) return;
+
+  // PS_SIGNAL_OVERALL_SYNC_V1
+  // Match the overall signal row above, independently of explorer filters.
+  games = allGames.filter(g => g && typeof g.result === "string" &&
+    [g.away_team, g.home_team, "TIE"].includes(g.result));
+
   const levels = [
     "Strong",
     "Medium",

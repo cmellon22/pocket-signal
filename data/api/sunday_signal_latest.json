@@ -5,224 +5,29 @@
   },
   "metadata": {
     "season": 2026,
-    "week": 6,
+    "week": 7,
     "game_count": 14,
-    "generated_at": "2026-10-13T20:48:13.625498+00:00",
+    "generated_at": "2026-10-20T19:47:33.081432+00:00",
     "payload_version": "pocket-signal-v3-market-benchmark",
     "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
     "market_data_available": true,
-    "market_game_count": 14
+    "market_game_count": 14,
+    "insights_available": true,
+    "insights_updated_at": "2026-10-20T20:08:45.513865+00:00",
+    "weather_checked_at": "2026-10-20T20:17:18.304542+00:00"
   },
   "games": [
     {
-      "game_id": "2026_06_SEA_DEN",
+      "game_id": "2026_07_NE_CHI",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "SEA",
-        "home_team": "DEN",
+        "away_team": "NE",
+        "home_team": "CHI",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-15",
+        "gameday": "2026-10-22",
         "gametime": "20:15",
-        "location": "Home",
-        "signal_strength": "Medium"
-      },
-      "access": {
-        "unlocked": true,
-        "credits_required": 0,
-        "access_type": "development"
-      },
-      "simulation": {
-        "away_win_probability": 39.4,
-        "home_win_probability": 60.6,
-        "favorite": "DEN",
-        "favorite_win_probability": 60.6,
-        "margin_favorite": "DEN",
-        "projected_away_score": 22.2,
-        "projected_home_score": 24.4,
-        "projected_margin": 2.2,
-        "projected_margin_absolute": 2.2,
-        "projected_total": 46.6,
-        "signal_strength": "Medium",
-        "models_agree": true,
-        "coherence_status": "ALIGNED"
-      },
-      "market": {
-        "moneyline": {
-          "away": -146.0,
-          "home": 124.0,
-          "away_implied_probability": 59.3,
-          "home_implied_probability": 44.6,
-          "away_vig_free_probability": 57.1,
-          "home_vig_free_probability": 42.9
-        },
-        "spread": {
-          "away": -2.5,
-          "home": 2.5,
-          "favorite": "SEA",
-          "line": 2.5
-        },
-        "total": {
-          "line": 40.5
-        },
-        "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
-      },
-      "comparison": {
-        "win_probability_difference": 17.7,
-        "margin_difference": 4.7,
-        "total_difference": 6.1
-      },
-      "insights": {
-        "key_signals": [],
-        "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "team_strength": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
-        },
-        "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
-      },
-      "internal": {
-        "model_disagreement": "NO",
-        "models_agree": true,
-        "coherence_status": "ALIGNED",
-        "probability_favorite": "DEN",
-        "margin_favorite": "DEN",
-        "market_home_margin": -2.5,
-        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
-      }
-    },
-    {
-      "game_id": "2026_06_HOU_JAX",
-      "season": 2026,
-      "week": 6,
-      "preview": {
-        "away_team": "HOU",
-        "home_team": "JAX",
-        "away_logo": null,
-        "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "09:30",
-        "location": "Neutral",
-        "signal_strength": "Medium"
-      },
-      "access": {
-        "unlocked": true,
-        "credits_required": 0,
-        "access_type": "development"
-      },
-      "simulation": {
-        "away_win_probability": 35.0,
-        "home_win_probability": 65.0,
-        "favorite": "JAX",
-        "favorite_win_probability": 65.0,
-        "margin_favorite": "JAX",
-        "projected_away_score": 21.5,
-        "projected_home_score": 26.1,
-        "projected_margin": 4.6,
-        "projected_margin_absolute": 4.6,
-        "projected_total": 47.6,
-        "signal_strength": "Medium",
-        "models_agree": true,
-        "coherence_status": "ALIGNED"
-      },
-      "market": {
-        "moneyline": {
-          "away": 122.0,
-          "home": -144.0,
-          "away_implied_probability": 45.0,
-          "home_implied_probability": 59.0,
-          "away_vig_free_probability": 43.3,
-          "home_vig_free_probability": 56.7
-        },
-        "spread": {
-          "away": 2.5,
-          "home": -2.5,
-          "favorite": "JAX",
-          "line": 2.5
-        },
-        "total": {
-          "line": 42.5
-        },
-        "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
-      },
-      "comparison": {
-        "win_probability_difference": 8.3,
-        "margin_difference": 2.1,
-        "total_difference": 5.1
-      },
-      "insights": {
-        "key_signals": [],
-        "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "team_strength": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
-        },
-        "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
-      },
-      "internal": {
-        "model_disagreement": "NO",
-        "models_agree": true,
-        "coherence_status": "ALIGNED",
-        "probability_favorite": "JAX",
-        "margin_favorite": "JAX",
-        "market_home_margin": 2.5,
-        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
-      }
-    },
-    {
-      "game_id": "2026_06_CHI_ATL",
-      "season": 2026,
-      "week": 6,
-      "preview": {
-        "away_team": "CHI",
-        "home_team": "ATL",
-        "away_logo": null,
-        "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "13:00",
         "location": "Home",
         "signal_strength": "Weak"
       },
@@ -232,57 +37,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 51.3,
-        "home_win_probability": 48.7,
-        "favorite": "CHI",
-        "favorite_win_probability": 51.3,
-        "margin_favorite": "CHI",
-        "projected_away_score": 23.8,
-        "projected_home_score": 23.2,
-        "projected_margin": -0.6,
-        "projected_margin_absolute": 0.6,
-        "projected_total": 46.9,
+        "away_win_probability": 56.7,
+        "home_win_probability": 43.3,
+        "favorite": "NE",
+        "favorite_win_probability": 56.7,
+        "margin_favorite": "NE",
+        "projected_away_score": 23.9,
+        "projected_home_score": 22.2,
+        "projected_margin": -1.7,
+        "projected_margin_absolute": 1.7,
+        "projected_total": 46.1,
         "signal_strength": "Weak",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": -166.0,
-          "home": 140.0,
-          "away_implied_probability": 62.4,
-          "home_implied_probability": 41.7,
-          "away_vig_free_probability": 60.0,
-          "home_vig_free_probability": 40.0
+          "away": 134.0,
+          "home": -158.0,
+          "away_implied_probability": 42.7,
+          "home_implied_probability": 61.2,
+          "away_vig_free_probability": 41.1,
+          "home_vig_free_probability": 58.9
         },
         "spread": {
           "away": 3.0,
           "home": -3.0,
-          "favorite": "ATL",
+          "favorite": "CHI",
           "line": 3.0
         },
         "total": {
-          "line": 49.5
+          "line": 50.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": 8.7,
-        "margin_difference": -3.6,
-        "total_difference": -2.6
+        "win_probability_difference": -15.6,
+        "margin_difference": -4.7,
+        "total_difference": -4.4
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "NE",
+            "display": "NE advantage",
+            "raw_difference": -0.168
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "NE",
+            "display": "NE advantage",
+            "raw_difference": -0.204
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "NE",
+            "display": "NE advantage",
+            "raw_difference": -0.132
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "CHI",
+            "display": "CHI advantage",
+            "raw_difference": -0.084
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "NE",
+            "name": "Drake Maye",
+            "epa_per_play": 0.17,
+            "pass_ypg": 243.8,
+            "td_int": "11 / 7",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "CHI",
+            "name": "Caleb Williams",
+            "epa_per_play": 0.282,
+            "pass_ypg": 237.3,
+            "td_int": "3 / 1",
+            "games": 3,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "CHI",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": 0.098,
+          "home": -0.07,
+          "advantage": "NE",
+          "difference": -0.168
         },
         "team_strength": {
           "away": null,
@@ -290,313 +141,63 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "NE",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "CHI",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": null,
-          "surface": "fieldturf"
-        }
-      },
-      "internal": {
-        "model_disagreement": "NO",
-        "models_agree": true,
-        "coherence_status": "ALIGNED",
-        "probability_favorite": "CHI",
-        "margin_favorite": "CHI",
-        "market_home_margin": 3.0,
-        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
-      }
-    },
-    {
-      "game_id": "2026_06_BAL_CLE",
-      "season": 2026,
-      "week": 6,
-      "preview": {
-        "away_team": "BAL",
-        "home_team": "CLE",
-        "away_logo": null,
-        "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "13:00",
-        "location": "Home",
-        "signal_strength": "Strong"
-      },
-      "access": {
-        "unlocked": true,
-        "credits_required": 0,
-        "access_type": "development"
-      },
-      "simulation": {
-        "away_win_probability": 79.0,
-        "home_win_probability": 21.0,
-        "favorite": "BAL",
-        "favorite_win_probability": 79.0,
-        "margin_favorite": "BAL",
-        "projected_away_score": 29.7,
-        "projected_home_score": 21.5,
-        "projected_margin": -8.2,
-        "projected_margin_absolute": 8.2,
-        "projected_total": 51.2,
-        "signal_strength": "Strong",
-        "models_agree": true,
-        "coherence_status": "ALIGNED"
-      },
-      "market": {
-        "moneyline": {
-          "away": -225.0,
-          "home": 188.0,
-          "away_implied_probability": 69.2,
-          "home_implied_probability": 34.7,
-          "away_vig_free_probability": 66.6,
-          "home_vig_free_probability": 33.4
+          "version": "kickoff-weather-v1",
+          "stadium": "Soldier Field",
+          "stadium_id": "CHI98",
+          "surface": "grass",
+          "temperature_f": 61.3,
+          "wind_mph": 5.1,
+          "wind_gusts_mph": 7.8,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 41.8623,
+          "longitude": -87.6167,
+          "kickoff_utc": "2026-10-23T00:15:00+00:00",
+          "forecast_hour_utc": "2026-10-23T00:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
         },
-        "spread": {
-          "away": -4.5,
-          "home": 4.5,
-          "favorite": "BAL",
-          "line": 4.5
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.098,
+            "passing_epa": 0.231,
+            "rushing_epa": -0.043,
+            "completion_pct": 62.821,
+            "defensive_epa_allowed": -0.001
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.07,
+            "passing_epa": 0.027,
+            "rushing_epa": -0.175,
+            "completion_pct": 68.156,
+            "defensive_epa_allowed": -0.085
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
         },
-        "total": {
-          "line": 41.5
-        },
-        "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
-      },
-      "comparison": {
-        "win_probability_difference": -12.4,
-        "margin_difference": -3.7,
-        "total_difference": 9.7
-      },
-      "insights": {
-        "key_signals": [],
-        "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "team_strength": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
-        },
-        "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
-      },
-      "internal": {
-        "model_disagreement": "NO",
-        "models_agree": true,
-        "coherence_status": "ALIGNED",
-        "probability_favorite": "BAL",
-        "margin_favorite": "BAL",
-        "market_home_margin": -4.5,
-        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
-      }
-    },
-    {
-      "game_id": "2026_06_TEN_IND",
-      "season": 2026,
-      "week": 6,
-      "preview": {
-        "away_team": "TEN",
-        "home_team": "IND",
-        "away_logo": null,
-        "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "13:00",
-        "location": "Home",
-        "signal_strength": "Medium"
-      },
-      "access": {
-        "unlocked": true,
-        "credits_required": 0,
-        "access_type": "development"
-      },
-      "simulation": {
-        "away_win_probability": 35.7,
-        "home_win_probability": 64.3,
-        "favorite": "IND",
-        "favorite_win_probability": 64.3,
-        "margin_favorite": "IND",
-        "projected_away_score": 17.9,
-        "projected_home_score": 25.9,
-        "projected_margin": 7.9,
-        "projected_margin_absolute": 7.9,
-        "projected_total": 43.8,
-        "signal_strength": "Medium",
-        "models_agree": true,
-        "coherence_status": "ALIGNED"
-      },
-      "market": {
-        "moneyline": {
-          "away": 275.0,
-          "home": -340.0,
-          "away_implied_probability": 26.7,
-          "home_implied_probability": 77.3,
-          "away_vig_free_probability": 25.7,
-          "home_vig_free_probability": 74.3
-        },
-        "spread": {
-          "away": 6.5,
-          "home": -6.5,
-          "favorite": "IND",
-          "line": 6.5
-        },
-        "total": {
-          "line": 43.5
-        },
-        "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
-      },
-      "comparison": {
-        "win_probability_difference": -10.0,
-        "margin_difference": 1.4,
-        "total_difference": 0.3
-      },
-      "insights": {
-        "key_signals": [],
-        "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "team_strength": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
-        },
-        "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": null,
-          "surface": "fieldturf"
-        }
-      },
-      "internal": {
-        "model_disagreement": "NO",
-        "models_agree": true,
-        "coherence_status": "ALIGNED",
-        "probability_favorite": "IND",
-        "margin_favorite": "IND",
-        "market_home_margin": 6.5,
-        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
-      }
-    },
-    {
-      "game_id": "2026_06_NYJ_NE",
-      "season": 2026,
-      "week": 6,
-      "preview": {
-        "away_team": "NYJ",
-        "home_team": "NE",
-        "away_logo": null,
-        "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "13:00",
-        "location": "Home",
-        "signal_strength": "Strong"
-      },
-      "access": {
-        "unlocked": true,
-        "credits_required": 0,
-        "access_type": "development"
-      },
-      "simulation": {
-        "away_win_probability": 12.7,
-        "home_win_probability": 87.3,
-        "favorite": "NE",
-        "favorite_win_probability": 87.3,
-        "margin_favorite": "NE",
-        "projected_away_score": 17.9,
-        "projected_home_score": 28.6,
-        "projected_margin": 10.7,
-        "projected_margin_absolute": 10.7,
-        "projected_total": 46.6,
-        "signal_strength": "Strong",
-        "models_agree": true,
-        "coherence_status": "ALIGNED"
-      },
-      "market": {
-        "moneyline": {
-          "away": 290.0,
-          "home": -360.0,
-          "away_implied_probability": 25.6,
-          "home_implied_probability": 78.3,
-          "away_vig_free_probability": 24.7,
-          "home_vig_free_probability": 75.3
-        },
-        "spread": {
-          "away": 7.5,
-          "home": -7.5,
-          "favorite": "NE",
-          "line": 7.5
-        },
-        "total": {
-          "line": 43.5
-        },
-        "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
-      },
-      "comparison": {
-        "win_probability_difference": 12.0,
-        "margin_difference": 3.2,
-        "total_difference": 3.1
-      },
-      "insights": {
-        "key_signals": [],
-        "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "team_strength": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
-        },
-        "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "fieldturf"
-        }
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
@@ -604,22 +205,22 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "NE",
         "margin_favorite": "NE",
-        "market_home_margin": 7.5,
+        "market_home_margin": 3.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_NO_NYG",
+      "game_id": "2026_07_PIT_NO",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "NO",
-        "home_team": "NYG",
+        "away_team": "PIT",
+        "home_team": "NO",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "13:00",
-        "location": "Home",
+        "gameday": "2026-10-25",
+        "gametime": "09:30",
+        "location": "Neutral",
         "signal_strength": "Weak"
       },
       "access": {
@@ -628,57 +229,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 39.5,
-        "home_win_probability": 60.5,
-        "favorite": "NYG",
-        "favorite_win_probability": 60.5,
-        "margin_favorite": "NO",
-        "projected_away_score": 22.6,
-        "projected_home_score": 21.3,
-        "projected_margin": -1.3,
-        "projected_margin_absolute": 1.3,
-        "projected_total": 43.9,
+        "away_win_probability": 49.7,
+        "home_win_probability": 50.3,
+        "favorite": "NO",
+        "favorite_win_probability": 50.3,
+        "margin_favorite": "PIT",
+        "projected_away_score": 22.1,
+        "projected_home_score": 21.7,
+        "projected_margin": -0.4,
+        "projected_margin_absolute": 0.4,
+        "projected_total": 43.8,
         "signal_strength": "Weak",
         "models_agree": false,
         "coherence_status": "CONFLICT"
       },
       "market": {
         "moneyline": {
-          "away": -110.0,
-          "home": -106.0,
-          "away_implied_probability": 52.4,
-          "home_implied_probability": 51.5,
-          "away_vig_free_probability": 50.4,
-          "home_vig_free_probability": 49.6
+          "away": -174.0,
+          "home": 146.0,
+          "away_implied_probability": 63.5,
+          "home_implied_probability": 40.7,
+          "away_vig_free_probability": 61.0,
+          "home_vig_free_probability": 39.0
         },
         "spread": {
-          "away": -1.5,
-          "home": 1.5,
-          "favorite": "NO",
-          "line": 1.5
+          "away": -3.0,
+          "home": 3.0,
+          "favorite": "PIT",
+          "line": 3.0
         },
         "total": {
-          "line": 45.5
+          "line": 44.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": 10.9,
-        "margin_difference": 0.2,
-        "total_difference": -1.6
+        "win_probability_difference": 11.3,
+        "margin_difference": 2.6,
+        "total_difference": -0.7
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "Even",
+            "display": "Even",
+            "raw_difference": -0.005
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "NO",
+            "display": "NO advantage",
+            "raw_difference": 0.071
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "PIT",
+            "display": "PIT advantage",
+            "raw_difference": -0.143
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "PIT",
+            "display": "PIT advantage",
+            "raw_difference": 0.092
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "PIT",
+            "name": "Aaron Rodgers",
+            "epa_per_play": -0.109,
+            "pass_ypg": 247.8,
+            "td_int": "12 / 5",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "NO",
+            "name": "Tyler Shough",
+            "epa_per_play": -0.022,
+            "pass_ypg": 240.5,
+            "td_int": "12 / 5",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "NO",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": -0.04,
+          "home": -0.045,
+          "advantage": "Even",
+          "difference": -0.005
         },
         "team_strength": {
           "away": null,
@@ -686,37 +333,276 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "PIT",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "NO",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "fieldturf"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "Stade de France",
+          "stadium_id": "PAR00",
+          "surface": "sportturf",
+          "temperature_f": 61.1,
+          "wind_mph": 12.9,
+          "wind_gusts_mph": 31.5,
+          "precipitation_probability": 51.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 48.9245,
+          "longitude": 2.3602,
+          "kickoff_utc": "2026-10-25T13:30:00+00:00",
+          "forecast_hour_utc": "2026-10-25T13:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.04,
+            "passing_epa": -0.095,
+            "rushing_epa": 0.068,
+            "completion_pct": 61.34,
+            "defensive_epa_allowed": 0.001
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.045,
+            "passing_epa": -0.024,
+            "rushing_epa": -0.075,
+            "completion_pct": 65.922,
+            "defensive_epa_allowed": 0.093
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "YES",
         "models_agree": false,
         "coherence_status": "CONFLICT",
-        "probability_favorite": "NYG",
-        "margin_favorite": "NO",
-        "market_home_margin": -1.5,
+        "probability_favorite": "NO",
+        "margin_favorite": "PIT",
+        "market_home_margin": -3.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_CAR_PHI",
+      "game_id": "2026_07_SF_ATL",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "CAR",
-        "home_team": "PHI",
+        "away_team": "SF",
+        "home_team": "ATL",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-18",
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "location": "Home",
+        "signal_strength": "Strong"
+      },
+      "access": {
+        "unlocked": true,
+        "credits_required": 0,
+        "access_type": "development"
+      },
+      "simulation": {
+        "away_win_probability": 76.0,
+        "home_win_probability": 24.0,
+        "favorite": "SF",
+        "favorite_win_probability": 76.0,
+        "margin_favorite": "SF",
+        "projected_away_score": 30.3,
+        "projected_home_score": 21.1,
+        "projected_margin": -9.1,
+        "projected_margin_absolute": 9.1,
+        "projected_total": 51.4,
+        "signal_strength": "Strong",
+        "models_agree": true,
+        "coherence_status": "ALIGNED"
+      },
+      "market": {
+        "moneyline": {
+          "away": -186.0,
+          "home": 156.0,
+          "away_implied_probability": 65.0,
+          "home_implied_probability": 39.1,
+          "away_vig_free_probability": 62.5,
+          "home_vig_free_probability": 37.5
+        },
+        "spread": {
+          "away": -3.5,
+          "home": 3.5,
+          "favorite": "SF",
+          "line": 3.5
+        },
+        "total": {
+          "line": 48.5
+        },
+        "provider": "FANDUEL SB",
+        "updated_at": "2026-10-20 1600"
+      },
+      "comparison": {
+        "win_probability_difference": -13.5,
+        "margin_difference": -5.6,
+        "total_difference": 2.9
+      },
+      "insights": {
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "SF",
+            "display": "SF advantage",
+            "raw_difference": -0.233
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "SF",
+            "display": "SF advantage",
+            "raw_difference": -0.452
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "Even",
+            "display": "Even",
+            "raw_difference": -0.006
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "SF",
+            "display": "SF advantage",
+            "raw_difference": 0.052
+          }
+        ],
+        "quarterbacks": {
+          "away": {
+            "team": "SF",
+            "name": "Brock Purdy",
+            "epa_per_play": 0.348,
+            "pass_ypg": 243.3,
+            "td_int": "14 / 2",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "ATL",
+            "name": "Michael Penix Jr.",
+            "epa_per_play": 0.151,
+            "pass_ypg": 236.0,
+            "td_int": "6 / 1",
+            "games": 4,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "SF",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
+        },
+        "recent_form": {
+          "away": 0.226,
+          "home": -0.007,
+          "advantage": "SF",
+          "difference": -0.233
+        },
+        "team_strength": {
+          "away": null,
+          "home": null,
+          "advantage": null
+        },
+        "injuries": {
+          "away": {
+            "team": "SF",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "ATL",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
+        },
+        "weather": {
+          "version": "kickoff-weather-v1",
+          "stadium": "Mercedes-Benz Stadium",
+          "stadium_id": "ATL97",
+          "surface": "fieldturf",
+          "temperature_f": 66.9,
+          "wind_mph": 10.6,
+          "wind_gusts_mph": 15.4,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Retractable \u00b7 game status unconfirmed",
+          "roof_type": "retractable",
+          "roof_status": "unknown",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 33.7554,
+          "longitude": -84.4008,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00",
+          "forecast_hour_utc": "2026-10-25T17:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.226,
+            "passing_epa": 0.397,
+            "rushing_epa": 0.05,
+            "completion_pct": 68.613,
+            "defensive_epa_allowed": -0.025
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.007,
+            "passing_epa": -0.055,
+            "rushing_epa": 0.044,
+            "completion_pct": 62.759,
+            "defensive_epa_allowed": 0.027
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
+      },
+      "internal": {
+        "model_disagreement": "NO",
+        "models_agree": true,
+        "coherence_status": "ALIGNED",
+        "probability_favorite": "SF",
+        "margin_favorite": "SF",
+        "market_home_margin": -3.5,
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+      }
+    },
+    {
+      "game_id": "2026_07_CIN_BAL",
+      "season": 2026,
+      "week": 7,
+      "preview": {
+        "away_team": "CIN",
+        "home_team": "BAL",
+        "away_logo": null,
+        "home_logo": null,
+        "gameday": "2026-10-25",
         "gametime": "13:00",
         "location": "Home",
         "signal_strength": "Weak"
@@ -727,57 +613,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 55.4,
-        "home_win_probability": 44.6,
-        "favorite": "CAR",
-        "favorite_win_probability": 55.4,
-        "margin_favorite": "CAR",
-        "projected_away_score": 24.8,
-        "projected_home_score": 22.5,
-        "projected_margin": -2.3,
-        "projected_margin_absolute": 2.3,
-        "projected_total": 47.3,
+        "away_win_probability": 54.0,
+        "home_win_probability": 46.0,
+        "favorite": "CIN",
+        "favorite_win_probability": 54.0,
+        "margin_favorite": "CIN",
+        "projected_away_score": 25.5,
+        "projected_home_score": 25.3,
+        "projected_margin": -0.2,
+        "projected_margin_absolute": 0.2,
+        "projected_total": 50.8,
         "signal_strength": "Weak",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": 100.0,
-          "home": -118.0,
-          "away_implied_probability": 50.0,
-          "home_implied_probability": 54.1,
-          "away_vig_free_probability": 48.0,
-          "home_vig_free_probability": 52.0
+          "away": 124.0,
+          "home": -146.0,
+          "away_implied_probability": 44.6,
+          "home_implied_probability": 59.3,
+          "away_vig_free_probability": 42.9,
+          "home_vig_free_probability": 57.1
         },
         "spread": {
-          "away": 1.5,
-          "home": -1.5,
-          "favorite": "PHI",
-          "line": 1.5
+          "away": 2.5,
+          "home": -2.5,
+          "favorite": "BAL",
+          "line": 2.5
         },
         "total": {
-          "line": 41.5
+          "line": 50.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": -7.4,
-        "margin_difference": -3.8,
-        "total_difference": 5.8
+        "win_probability_difference": -11.1,
+        "margin_difference": -2.7,
+        "total_difference": 0.3
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "BAL",
+            "display": "BAL advantage",
+            "raw_difference": 0.015
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "BAL",
+            "display": "BAL advantage",
+            "raw_difference": 0.057
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "BAL",
+            "display": "BAL advantage",
+            "raw_difference": 0.035
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "CIN",
+            "display": "CIN advantage",
+            "raw_difference": 0.056
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "CIN",
+            "name": "Joe Burrow",
+            "epa_per_play": 0.166,
+            "pass_ypg": 272.2,
+            "td_int": "11 / 3",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "BAL",
+            "name": "Lamar Jackson",
+            "epa_per_play": 0.363,
+            "pass_ypg": 241.8,
+            "td_int": "6 / 1",
+            "games": 4,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "BAL",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": 0.074,
+          "home": 0.089,
+          "advantage": "BAL",
+          "difference": 0.015
         },
         "team_strength": {
           "away": null,
@@ -785,16 +717,255 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "CIN",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "BAL",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "M&T Bank Stadium",
+          "stadium_id": "BAL00",
+          "surface": "grass",
+          "temperature_f": 63.9,
+          "wind_mph": 4.7,
+          "wind_gusts_mph": 7.4,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 39.278,
+          "longitude": -76.6227,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00",
+          "forecast_hour_utc": "2026-10-25T17:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.074,
+            "passing_epa": 0.166,
+            "rushing_epa": -0.086,
+            "completion_pct": 71.429,
+            "defensive_epa_allowed": -0.029
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": 0.089,
+            "passing_epa": 0.223,
+            "rushing_epa": -0.051,
+            "completion_pct": 71.329,
+            "defensive_epa_allowed": 0.027
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
+      },
+      "internal": {
+        "model_disagreement": "NO",
+        "models_agree": true,
+        "coherence_status": "ALIGNED",
+        "probability_favorite": "CIN",
+        "margin_favorite": "CIN",
+        "market_home_margin": 2.5,
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+      }
+    },
+    {
+      "game_id": "2026_07_TB_CAR",
+      "season": 2026,
+      "week": 7,
+      "preview": {
+        "away_team": "TB",
+        "home_team": "CAR",
+        "away_logo": null,
+        "home_logo": null,
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "location": "Home",
+        "signal_strength": "Strong"
+      },
+      "access": {
+        "unlocked": true,
+        "credits_required": 0,
+        "access_type": "development"
+      },
+      "simulation": {
+        "away_win_probability": 22.0,
+        "home_win_probability": 78.0,
+        "favorite": "CAR",
+        "favorite_win_probability": 78.0,
+        "margin_favorite": "CAR",
+        "projected_away_score": 19.7,
+        "projected_home_score": 27.6,
+        "projected_margin": 7.9,
+        "projected_margin_absolute": 7.9,
+        "projected_total": 47.3,
+        "signal_strength": "Strong",
+        "models_agree": true,
+        "coherence_status": "ALIGNED"
+      },
+      "market": {
+        "moneyline": {
+          "away": 152.0,
+          "home": -180.0,
+          "away_implied_probability": 39.7,
+          "home_implied_probability": 64.3,
+          "away_vig_free_probability": 38.2,
+          "home_vig_free_probability": 61.8
+        },
+        "spread": {
+          "away": 3.5,
+          "home": -3.5,
+          "favorite": "CAR",
+          "line": 3.5
+        },
+        "total": {
+          "line": 44.5
+        },
+        "provider": "FANDUEL SB",
+        "updated_at": "2026-10-20 1600"
+      },
+      "comparison": {
+        "win_probability_difference": 16.2,
+        "margin_difference": 4.4,
+        "total_difference": 2.8
+      },
+      "insights": {
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "CAR",
+            "display": "CAR advantage",
+            "raw_difference": 0.217
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "CAR",
+            "display": "CAR advantage",
+            "raw_difference": 0.454
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "TB",
+            "display": "TB advantage",
+            "raw_difference": -0.133
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "TB",
+            "display": "TB advantage",
+            "raw_difference": 0.106
+          }
+        ],
+        "quarterbacks": {
+          "away": {
+            "team": "TB",
+            "name": "Baker Mayfield",
+            "epa_per_play": -0.274,
+            "pass_ypg": 205.0,
+            "td_int": "2 / 2",
+            "games": 3,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "CAR",
+            "name": "Bryce Young",
+            "epa_per_play": 0.212,
+            "pass_ypg": 309.8,
+            "td_int": "11 / 2",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "CAR",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
+        },
+        "recent_form": {
+          "away": -0.12,
+          "home": 0.097,
+          "advantage": "CAR",
+          "difference": 0.217
+        },
+        "team_strength": {
+          "away": null,
+          "home": null,
+          "advantage": null
+        },
+        "injuries": {
+          "away": {
+            "team": "TB",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "CAR",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
+        },
+        "weather": {
+          "version": "kickoff-weather-v1",
+          "stadium": "Bank of America Stadium",
+          "stadium_id": "CAR00",
+          "surface": "grass",
+          "temperature_f": 64.9,
+          "wind_mph": 7.5,
+          "wind_gusts_mph": 10.1,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 35.2258,
+          "longitude": -80.8528,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00",
+          "forecast_hour_utc": "2026-10-25T17:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.12,
+            "passing_epa": -0.245,
+            "rushing_epa": 0.043,
+            "completion_pct": 59.036,
+            "defensive_epa_allowed": -0.101
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": 0.097,
+            "passing_epa": 0.209,
+            "rushing_epa": -0.09,
+            "completion_pct": 59.901,
+            "defensive_epa_allowed": 0.005
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
@@ -802,20 +973,212 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "CAR",
         "margin_favorite": "CAR",
-        "market_home_margin": 1.5,
+        "market_home_margin": 3.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_PIT_TB",
+      "game_id": "2026_07_NYG_HOU",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "PIT",
-        "home_team": "TB",
+        "away_team": "NYG",
+        "home_team": "HOU",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-18",
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "location": "Home",
+        "signal_strength": "Strong"
+      },
+      "access": {
+        "unlocked": true,
+        "credits_required": 0,
+        "access_type": "development"
+      },
+      "simulation": {
+        "away_win_probability": 20.9,
+        "home_win_probability": 79.1,
+        "favorite": "HOU",
+        "favorite_win_probability": 79.1,
+        "margin_favorite": "HOU",
+        "projected_away_score": 20.7,
+        "projected_home_score": 26.9,
+        "projected_margin": 6.2,
+        "projected_margin_absolute": 6.2,
+        "projected_total": 47.7,
+        "signal_strength": "Strong",
+        "models_agree": true,
+        "coherence_status": "ALIGNED"
+      },
+      "market": {
+        "moneyline": {
+          "away": 370.0,
+          "home": -480.0,
+          "away_implied_probability": 21.3,
+          "home_implied_probability": 82.8,
+          "away_vig_free_probability": 20.5,
+          "home_vig_free_probability": 79.5
+        },
+        "spread": {
+          "away": 9.5,
+          "home": -9.5,
+          "favorite": "HOU",
+          "line": 9.5
+        },
+        "total": {
+          "line": 43.5
+        },
+        "provider": "FANDUEL SB",
+        "updated_at": "2026-10-20 1600"
+      },
+      "comparison": {
+        "win_probability_difference": -0.4,
+        "margin_difference": -3.3,
+        "total_difference": 4.2
+      },
+      "insights": {
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "HOU",
+            "display": "HOU advantage",
+            "raw_difference": 0.132
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "HOU",
+            "display": "HOU advantage",
+            "raw_difference": 0.221
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "NYG",
+            "display": "NYG advantage",
+            "raw_difference": -0.03
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "HOU",
+            "display": "HOU advantage",
+            "raw_difference": -0.017
+          }
+        ],
+        "quarterbacks": {
+          "away": {
+            "team": "NYG",
+            "name": "Jameis Winston",
+            "epa_per_play": -0.117,
+            "pass_ypg": 191.4,
+            "td_int": "7 / 5",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "HOU",
+            "name": "C.J. Stroud",
+            "epa_per_play": 0.136,
+            "pass_ypg": 285.7,
+            "td_int": "9 / 1",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "HOU",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
+        },
+        "recent_form": {
+          "away": -0.108,
+          "home": 0.024,
+          "advantage": "HOU",
+          "difference": 0.132
+        },
+        "team_strength": {
+          "away": null,
+          "home": null,
+          "advantage": null
+        },
+        "injuries": {
+          "away": {
+            "team": "NYG",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "HOU",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
+        },
+        "weather": {
+          "version": "kickoff-weather-v1",
+          "stadium": "Reliant Stadium",
+          "stadium_id": "HOU00",
+          "surface": "astroturf",
+          "temperature_f": 76.4,
+          "wind_mph": 8.4,
+          "wind_gusts_mph": 11.4,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Retractable \u00b7 game status unconfirmed",
+          "roof_type": "retractable",
+          "roof_status": "unknown",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 29.6847,
+          "longitude": -95.4107,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00",
+          "forecast_hour_utc": "2026-10-25T17:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.108,
+            "passing_epa": -0.082,
+            "rushing_epa": -0.148,
+            "completion_pct": 56.522,
+            "defensive_epa_allowed": -0.025
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": 0.024,
+            "passing_epa": 0.139,
+            "rushing_epa": -0.178,
+            "completion_pct": 64.286,
+            "defensive_epa_allowed": -0.042
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
+      },
+      "internal": {
+        "model_disagreement": "NO",
+        "models_agree": true,
+        "coherence_status": "ALIGNED",
+        "probability_favorite": "HOU",
+        "margin_favorite": "HOU",
+        "market_home_margin": 9.5,
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+      }
+    },
+    {
+      "game_id": "2026_07_IND_MIN",
+      "season": 2026,
+      "week": 7,
+      "preview": {
+        "away_team": "IND",
+        "home_team": "MIN",
+        "away_logo": null,
+        "home_logo": null,
+        "gameday": "2026-10-25",
         "gametime": "13:00",
         "location": "Home",
         "signal_strength": "Medium"
@@ -826,57 +1189,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 62.2,
-        "home_win_probability": 37.8,
-        "favorite": "PIT",
-        "favorite_win_probability": 62.2,
-        "margin_favorite": "PIT",
-        "projected_away_score": 23.0,
-        "projected_home_score": 20.9,
-        "projected_margin": -2.1,
-        "projected_margin_absolute": 2.1,
-        "projected_total": 43.8,
+        "away_win_probability": 36.0,
+        "home_win_probability": 64.0,
+        "favorite": "MIN",
+        "favorite_win_probability": 64.0,
+        "margin_favorite": "MIN",
+        "projected_away_score": 20.0,
+        "projected_home_score": 23.2,
+        "projected_margin": 3.1,
+        "projected_margin_absolute": 3.1,
+        "projected_total": 43.2,
         "signal_strength": "Medium",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": -144.0,
-          "home": 122.0,
-          "away_implied_probability": 59.0,
-          "home_implied_probability": 45.0,
-          "away_vig_free_probability": 56.7,
-          "home_vig_free_probability": 43.3
+          "away": 235.0,
+          "home": -290.0,
+          "away_implied_probability": 29.9,
+          "home_implied_probability": 74.4,
+          "away_vig_free_probability": 28.6,
+          "home_vig_free_probability": 71.4
         },
         "spread": {
-          "away": -2.5,
-          "home": 2.5,
-          "favorite": "PIT",
-          "line": 2.5
+          "away": 6.5,
+          "home": -6.5,
+          "favorite": "MIN",
+          "line": 6.5
         },
         "total": {
-          "line": 40.5
+          "line": 41.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": -5.5,
-        "margin_difference": 0.4,
-        "total_difference": 3.3
+        "win_probability_difference": -7.4,
+        "margin_difference": -3.4,
+        "total_difference": 1.7
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "IND",
+            "display": "IND advantage",
+            "raw_difference": -0.054
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "MIN",
+            "display": "MIN advantage",
+            "raw_difference": 0.075
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "IND",
+            "display": "IND advantage",
+            "raw_difference": -0.206
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "MIN",
+            "display": "MIN advantage",
+            "raw_difference": -0.219
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "IND",
+            "name": "Daniel Jones",
+            "epa_per_play": -0.121,
+            "pass_ypg": 215.0,
+            "td_int": "4 / 6",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "MIN",
+            "name": "Kyler Murray",
+            "epa_per_play": -0.076,
+            "pass_ypg": 165.5,
+            "td_int": "2 / 2",
+            "games": 4,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "MIN",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": -0.034,
+          "home": -0.088,
+          "advantage": "IND",
+          "difference": -0.054
         },
         "team_strength": {
           "away": null,
@@ -884,40 +1293,84 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "IND",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "MIN",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "U.S. Bank Stadium",
+          "stadium_id": "MIN01",
+          "surface": "sportturf",
+          "temperature_f": null,
+          "wind_mph": null,
+          "wind_gusts_mph": null,
+          "precipitation_probability": null,
+          "updated_at": null,
+          "roof": "Fixed roof \u00b7 indoors",
+          "roof_type": "fixed",
+          "roof_status": "closed",
+          "status": "indoors",
+          "message": "Indoor game. Outdoor wind does not apply; indoor temperature is not supplied.",
+          "latitude": 44.9737,
+          "longitude": -93.2576,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.034,
+            "passing_epa": -0.093,
+            "rushing_epa": 0.047,
+            "completion_pct": 59.358,
+            "defensive_epa_allowed": 0.009
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.088,
+            "passing_epa": -0.018,
+            "rushing_epa": -0.159,
+            "completion_pct": 65.714,
+            "defensive_epa_allowed": -0.21
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
         "models_agree": true,
         "coherence_status": "ALIGNED",
-        "probability_favorite": "PIT",
-        "margin_favorite": "PIT",
-        "market_home_margin": -2.5,
+        "probability_favorite": "MIN",
+        "margin_favorite": "MIN",
+        "market_home_margin": 6.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_ARI_LA",
+      "game_id": "2026_07_MIA_NYJ",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "ARI",
-        "home_team": "LA",
+        "away_team": "MIA",
+        "home_team": "NYJ",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "16:05",
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
         "location": "Home",
-        "signal_strength": "Strong"
+        "signal_strength": "Weak"
       },
       "access": {
         "unlocked": true,
@@ -925,57 +1378,679 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 22.1,
-        "home_win_probability": 77.9,
-        "favorite": "LA",
-        "favorite_win_probability": 77.9,
-        "margin_favorite": "LA",
-        "projected_away_score": 20.5,
-        "projected_home_score": 30.2,
-        "projected_margin": 9.7,
-        "projected_margin_absolute": 9.7,
-        "projected_total": 50.7,
-        "signal_strength": "Strong",
+        "away_win_probability": 44.3,
+        "home_win_probability": 55.7,
+        "favorite": "NYJ",
+        "favorite_win_probability": 55.7,
+        "margin_favorite": "NYJ",
+        "projected_away_score": 19.9,
+        "projected_home_score": 22.0,
+        "projected_margin": 2.1,
+        "projected_margin_absolute": 2.1,
+        "projected_total": 41.9,
+        "signal_strength": "Weak",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": 640.0,
-          "home": -950.0,
-          "away_implied_probability": 13.5,
-          "home_implied_probability": 90.5,
-          "away_vig_free_probability": 13.0,
-          "home_vig_free_probability": 87.0
+          "away": 205.0,
+          "home": -250.0,
+          "away_implied_probability": 32.8,
+          "home_implied_probability": 71.4,
+          "away_vig_free_probability": 31.5,
+          "home_vig_free_probability": 68.5
         },
         "spread": {
-          "away": 12.5,
-          "home": -12.5,
-          "favorite": "LA",
-          "line": 12.5
+          "away": 4.5,
+          "home": -4.5,
+          "favorite": "NYJ",
+          "line": 4.5
+        },
+        "total": {
+          "line": 39.5
+        },
+        "provider": "FANDUEL SB",
+        "updated_at": "2026-10-20 1600"
+      },
+      "comparison": {
+        "win_probability_difference": -12.8,
+        "margin_difference": -2.4,
+        "total_difference": 2.4
+      },
+      "insights": {
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "NYJ",
+            "display": "NYJ advantage",
+            "raw_difference": 0.034
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "NYJ",
+            "display": "NYJ advantage",
+            "raw_difference": 0.229
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "MIA",
+            "display": "MIA advantage",
+            "raw_difference": -0.215
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "NYJ",
+            "display": "NYJ advantage",
+            "raw_difference": -0.131
+          }
+        ],
+        "quarterbacks": {
+          "away": {
+            "team": "MIA",
+            "name": "Malik Willis",
+            "epa_per_play": -0.201,
+            "pass_ypg": 169.8,
+            "td_int": "2 / 4",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "NYJ",
+            "name": "Geno Smith",
+            "epa_per_play": 0.075,
+            "pass_ypg": 222.7,
+            "td_int": "7 / 1",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "NYJ",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
+        },
+        "recent_form": {
+          "away": -0.103,
+          "home": -0.069,
+          "advantage": "NYJ",
+          "difference": 0.034
+        },
+        "team_strength": {
+          "away": null,
+          "home": null,
+          "advantage": null
+        },
+        "injuries": {
+          "away": {
+            "team": "MIA",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "NYJ",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
+        },
+        "weather": {
+          "version": "kickoff-weather-v1",
+          "stadium": "MetLife Stadium",
+          "stadium_id": "NYC01",
+          "surface": "fieldturf",
+          "temperature_f": 63.5,
+          "wind_mph": 7.8,
+          "wind_gusts_mph": 11.0,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 40.8135,
+          "longitude": -74.0745,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00",
+          "forecast_hour_utc": "2026-10-25T17:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.103,
+            "passing_epa": -0.201,
+            "rushing_epa": 0.005,
+            "completion_pct": 56.154,
+            "defensive_epa_allowed": 0.092
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.069,
+            "passing_epa": 0.028,
+            "rushing_epa": -0.21,
+            "completion_pct": 67.32,
+            "defensive_epa_allowed": -0.039
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
+      },
+      "internal": {
+        "model_disagreement": "NO",
+        "models_agree": true,
+        "coherence_status": "ALIGNED",
+        "probability_favorite": "NYJ",
+        "margin_favorite": "NYJ",
+        "market_home_margin": 4.5,
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+      }
+    },
+    {
+      "game_id": "2026_07_CLE_TEN",
+      "season": 2026,
+      "week": 7,
+      "preview": {
+        "away_team": "CLE",
+        "home_team": "TEN",
+        "away_logo": null,
+        "home_logo": null,
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "location": "Home",
+        "signal_strength": "Weak"
+      },
+      "access": {
+        "unlocked": true,
+        "credits_required": 0,
+        "access_type": "development"
+      },
+      "simulation": {
+        "away_win_probability": 50.7,
+        "home_win_probability": 49.3,
+        "favorite": "CLE",
+        "favorite_win_probability": 50.7,
+        "margin_favorite": "CLE",
+        "projected_away_score": 21.6,
+        "projected_home_score": 21.1,
+        "projected_margin": -0.5,
+        "projected_margin_absolute": 0.5,
+        "projected_total": 42.6,
+        "signal_strength": "Weak",
+        "models_agree": true,
+        "coherence_status": "ALIGNED"
+      },
+      "market": {
+        "moneyline": {
+          "away": -120.0,
+          "home": 102.0,
+          "away_implied_probability": 54.5,
+          "home_implied_probability": 49.5,
+          "away_vig_free_probability": 52.4,
+          "home_vig_free_probability": 47.6
+        },
+        "spread": {
+          "away": -1.5,
+          "home": 1.5,
+          "favorite": "CLE",
+          "line": 1.5
+        },
+        "total": {
+          "line": 37.5
+        },
+        "provider": "FANDUEL SB",
+        "updated_at": "2026-10-20 1600"
+      },
+      "comparison": {
+        "win_probability_difference": 1.7,
+        "margin_difference": 1.0,
+        "total_difference": 5.1
+      },
+      "insights": {
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "CLE",
+            "display": "CLE advantage",
+            "raw_difference": -0.072
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "CLE",
+            "display": "CLE advantage",
+            "raw_difference": -0.189
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "TEN",
+            "display": "TEN advantage",
+            "raw_difference": 0.077
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "CLE",
+            "display": "CLE advantage",
+            "raw_difference": 0.103
+          }
+        ],
+        "quarterbacks": {
+          "away": {
+            "team": "CLE",
+            "name": "Deshaun Watson",
+            "epa_per_play": -0.014,
+            "pass_ypg": 195.7,
+            "td_int": "7 / 2",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "TEN",
+            "name": "Cam Ward",
+            "epa_per_play": -0.182,
+            "pass_ypg": 166.3,
+            "td_int": "4 / 4",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "CLE",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
+        },
+        "recent_form": {
+          "away": -0.07,
+          "home": -0.142,
+          "advantage": "CLE",
+          "difference": -0.072
+        },
+        "team_strength": {
+          "away": null,
+          "home": null,
+          "advantage": null
+        },
+        "injuries": {
+          "away": {
+            "team": "CLE",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "TEN",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
+        },
+        "weather": {
+          "version": "kickoff-weather-v1",
+          "stadium": "Nissan Stadium",
+          "stadium_id": "NAS00",
+          "surface": "grass",
+          "temperature_f": 72.7,
+          "wind_mph": 1.1,
+          "wind_gusts_mph": 2.2,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 36.1665,
+          "longitude": -86.7713,
+          "kickoff_utc": "2026-10-25T17:00:00+00:00",
+          "forecast_hour_utc": "2026-10-25T17:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.07,
+            "passing_epa": 0.014,
+            "rushing_epa": -0.177,
+            "completion_pct": 62.745,
+            "defensive_epa_allowed": -0.096
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.142,
+            "passing_epa": -0.175,
+            "rushing_epa": -0.1,
+            "completion_pct": 62.069,
+            "defensive_epa_allowed": 0.007
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
+      },
+      "internal": {
+        "model_disagreement": "NO",
+        "models_agree": true,
+        "coherence_status": "ALIGNED",
+        "probability_favorite": "CLE",
+        "margin_favorite": "CLE",
+        "market_home_margin": -1.5,
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+      }
+    },
+    {
+      "game_id": "2026_07_DEN_ARI",
+      "season": 2026,
+      "week": 7,
+      "preview": {
+        "away_team": "DEN",
+        "home_team": "ARI",
+        "away_logo": null,
+        "home_logo": null,
+        "gameday": "2026-10-25",
+        "gametime": "16:05",
+        "location": "Home",
+        "signal_strength": "Weak"
+      },
+      "access": {
+        "unlocked": true,
+        "credits_required": 0,
+        "access_type": "development"
+      },
+      "simulation": {
+        "away_win_probability": 52.2,
+        "home_win_probability": 47.8,
+        "favorite": "DEN",
+        "favorite_win_probability": 52.2,
+        "margin_favorite": "DEN",
+        "projected_away_score": 22.1,
+        "projected_home_score": 20.2,
+        "projected_margin": -1.9,
+        "projected_margin_absolute": 1.9,
+        "projected_total": 42.4,
+        "signal_strength": "Weak",
+        "models_agree": true,
+        "coherence_status": "ALIGNED"
+      },
+      "market": {
+        "moneyline": {
+          "away": -240.0,
+          "home": 198.0,
+          "away_implied_probability": 70.6,
+          "home_implied_probability": 33.6,
+          "away_vig_free_probability": 67.8,
+          "home_vig_free_probability": 32.2
+        },
+        "spread": {
+          "away": -4.5,
+          "home": 4.5,
+          "favorite": "DEN",
+          "line": 4.5
+        },
+        "total": {
+          "line": 43.5
+        },
+        "provider": "FANDUEL SB",
+        "updated_at": "2026-10-20 1600"
+      },
+      "comparison": {
+        "win_probability_difference": 15.6,
+        "margin_difference": 2.6,
+        "total_difference": -1.1
+      },
+      "insights": {
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "Even",
+            "display": "Even",
+            "raw_difference": -0.007
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "DEN",
+            "display": "DEN advantage",
+            "raw_difference": -0.04
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "ARI",
+            "display": "ARI advantage",
+            "raw_difference": 0.027
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "DEN",
+            "display": "DEN advantage",
+            "raw_difference": 0.199
+          }
+        ],
+        "quarterbacks": {
+          "away": {
+            "team": "DEN",
+            "name": "Bo Nix",
+            "epa_per_play": -0.076,
+            "pass_ypg": 174.8,
+            "td_int": "6 / 3",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "ARI",
+            "name": "Jacoby Brissett",
+            "epa_per_play": -0.009,
+            "pass_ypg": 221.3,
+            "td_int": "9 / 6",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "ARI",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
+        },
+        "recent_form": {
+          "away": -0.049,
+          "home": -0.056,
+          "advantage": "Even",
+          "difference": -0.007
+        },
+        "team_strength": {
+          "away": null,
+          "home": null,
+          "advantage": null
+        },
+        "injuries": {
+          "away": {
+            "team": "DEN",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "ARI",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
+        },
+        "weather": {
+          "version": "kickoff-weather-v1",
+          "stadium": "State Farm Stadium",
+          "stadium_id": "PHO00",
+          "surface": "grass",
+          "temperature_f": 80.0,
+          "wind_mph": 3.2,
+          "wind_gusts_mph": 2.9,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Retractable \u00b7 game status unconfirmed",
+          "roof_type": "retractable",
+          "roof_status": "unknown",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 33.5276,
+          "longitude": -112.2626,
+          "kickoff_utc": "2026-10-25T20:05:00+00:00",
+          "forecast_hour_utc": "2026-10-25T20:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": -0.049,
+            "passing_epa": -0.003,
+            "rushing_epa": -0.106,
+            "completion_pct": 60.248,
+            "defensive_epa_allowed": -0.056
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.056,
+            "passing_epa": -0.043,
+            "rushing_epa": -0.079,
+            "completion_pct": 65.657,
+            "defensive_epa_allowed": 0.143
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
+      },
+      "internal": {
+        "model_disagreement": "NO",
+        "models_agree": true,
+        "coherence_status": "ALIGNED",
+        "probability_favorite": "DEN",
+        "margin_favorite": "DEN",
+        "market_home_margin": -4.5,
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+      }
+    },
+    {
+      "game_id": "2026_07_GB_DET",
+      "season": 2026,
+      "week": 7,
+      "preview": {
+        "away_team": "GB",
+        "home_team": "DET",
+        "away_logo": null,
+        "home_logo": null,
+        "gameday": "2026-10-25",
+        "gametime": "16:25",
+        "location": "Home",
+        "signal_strength": "Medium"
+      },
+      "access": {
+        "unlocked": true,
+        "credits_required": 0,
+        "access_type": "development"
+      },
+      "simulation": {
+        "away_win_probability": 39.9,
+        "home_win_probability": 60.1,
+        "favorite": "DET",
+        "favorite_win_probability": 60.1,
+        "margin_favorite": "DET",
+        "projected_away_score": 21.8,
+        "projected_home_score": 26.7,
+        "projected_margin": 4.9,
+        "projected_margin_absolute": 4.9,
+        "projected_total": 48.5,
+        "signal_strength": "Medium",
+        "models_agree": true,
+        "coherence_status": "ALIGNED"
+      },
+      "market": {
+        "moneyline": {
+          "away": 142.0,
+          "home": -172.0,
+          "away_implied_probability": 41.3,
+          "home_implied_probability": 63.2,
+          "away_vig_free_probability": 39.5,
+          "home_vig_free_probability": 60.5
+        },
+        "spread": {
+          "away": 3.0,
+          "home": -3.0,
+          "favorite": "DET",
+          "line": 3.0
         },
         "total": {
           "line": 52.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": -9.1,
-        "margin_difference": -2.8,
-        "total_difference": -1.8
+        "win_probability_difference": -0.4,
+        "margin_difference": 1.9,
+        "total_difference": -4.0
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "DET",
+            "display": "DET advantage",
+            "raw_difference": 0.172
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "DET",
+            "display": "DET advantage",
+            "raw_difference": 0.166
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "DET",
+            "display": "DET advantage",
+            "raw_difference": 0.224
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "GB",
+            "display": "GB advantage",
+            "raw_difference": 0.177
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "GB",
+            "name": "Jordan Love",
+            "epa_per_play": 0.115,
+            "pass_ypg": 280.7,
+            "td_int": "11 / 4",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "DET",
+            "name": "Jared Goff",
+            "epa_per_play": 0.323,
+            "pass_ypg": 297.0,
+            "td_int": "12 / 0",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "DET",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": 0.018,
+          "home": 0.19,
+          "advantage": "DET",
+          "difference": 0.172
         },
         "team_strength": {
           "away": null,
@@ -983,136 +2058,81 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "GB",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "DET",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "dome",
-          "surface": "matrixturf"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "Ford Field",
+          "stadium_id": "DET00",
+          "surface": "fieldturf",
+          "temperature_f": null,
+          "wind_mph": null,
+          "wind_gusts_mph": null,
+          "precipitation_probability": null,
+          "updated_at": null,
+          "roof": "Fixed roof \u00b7 indoors",
+          "roof_type": "fixed",
+          "roof_status": "closed",
+          "status": "indoors",
+          "message": "Indoor game. Outdoor wind does not apply; indoor temperature is not supplied.",
+          "latitude": 42.34,
+          "longitude": -83.0456,
+          "kickoff_utc": "2026-10-25T20:25:00+00:00"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.018,
+            "passing_epa": 0.157,
+            "rushing_epa": -0.241,
+            "completion_pct": 61.957,
+            "defensive_epa_allowed": -0.046
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": 0.19,
+            "passing_epa": 0.323,
+            "rushing_epa": -0.017,
+            "completion_pct": 67.016,
+            "defensive_epa_allowed": 0.131
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
         "models_agree": true,
         "coherence_status": "ALIGNED",
-        "probability_favorite": "LA",
-        "margin_favorite": "LA",
-        "market_home_margin": 12.5,
+        "probability_favorite": "DET",
+        "margin_favorite": "DET",
+        "market_home_margin": 3.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_LAC_KC",
+      "game_id": "2026_07_LA_LV",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "LAC",
-        "home_team": "KC",
-        "away_logo": null,
-        "home_logo": null,
-        "gameday": "2026-10-18",
-        "gametime": "16:25",
-        "location": "Home",
-        "signal_strength": "Strong"
-      },
-      "access": {
-        "unlocked": true,
-        "credits_required": 0,
-        "access_type": "development"
-      },
-      "simulation": {
-        "away_win_probability": 17.6,
-        "home_win_probability": 82.4,
-        "favorite": "KC",
-        "favorite_win_probability": 82.4,
-        "margin_favorite": "KC",
-        "projected_away_score": 20.0,
-        "projected_home_score": 27.4,
-        "projected_margin": 7.4,
-        "projected_margin_absolute": 7.4,
-        "projected_total": 47.4,
-        "signal_strength": "Strong",
-        "models_agree": true,
-        "coherence_status": "ALIGNED"
-      },
-      "market": {
-        "moneyline": {
-          "away": 360.0,
-          "home": -460.0,
-          "away_implied_probability": 21.7,
-          "home_implied_probability": 82.1,
-          "away_vig_free_probability": 20.9,
-          "home_vig_free_probability": 79.1
-        },
-        "spread": {
-          "away": 8.5,
-          "home": -8.5,
-          "favorite": "KC",
-          "line": 8.5
-        },
-        "total": {
-          "line": 42.5
-        },
-        "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
-      },
-      "comparison": {
-        "win_probability_difference": 3.3,
-        "margin_difference": -1.1,
-        "total_difference": 4.9
-      },
-      "insights": {
-        "key_signals": [],
-        "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "team_strength": {
-          "away": null,
-          "home": null,
-          "advantage": null
-        },
-        "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
-        },
-        "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
-      },
-      "internal": {
-        "model_disagreement": "NO",
-        "models_agree": true,
-        "coherence_status": "ALIGNED",
-        "probability_favorite": "KC",
-        "margin_favorite": "KC",
-        "market_home_margin": 8.5,
-        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
-      }
-    },
-    {
-      "game_id": "2026_06_BUF_LV",
-      "season": 2026,
-      "week": 6,
-      "preview": {
-        "away_team": "BUF",
+        "away_team": "LA",
         "home_team": "LV",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-18",
+        "gameday": "2026-10-25",
         "gametime": "16:25",
         "location": "Home",
         "signal_strength": "Weak"
@@ -1123,57 +2143,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 58.7,
-        "home_win_probability": 41.3,
-        "favorite": "BUF",
-        "favorite_win_probability": 58.7,
-        "margin_favorite": "BUF",
-        "projected_away_score": 30.4,
-        "projected_home_score": 23.5,
-        "projected_margin": -6.9,
-        "projected_margin_absolute": 6.9,
-        "projected_total": 53.9,
+        "away_win_probability": 56.9,
+        "home_win_probability": 43.1,
+        "favorite": "LA",
+        "favorite_win_probability": 56.9,
+        "margin_favorite": "LA",
+        "projected_away_score": 26.1,
+        "projected_home_score": 22.7,
+        "projected_margin": -3.4,
+        "projected_margin_absolute": 3.4,
+        "projected_total": 48.7,
         "signal_strength": "Weak",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": -250.0,
-          "home": 205.0,
-          "away_implied_probability": 71.4,
-          "home_implied_probability": 32.8,
-          "away_vig_free_probability": 68.5,
-          "home_vig_free_probability": 31.5
+          "away": -210.0,
+          "home": 176.0,
+          "away_implied_probability": 67.7,
+          "home_implied_probability": 36.2,
+          "away_vig_free_probability": 65.2,
+          "home_vig_free_probability": 34.8
         },
         "spread": {
-          "away": -5.5,
-          "home": 5.5,
-          "favorite": "BUF",
-          "line": 5.5
+          "away": -4.5,
+          "home": 4.5,
+          "favorite": "LA",
+          "line": 4.5
         },
         "total": {
-          "line": 53.5
+          "line": 48.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": 9.8,
-        "margin_difference": -1.4,
-        "total_difference": 0.4
+        "win_probability_difference": 8.3,
+        "margin_difference": 1.1,
+        "total_difference": 0.2
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "LA",
+            "display": "LA advantage",
+            "raw_difference": -0.049
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "LV",
+            "display": "LV advantage",
+            "raw_difference": 0.086
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "LA",
+            "display": "LA advantage",
+            "raw_difference": -0.251
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "LA",
+            "display": "LA advantage",
+            "raw_difference": 0.169
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "LA",
+            "name": "Matthew Stafford",
+            "epa_per_play": 0.113,
+            "pass_ypg": 299.0,
+            "td_int": "11 / 6",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "LV",
+            "name": "Kirk Cousins",
+            "epa_per_play": 0.207,
+            "pass_ypg": 263.7,
+            "td_int": "14 / 5",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "LV",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": 0.082,
+          "home": 0.033,
+          "advantage": "LA",
+          "difference": -0.049
         },
         "team_strength": {
           "away": null,
@@ -1181,37 +2247,81 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "LA",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "LV",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "dome",
-          "surface": "grass"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "Allegiant Stadium",
+          "stadium_id": "VEG00",
+          "surface": "grass",
+          "temperature_f": null,
+          "wind_mph": null,
+          "wind_gusts_mph": null,
+          "precipitation_probability": null,
+          "updated_at": null,
+          "roof": "Fixed roof \u00b7 indoors",
+          "roof_type": "fixed",
+          "roof_status": "closed",
+          "status": "indoors",
+          "message": "Indoor game. Outdoor wind does not apply; indoor temperature is not supplied.",
+          "latitude": 36.0909,
+          "longitude": -115.1833,
+          "kickoff_utc": "2026-10-25T20:25:00+00:00"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.082,
+            "passing_epa": 0.149,
+            "rushing_epa": -0.05,
+            "completion_pct": 66.518,
+            "defensive_epa_allowed": -0.084
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": 0.033,
+            "passing_epa": 0.235,
+            "rushing_epa": -0.301,
+            "completion_pct": 62.827,
+            "defensive_epa_allowed": 0.085
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
         "models_agree": true,
         "coherence_status": "ALIGNED",
-        "probability_favorite": "BUF",
-        "margin_favorite": "BUF",
-        "market_home_margin": -5.5,
+        "probability_favorite": "LA",
+        "margin_favorite": "LA",
+        "market_home_margin": -4.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_DAL_GB",
+      "game_id": "2026_07_KC_SEA",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "DAL",
-        "home_team": "GB",
+        "away_team": "KC",
+        "home_team": "SEA",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-18",
+        "gameday": "2026-10-25",
         "gametime": "20:20",
         "location": "Home",
         "signal_strength": "Weak"
@@ -1222,57 +2332,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 48.6,
-        "home_win_probability": 51.4,
-        "favorite": "GB",
-        "favorite_win_probability": 51.4,
-        "margin_favorite": "GB",
-        "projected_away_score": 25.9,
-        "projected_home_score": 26.4,
-        "projected_margin": 0.5,
-        "projected_margin_absolute": 0.5,
-        "projected_total": 52.3,
+        "away_win_probability": 55.0,
+        "home_win_probability": 45.0,
+        "favorite": "KC",
+        "favorite_win_probability": 55.0,
+        "margin_favorite": "KC",
+        "projected_away_score": 26.4,
+        "projected_home_score": 22.3,
+        "projected_margin": -4.1,
+        "projected_margin_absolute": 4.1,
+        "projected_total": 48.7,
         "signal_strength": "Weak",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": -106.0,
-          "home": -110.0,
-          "away_implied_probability": 51.5,
-          "home_implied_probability": 52.4,
-          "away_vig_free_probability": 49.6,
-          "home_vig_free_probability": 50.4
+          "away": 116.0,
+          "home": -136.0,
+          "away_implied_probability": 46.3,
+          "home_implied_probability": 57.6,
+          "away_vig_free_probability": 44.5,
+          "home_vig_free_probability": 55.5
         },
         "spread": {
-          "away": 1.5,
-          "home": -1.5,
-          "favorite": "GB",
-          "line": 1.5
+          "away": 2.5,
+          "home": -2.5,
+          "favorite": "SEA",
+          "line": 2.5
         },
         "total": {
-          "line": 52.5
+          "line": 42.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": 1.0,
-        "margin_difference": -1.0,
-        "total_difference": -0.2
+        "win_probability_difference": -10.5,
+        "margin_difference": -6.6,
+        "total_difference": 6.2
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "KC",
+            "display": "KC advantage",
+            "raw_difference": -0.246
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "KC",
+            "display": "KC advantage",
+            "raw_difference": -0.189
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "KC",
+            "display": "KC advantage",
+            "raw_difference": -0.326
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "SEA",
+            "display": "SEA advantage",
+            "raw_difference": -0.052
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "KC",
+            "name": "Patrick Mahomes",
+            "epa_per_play": 0.174,
+            "pass_ypg": 261.8,
+            "td_int": "9 / 3",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "SEA",
+            "name": "Sam Darnold",
+            "epa_per_play": -0.135,
+            "pass_ypg": 206.6,
+            "td_int": "7 / 7",
+            "games": 5,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "KC",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": 0.139,
+          "home": -0.107,
+          "advantage": "KC",
+          "difference": -0.246
         },
         "team_strength": {
           "away": null,
@@ -1280,40 +2436,87 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "KC",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "SEA",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "Lumen Field",
+          "stadium_id": "SEA00",
+          "surface": "fieldturf",
+          "temperature_f": 54.8,
+          "wind_mph": 7.0,
+          "wind_gusts_mph": 11.4,
+          "precipitation_probability": 21.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 47.5952,
+          "longitude": -122.3316,
+          "kickoff_utc": "2026-10-26T00:20:00+00:00",
+          "forecast_hour_utc": "2026-10-26T00:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.139,
+            "passing_epa": 0.174,
+            "rushing_epa": 0.099,
+            "completion_pct": 66.456,
+            "defensive_epa_allowed": -0.092
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.107,
+            "passing_epa": -0.015,
+            "rushing_epa": -0.227,
+            "completion_pct": 62.644,
+            "defensive_epa_allowed": -0.144
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
         "models_agree": true,
         "coherence_status": "ALIGNED",
-        "probability_favorite": "GB",
-        "margin_favorite": "GB",
-        "market_home_margin": 1.5,
+        "probability_favorite": "KC",
+        "margin_favorite": "KC",
+        "market_home_margin": 2.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
     {
-      "game_id": "2026_06_WAS_SF",
+      "game_id": "2026_07_DAL_PHI",
       "season": 2026,
-      "week": 6,
+      "week": 7,
       "preview": {
-        "away_team": "WAS",
-        "home_team": "SF",
+        "away_team": "DAL",
+        "home_team": "PHI",
         "away_logo": null,
         "home_logo": null,
-        "gameday": "2026-10-19",
+        "gameday": "2026-10-26",
         "gametime": "20:15",
         "location": "Home",
-        "signal_strength": "Strong"
+        "signal_strength": "Weak"
       },
       "access": {
         "unlocked": true,
@@ -1321,57 +2524,103 @@
         "access_type": "development"
       },
       "simulation": {
-        "away_win_probability": 17.9,
-        "home_win_probability": 82.1,
-        "favorite": "SF",
-        "favorite_win_probability": 82.1,
-        "margin_favorite": "SF",
-        "projected_away_score": 20.0,
-        "projected_home_score": 29.8,
-        "projected_margin": 9.8,
-        "projected_margin_absolute": 9.8,
-        "projected_total": 49.9,
-        "signal_strength": "Strong",
+        "away_win_probability": 54.5,
+        "home_win_probability": 45.5,
+        "favorite": "DAL",
+        "favorite_win_probability": 54.5,
+        "margin_favorite": "DAL",
+        "projected_away_score": 23.4,
+        "projected_home_score": 21.3,
+        "projected_margin": -2.0,
+        "projected_margin_absolute": 2.0,
+        "projected_total": 44.7,
+        "signal_strength": "Weak",
         "models_agree": true,
         "coherence_status": "ALIGNED"
       },
       "market": {
         "moneyline": {
-          "away": 350.0,
-          "home": -450.0,
-          "away_implied_probability": 22.2,
-          "home_implied_probability": 81.8,
-          "away_vig_free_probability": 21.4,
-          "home_vig_free_probability": 78.6
+          "away": -215.0,
+          "home": 180.0,
+          "away_implied_probability": 68.3,
+          "home_implied_probability": 35.7,
+          "away_vig_free_probability": 65.6,
+          "home_vig_free_probability": 34.4
         },
         "spread": {
-          "away": 7.5,
-          "home": -7.5,
-          "favorite": "SF",
-          "line": 7.5
+          "away": -4.5,
+          "home": 4.5,
+          "favorite": "DAL",
+          "line": 4.5
         },
         "total": {
-          "line": 50.5
+          "line": 44.5
         },
         "provider": "FANDUEL SB",
-        "updated_at": "2026-10-13 1630"
+        "updated_at": "2026-10-20 1600"
       },
       "comparison": {
-        "win_probability_difference": 3.5,
-        "margin_difference": 2.3,
-        "total_difference": -0.6
+        "win_probability_difference": 11.1,
+        "margin_difference": 2.5,
+        "total_difference": 0.2
       },
       "insights": {
-        "key_signals": [],
+        "key_signals": [
+          {
+            "label": "Offensive EPA/play \u00b7 last 5",
+            "advantage": "DAL",
+            "display": "DAL advantage",
+            "raw_difference": -0.229
+          },
+          {
+            "label": "Passing EPA/dropback \u00b7 last 5",
+            "advantage": "DAL",
+            "display": "DAL advantage",
+            "raw_difference": -0.256
+          },
+          {
+            "label": "Rushing EPA/carry \u00b7 last 5",
+            "advantage": "DAL",
+            "display": "DAL advantage",
+            "raw_difference": -0.166
+          },
+          {
+            "label": "Defensive EPA allowed/play \u00b7 last 5",
+            "advantage": "PHI",
+            "display": "PHI advantage",
+            "raw_difference": -0.088
+          }
+        ],
         "quarterbacks": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": {
+            "team": "DAL",
+            "name": "Dak Prescott",
+            "epa_per_play": 0.146,
+            "pass_ypg": 273.2,
+            "td_int": "10 / 5",
+            "games": 6,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "home": {
+            "team": "PHI",
+            "name": "Tanner McKee",
+            "epa_per_play": -0.18,
+            "pass_ypg": 215.0,
+            "td_int": "1 / 0",
+            "games": 1,
+            "selection_status": "ready_conditional",
+            "selection_source": "depth_qb1"
+          },
+          "advantage": "DAL",
+          "metric": "Season passing EPA per dropback",
+          "basis": "2026 observed passing appearances; listed QB, subject to availability"
         },
         "recent_form": {
-          "away": null,
-          "home": null,
-          "advantage": null
+          "away": 0.071,
+          "home": -0.158,
+          "advantage": "DAL",
+          "difference": -0.229
         },
         "team_strength": {
           "away": null,
@@ -1379,24 +2628,71 @@
           "advantage": null
         },
         "injuries": {
-          "away": null,
-          "home": null,
-          "status": null
+          "away": {
+            "team": "DAL",
+            "available": false,
+            "players": []
+          },
+          "home": {
+            "team": "PHI",
+            "available": false,
+            "players": []
+          },
+          "available": false,
+          "status": "Week 7 injury reports not available yet",
+          "latest_feed_week": 6
         },
         "weather": {
-          "temperature": null,
-          "wind": null,
-          "roof": "outdoors",
-          "surface": "grass"
-        }
+          "version": "kickoff-weather-v1",
+          "stadium": "Lincoln Financial Field",
+          "stadium_id": "PHI00",
+          "surface": "grass",
+          "temperature_f": 60.8,
+          "wind_mph": 5.0,
+          "wind_gusts_mph": 12.8,
+          "precipitation_probability": 0.0,
+          "updated_at": "2026-10-20T20:17:18.304542+00:00",
+          "roof": "Open-air playing field",
+          "roof_type": "outdoors",
+          "roof_status": "open",
+          "status": "forecast",
+          "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+          "latitude": 39.9008,
+          "longitude": -75.1675,
+          "kickoff_utc": "2026-10-27T00:15:00+00:00",
+          "forecast_hour_utc": "2026-10-27T00:00:00+00:00",
+          "provider": "Open-Meteo",
+          "source_url": "https://open-meteo.com/"
+        },
+        "team_context": {
+          "away": {
+            "games": 5,
+            "offensive_epa": 0.071,
+            "passing_epa": 0.122,
+            "rushing_epa": -0.034,
+            "completion_pct": 66.509,
+            "defensive_epa_allowed": 0.133
+          },
+          "home": {
+            "games": 5,
+            "offensive_epa": -0.158,
+            "passing_epa": -0.134,
+            "rushing_epa": -0.2,
+            "completion_pct": 57.714,
+            "defensive_epa_allowed": 0.045
+          },
+          "window": "Last 5 completed team games",
+          "third_down_available": false
+        },
+        "context_version": "supported-stats-v1"
       },
       "internal": {
         "model_disagreement": "NO",
         "models_agree": true,
         "coherence_status": "ALIGNED",
-        "probability_favorite": "SF",
-        "margin_favorite": "SF",
-        "market_home_margin": 7.5,
+        "probability_favorite": "DAL",
+        "margin_favorite": "DAL",
+        "market_home_margin": -4.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     }

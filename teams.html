@@ -40,13 +40,13 @@
 
     <link
         rel="stylesheet"
-        href="teams.css?v=1"
+        href="teams.css?v=ps-teams-ui-1"
     >
 
 </head>
 
 
-<body>
+<body class="ps-teams-track-layout">
 
 
 <header class="site-header">
@@ -70,6 +70,8 @@
 <nav class="header-nav">
     <a class="nav-item" href="index.html">Games</a>
     <a class="nav-item" href="players.html">Players</a>
+<a class="nav-item" href="player-matchup.html">Player Matchup</a>
+<a class="nav-item" href="signal-board.html">Signal Board</a>
     <a class="nav-item" href="results.html">Track Record</a>
     <a class="nav-item active" href="teams.html">Teams</a>
     <a class="nav-item" href="how-it-works.html">How It Works</a>
@@ -100,8 +102,8 @@
         </h1>
 
         <p>
-            Compare all 32 teams using Pocket Signal's forward-looking strength ratings and season performance.
-        </p>
+            Compare all 32 teams.
+        </p><p class="ps-teams-header-note">Pocket Signal's forward-looking strength ratings and season performance.</p>
 
     </div>
 
@@ -276,7 +278,7 @@
 </main>
 
 
-<script src="teams.js?v=1"></script>
+<script src="teams.js?v=ps-teams-ui-1"></script>
 
 <script>
     const button = document.querySelector(".mobile-menu-button");
@@ -294,6 +296,71 @@
     }
 </script>
 
+<style id="psTeamsTrackHeaderV1">
+/* PS_TEAMS_TRACK_HEADER_V1: scoped header and top-section alignment only. */
+body.ps-teams-track-layout .teams-hero {
+ padding:0 !important;
+ border-bottom:1px solid rgba(39,214,255,.19);
+ background:radial-gradient(ellipse at 28% 40%,rgba(39,214,255,.075),transparent 65%),linear-gradient(115deg,#07121e,#0a1c29,#07121e);
+ background-size:100% 100%,200% 200%;
+ animation:psTeamsTrackAmbient 16s ease-in-out infinite alternate;
+}
+body.ps-teams-track-layout .teams-hero-inner {
+ box-sizing:border-box;width:min(1380px,calc(100% - 42px));max-width:none;
+ min-height:0;display:block;margin:0 auto;padding:27px 0 22px;
+}
+body.ps-teams-track-layout .teams-hero h1 {
+ font-size:clamp(36px,4.5vw,56px) !important;
+ margin:9px 0 0;line-height:.98;letter-spacing:-.05em;
+ font-weight:800;width:fit-content;color:#c8f6ff;
+ background:linear-gradient(105deg,#f4fbff 10%,#c8f6ff 45%,#27d6ff 90%);
+ background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+ filter:drop-shadow(0 0 8px rgba(39,214,255,.075));
+}
+body.ps-teams-track-layout .teams-hero p {
+ font-size:14px;line-height:1.65;margin:10px 0 0;max-width:760px;color:var(--muted-light,#c6d7e7);
+}
+body.ps-teams-track-layout .teams-hero .ps-teams-header-note {
+ font-size:11px;color:#9eb3c6;margin-top:12px;
+}
+body.ps-teams-track-layout .teams-shell {
+ width:min(1380px,calc(100% - 42px));box-sizing:border-box;
+ margin-top:22px;padding-top:0 !important;
+}
+body.ps-teams-track-layout .rankings-heading {
+ align-items:flex-start;gap:22px;margin-bottom:16px;
+}
+body.ps-teams-track-layout .rankings-heading h2 {
+ font-size:23px;letter-spacing:-.025em;margin:7px 0 8px;
+}
+body.ps-teams-track-layout .rankings-heading p {font-size:13px;line-height:1.6}
+body.ps-teams-track-layout .rankings-heading .rankings-explainer {font-size:11px;line-height:1.6}
+body.ps-teams-track-layout .team-controls {align-self:center}
+@keyframes psTeamsTrackAmbient {from{background-position:0 0,0% 45%}to{background-position:0 0,100% 55%}}
+@media(max-width:650px){
+ body.ps-teams-track-layout .teams-hero-inner,body.ps-teams-track-layout .teams-shell {width:calc(100% - 28px)}
+ body.ps-teams-track-layout .teams-hero-inner {padding:22px 0 18px}
+ body.ps-teams-track-layout .teams-hero p {font-size:13px}
+ body.ps-teams-track-layout .teams-hero .ps-teams-header-note {font-size:11px}
+ body.ps-teams-track-layout .rankings-heading {flex-direction:column;align-items:stretch;gap:15px}
+ body.ps-teams-track-layout .rankings-heading h2 {font-size:20px}
+ body.ps-teams-track-layout .team-controls {align-self:stretch}
+}
+@media(prefers-reduced-motion:reduce){body.ps-teams-track-layout .teams-hero{animation:none}}
+</style>
+
+<style id="psPolicyStyles">
+.ps-policy-footer{clear:both;margin-top:48px;padding:28px 0 32px;border-top:1px solid rgba(39,214,255,.2);background:#06111c;color:#9eb4c5;font:12px/1.8 Inter,Arial,sans-serif}
+.ps-policy-footer .ps-policy-inner{width:min(1380px,calc(100% - 42px));margin:auto}
+.ps-policy-top{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+.ps-policy-top nav{display:flex;gap:18px;flex-wrap:wrap}.ps-policy-footer a{color:#b8d8e8;text-decoration:underline;text-underline-offset:3px}.ps-policy-footer a:hover{color:#27d6ff}
+.ps-policy-footer p{max-width:1100px;margin:9px auto;color:#9eb4c5;text-align:center}.ps-policy-footer a:focus-visible{outline:2px solid #27d6ff;outline-offset:4px}
+.ps-legal{background:#071421;color:#d8e7f1;font:16px/1.8 Inter,Arial,sans-serif;margin:0}.ps-legal *{box-sizing:border-box}.ps-legal header{border-bottom:1px solid #244355;padding:20px max(21px,calc((100vw - 1000px)/2));background:#06101a}.ps-legal header a{color:#2bd6f5;text-decoration:none;font-weight:800}.ps-legal main{width:min(1000px,calc(100% - 42px));margin:40px auto 64px}.ps-legal h1{font-size:clamp(32px,5vw,48px);line-height:1.1;letter-spacing:-.04em;color:#e9faff}.ps-legal h2{font-size:21px;color:#bceffc;margin:32px 0 8px}.ps-legal p{margin:10px 0}.ps-legal main a{color:#59d9f2}.ps-legal .ps-date{font-size:13px;color:#96b3c8}.ps-legal .ps-notice{padding:18px 22px;border:1px solid #285368;border-radius:12px;background:#0b2233}.ps-legal .ps-jump{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+@media(max-width:650px){.ps-policy-footer .ps-policy-inner,.ps-legal main{width:calc(100% - 28px)}.ps-policy-top{align-items:flex-start;flex-direction:column}.ps-policy-top nav{gap:12px}.ps-policy-footer p{text-align:left}.ps-policy-footer{padding:24px 0}.ps-legal main{margin-top:28px}}
+</style>
+<!-- PS_POLICY_FOOTER_START -->
+<footer class="ps-policy-footer"><div class="ps-policy-inner"><div class="ps-policy-top"><span>&copy; 2026 Pocket Signal. All rights reserved in original content.</span><nav aria-label="Site policies"><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a><a href="responsible-gambling.html">Responsible Gambling</a></nav></div><p>Pocket Signal provides sports analysis and projections for informational and entertainment purposes. Forecasts are estimates; accuracy, winning picks and profits are not guaranteed. Market lines may change. Past performance does not guarantee future results. Pocket Signal does not accept or place wagers. If you choose to wager, follow applicable laws and gamble responsibly.</p><p>Need support? Visit the <a href="https://www.ncpgambling.org/help-treatment/" target="_blank" rel="noopener noreferrer">National Council on Problem Gambling</a>.</p></div></footer>
+<!-- PS_POLICY_FOOTER_END -->
 </body>
 
 </html>
