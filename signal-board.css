@@ -45,3 +45,18 @@
 .sb-snapshot{border-top:1px solid #84b3d026;padding-top:5px}
 @media(max-width:650px){.sb-summary-heading{display:block}.sb-summary-heading p{margin-top:10px}.sb-summary-grid{gap:9px}.sb-summary-grid article{padding:15px 11px}.sb-summary-grid article>strong{font-size:29px;margin:10px 0}.sb-summary-grid article>span{font-size:8px}.sb-summary-grid article>small{font-size:10px}.sb-post .sb-pick-title{font-size:22px}.sb-post.sb-post-compact{padding:19px}}
 @media(max-width:380px){.sb-summary-grid{grid-template-columns:1fr}.sb-summary-grid article{padding:17px}.sb-summary-grid article>span{font-size:10px}.sb-summary-grid article>small{font-size:11px}}
+
+/* PS_SIGNAL_MOBILE_NET_V1 */
+@media (max-width:650px) {
+  .sb-page .sb-summary-grid article.sb-unit-card { text-align:center; }
+  .sb-page .sb-summary-grid .sb-unit-card > span,
+  .sb-page .sb-summary-grid .sb-unit-card > small {
+    width:100%; text-align:center; overflow-wrap:break-word;
+  }
+  .sb-page .sb-summary-grid #sbBoardUnits {
+    display:block; width:100%; min-width:0; padding:0;
+    margin:10px auto; text-align:center; white-space:nowrap;
+    font-size:clamp(20px,6vw,29px); letter-spacing:0;
+    font-variant-numeric:tabular-nums; line-height:1.2;
+  }
+}
