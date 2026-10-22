@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "voting": {
+    "enabled": false,
+    "note": "Shared voting backend not connected."
+  },
+  "posts": [
+    {
+      "id": "2026-w6-was-sf-win-by-1-13",
+      "title": "49ers by 1–13. Signal delivered.",
+      "selection": "San Francisco 49ers to win by 1–13 points",
+      "sportsbook": "FanDuel",
+      "odds": 105,
+      "season": 2026,
+      "week": 6,
+      "matchup": "WAS at SF",
+      "kickoff_at": "2026-10-19T20:15:00-04:00",
+      "posted_at": null,
+      "captured_at": null,
+      "added_at": "2026-10-21T12:45:30.862540+00:00",
+      "archive_kind": "historical",
+      "reasoning": "Despite reported public support for San Francisco -7.5 throughout the week, most sportsbooks held the spread at that number. Late on game day, FanDuel moved the price on 49ers -7.5 from -115 to +100—a shift toward Washington in the pricing, though not proof of how much money was being wagered.\n\nPocket Signal projected a 9.8-point San Francisco win, just 2.3 points beyond the spread. That outlook made the 49ers to win by 1–13 at +105 a better fit for my read than backing them to cover -7.5. The play still required a San Francisco win within that range; a larger victory would have lost.",
+      "watch_for": "",
+      "source_url": null,
+      "snapshot_sha256": "7860dd631e7563b4b49050310f99b0a81cc3ac322b35021e90ba9fb897590e82",
+      "result": {
+        "outcome": "win",
+        "summary": "San Francisco won within the 1–13 point range. Winning result confirmed by the site owner.",
+        "source_url": null,
+        "graded_at": "2026-10-21T12:45:30.862540+00:00",
+        "verification": "site_owner_confirmed"
+      },
+      "editorial_updated_at": "2026-10-21T12:54:04.225767+00:00",
+      "reasoning_basis": "Site-owner supplied market observations and pregame rationale; edited retrospectively."
+    }
+  ]
+}
