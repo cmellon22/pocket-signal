@@ -1778,3 +1778,39 @@ function psToggleFavorite(player, focusedId) {
         .then(data=>{if(data.season!==2026 || data.week!==7 || SLATE_WEEK!==7)return;context=data;render();})
         .catch(error=>console.warn('Player matchup context:',error.message));
 })();
+
+// PS_PLAYER_CONSISTENCY_V1_START
+(() => {
+ const URL = 'data/api/player_consistency_2026_week7.json';
+ let feed=null, state='loading';
+ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const style=document.createElement('style');style.textContent=`
+ .ps-consistency{margin:22px 0;padding:22px;border:1px solid #2bd6f655;border-radius:15px;background:linear-gradient(135deg,#102638,#091a28);box-shadow:0 0 19px #2bd6f60c}
+ .ps-consistency h3{margin:7px 0 10px;font-size:21px;color:#edf8ff}.ps-consistency p{color:#9db5c8;font-size:12px;line-height:1.65;margin:9px 0}.ps-consistency-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}.ps-consistency-window{padding:16px;background:#07172399;border:1px solid #315267;border-radius:11px;min-width:0}.ps-consistency-window h4{font-size:14px;color:#d7eff9;margin:0 0 5px}.ps-consistency-window .ps-consistency-range{font-size:10px;margin:0 0 12px;color:#9db5c8}.ps-consistency-row{padding:12px 0;border-top:1px solid #31526788;display:flex;gap:10px;align-items:center;justify-content:space-between}.ps-consistency-row strong{font-size:14px;color:#eefaff;line-height:1.45}.ps-consistency-row span{font-size:11px;color:#47e2b0;white-space:nowrap;font-variant-numeric:tabular-nums}.ps-consistency details{margin-top:14px}.ps-consistency summary{color:#83dff0;font-size:11px;cursor:pointer}.ps-consistency .ps-consistency-note{font-size:10px}.ps-consistency-placeholder{color:#9db5c8;font-size:12px}@media(max-width:650px){.ps-consistency{padding:17px}.ps-consistency-grid{grid-template-columns:1fr}.ps-consistency-row strong{font-size:14px}}
+ `;document.head.append(style);
+ function windowHTML(w,title){
+  if(!w)return `<div class="ps-consistency-window"><h4>${esc(title)}</h4><p>Appearance history unavailable.</p></div>`;
+  const rows=w.trends.map(t=>`<div class="ps-consistency-row"><strong>${esc(t.threshold)}+ ${esc(t.label)}</strong><span>${Math.round(100*(t.hits??t.games)/t.games)}% · ${t.hits??t.games}/${t.games}</span></div>`).join('');
+  return `<div class="ps-consistency-window"><h4>${esc(title)}</h4><p class="ps-consistency-range">${esc(w.range)} · ${w.games} recorded appearance${w.games===1?'':'s'}</p>${rows||'<p>No positive threshold reached in at least 75% of appearances for the supported stats.</p>'}${w.missing_metrics.length?'<p class="ps-consistency-note">Some stats are unavailable because results are missing.</p>':''}${w.games>0&&w.games<5?'<p class="ps-consistency-note">Small sample: fewer than five recorded appearances.</p>':''}</div>`;
+ }
+ function render(){
+  if(!selectedPlayer)return;
+  const parent=detailPanel.querySelector('.player-detail');if(!parent)return;
+  let node=parent.querySelector('.ps-consistency');
+  const key=[selectedPlayer.player_id,selectedPlayer.team,selectedPlayer.opponent,state].join('|');
+  if(node?.dataset.key===key)return;
+  if(!node){node=document.createElement('section');node.className='ps-consistency';const chart=parent.querySelector('.player-chart-card');if(chart)chart.after(node);else parent.append(node);}
+  node.dataset.key=key;
+  const p=feed?.players.find(p=>String(p.player_id)===String(selectedPlayer.player_id)&&p.team===selectedPlayer.team&&p.opponent===selectedPlayer.opponent);
+  const intro='<div class="section-kicker">HISTORICAL CONSISTENCY</div><h3>Consistency trends</h3>';
+  if(!p){node.innerHTML=intro+`<p class="ps-consistency-placeholder">${state==='loading'?'Loading appearance history…':'Consistency history is unavailable for this player.'}</p>`;return;}
+  node.innerHTML=intro+'<p>100% hit-rate thresholds, plus higher thresholds reached in at least 75% of recorded appearances.</p><div class="ps-consistency-grid">'+windowHTML(p.last5,p.last5.games===5?'Last 5 appearances':`Last ${p.last5.games} available appearances`)+windowHTML(p.season,`${feed.season} season so far`)+'</div><details><summary>How these trends are calculated</summary><p>Highest thresholds reached in 100% and at least 75% of appearances (a higher threshold is shown only when different). Five games require at least 4/5; six games require at least 5/6. Actual hit rates and counts are shown. Threshold steps: passing yards in 25-yard steps, rushing yards in 10-yard steps, receiving yards in 5-yard steps, completions in steps of 5, and receptions and touchdowns in whole numbers. These are historical thresholds, not sportsbook lines or forecast probabilities. Zero production counts; missing results never count as hits. Recorded regular-season appearances only; absences are not added as zeroes. Last five can span seasons and teams.</p></details><p class="ps-consistency-note">'+esc(feed.cutoff_label)+'. Past results do not guarantee future performance.</p>';
+ }
+ new MutationObserver(render).observe(detailPanel,{childList:true,subtree:true});
+ fetch(URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('History feed unavailable');return r.json();}).then(d=>{
+  if(d.season!==SLATE_SEASON||d.week!==SLATE_WEEK||!Array.isArray(d.players))throw Error('History slate mismatch');
+  const seen=new Set();for(const p of d.players){const k=[p.player_id,p.team,p.opponent].join('|');if(seen.has(k))throw Error('Duplicate history');seen.add(k);for(const w of [p.last5,p.season]){if(!w||!Number.isInteger(w.games)||w.games<0||!Array.isArray(w.trends)||!Array.isArray(w.missing_metrics))throw Error('Invalid history');for(const t of w.trends)if(!(t.threshold>0)||t.games!==w.games||!Number.isInteger(t.hits)||t.hits<Math.ceil(.75*w.games)||t.hits>w.games)throw Error('Invalid threshold');}}
+  feed=d;state='ready';render();
+ }).catch(e=>{console.warn('Consistency:',e.message);state='unavailable';render();});render();
+})();
+// PS_PLAYER_CONSISTENCY_V1_END
