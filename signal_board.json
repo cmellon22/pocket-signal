@@ -32,6 +32,41 @@
       },
       "editorial_updated_at": "2026-10-21T12:54:04.225767+00:00",
       "reasoning_basis": "Site-owner supplied market observations and pregame rationale; edited retrospectively."
+    },
+    {
+      "id": "2026-w7-ne-chi-patriots-plus3",
+      "title": "An improving Maye. Three points to work with.",
+      "selection": "New England Patriots +3",
+      "sportsbook": "FanDuel",
+      "odds": -115,
+      "season": 2026,
+      "week": 7,
+      "matchup": "NE at CHI",
+      "kickoff_at": "2026-10-22T20:15:00-04:00",
+      "posted_at": "2026-10-22T19:23:12.838656+00:00",
+      "captured_at": "2026-10-22T19:23:12.838656+00:00",
+      "reasoning": "New England heads into Chicago with a quarterback finding his rhythm, and Pocket Signal sees more than a team capable of keeping it close.\n\nDrake Maye has thrown 10 touchdowns against just one interception during the Patriots' three-game winning streak. That is a significant turnaround from his opening three games, when he threw one touchdown and six interceptions. The improvement in ball security gives New England a stronger foundation heading into a short-week road matchup.\n\nThe primetime underdog trend adds context. Yahoo Sports reports that entering Week 7, underdogs are 15-4 against the spread and 12-7 outright under the lights. That is a small sample, not a reason to expect another cover by itself. Tonight's case rests on the matchup and our forecast.\n\nChicago deserves respect. Caleb Williams just completed 30 of 36 passes for 305 yards against Atlanta, and both teams enter tonight at 4-2. There is enough offensive talent on the other side to make this competitive deep into the fourth quarter.\n\nPocket Signal projects Patriots 23.9, Bears 22.2, giving New England a 56.7% chance of winning outright. Our projected Patriots win by 1.7 points sits 4.7 points away from the market's Bears-by-three spread. That gap is a difference in projected margin, not a cover probability or a guaranteed edge.\n\nThe case for taking the points: an improving Maye, a model that favors New England outright, and protection against a narrow Chicago win. Patriots +3 wins with a New England victory or a loss by one or two points; a three-point loss pushes. The play is Patriots +3 at -115 on FanDuel.",
+      "watch_for": "Maye's ball security and New England's protection on a short week. Chicago's passing offense is coming off an efficient performance. The +3 line matters: a three-point loss pushes, while +2.5 would lose. The -115 price is the site owner's supplied FanDuel quote, recorded when this entry was added; its original capture time was not supplied and it was not independently refreshed.",
+      "source_url": "https://www.windycitygridiron.com/chicago-bears-odds/125807/bears-vs-patriots-predictions-week-7-picks",
+      "supporting_sources": [
+        {
+          "label": "Maye recent form and Bears matchup",
+          "url": "https://www.windycitygridiron.com/chicago-bears-odds/125807/bears-vs-patriots-predictions-week-7-picks"
+        },
+        {
+          "label": "Primetime underdog record entering Week 7",
+          "url": "https://uk.sports.yahoo.com/news/nfl-betting-odds-lines-betting-trends-to-know-for-week-7s-biggest-games-145717443.html"
+        }
+      ],
+      "market_quote_basis": "Site-owner supplied FanDuel +3 at -115; captured_at records entry creation, not an independently verified sportsbook capture.",
+      "model_snapshot": {
+        "projected_away_score": 23.93,
+        "projected_home_score": 22.19,
+        "projected_margin_home_minus_away": -1.74,
+        "away_win_probability": 0.567,
+        "basis": "Week 7 terminal output supplied by site owner"
+      },
+      "snapshot_sha256": "212a25fdcaaeb3d94d358c878ebc37275b42622a28caa9261cfa4a46b8c1f312"
     }
   ]
 }
