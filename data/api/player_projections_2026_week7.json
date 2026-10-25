@@ -126,10 +126,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
         }
       }
     },
@@ -237,7 +237,22 @@
           "yards_per_reception": 13.8,
           "target_share": 0.349
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 68.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0039338",
@@ -438,7 +453,22 @@
           "yards_per_reception": 11.0,
           "target_share": 0.355
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 64.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
+        }
+      }
     },
     {
       "player_id": "00-0036912",
@@ -763,17 +793,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 81.5,
+          "line": 78.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
           "over_odds": -114,
           "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "source_image": "IMG_1036.png"
         }
       }
     },
@@ -881,7 +911,22 @@
           "yards_per_reception": 16.5,
           "target_share": 0.256
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0037744",
@@ -987,7 +1032,22 @@
           "yards_per_reception": 7.6,
           "target_share": 0.265
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 62.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0036963",
@@ -1103,10 +1163,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -1214,7 +1274,22 @@
           "yards_per_reception": 14.3,
           "target_share": 0.257
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 69.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0039075",
@@ -1404,7 +1479,22 @@
           "yards_per_reception": 16.2,
           "target_share": 0.371
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 66.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0037238",
@@ -1513,17 +1603,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 76.5,
+          "line": 83.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1005.png"
         }
       }
     },
@@ -1634,17 +1724,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 62.5,
+          "line": 64.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
           "over_odds": -114,
           "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "source_image": "IMG_1036.png"
         }
       }
     },
@@ -1741,7 +1831,22 @@
           "yards_per_reception": 24.7,
           "target_share": 0.156
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 69.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0037740",
@@ -1847,7 +1952,22 @@
           "yards_per_reception": 11.0,
           "target_share": 0.207
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 62.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0036410",
@@ -1963,10 +2083,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
         }
       }
     },
@@ -2073,10 +2193,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1020.png"
         }
       }
     },
@@ -2293,17 +2413,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 75.5,
+          "line": 74.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -2535,17 +2655,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 73.5,
+          "line": 74.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -2620,7 +2740,22 @@
           "yards_per_reception": 10.5,
           "target_share": 0.333
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 28.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0036900",
@@ -2729,17 +2864,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 79.5,
+          "line": 80.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
         }
       }
     },
@@ -2953,7 +3088,22 @@
           "yards_per_reception": 8.0,
           "target_share": 0.206
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0039880",
@@ -3059,7 +3209,22 @@
           "yards_per_reception": 7.2,
           "target_share": 0.308
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 40.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0040735",
@@ -3395,17 +3560,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 66.5,
+          "line": 69.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1005.png"
         }
       }
     },
@@ -3516,17 +3681,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 53.5,
+          "line": 52.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1001.jpeg"
         }
       }
     },
@@ -3765,10 +3930,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -3970,10 +4135,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -4073,17 +4238,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 43.5,
+          "line": 38.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1020.png"
         }
       }
     },
@@ -4297,7 +4462,22 @@
           "yards_per_reception": 10.2,
           "target_share": 0.289
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 40.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1020.png"
+        }
+      }
     },
     {
       "player_id": "00-0041037",
@@ -4406,17 +4586,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 51.5,
+          "line": 49.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1001.jpeg"
         }
       }
     },
@@ -4633,17 +4813,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 48.5,
+          "line": 51.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -4751,7 +4931,22 @@
           "yards_per_reception": 10.0,
           "target_share": 0.211
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1020.png"
+        }
+      }
     },
     {
       "player_id": "00-0036613",
@@ -4857,7 +5052,22 @@
           "yards_per_reception": 6.0,
           "target_share": 0.292
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 50.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0039894",
@@ -4963,7 +5173,22 @@
           "yards_per_reception": 10.4,
           "target_share": 0.241
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 49.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
+        }
+      }
     },
     {
       "player_id": "00-0039919",
@@ -5384,7 +5609,22 @@
           "yards_per_reception": 9.5,
           "target_share": 0.13
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 32.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0038117",
@@ -5500,10 +5740,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1001.jpeg"
         }
       }
     },
@@ -5706,7 +5946,22 @@
           "yards_per_reception": 13.2,
           "target_share": 0.172
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 46.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
+        }
+      }
     },
     {
       "player_id": "00-0035676",
@@ -5900,7 +6155,22 @@
           "yards_per_reception": 8.2,
           "target_share": 0.188
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 26.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0034351",
@@ -5998,17 +6268,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 40.5,
+          "line": 50.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
           "over_odds": -114,
           "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "source_image": "IMG_1036.png"
         }
       }
     },
@@ -6116,7 +6386,22 @@
           "yards_per_reception": 9.4,
           "target_share": 0.235
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 34.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0038621",
@@ -6565,10 +6850,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1001.jpeg"
         }
       }
     },
@@ -6800,17 +7085,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 32.5,
+          "line": 33.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
           "over_odds": -114,
           "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "source_image": "IMG_1036.png"
         }
       }
     },
@@ -6918,7 +7203,22 @@
           "yards_per_reception": 7.0,
           "target_share": 0.034
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 36.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1020.png"
+        }
+      }
     },
     {
       "player_id": "00-0033921",
@@ -7254,17 +7554,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 29.5,
+          "line": 28.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1001.jpeg"
         }
       }
     },
@@ -7573,7 +7873,22 @@
           "yards_per_reception": 4.0,
           "target_share": 0.065
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 22.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
+        }
+      }
     },
     {
       "player_id": "00-0038618",
@@ -7679,7 +7994,22 @@
           "yards_per_reception": 5.0,
           "target_share": 0.094
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 13.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0041048",
@@ -7785,7 +8115,22 @@
           "yards_per_reception": 13.3,
           "target_share": 0.146
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 36.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0038104",
@@ -7989,17 +8334,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 29.5,
+          "line": 27.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1005.png"
         }
       }
     },
@@ -8074,7 +8419,22 @@
           "yards_per_reception": 17.2,
           "target_share": 0.241
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 30.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0038129",
@@ -8180,7 +8540,22 @@
           "yards_per_reception": 4.0,
           "target_share": 0.049
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 37.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0039739",
@@ -8571,7 +8946,22 @@
           "yards_per_reception": null,
           "target_share": 0.057
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 22.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0036550",
@@ -8677,7 +9067,22 @@
           "yards_per_reception": null,
           "target_share": 0.032
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 18.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
+        }
+      }
     },
     {
       "player_id": "00-0032951",
@@ -8783,7 +9188,22 @@
           "yards_per_reception": 10.5,
           "target_share": 0.132
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 23.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1020.png"
+        }
+      }
     },
     {
       "player_id": "00-0033090",
@@ -9010,7 +9430,22 @@
           "yards_per_reception": 9.5,
           "target_share": 0.125
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 33.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0041032",
@@ -9116,7 +9551,22 @@
           "yards_per_reception": 12.0,
           "target_share": 0.103
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 18.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0033908",
@@ -9225,17 +9675,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 25.5,
+          "line": 24.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
         }
       }
     },
@@ -9346,17 +9796,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 35.5,
+          "line": 34.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1005.png"
         }
       }
     },
@@ -9537,7 +9987,22 @@
           "yards_per_reception": 6.3,
           "target_share": 0.136
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 37.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "IMG_1036.png"
+        }
+      }
     },
     {
       "player_id": "00-0040736",
@@ -9621,7 +10086,22 @@
           "yards_per_reception": 8.2,
           "target_share": 0.207
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 18.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0037252",
@@ -9716,7 +10196,22 @@
           "yards_per_reception": 9.2,
           "target_share": 0.192
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 21.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0036407",
@@ -9822,7 +10317,22 @@
           "yards_per_reception": 17.2,
           "target_share": 0.16
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 21.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1001.jpeg"
+        }
+      }
     },
     {
       "player_id": "00-0040138",
@@ -9928,7 +10438,22 @@
           "yards_per_reception": 26.8,
           "target_share": 0.125
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 27.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0040737",
@@ -10348,17 +10873,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 25.5,
+          "line": 24.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
         }
       }
     },
@@ -10433,7 +10958,22 @@
           "yards_per_reception": 10.0,
           "target_share": 0.161
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 22.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
+        }
+      }
     },
     {
       "player_id": "00-0041042",
@@ -10539,7 +11079,22 @@
           "yards_per_reception": 9.5,
           "target_share": 0.186
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 19.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0038041",
@@ -10655,10 +11210,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
           "over_odds": -114,
           "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "source_image": "IMG_1036.png"
         }
       }
     },
@@ -10769,17 +11324,17 @@
       ],
       "market": {
         "receiving_yards": {
-          "line": 25.5,
+          "line": 24.5,
           "sportsbook": "FanDuel",
           "source": "user_screenshot",
           "season": 2026,
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
         }
       }
     },
@@ -10887,7 +11442,22 @@
           "yards_per_reception": 8.0,
           "target_share": 0.094
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 10.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0037005",
@@ -10993,7 +11563,22 @@
           "yards_per_reception": 11.5,
           "target_share": 0.114
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 16.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0040669",
@@ -11109,10 +11694,10 @@
           "week": 7,
           "captured_at": null,
           "updated_at": null,
-          "received_at": "2026-10-20",
-          "over_odds": -114,
-          "under_odds": -114,
-          "source_image": "User supplied Week 7 FanDuel screenshots"
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1030.png"
         }
       }
     },
@@ -11326,7 +11911,22 @@
           "yards_per_reception": 9.0,
           "target_share": 0.045
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 39.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -114,
+          "under_odds": -114,
+          "source_image": "IMG_1036.png"
+        }
+      }
     },
     {
       "player_id": "00-0036252",
@@ -11684,7 +12284,22 @@
           "yards_per_reception": 11.3,
           "target_share": 0.125
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 27.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0041529",
@@ -11885,7 +12500,22 @@
           "yards_per_reception": 6.0,
           "target_share": 0.065
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 15.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1014.png"
+        }
+      }
     },
     {
       "player_id": "00-0039814",
@@ -12243,7 +12873,22 @@
           "yards_per_reception": 12.0,
           "target_share": 0.086
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 12.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1008.png"
+        }
+      }
     },
     {
       "player_id": "00-0040215",
@@ -12689,7 +13334,22 @@
           "yards_per_reception": null,
           "target_share": 0.077
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 19.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1011.png"
+        }
+      }
     },
     {
       "player_id": "00-0033881",
@@ -12795,7 +13455,22 @@
           "yards_per_reception": 6.5,
           "target_share": 0.083
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 23.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0041395",
@@ -13022,7 +13697,22 @@
           "yards_per_reception": null,
           "target_share": 0.047
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 17.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1017.png"
+        }
+      }
     },
     {
       "player_id": "00-0037291",
@@ -13223,7 +13913,22 @@
           "yards_per_reception": 17.7,
           "target_share": 0.103
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 15.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
+        }
+      }
     },
     {
       "player_id": "00-0033375",
@@ -13486,7 +14191,22 @@
           "yards_per_reception": 13.0,
           "target_share": 0.109
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 10.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1033.png"
+        }
+      }
     },
     {
       "player_id": "00-0036244",
@@ -14078,7 +14798,22 @@
           "yards_per_reception": 6.5,
           "target_share": 0.167
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 13.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     },
     {
       "player_id": "00-0038640",
@@ -14184,7 +14919,22 @@
           "yards_per_reception": 15.0,
           "target_share": 0.088
         }
-      ]
+      ],
+      "market": {
+        "receiving_yards": {
+          "line": 15.5,
+          "sportsbook": "FanDuel",
+          "source": "user_screenshot",
+          "season": 2026,
+          "week": 7,
+          "captured_at": null,
+          "updated_at": null,
+          "received_at": "2026-10-25T16:30:39.194133+00:00",
+          "over_odds": -113,
+          "under_odds": -113,
+          "source_image": "IMG_1023.png"
+        }
+      }
     }
   ]
 }
