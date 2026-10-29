@@ -1,8 +1,8 @@
-const DATA_URL = "data/api/player_projections_2026_week7.json";
-const QB_DATA_URL = "data/api/qb_projections_2026_week7.json";
-const RB_DATA_URL = "data/api/rb_projections_2026_week7.json";
+const DATA_URL = "data/api/player_projections_2026_week8.json";
+const QB_DATA_URL = "data/api/qb_projections_2026_week8.json";
+const RB_DATA_URL = "data/api/rb_projections_2026_week8.json";
 const SLATE_SEASON = 2026;
-const SLATE_WEEK = 7;
+const SLATE_WEEK = 8;
 
 function isQuarterback(player) { return player.position === "QB"; }
 function isRunningBack(player) { return player.position === "RB"; }
@@ -15,7 +15,7 @@ let filteredPlayers = [];
 let selectedPlayer = null;
 let selectedMetric = "receiving_yards";
 let selectedHistoryWindow = "last5";
-let projectionWeek = 7;
+let projectionWeek = 8;
 
 const playerList = document.getElementById("playerList");
 const playerCount = document.getElementById("playerCount");
@@ -1767,21 +1767,21 @@ function psToggleFavorite(player, focusedId) {
         const marginText=margin===null?'—':Math.abs(margin)<.05?'Even':`${margin>0?'Favored by':'Trailing by'} ${fmt(Math.abs(margin))}`;
         const gameStats=card(`${player.team} projected points`,fmt(points))+card('Projected margin',marginText)+card('Projected game total',fmt(game.projected_total));
         const interpretation=margin===null?'':Math.abs(margin)<=4?'Pocket Signal projects a close game. Passing and rushing workloads will still depend on how the game unfolds.':margin>0?'Pocket Signal projects this team ahead. A lead could support rushing volume, but game script can change.':'Pocket Signal projects this team behind. A deficit could increase passing demand, but player volume is not guaranteed.';
-        node.innerHTML=`<div class="ps-matchup-panel"><div class="section-kicker">MATCHUP OUTLOOK</div><h3>Against ${esc(player.opponent)}</h3>${matchup}<details><summary>About these numbers</summary><p>2026 regular-season games completed before Week 7. Position totals describe the defense, not an individual coverage assignment. Last-three averages use up to three completed games. These are supporting comparisons, not explanations of the model's calculation.</p></details></div><div class="ps-matchup-panel"><div class="section-kicker">GAME ENVIRONMENT</div><h3>The game around the player</h3><div class="ps-matchup-stats">${gameStats}</div><p>${esc(interpretation)}</p><a href="index.html?game_id=${encodeURIComponent(game.game_id)}">Explore game matchup →</a></div>`;
+        node.innerHTML=`<div class="ps-matchup-panel"><div class="section-kicker">MATCHUP OUTLOOK</div><h3>Against ${esc(player.opponent)}</h3>${matchup}<details><summary>About these numbers</summary><p>2026 regular-season games completed before Week 8. Position totals describe the defense, not an individual coverage assignment. Last-three averages use up to three completed games. These are supporting comparisons, not explanations of the model's calculation.</p></details></div><div class="ps-matchup-panel"><div class="section-kicker">GAME ENVIRONMENT</div><h3>The game around the player</h3><div class="ps-matchup-stats">${gameStats}</div><p>${esc(interpretation)}</p><a href="index.html?game_id=${encodeURIComponent(game.game_id)}">Explore game matchup →</a></div>`;
         const details=detailPanel.querySelector('.projection-details');
         if(details)details.before(node);else detailPanel.append(node);
     }
     const observer=new MutationObserver(render);
     observer.observe(detailPanel,{childList:true,subtree:true});
-    fetch('data/api/player_matchup_context_2026_week7.json',{cache:'no-store'})
+    fetch('data/api/player_matchup_context_2026_week8.json',{cache:'no-store'})
         .then(r=>{if(!r.ok)throw new Error('Matchup feed unavailable');return r.json();})
-        .then(data=>{if(data.season!==2026 || data.week!==7 || SLATE_WEEK!==7)return;context=data;render();})
+        .then(data=>{if(data.season!==2026 || data.week!==8 || SLATE_WEEK!==8)return;context=data;render();})
         .catch(error=>console.warn('Player matchup context:',error.message));
 })();
 
 // PS_PLAYER_CONSISTENCY_V1_START
 (() => {
- const URL = 'data/api/player_consistency_2026_week7.json';
+ const URL = 'data/api/player_consistency_2026_week8.json';
  let feed=null, state='loading';
  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const style=document.createElement('style');style.textContent=`
