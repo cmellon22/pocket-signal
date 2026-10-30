@@ -1,3 +1,4 @@
+// PS_RESULTS_OPTIONAL_BENCHMARK_V1
 const RESULTS_PATH = "data/api/results_prototype.json";
 
 let allGames = [];
@@ -592,8 +593,7 @@ function renderNotableCalls(games) {
       .filter(
         game =>
 
-          game.model_winner !==
-          game.benchmark_favorite
+          [game.away_team, game.home_team].includes(game.benchmark_favorite) && Number.isFinite(game.benchmark_margin_absolute) && game.model_winner !== game.benchmark_favorite
 
           &&
 
@@ -1421,9 +1421,7 @@ function openSignal(gameId) {
   }
 
 
-  const marketText =
-    `${game.benchmark_favorite} by ` +
-    `${game.benchmark_margin_absolute.toFixed(1)}`;
+  const marketText = [game.away_team, game.home_team].includes(game.benchmark_favorite) && Number.isFinite(game.benchmark_margin_absolute) ? `${game.benchmark_favorite} by ${game.benchmark_margin_absolute.toFixed(1)}` : 'Market snapshot unavailable';
 
 
   signalModalContent.innerHTML = `

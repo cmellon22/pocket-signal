@@ -10,11 +10,13 @@
     "generated_at": "2026-10-28T17:51:33.386796+00:00",
     "payload_version": "pocket-signal-v3-market-benchmark",
     "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
-    "market_data_available": false,
-    "market_game_count": 0,
+    "market_data_available": true,
+    "market_game_count": 13,
     "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
     "insights_available": true,
-    "insights_updated_at": "2026-10-29T18:43:37.701387+00:00"
+    "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+    "games_with_market_data": 13,
+    "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
   },
   "games": [
     {
@@ -359,29 +361,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 142.0,
+          "home": -168.0,
+          "away_implied_probability": 41.3,
+          "home_implied_probability": 62.7,
+          "away_vig_free_probability": 39.7,
+          "home_vig_free_probability": 60.3
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 3.0,
+          "home": -3.0,
+          "favorite": "BUF",
+          "line": 3.0
         },
         "total": {
-          "line": null
+          "line": 54.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 11.3,
+        "margin_difference": 3.1,
+        "total_difference": -5.1
       },
       "insights": {
         "key_signals": [
@@ -511,7 +513,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "BUF",
         "margin_favorite": "BUF",
-        "market_home_margin": null,
+        "market_home_margin": 3.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -551,29 +553,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 570.0,
+          "home": -820.0,
+          "away_implied_probability": 14.9,
+          "home_implied_probability": 89.1,
+          "away_vig_free_probability": 14.3,
+          "home_vig_free_probability": 85.7
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 12.5,
+          "home": -12.5,
+          "favorite": "CIN",
+          "line": 12.5
         },
         "total": {
-          "line": null
+          "line": 46.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 2.7,
+        "margin_difference": 1.1,
+        "total_difference": -0.7
       },
       "insights": {
         "key_signals": [
@@ -703,7 +705,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "CIN",
         "margin_favorite": "CIN",
-        "market_home_margin": null,
+        "market_home_margin": 12.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -743,29 +745,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": -350.0,
+          "home": 280.0,
+          "away_implied_probability": 77.8,
+          "home_implied_probability": 26.3,
+          "away_vig_free_probability": 74.7,
+          "home_vig_free_probability": 25.3
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 7.0,
+          "home": -7.0,
+          "favorite": "DAL",
+          "line": 7.0
         },
         "total": {
-          "line": null
+          "line": 54.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 54.4,
+        "margin_difference": 3.0,
+        "total_difference": -6.9
       },
       "insights": {
         "key_signals": [
@@ -895,7 +897,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "DAL",
         "margin_favorite": "DAL",
-        "market_home_margin": null,
+        "market_home_margin": 7.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -935,29 +937,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 146.0,
+          "home": -174.0,
+          "away_implied_probability": 40.7,
+          "home_implied_probability": 63.5,
+          "away_vig_free_probability": 39.0,
+          "home_vig_free_probability": 61.0
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 3.5,
+          "home": -3.5,
+          "favorite": "DET",
+          "line": 3.5
         },
         "total": {
-          "line": null
+          "line": 54.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 7.5,
+        "margin_difference": 1.7,
+        "total_difference": -9.7
       },
       "insights": {
         "key_signals": [
@@ -1084,7 +1086,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "DET",
         "margin_favorite": "DET",
-        "market_home_margin": null,
+        "market_home_margin": 3.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -1124,29 +1126,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 410.0,
+          "home": -550.0,
+          "away_implied_probability": 19.6,
+          "home_implied_probability": 84.6,
+          "away_vig_free_probability": 18.8,
+          "home_vig_free_probability": 81.2
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 10.5,
+          "home": -10.5,
+          "favorite": "JAX",
+          "line": 10.5
         },
         "total": {
-          "line": null
+          "line": 46.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 1.5,
+        "margin_difference": -1.9,
+        "total_difference": -1.5
       },
       "insights": {
         "key_signals": [
@@ -1276,7 +1278,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "JAX",
         "margin_favorite": "JAX",
-        "market_home_margin": null,
+        "market_home_margin": 10.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -1316,29 +1318,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 100.0,
+          "home": -118.0,
+          "away_implied_probability": 50.0,
+          "home_implied_probability": 54.1,
+          "away_vig_free_probability": 48.0,
+          "home_vig_free_probability": 52.0
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 1.5,
+          "home": -1.5,
+          "favorite": "NYJ",
+          "line": 1.5
         },
         "total": {
-          "line": null
+          "line": 45.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 1.8,
+        "margin_difference": -0.7,
+        "total_difference": 2.9
       },
       "insights": {
         "key_signals": [
@@ -1468,7 +1470,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "NYJ",
         "margin_favorite": "NYJ",
-        "market_home_margin": null,
+        "market_home_margin": 1.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -1508,29 +1510,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 172.0,
+          "home": -205.0,
+          "away_implied_probability": 36.8,
+          "home_implied_probability": 67.2,
+          "away_vig_free_probability": 35.4,
+          "home_vig_free_probability": 64.6
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 3.5,
+          "home": -3.5,
+          "favorite": "PIT",
+          "line": 3.5
         },
         "total": {
-          "line": null
+          "line": 39.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 11.9,
+        "margin_difference": 0.1,
+        "total_difference": 5.2
       },
       "insights": {
         "key_signals": [
@@ -1660,7 +1662,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "PIT",
         "margin_favorite": "PIT",
-        "market_home_margin": null,
+        "market_home_margin": 3.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -1700,29 +1702,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 108.0,
+          "home": -126.0,
+          "away_implied_probability": 48.1,
+          "home_implied_probability": 55.8,
+          "away_vig_free_probability": 46.3,
+          "home_vig_free_probability": 53.7
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 2.5,
+          "home": -2.5,
+          "favorite": "TB",
+          "line": 2.5
         },
         "total": {
-          "line": null
+          "line": 43.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": -10.1,
+        "margin_difference": -3.1,
+        "total_difference": 1.6
       },
       "insights": {
         "key_signals": [
@@ -1852,7 +1854,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "ATL",
         "margin_favorite": "ATL",
-        "market_home_margin": null,
+        "market_home_margin": 2.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -1892,29 +1894,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 250.0,
+          "home": -310.0,
+          "away_implied_probability": 28.6,
+          "home_implied_probability": 75.6,
+          "away_vig_free_probability": 27.4,
+          "home_vig_free_probability": 72.6
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 6.5,
+          "home": -6.5,
+          "favorite": "LA",
+          "line": 6.5
         },
         "total": {
-          "line": null
+          "line": 45.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 16.9,
+        "margin_difference": 4.8,
+        "total_difference": 1.2
       },
       "insights": {
         "key_signals": [
@@ -2044,7 +2046,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "LA",
         "margin_favorite": "LA",
-        "market_home_margin": null,
+        "market_home_margin": 6.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -2084,29 +2086,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": -118.0,
+          "home": 100.0,
+          "away_implied_probability": 54.1,
+          "home_implied_probability": 50.0,
+          "away_vig_free_probability": 52.0,
+          "home_vig_free_probability": 48.0
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": -1.5,
+          "home": 1.5,
+          "favorite": "KC",
+          "line": 1.5
         },
         "total": {
-          "line": null
+          "line": 40.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 1.4,
+        "margin_difference": 2.4,
+        "total_difference": 7.2
       },
       "insights": {
         "key_signals": [
@@ -2236,7 +2238,7 @@
         "coherence_status": "CONFLICT",
         "probability_favorite": "KC",
         "margin_favorite": "DEN",
-        "market_home_margin": null,
+        "market_home_margin": -1.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -2276,29 +2278,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": -320.0,
+          "home": 260.0,
+          "away_implied_probability": 76.2,
+          "home_implied_probability": 27.8,
+          "away_vig_free_probability": 73.3,
+          "home_vig_free_probability": 26.7
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": -7.0,
+          "home": 7.0,
+          "favorite": "NE",
+          "line": 7.0
         },
         "total": {
-          "line": null
+          "line": 43.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": 18.1,
+        "margin_difference": 3.8,
+        "total_difference": 2.4
       },
       "insights": {
         "key_signals": [
@@ -2428,7 +2430,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "NE",
         "margin_favorite": "NE",
-        "market_home_margin": null,
+        "market_home_margin": -7.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -2468,29 +2470,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 230.0,
+          "home": -280.0,
+          "away_implied_probability": 30.3,
+          "home_implied_probability": 73.7,
+          "away_vig_free_probability": 29.1,
+          "home_vig_free_probability": 70.9
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 5.5,
+          "home": -5.5,
+          "favorite": "WAS",
+          "line": 5.5
         },
         "total": {
-          "line": null
+          "line": 40.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": -13.4,
+        "margin_difference": -0.5,
+        "total_difference": 1.1
       },
       "insights": {
         "key_signals": [
@@ -2620,7 +2622,7 @@
         "coherence_status": "ALIGNED",
         "probability_favorite": "WAS",
         "margin_favorite": "WAS",
-        "market_home_margin": null,
+        "market_home_margin": 5.5,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     },
@@ -2660,29 +2662,29 @@
       },
       "market": {
         "moneyline": {
-          "away": null,
-          "home": null,
-          "away_implied_probability": null,
-          "home_implied_probability": null,
-          "away_vig_free_probability": null,
-          "home_vig_free_probability": null
+          "away": 142.0,
+          "home": -168.0,
+          "away_implied_probability": 41.3,
+          "home_implied_probability": 62.7,
+          "away_vig_free_probability": 39.7,
+          "home_vig_free_probability": 60.3
         },
         "spread": {
-          "away": null,
-          "home": null,
-          "favorite": null,
-          "line": null
+          "away": 3.0,
+          "home": -3.0,
+          "favorite": "SEA",
+          "line": 3.0
         },
         "total": {
-          "line": null
+          "line": 46.5
         },
-        "provider": null,
-        "updated_at": null
+        "provider": "FanDuel",
+        "updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "comparison": {
-        "win_probability_difference": null,
-        "margin_difference": null,
-        "total_difference": null
+        "win_probability_difference": -14.6,
+        "margin_difference": -2.7,
+        "total_difference": 2.3
       },
       "insights": {
         "key_signals": [
@@ -2812,7 +2814,7 @@
         "coherence_status": "CONFLICT",
         "probability_favorite": "CHI",
         "margin_favorite": "SEA",
-        "market_home_margin": null,
+        "market_home_margin": 3.0,
         "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
       }
     }
