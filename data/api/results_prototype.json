@@ -10,7 +10,7 @@
     "prototype": true,
     "benchmark_label": "Benchmark Snapshot",
     "benchmark_note": "Manual benchmark snapshot used for comparison.",
-    "last_results_update": "2026-10-30T18:17:42.889891+00:00"
+    "last_results_update": "2026-11-05T19:52:34.383121+00:00"
   },
   "games": [
     {
@@ -6133,6 +6133,3149 @@
         "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
         "insights_available": true,
         "insights_updated_at": "2026-10-29T18:43:37.701387+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_BAL_BUF",
+      "season": 2026,
+      "week": 8,
+      "away_team": "BAL",
+      "home_team": "BUF",
+      "away_score": 10,
+      "home_score": 36,
+      "result": "BUF",
+      "model_winner": "BUF",
+      "favorite_win_probability": 71.6,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "BUF",
+      "projected_margin_absolute": 6.1,
+      "projected_margin": 6.1,
+      "projected_away_score": 21.6,
+      "projected_home_score": 27.7,
+      "projected_total": 49.4,
+      "actual_total": 46,
+      "margin_error_absolute": 19.9,
+      "total_error_absolute": 3.4,
+      "benchmark_favorite": "BUF",
+      "benchmark_margin_absolute": 3.0,
+      "benchmark_margin_error_absolute": 23.0,
+      "model_benchmark_gap": 3.1,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_BAL_BUF",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "BAL",
+          "home_team": "BUF",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 28.4,
+          "home_win_probability": 71.6,
+          "favorite": "BUF",
+          "favorite_win_probability": 71.6,
+          "margin_favorite": "BUF",
+          "projected_away_score": 21.6,
+          "projected_home_score": 27.7,
+          "projected_margin": 6.1,
+          "projected_margin_absolute": 6.1,
+          "projected_total": 49.4,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 142.0,
+            "home": -168.0,
+            "away_implied_probability": 41.3,
+            "home_implied_probability": 62.7,
+            "away_vig_free_probability": 39.7,
+            "home_vig_free_probability": 60.3
+          },
+          "spread": {
+            "away": 3.0,
+            "home": -3.0,
+            "favorite": "BUF",
+            "line": 3.0
+          },
+          "total": {
+            "line": 54.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 11.3,
+          "margin_difference": 3.1,
+          "total_difference": -5.1
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "BUF",
+              "display": "BUF advantage",
+              "raw_difference": 0.153
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "BUF",
+              "display": "BUF advantage",
+              "raw_difference": 0.035
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "BUF",
+              "display": "BUF advantage",
+              "raw_difference": 0.279
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "BAL",
+              "display": "BAL advantage",
+              "raw_difference": 0.088
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "BAL",
+              "name": "Lamar Jackson",
+              "epa_per_play": 0.363,
+              "pass_ypg": 241.8,
+              "td_int": "6 / 1",
+              "games": 4,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "BUF",
+              "name": "Josh Allen",
+              "epa_per_play": 0.29,
+              "pass_ypg": 250.7,
+              "td_int": "9 / 4",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "BAL",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": 0.047,
+            "home": 0.2,
+            "advantage": "BUF",
+            "difference": 0.153
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "BAL",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "BUF",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Highmark Stadium",
+            "stadium_id": "BUF00",
+            "surface": "a_turf",
+            "temperature_f": 60.9,
+            "wind_mph": 3.7,
+            "wind_gusts_mph": 5.8,
+            "precipitation_probability": 1.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 42.773,
+            "longitude": -78.7923,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": 0.047,
+              "passing_epa": 0.218,
+              "rushing_epa": -0.131,
+              "completion_pct": 71.233,
+              "defensive_epa_allowed": 0.053
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.2,
+              "passing_epa": 0.253,
+              "rushing_epa": 0.148,
+              "completion_pct": 66.197,
+              "defensive_epa_allowed": 0.141
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "BUF",
+          "margin_favorite": "BUF",
+          "market_home_margin": 3.0,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_TEN_CIN",
+      "season": 2026,
+      "week": 8,
+      "away_team": "TEN",
+      "home_team": "CIN",
+      "away_score": 36,
+      "home_score": 43,
+      "result": "CIN",
+      "model_winner": "CIN",
+      "favorite_win_probability": 88.4,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "CIN",
+      "projected_margin_absolute": 13.6,
+      "projected_margin": 13.6,
+      "projected_away_score": 16.1,
+      "projected_home_score": 29.7,
+      "projected_total": 45.8,
+      "actual_total": 79,
+      "margin_error_absolute": 6.6,
+      "total_error_absolute": 33.2,
+      "benchmark_favorite": "CIN",
+      "benchmark_margin_absolute": 12.5,
+      "benchmark_margin_error_absolute": 5.5,
+      "model_benchmark_gap": 1.1,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL/OT",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_TEN_CIN",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "TEN",
+          "home_team": "CIN",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 11.6,
+          "home_win_probability": 88.4,
+          "favorite": "CIN",
+          "favorite_win_probability": 88.4,
+          "margin_favorite": "CIN",
+          "projected_away_score": 16.1,
+          "projected_home_score": 29.7,
+          "projected_margin": 13.6,
+          "projected_margin_absolute": 13.6,
+          "projected_total": 45.8,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 570.0,
+            "home": -820.0,
+            "away_implied_probability": 14.9,
+            "home_implied_probability": 89.1,
+            "away_vig_free_probability": 14.3,
+            "home_vig_free_probability": 85.7
+          },
+          "spread": {
+            "away": 12.5,
+            "home": -12.5,
+            "favorite": "CIN",
+            "line": 12.5
+          },
+          "total": {
+            "line": 46.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 2.7,
+          "margin_difference": 1.1,
+          "total_difference": -0.7
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "CIN",
+              "display": "CIN advantage",
+              "raw_difference": 0.288
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "CIN",
+              "display": "CIN advantage",
+              "raw_difference": 0.406
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "CIN",
+              "display": "CIN advantage",
+              "raw_difference": 0.07
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "CIN",
+              "display": "CIN advantage",
+              "raw_difference": -0.06
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "TEN",
+              "name": "Cam Ward",
+              "epa_per_play": -0.129,
+              "pass_ypg": 168.4,
+              "td_int": "4 / 5",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "CIN",
+              "name": "Joe Burrow",
+              "epa_per_play": 0.223,
+              "pass_ypg": 275.5,
+              "td_int": "15 / 3",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "CIN",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.144,
+            "home": 0.144,
+            "advantage": "CIN",
+            "difference": 0.288
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "TEN",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "CIN",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Paycor Stadium",
+            "stadium_id": "CIN00",
+            "surface": "fieldturf",
+            "temperature_f": 58.3,
+            "wind_mph": 8.0,
+            "wind_gusts_mph": 18.3,
+            "precipitation_probability": 27.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 39.0954,
+            "longitude": -84.516,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.144,
+              "passing_epa": -0.128,
+              "rushing_epa": -0.167,
+              "completion_pct": 62.179,
+              "defensive_epa_allowed": 0.035
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.144,
+              "passing_epa": 0.278,
+              "rushing_epa": -0.097,
+              "completion_pct": 71.739,
+              "defensive_epa_allowed": -0.025
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "CIN",
+          "margin_favorite": "CIN",
+          "market_home_margin": 12.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_ARI_DAL",
+      "season": 2026,
+      "week": 8,
+      "away_team": "ARI",
+      "home_team": "DAL",
+      "away_score": 33,
+      "home_score": 30,
+      "result": "ARI",
+      "model_winner": "DAL",
+      "favorite_win_probability": 79.7,
+      "winner_correct": false,
+      "signal_strength": "Strong",
+      "margin_favorite": "DAL",
+      "projected_margin_absolute": 10.0,
+      "projected_margin": 10.0,
+      "projected_away_score": 18.8,
+      "projected_home_score": 28.8,
+      "projected_total": 47.6,
+      "actual_total": 63,
+      "margin_error_absolute": 13.0,
+      "total_error_absolute": 15.4,
+      "benchmark_favorite": "DAL",
+      "benchmark_margin_absolute": 7.0,
+      "benchmark_margin_error_absolute": 10.0,
+      "model_benchmark_gap": 3.0,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL/OT",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_ARI_DAL",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "ARI",
+          "home_team": "DAL",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 20.3,
+          "home_win_probability": 79.7,
+          "favorite": "DAL",
+          "favorite_win_probability": 79.7,
+          "margin_favorite": "DAL",
+          "projected_away_score": 18.8,
+          "projected_home_score": 28.8,
+          "projected_margin": 10.0,
+          "projected_margin_absolute": 10.0,
+          "projected_total": 47.6,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -350.0,
+            "home": 280.0,
+            "away_implied_probability": 77.8,
+            "home_implied_probability": 26.3,
+            "away_vig_free_probability": 74.7,
+            "home_vig_free_probability": 25.3
+          },
+          "spread": {
+            "away": 7.0,
+            "home": -7.0,
+            "favorite": "DAL",
+            "line": 7.0
+          },
+          "total": {
+            "line": 54.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 54.4,
+          "margin_difference": 3.0,
+          "total_difference": -6.9
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "DAL",
+              "display": "DAL advantage",
+              "raw_difference": 0.128
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "DAL",
+              "display": "DAL advantage",
+              "raw_difference": 0.148
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "DAL",
+              "display": "DAL advantage",
+              "raw_difference": 0.093
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "DAL",
+              "display": "DAL advantage",
+              "raw_difference": -0.052
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "ARI",
+              "name": "Jacoby Brissett",
+              "epa_per_play": -0.034,
+              "pass_ypg": 228.6,
+              "td_int": "10 / 6",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "DAL",
+              "name": "Dak Prescott",
+              "epa_per_play": 0.175,
+              "pass_ypg": 264.4,
+              "td_int": "13 / 5",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "DAL",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.033,
+            "home": 0.095,
+            "advantage": "DAL",
+            "difference": 0.128
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "ARI",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "DAL",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "AT&T Stadium",
+            "stadium_id": "DAL00",
+            "surface": "matrixturf",
+            "temperature_f": 77.8,
+            "wind_mph": 5.5,
+            "wind_gusts_mph": 4.0,
+            "precipitation_probability": 2.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Retractable · game status unconfirmed",
+            "roof_type": "retractable",
+            "roof_status": "unknown",
+            "status": "forecast",
+            "message": "Roof status unconfirmed. Outdoor forecast applies only if the roof is open; field conditions may differ.",
+            "latitude": 32.7478,
+            "longitude": -97.0928,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.033,
+              "passing_epa": -0.037,
+              "rushing_epa": -0.025,
+              "completion_pct": 64.22,
+              "defensive_epa_allowed": 0.155
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.095,
+              "passing_epa": 0.111,
+              "rushing_epa": 0.068,
+              "completion_pct": 62.5,
+              "defensive_epa_allowed": 0.103
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "DAL",
+          "margin_favorite": "DAL",
+          "market_home_margin": 7.0,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_MIN_DET",
+      "season": 2026,
+      "week": 8,
+      "away_team": "MIN",
+      "home_team": "DET",
+      "away_score": 15,
+      "home_score": 19,
+      "result": "DET",
+      "model_winner": "DET",
+      "favorite_win_probability": 68.5,
+      "winner_correct": true,
+      "signal_strength": "Medium",
+      "margin_favorite": "DET",
+      "projected_margin_absolute": 5.2,
+      "projected_margin": 5.2,
+      "projected_away_score": 19.8,
+      "projected_home_score": 25.0,
+      "projected_total": 44.8,
+      "actual_total": 34,
+      "margin_error_absolute": 1.2,
+      "total_error_absolute": 10.8,
+      "benchmark_favorite": "DET",
+      "benchmark_margin_absolute": 3.5,
+      "benchmark_margin_error_absolute": 0.5,
+      "model_benchmark_gap": 1.7,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_MIN_DET",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "MIN",
+          "home_team": "DET",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Medium"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 31.5,
+          "home_win_probability": 68.5,
+          "favorite": "DET",
+          "favorite_win_probability": 68.5,
+          "margin_favorite": "DET",
+          "projected_away_score": 19.8,
+          "projected_home_score": 25.0,
+          "projected_margin": 5.2,
+          "projected_margin_absolute": 5.2,
+          "projected_total": 44.8,
+          "signal_strength": "Medium",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 146.0,
+            "home": -174.0,
+            "away_implied_probability": 40.7,
+            "home_implied_probability": 63.5,
+            "away_vig_free_probability": 39.0,
+            "home_vig_free_probability": 61.0
+          },
+          "spread": {
+            "away": 3.5,
+            "home": -3.5,
+            "favorite": "DET",
+            "line": 3.5
+          },
+          "total": {
+            "line": 54.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 7.5,
+          "margin_difference": 1.7,
+          "total_difference": -9.7
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "DET",
+              "display": "DET advantage",
+              "raw_difference": 0.268
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "DET",
+              "display": "DET advantage",
+              "raw_difference": 0.374
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "DET",
+              "display": "DET advantage",
+              "raw_difference": 0.069
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "MIN",
+              "display": "MIN advantage",
+              "raw_difference": 0.351
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "MIN",
+              "name": "Kyler Murray",
+              "epa_per_play": -0.061,
+              "pass_ypg": 162.4,
+              "td_int": "3 / 2",
+              "games": 5,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "DET",
+              "name": "Jared Goff",
+              "epa_per_play": 0.317,
+              "pass_ypg": 298.0,
+              "td_int": "14 / 0",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "DET",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.109,
+            "home": 0.159,
+            "advantage": "DET",
+            "difference": 0.268
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "MIN",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "DET",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Ford Field",
+            "stadium_id": "DET00",
+            "surface": "fieldturf",
+            "temperature_f": null,
+            "wind_mph": null,
+            "wind_gusts_mph": null,
+            "precipitation_probability": null,
+            "updated_at": null,
+            "roof": "Fixed roof · indoors",
+            "roof_type": "fixed",
+            "roof_status": "closed",
+            "status": "indoors",
+            "message": "Indoor game. Outdoor wind does not apply; indoor temperature is not supplied.",
+            "latitude": 42.34,
+            "longitude": -83.0456,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.109,
+              "passing_epa": -0.022,
+              "rushing_epa": -0.2,
+              "completion_pct": 65.0,
+              "defensive_epa_allowed": -0.197
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.159,
+              "passing_epa": 0.352,
+              "rushing_epa": -0.131,
+              "completion_pct": 67.391,
+              "defensive_epa_allowed": 0.154
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "DET",
+          "margin_favorite": "DET",
+          "market_home_margin": 3.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_IND_JAX",
+      "season": 2026,
+      "week": 8,
+      "away_team": "IND",
+      "home_team": "JAX",
+      "away_score": 7,
+      "home_score": 42,
+      "result": "JAX",
+      "model_winner": "JAX",
+      "favorite_win_probability": 82.7,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "JAX",
+      "projected_margin_absolute": 8.6,
+      "projected_margin": 8.6,
+      "projected_away_score": 18.2,
+      "projected_home_score": 26.8,
+      "projected_total": 45.0,
+      "actual_total": 49,
+      "margin_error_absolute": 26.4,
+      "total_error_absolute": 4.0,
+      "benchmark_favorite": "JAX",
+      "benchmark_margin_absolute": 10.5,
+      "benchmark_margin_error_absolute": 24.5,
+      "model_benchmark_gap": 1.9,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_IND_JAX",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "IND",
+          "home_team": "JAX",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 17.3,
+          "home_win_probability": 82.7,
+          "favorite": "JAX",
+          "favorite_win_probability": 82.7,
+          "margin_favorite": "JAX",
+          "projected_away_score": 18.2,
+          "projected_home_score": 26.8,
+          "projected_margin": 8.6,
+          "projected_margin_absolute": 8.6,
+          "projected_total": 45.0,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 410.0,
+            "home": -550.0,
+            "away_implied_probability": 19.6,
+            "home_implied_probability": 84.6,
+            "away_vig_free_probability": 18.8,
+            "home_vig_free_probability": 81.2
+          },
+          "spread": {
+            "away": 10.5,
+            "home": -10.5,
+            "favorite": "JAX",
+            "line": 10.5
+          },
+          "total": {
+            "line": 46.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 1.5,
+          "margin_difference": -1.9,
+          "total_difference": -1.5
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "JAX",
+              "display": "JAX advantage",
+              "raw_difference": 0.204
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "JAX",
+              "display": "JAX advantage",
+              "raw_difference": 0.368
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "Even",
+              "display": "Even",
+              "raw_difference": -0.007
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "IND",
+              "display": "IND advantage",
+              "raw_difference": 0.06
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "IND",
+              "name": "Daniel Jones",
+              "epa_per_play": -0.139,
+              "pass_ypg": 199.7,
+              "td_int": "4 / 7",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "JAX",
+              "name": "Trevor Lawrence",
+              "epa_per_play": 0.275,
+              "pass_ypg": 246.7,
+              "td_int": "14 / 4",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "JAX",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.082,
+            "home": 0.122,
+            "advantage": "JAX",
+            "difference": 0.204
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "IND",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "JAX",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "EverBank Stadium",
+            "stadium_id": "JAX00",
+            "surface": "grass",
+            "temperature_f": 71.6,
+            "wind_mph": 10.1,
+            "wind_gusts_mph": 22.8,
+            "precipitation_probability": 48.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 30.3239,
+            "longitude": -81.6375,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.082,
+              "passing_epa": -0.166,
+              "rushing_epa": 0.028,
+              "completion_pct": 57.303,
+              "defensive_epa_allowed": -0.083
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.122,
+              "passing_epa": 0.202,
+              "rushing_epa": 0.021,
+              "completion_pct": 63.354,
+              "defensive_epa_allowed": -0.023
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "JAX",
+          "margin_favorite": "JAX",
+          "market_home_margin": 10.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_LV_NYJ",
+      "season": 2026,
+      "week": 8,
+      "away_team": "LV",
+      "home_team": "NYJ",
+      "away_score": 38,
+      "home_score": 33,
+      "result": "LV",
+      "model_winner": "NYJ",
+      "favorite_win_probability": 53.8,
+      "winner_correct": false,
+      "signal_strength": "Weak",
+      "margin_favorite": "NYJ",
+      "projected_margin_absolute": 0.8,
+      "projected_margin": 0.8,
+      "projected_away_score": 23.8,
+      "projected_home_score": 24.6,
+      "projected_total": 48.4,
+      "actual_total": 71,
+      "margin_error_absolute": 5.8,
+      "total_error_absolute": 22.6,
+      "benchmark_favorite": "NYJ",
+      "benchmark_margin_absolute": 1.5,
+      "benchmark_margin_error_absolute": 6.5,
+      "model_benchmark_gap": 0.7,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_LV_NYJ",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "LV",
+          "home_team": "NYJ",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 46.2,
+          "home_win_probability": 53.8,
+          "favorite": "NYJ",
+          "favorite_win_probability": 53.8,
+          "margin_favorite": "NYJ",
+          "projected_away_score": 23.8,
+          "projected_home_score": 24.6,
+          "projected_margin": 0.8,
+          "projected_margin_absolute": 0.8,
+          "projected_total": 48.4,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 100.0,
+            "home": -118.0,
+            "away_implied_probability": 50.0,
+            "home_implied_probability": 54.1,
+            "away_vig_free_probability": 48.0,
+            "home_vig_free_probability": 52.0
+          },
+          "spread": {
+            "away": 1.5,
+            "home": -1.5,
+            "favorite": "NYJ",
+            "line": 1.5
+          },
+          "total": {
+            "line": 45.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 1.8,
+          "margin_difference": -0.7,
+          "total_difference": 2.9
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "LV",
+              "display": "LV advantage",
+              "raw_difference": -0.016
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "LV",
+              "display": "LV advantage",
+              "raw_difference": -0.091
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "NYJ",
+              "display": "NYJ advantage",
+              "raw_difference": 0.174
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "NYJ",
+              "display": "NYJ advantage",
+              "raw_difference": -0.116
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "LV",
+              "name": "Kirk Cousins",
+              "epa_per_play": 0.144,
+              "pass_ypg": 268.1,
+              "td_int": "16 / 5",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "NYJ",
+              "name": "Geno Smith",
+              "epa_per_play": 0.118,
+              "pass_ypg": 231.9,
+              "td_int": "10 / 2",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "LV",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": 0.023,
+            "home": 0.007,
+            "advantage": "LV",
+            "difference": -0.016
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "LV",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "NYJ",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "MetLife Stadium",
+            "stadium_id": "NYC01",
+            "surface": "fieldturf",
+            "temperature_f": 62.4,
+            "wind_mph": 5.2,
+            "wind_gusts_mph": 6.3,
+            "precipitation_probability": 2.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 40.8135,
+            "longitude": -74.0745,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": 0.023,
+              "passing_epa": 0.171,
+              "rushing_epa": -0.271,
+              "completion_pct": 61.836,
+              "defensive_epa_allowed": 0.156
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.007,
+              "passing_epa": 0.08,
+              "rushing_epa": -0.097,
+              "completion_pct": 69.718,
+              "defensive_epa_allowed": 0.04
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "NYJ",
+          "margin_favorite": "NYJ",
+          "market_home_margin": 1.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_CLE_PIT",
+      "season": 2026,
+      "week": 8,
+      "away_team": "CLE",
+      "home_team": "PIT",
+      "away_score": 6,
+      "home_score": 27,
+      "result": "PIT",
+      "model_winner": "PIT",
+      "favorite_win_probability": 76.5,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "PIT",
+      "projected_margin_absolute": 3.6,
+      "projected_margin": 3.6,
+      "projected_away_score": 20.5,
+      "projected_home_score": 24.1,
+      "projected_total": 44.7,
+      "actual_total": 33,
+      "margin_error_absolute": 17.4,
+      "total_error_absolute": 11.7,
+      "benchmark_favorite": "PIT",
+      "benchmark_margin_absolute": 3.5,
+      "benchmark_margin_error_absolute": 17.5,
+      "model_benchmark_gap": 0.1,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_CLE_PIT",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "CLE",
+          "home_team": "PIT",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 23.5,
+          "home_win_probability": 76.5,
+          "favorite": "PIT",
+          "favorite_win_probability": 76.5,
+          "margin_favorite": "PIT",
+          "projected_away_score": 20.5,
+          "projected_home_score": 24.1,
+          "projected_margin": 3.6,
+          "projected_margin_absolute": 3.6,
+          "projected_total": 44.7,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 172.0,
+            "home": -205.0,
+            "away_implied_probability": 36.8,
+            "home_implied_probability": 67.2,
+            "away_vig_free_probability": 35.4,
+            "home_vig_free_probability": 64.6
+          },
+          "spread": {
+            "away": 3.5,
+            "home": -3.5,
+            "favorite": "PIT",
+            "line": 3.5
+          },
+          "total": {
+            "line": 39.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 11.9,
+          "margin_difference": 0.1,
+          "total_difference": 5.2
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "PIT",
+              "display": "PIT advantage",
+              "raw_difference": 0.077
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "PIT",
+              "display": "PIT advantage",
+              "raw_difference": 0.038
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "PIT",
+              "display": "PIT advantage",
+              "raw_difference": 0.137
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "CLE",
+              "display": "CLE advantage",
+              "raw_difference": 0.073
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "CLE",
+              "name": "Deshaun Watson",
+              "epa_per_play": 0.008,
+              "pass_ypg": 211.7,
+              "td_int": "7 / 3",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "PIT",
+              "name": "Aaron Rodgers",
+              "epa_per_play": -0.089,
+              "pass_ypg": 242.7,
+              "td_int": "13 / 5",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "CLE",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.031,
+            "home": 0.046,
+            "advantage": "PIT",
+            "difference": 0.077
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "CLE",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "PIT",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Acrisure Stadium",
+            "stadium_id": "PIT00",
+            "surface": "grass",
+            "temperature_f": 64.2,
+            "wind_mph": 4.9,
+            "wind_gusts_mph": 6.9,
+            "precipitation_probability": 3.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 40.4467,
+            "longitude": -80.0158,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.031,
+              "passing_epa": -0.019,
+              "rushing_epa": -0.045,
+              "completion_pct": 61.006,
+              "defensive_epa_allowed": -0.063
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.046,
+              "passing_epa": 0.019,
+              "rushing_epa": 0.092,
+              "completion_pct": 62.5,
+              "defensive_epa_allowed": 0.01
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "PIT",
+          "margin_favorite": "PIT",
+          "market_home_margin": 3.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_ATL_TB",
+      "season": 2026,
+      "week": 8,
+      "away_team": "ATL",
+      "home_team": "TB",
+      "away_score": 0,
+      "home_score": 16,
+      "result": "TB",
+      "model_winner": "ATL",
+      "favorite_win_probability": 56.4,
+      "winner_correct": false,
+      "signal_strength": "Weak",
+      "margin_favorite": "ATL",
+      "projected_margin_absolute": 0.6,
+      "projected_margin": -0.6,
+      "projected_away_score": 22.9,
+      "projected_home_score": 22.3,
+      "projected_total": 45.1,
+      "actual_total": 16,
+      "margin_error_absolute": 16.6,
+      "total_error_absolute": 29.1,
+      "benchmark_favorite": "TB",
+      "benchmark_margin_absolute": 2.5,
+      "benchmark_margin_error_absolute": 13.5,
+      "model_benchmark_gap": 3.1,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_ATL_TB",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "ATL",
+          "home_team": "TB",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "13:00",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 56.4,
+          "home_win_probability": 43.6,
+          "favorite": "ATL",
+          "favorite_win_probability": 56.4,
+          "margin_favorite": "ATL",
+          "projected_away_score": 22.9,
+          "projected_home_score": 22.3,
+          "projected_margin": -0.6,
+          "projected_margin_absolute": 0.6,
+          "projected_total": 45.1,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 108.0,
+            "home": -126.0,
+            "away_implied_probability": 48.1,
+            "home_implied_probability": 55.8,
+            "away_vig_free_probability": 46.3,
+            "home_vig_free_probability": 53.7
+          },
+          "spread": {
+            "away": 2.5,
+            "home": -2.5,
+            "favorite": "TB",
+            "line": 2.5
+          },
+          "total": {
+            "line": 43.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": -10.1,
+          "margin_difference": -3.1,
+          "total_difference": 1.6
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "ATL",
+              "display": "ATL advantage",
+              "raw_difference": -0.164
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "ATL",
+              "display": "ATL advantage",
+              "raw_difference": -0.331
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "Even",
+              "display": "Even",
+              "raw_difference": 0.004
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "TB",
+              "display": "TB advantage",
+              "raw_difference": -0.175
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "ATL",
+              "name": "Michael Penix Jr.",
+              "epa_per_play": 0.178,
+              "pass_ypg": 231.4,
+              "td_int": "9 / 1",
+              "games": 5,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "TB",
+              "name": "Baker Mayfield",
+              "epa_per_play": -0.205,
+              "pass_ypg": 169.8,
+              "td_int": "3 / 2",
+              "games": 4,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "ATL",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": 0.109,
+            "home": -0.055,
+            "advantage": "ATL",
+            "difference": -0.164
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "ATL",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "TB",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Raymond James Stadium",
+            "stadium_id": "TAM00",
+            "surface": "grass",
+            "temperature_f": 76.9,
+            "wind_mph": 6.0,
+            "wind_gusts_mph": 10.5,
+            "precipitation_probability": 41.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 27.9759,
+            "longitude": -82.5033,
+            "kickoff_utc": "2026-11-01T18:00:00+00:00",
+            "forecast_hour_utc": "2026-11-01T18:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": 0.109,
+              "passing_epa": 0.165,
+              "rushing_epa": 0.048,
+              "completion_pct": 66.667,
+              "defensive_epa_allowed": 0.023
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": -0.055,
+              "passing_epa": -0.166,
+              "rushing_epa": 0.052,
+              "completion_pct": 58.741,
+              "defensive_epa_allowed": -0.152
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "ATL",
+          "margin_favorite": "ATL",
+          "market_home_margin": 2.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_LAC_LA",
+      "season": 2026,
+      "week": 8,
+      "away_team": "LAC",
+      "home_team": "LA",
+      "away_score": 9,
+      "home_score": 24,
+      "result": "LA",
+      "model_winner": "LA",
+      "favorite_win_probability": 89.5,
+      "winner_correct": true,
+      "signal_strength": "Strong",
+      "margin_favorite": "LA",
+      "projected_margin_absolute": 11.3,
+      "projected_margin": 11.3,
+      "projected_away_score": 17.7,
+      "projected_home_score": 29.0,
+      "projected_total": 46.7,
+      "actual_total": 33,
+      "margin_error_absolute": 3.7,
+      "total_error_absolute": 13.7,
+      "benchmark_favorite": "LA",
+      "benchmark_margin_absolute": 6.5,
+      "benchmark_margin_error_absolute": 8.5,
+      "model_benchmark_gap": 4.8,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_LAC_LA",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "LAC",
+          "home_team": "LA",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "16:05",
+          "location": "Home",
+          "signal_strength": "Strong"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 10.5,
+          "home_win_probability": 89.5,
+          "favorite": "LA",
+          "favorite_win_probability": 89.5,
+          "margin_favorite": "LA",
+          "projected_away_score": 17.7,
+          "projected_home_score": 29.0,
+          "projected_margin": 11.3,
+          "projected_margin_absolute": 11.3,
+          "projected_total": 46.7,
+          "signal_strength": "Strong",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 250.0,
+            "home": -310.0,
+            "away_implied_probability": 28.6,
+            "home_implied_probability": 75.6,
+            "away_vig_free_probability": 27.4,
+            "home_vig_free_probability": 72.6
+          },
+          "spread": {
+            "away": 6.5,
+            "home": -6.5,
+            "favorite": "LA",
+            "line": 6.5
+          },
+          "total": {
+            "line": 45.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 16.9,
+          "margin_difference": 4.8,
+          "total_difference": 1.2
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "LA",
+              "display": "LA advantage",
+              "raw_difference": 0.264
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "LA",
+              "display": "LA advantage",
+              "raw_difference": 0.324
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "LA",
+              "display": "LA advantage",
+              "raw_difference": 0.178
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "LAC",
+              "display": "LAC advantage",
+              "raw_difference": 0.047
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "LAC",
+              "name": "Justin Herbert",
+              "epa_per_play": -0.223,
+              "pass_ypg": 190.2,
+              "td_int": "5 / 8",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "LA",
+              "name": "Matthew Stafford",
+              "epa_per_play": 0.12,
+              "pass_ypg": 284.1,
+              "td_int": "14 / 7",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "LA",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.195,
+            "home": 0.069,
+            "advantage": "LA",
+            "difference": 0.264
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "LAC",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "LA",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "SoFi Stadium",
+            "stadium_id": "LAX01",
+            "surface": "matrixturf",
+            "temperature_f": 70.9,
+            "wind_mph": 5.5,
+            "wind_gusts_mph": 4.7,
+            "precipitation_probability": 35.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Fixed canopy · open sides",
+            "roof_type": "covered_open",
+            "roof_status": "covered",
+            "status": "forecast",
+            "message": "Covered field with open sides. Outdoor forecast is for the surrounding area; it does not describe field wind or rain exposure.",
+            "latitude": 33.9535,
+            "longitude": -118.3392,
+            "kickoff_utc": "2026-11-01T21:05:00+00:00",
+            "forecast_hour_utc": "2026-11-01T21:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.195,
+              "passing_epa": -0.231,
+              "rushing_epa": -0.152,
+              "completion_pct": 58.442,
+              "defensive_epa_allowed": -0.087
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": 0.069,
+              "passing_epa": 0.093,
+              "rushing_epa": 0.026,
+              "completion_pct": 67.568,
+              "defensive_epa_allowed": -0.04
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "LA",
+          "margin_favorite": "LA",
+          "market_home_margin": 6.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_KC_DEN",
+      "season": 2026,
+      "week": 8,
+      "away_team": "KC",
+      "home_team": "DEN",
+      "away_score": 24,
+      "home_score": 28,
+      "result": "DEN",
+      "model_winner": "KC",
+      "favorite_win_probability": 50.6,
+      "winner_correct": false,
+      "signal_strength": "Weak",
+      "margin_favorite": "DEN",
+      "projected_margin_absolute": 0.9,
+      "projected_margin": 0.9,
+      "projected_away_score": 23.4,
+      "projected_home_score": 24.3,
+      "projected_total": 47.7,
+      "actual_total": 52,
+      "margin_error_absolute": 3.1,
+      "total_error_absolute": 4.3,
+      "benchmark_favorite": "KC",
+      "benchmark_margin_absolute": 1.5,
+      "benchmark_margin_error_absolute": 5.5,
+      "model_benchmark_gap": 2.4,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_KC_DEN",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "KC",
+          "home_team": "DEN",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "16:25",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 50.6,
+          "home_win_probability": 49.4,
+          "favorite": "KC",
+          "favorite_win_probability": 50.6,
+          "margin_favorite": "DEN",
+          "projected_away_score": 23.4,
+          "projected_home_score": 24.3,
+          "projected_margin": 0.9,
+          "projected_margin_absolute": 0.9,
+          "projected_total": 47.7,
+          "signal_strength": "Weak",
+          "models_agree": false,
+          "coherence_status": "CONFLICT"
+        },
+        "market": {
+          "moneyline": {
+            "away": -118.0,
+            "home": 100.0,
+            "away_implied_probability": 54.1,
+            "home_implied_probability": 50.0,
+            "away_vig_free_probability": 52.0,
+            "home_vig_free_probability": 48.0
+          },
+          "spread": {
+            "away": -1.5,
+            "home": 1.5,
+            "favorite": "KC",
+            "line": 1.5
+          },
+          "total": {
+            "line": 40.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 1.4,
+          "margin_difference": 2.4,
+          "total_difference": 7.2
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "KC",
+              "display": "KC advantage",
+              "raw_difference": -0.133
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "KC",
+              "display": "KC advantage",
+              "raw_difference": -0.174
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "KC",
+              "display": "KC advantage",
+              "raw_difference": -0.076
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "DEN",
+              "display": "DEN advantage",
+              "raw_difference": -0.061
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "KC",
+              "name": "Patrick Mahomes",
+              "epa_per_play": 0.114,
+              "pass_ypg": 245.7,
+              "td_int": "9 / 4",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "DEN",
+              "name": "Bo Nix",
+              "epa_per_play": -0.046,
+              "pass_ypg": 181.6,
+              "td_int": "7 / 3",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "KC",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": 0.108,
+            "home": -0.025,
+            "advantage": "KC",
+            "difference": -0.133
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "KC",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "DEN",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Empower Field at Mile High",
+            "stadium_id": "DEN00",
+            "surface": "grass",
+            "temperature_f": 60.6,
+            "wind_mph": 3.2,
+            "wind_gusts_mph": 4.7,
+            "precipitation_probability": 4.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 39.7439,
+            "longitude": -105.0208,
+            "kickoff_utc": "2026-11-01T21:25:00+00:00",
+            "forecast_hour_utc": "2026-11-01T21:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": 0.108,
+              "passing_epa": 0.147,
+              "rushing_epa": 0.054,
+              "completion_pct": 66.463,
+              "defensive_epa_allowed": -0.008
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": -0.025,
+              "passing_epa": -0.027,
+              "rushing_epa": -0.022,
+              "completion_pct": 56.604,
+              "defensive_epa_allowed": -0.069
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "YES",
+          "models_agree": false,
+          "coherence_status": "CONFLICT",
+          "probability_favorite": "KC",
+          "margin_favorite": "DEN",
+          "market_home_margin": -1.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_NE_MIA",
+      "season": 2026,
+      "week": 8,
+      "away_team": "NE",
+      "home_team": "MIA",
+      "away_score": 24,
+      "home_score": 19,
+      "result": "NE",
+      "model_winner": "NE",
+      "favorite_win_probability": 55.2,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "NE",
+      "projected_margin_absolute": 3.2,
+      "projected_margin": -3.2,
+      "projected_away_score": 24.5,
+      "projected_home_score": 21.3,
+      "projected_total": 45.9,
+      "actual_total": 43,
+      "margin_error_absolute": 1.8,
+      "total_error_absolute": 2.9,
+      "benchmark_favorite": "NE",
+      "benchmark_margin_absolute": 7.0,
+      "benchmark_margin_error_absolute": 2.0,
+      "model_benchmark_gap": 3.8,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_NE_MIA",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "NE",
+          "home_team": "MIA",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "16:25",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 55.2,
+          "home_win_probability": 44.8,
+          "favorite": "NE",
+          "favorite_win_probability": 55.2,
+          "margin_favorite": "NE",
+          "projected_away_score": 24.5,
+          "projected_home_score": 21.3,
+          "projected_margin": -3.2,
+          "projected_margin_absolute": 3.2,
+          "projected_total": 45.9,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": -320.0,
+            "home": 260.0,
+            "away_implied_probability": 76.2,
+            "home_implied_probability": 27.8,
+            "away_vig_free_probability": 73.3,
+            "home_vig_free_probability": 26.7
+          },
+          "spread": {
+            "away": -7.0,
+            "home": 7.0,
+            "favorite": "NE",
+            "line": 7.0
+          },
+          "total": {
+            "line": 43.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": 18.1,
+          "margin_difference": 3.8,
+          "total_difference": 2.4
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "NE",
+              "display": "NE advantage",
+              "raw_difference": -0.136
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "NE",
+              "display": "NE advantage",
+              "raw_difference": -0.378
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "MIA",
+              "display": "MIA advantage",
+              "raw_difference": 0.13
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "NE",
+              "display": "NE advantage",
+              "raw_difference": 0.046
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "NE",
+              "name": "Drake Maye",
+              "epa_per_play": 0.192,
+              "pass_ypg": 254.9,
+              "td_int": "13 / 8",
+              "games": 7,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "MIA",
+              "name": "Malik Willis",
+              "epa_per_play": -0.105,
+              "pass_ypg": 176.2,
+              "td_int": "4 / 4",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "NE",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": 0.122,
+            "home": -0.014,
+            "advantage": "NE",
+            "difference": -0.136
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "NE",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "MIA",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Hard Rock Stadium",
+            "stadium_id": "MIA00",
+            "surface": "grass",
+            "temperature_f": 83.9,
+            "wind_mph": 8.9,
+            "wind_gusts_mph": 8.7,
+            "precipitation_probability": 66.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 25.958,
+            "longitude": -80.2393,
+            "kickoff_utc": "2026-11-01T21:25:00+00:00",
+            "forecast_hour_utc": "2026-11-01T21:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": 0.122,
+              "passing_epa": 0.289,
+              "rushing_epa": -0.077,
+              "completion_pct": 65.455,
+              "defensive_epa_allowed": 0.117
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": -0.014,
+              "passing_epa": -0.089,
+              "rushing_epa": 0.053,
+              "completion_pct": 58.065,
+              "defensive_epa_allowed": 0.163
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "NE",
+          "margin_favorite": "NE",
+          "market_home_margin": -7.0,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_PHI_WAS",
+      "season": 2026,
+      "week": 8,
+      "away_team": "PHI",
+      "home_team": "WAS",
+      "away_score": 10,
+      "home_score": 27,
+      "result": "WAS",
+      "model_winner": "WAS",
+      "favorite_win_probability": 57.5,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "WAS",
+      "projected_margin_absolute": 5.0,
+      "projected_margin": 5.0,
+      "projected_away_score": 18.3,
+      "projected_home_score": 23.3,
+      "projected_total": 41.6,
+      "actual_total": 37,
+      "margin_error_absolute": 12.0,
+      "total_error_absolute": 4.6,
+      "benchmark_favorite": "WAS",
+      "benchmark_margin_absolute": 5.5,
+      "benchmark_margin_error_absolute": 11.5,
+      "model_benchmark_gap": 0.5,
+      "benchmark_winner_correct": true,
+      "result_status": "FINAL",
+      "gameday": "2026-11-01",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_PHI_WAS",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "PHI",
+          "home_team": "WAS",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-01",
+          "gametime": "20:20",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 42.5,
+          "home_win_probability": 57.5,
+          "favorite": "WAS",
+          "favorite_win_probability": 57.5,
+          "margin_favorite": "WAS",
+          "projected_away_score": 18.3,
+          "projected_home_score": 23.3,
+          "projected_margin": 5.0,
+          "projected_margin_absolute": 5.0,
+          "projected_total": 41.6,
+          "signal_strength": "Weak",
+          "models_agree": true,
+          "coherence_status": "ALIGNED"
+        },
+        "market": {
+          "moneyline": {
+            "away": 230.0,
+            "home": -280.0,
+            "away_implied_probability": 30.3,
+            "home_implied_probability": 73.7,
+            "away_vig_free_probability": 29.1,
+            "home_vig_free_probability": 70.9
+          },
+          "spread": {
+            "away": 5.5,
+            "home": -5.5,
+            "favorite": "WAS",
+            "line": 5.5
+          },
+          "total": {
+            "line": 40.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": -13.4,
+          "margin_difference": -0.5,
+          "total_difference": 1.1
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "WAS",
+              "display": "WAS advantage",
+              "raw_difference": 0.155
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "WAS",
+              "display": "WAS advantage",
+              "raw_difference": 0.205
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "WAS",
+              "display": "WAS advantage",
+              "raw_difference": 0.077
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "Even",
+              "display": "Even",
+              "raw_difference": -0.01
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "PHI",
+              "name": "Tanner McKee",
+              "epa_per_play": -0.141,
+              "pass_ypg": 213.0,
+              "td_int": "2 / 1",
+              "games": 2,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "WAS",
+              "name": "Jayden Daniels",
+              "epa_per_play": 0.034,
+              "pass_ypg": 189.8,
+              "td_int": "5 / 0",
+              "games": 4,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "WAS",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.176,
+            "home": -0.021,
+            "advantage": "WAS",
+            "difference": 0.155
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "PHI",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "WAS",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Northwest Stadium",
+            "stadium_id": "WAS00",
+            "surface": "grass",
+            "temperature_f": 55.3,
+            "wind_mph": 5.8,
+            "wind_gusts_mph": 11.6,
+            "precipitation_probability": 1.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 38.9077,
+            "longitude": -76.8645,
+            "kickoff_utc": "2026-11-02T01:20:00+00:00",
+            "forecast_hour_utc": "2026-11-02T01:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.176,
+              "passing_epa": -0.202,
+              "rushing_epa": -0.13,
+              "completion_pct": 56.647,
+              "defensive_epa_allowed": 0.092
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": -0.021,
+              "passing_epa": 0.003,
+              "rushing_epa": -0.053,
+              "completion_pct": 63.095,
+              "defensive_epa_allowed": 0.082
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "NO",
+          "models_agree": true,
+          "coherence_status": "ALIGNED",
+          "probability_favorite": "WAS",
+          "margin_favorite": "WAS",
+          "market_home_margin": 5.5,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
+      },
+      "forecast_source": "data/api/sunday_signal_2026_week_8.json"
+    },
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "season": 2026,
+      "week": 8,
+      "away_team": "CHI",
+      "home_team": "SEA",
+      "away_score": 34,
+      "home_score": 17,
+      "result": "CHI",
+      "model_winner": "CHI",
+      "favorite_win_probability": 54.3,
+      "winner_correct": true,
+      "signal_strength": "Weak",
+      "margin_favorite": "SEA",
+      "projected_margin_absolute": 0.3,
+      "projected_margin": 0.3,
+      "projected_away_score": 24.3,
+      "projected_home_score": 24.6,
+      "projected_total": 48.8,
+      "actual_total": 51,
+      "margin_error_absolute": 17.3,
+      "total_error_absolute": 2.2,
+      "benchmark_favorite": "SEA",
+      "benchmark_margin_absolute": 3.0,
+      "benchmark_margin_error_absolute": 20.0,
+      "model_benchmark_gap": 2.7,
+      "benchmark_winner_correct": false,
+      "result_status": "FINAL",
+      "gameday": "2026-11-02",
+      "result_source": "data/schedules_live.parquet",
+      "result_verified_at": "2026-11-05T19:52:34.316015+00:00",
+      "forecast_generated_at": "2026-10-28T17:51:33.386796+00:00",
+      "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+      "original_forecast": {
+        "game_id": "2026_08_CHI_SEA",
+        "season": 2026,
+        "week": 8,
+        "preview": {
+          "away_team": "CHI",
+          "home_team": "SEA",
+          "away_logo": null,
+          "home_logo": null,
+          "gameday": "2026-11-02",
+          "gametime": "20:15",
+          "location": "Home",
+          "signal_strength": "Weak"
+        },
+        "access": {
+          "unlocked": true,
+          "credits_required": 0,
+          "access_type": "development"
+        },
+        "simulation": {
+          "away_win_probability": 54.3,
+          "home_win_probability": 45.7,
+          "favorite": "CHI",
+          "favorite_win_probability": 54.3,
+          "margin_favorite": "SEA",
+          "projected_away_score": 24.3,
+          "projected_home_score": 24.6,
+          "projected_margin": 0.3,
+          "projected_margin_absolute": 0.3,
+          "projected_total": 48.8,
+          "signal_strength": "Weak",
+          "models_agree": false,
+          "coherence_status": "CONFLICT"
+        },
+        "market": {
+          "moneyline": {
+            "away": 142.0,
+            "home": -168.0,
+            "away_implied_probability": 41.3,
+            "home_implied_probability": 62.7,
+            "away_vig_free_probability": 39.7,
+            "home_vig_free_probability": 60.3
+          },
+          "spread": {
+            "away": 3.0,
+            "home": -3.0,
+            "favorite": "SEA",
+            "line": 3.0
+          },
+          "total": {
+            "line": 46.5
+          },
+          "provider": "FanDuel",
+          "updated_at": "2026-10-30T18:35:12.922389+00:00"
+        },
+        "comparison": {
+          "win_probability_difference": -14.6,
+          "margin_difference": -2.7,
+          "total_difference": 2.3
+        },
+        "insights": {
+          "key_signals": [
+            {
+              "label": "Offensive EPA/play · last 5",
+              "advantage": "CHI",
+              "display": "CHI advantage",
+              "raw_difference": -0.086
+            },
+            {
+              "label": "Passing EPA/dropback · last 5",
+              "advantage": "CHI",
+              "display": "CHI advantage",
+              "raw_difference": -0.156
+            },
+            {
+              "label": "Rushing EPA/carry · last 5",
+              "advantage": "CHI",
+              "display": "CHI advantage",
+              "raw_difference": -0.026
+            },
+            {
+              "label": "Defensive EPA allowed/play · last 5",
+              "advantage": "SEA",
+              "display": "SEA advantage",
+              "raw_difference": -0.073
+            }
+          ],
+          "quarterbacks": {
+            "away": {
+              "team": "CHI",
+              "name": "Caleb Williams",
+              "epa_per_play": 0.307,
+              "pass_ypg": 255.0,
+              "td_int": "5 / 1",
+              "games": 4,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "home": {
+              "team": "SEA",
+              "name": "Sam Darnold",
+              "epa_per_play": -0.051,
+              "pass_ypg": 215.0,
+              "td_int": "8 / 8",
+              "games": 6,
+              "selection_status": "ready_conditional",
+              "selection_source": "depth_qb1"
+            },
+            "advantage": "CHI",
+            "metric": "Season passing EPA per dropback",
+            "basis": "2026 observed passing appearances; listed QB, subject to availability"
+          },
+          "recent_form": {
+            "away": -0.015,
+            "home": -0.101,
+            "advantage": "CHI",
+            "difference": -0.086
+          },
+          "team_strength": {
+            "away": null,
+            "home": null,
+            "advantage": null
+          },
+          "injuries": {
+            "away": {
+              "team": "CHI",
+              "available": false,
+              "players": []
+            },
+            "home": {
+              "team": "SEA",
+              "available": false,
+              "players": []
+            },
+            "available": true,
+            "status": "Week 8 reports",
+            "latest_feed_week": 8
+          },
+          "weather": {
+            "version": "kickoff-weather-v1",
+            "stadium": "Lumen Field",
+            "stadium_id": "SEA00",
+            "surface": "fieldturf",
+            "temperature_f": 50.2,
+            "wind_mph": 3.4,
+            "wind_gusts_mph": 5.8,
+            "precipitation_probability": 9.0,
+            "updated_at": "2026-10-28T17:56:01.560508+00:00",
+            "roof": "Open-air playing field",
+            "roof_type": "outdoors",
+            "roof_status": "open",
+            "status": "forecast",
+            "message": "Forecast near the stadium at kickoff; field conditions may differ.",
+            "latitude": 47.5952,
+            "longitude": -122.3316,
+            "kickoff_utc": "2026-11-03T01:15:00+00:00",
+            "forecast_hour_utc": "2026-11-03T01:00:00+00:00",
+            "provider": "Open-Meteo",
+            "source_url": "https://open-meteo.com/"
+          },
+          "team_context": {
+            "away": {
+              "games": 5,
+              "offensive_epa": -0.015,
+              "passing_epa": 0.12,
+              "rushing_epa": -0.16,
+              "completion_pct": 70.056,
+              "defensive_epa_allowed": -0.036
+            },
+            "home": {
+              "games": 5,
+              "offensive_epa": -0.101,
+              "passing_epa": -0.036,
+              "rushing_epa": -0.186,
+              "completion_pct": 62.5,
+              "defensive_epa_allowed": -0.109
+            },
+            "window": "Last 5 completed team games",
+            "third_down_available": false
+          },
+          "context_version": "supported-stats-v1"
+        },
+        "internal": {
+          "model_disagreement": "YES",
+          "models_agree": false,
+          "coherence_status": "CONFLICT",
+          "probability_favorite": "CHI",
+          "margin_favorite": "SEA",
+          "market_home_margin": 3.0,
+          "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1"
+        }
+      },
+      "forecast_snapshot_metadata": {
+        "season": 2026,
+        "week": 8,
+        "game_count": 14,
+        "generated_at": "2026-10-28T17:51:33.386796+00:00",
+        "payload_version": "pocket-signal-v3-market-benchmark",
+        "forecast_version": "winner-v1.2_compact_margin-v1.6_matchup_total-v1.5_coherence-v1",
+        "market_data_available": true,
+        "market_game_count": 13,
+        "weather_checked_at": "2026-10-28T17:56:01.560508+00:00",
+        "insights_available": true,
+        "insights_updated_at": "2026-10-29T18:43:37.701387+00:00",
+        "games_with_market_data": 13,
+        "market_updated_at": "2026-10-30T18:35:12.922389+00:00"
       },
       "forecast_source": "data/api/sunday_signal_2026_week_8.json"
     }
